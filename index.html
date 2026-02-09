@@ -3,187 +3,200 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catálogo de Productos</title>
+<title>Catálogo</title>
 
 <style>
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #f4f4f4;
+    transition: background 0.3s;
 }
 
-/* Header */
-header {
-    background: #222;
-    color: #fff;
-    padding: 15px 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 22px;
-}
-
-.buscador {
-    margin-top: 10px;
-}
-
-.buscador input {
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 4px;
-    border: none;
-}
-
-/* Layout */
-.contenedor {
+/* Contenedor principal */
+#contenedor {
     display: flex;
 }
 
-/* Productos */
-.productos {
+/* Área productos */
+#productos {
     flex: 1;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-/* Card */
+/* Tarjeta */
 .card {
-    background: #fff;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    background: #ffffffdd;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
 }
 
+/* Código */
+.codigo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+/* Imagen */
 .card img {
     width: 100%;
     height: 180px;
-    object-fit: cover;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 6px;
 }
 
-.card-body {
-    padding: 12px;
-}
-
-.codigo {
-    font-size: 12px;
-    color: #777;
-}
-
+/* Precio */
 .precio {
     font-size: 22px;
     font-weight: bold;
-    color: #1a7f37;
+    color: #008000;
     margin: 8px 0;
 }
 
-.card ul {
-    padding-left: 18px;
-    margin: 0;
-    font-size: 13px;
+/* Líneas */
+.linea {
+    font-size: 14px;
 }
 
-.card ul li {
-    margin-bottom: 4px;
-}
-
-/* Rubros */
-.rubros {
-    width: 60px;
-    background: #eee;
+/* Pestañas rubros */
+#rubros {
+    width: 70px;
+    background: #ddd;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-.rubro {
+.rubro-btn {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    margin-bottom: 15px;
+    margin: 10px 0;
     padding: 10px 6px;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
     cursor: pointer;
+    text-align: center;
 }
 
-.rubro.todos { background: #333; }
-.rubro.tv { background: #0077cc; }
-.rubro.audio { background: #9c27b0; }
-.rubro.movilidad { background: #ff9800; }
+/* Responsive */
+@media (max-width: 900px) {
+    #productos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    #productos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Catálogo de Productos</h1>
-    <div class="buscador">
-        <input type="text" placeholder="Buscar por código o descripción...">
-    </div>
-</header>
-
-<div class="contenedor">
-
-    <section class="productos">
-
-        <div class="card">
-            <img src="FOTOS/tv32.jpg" alt="Producto">
-            <div class="card-body">
-                <div class="codigo">Código: A001</div>
-                <div class="precio">$18.600</div>
-                <ul>
-                    <li>Pantalla LED 32"</li>
-                    <li>HD Ready</li>
-                    <li>2 HDMI</li>
-                    <li>Bajo consumo</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="FOTOS/scooter.jpg" alt="Producto">
-            <div class="card-body">
-                <div class="codigo">Código: A002</div>
-                <div class="precio">$256.000</div>
-                <ul>
-                    <li>Monopatín eléctrico</li>
-                    <li>Autonomía 30 km</li>
-                    <li>Plegable</li>
-                    <li>Carga rápida</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="FOTOS/soporte.jpg" alt="Producto">
-            <div class="card-body">
-                <div class="codigo">Código: A003</div>
-                <div class="precio">$2.800</div>
-                <ul>
-                    <li>Soporte fijo TV</li>
-                    <li>Compatible VESA</li>
-                    <li>Acero reforzado</li>
-                    <li>Fácil instalación</li>
-                </ul>
-            </div>
-        </div>
-
-    </section>
-
-    <aside class="rubros">
-        <div class="rubro todos">TODOS</div>
-        <div class="rubro tv">TV</div>
-        <div class="rubro audio">AUDIO</div>
-        <div class="rubro movilidad">MOVILIDAD</div>
-    </aside>
-
+<div id="contenedor">
+    <div id="productos"></div>
+    <div id="rubros"></div>
 </div>
+
+<script>
+// COLORES POR RUBRO (editable)
+const colores = {
+    "TV": "#0b4ea2",
+    "AUDIO": "#7b1fa2",
+    "MOVILIDAD": "#f57c00",
+    "ELECTRO": "#2e7d32",
+    "DEFAULT": "#444"
+};
+
+// Formato precio
+function formatPrecio(num) {
+    return "$" + Number(num).toLocaleString("es-AR");
+}
+
+// Cargar CSV
+fetch("stock.csv")
+.then(r => r.text())
+.then(data => {
+    let lineas = data.trim().split("\n");
+    let headers = lineas.shift().split(";");
+
+    let productos = lineas.map(l => {
+        let v = l.split(";");
+        return {
+            Rubro: v[0],
+            Codigo: v[1],
+            Precio: v[2],
+            Linea1: v[3],
+            Linea2: v[4],
+            Linea3: v[5],
+            Linea4: v[6]
+        };
+    });
+
+    // Rubros únicos
+    let rubros = [...new Set(productos.map(p => p.Rubro))];
+
+    crearRubros(rubros);
+    mostrarRubro(rubros[0], productos);
+});
+
+// Crear pestañas
+function crearRubros(lista) {
+    let cont = document.getElementById("rubros");
+    cont.innerHTML = "";
+
+    lista.forEach(r => {
+        let b = document.createElement("div");
+        b.className = "rubro-btn";
+        b.innerText = r;
+        b.style.background = colores[r] || colores.DEFAULT;
+        b.onclick = () => mostrarRubro(r);
+        cont.appendChild(b);
+    });
+}
+
+// Mostrar rubro
+let productosGlobal = [];
+
+function mostrarRubro(rubro, lista = null) {
+    if (lista) productosGlobal = lista;
+
+    let prods = productosGlobal.filter(p => p.Rubro == rubro);
+    let cont = document.getElementById("productos");
+    cont.innerHTML = "";
+
+    // Fondo según rubro
+    document.body.style.background = colores[rubro] || colores.DEFAULT;
+
+    prods.forEach(p => {
+        let card = document.createElement("div");
+        card.className = "card";
+
+        let rutaFoto = "FOTO_" + p.Rubro + "/" + p.Codigo + ".jpg";
+
+        card.innerHTML = `
+            <div class="codigo">${p.Codigo}</div>
+            <img src="${rutaFoto}" onerror="this.src='FOTO_default/placeholder.jpg'">
+            <div class="precio">${formatPrecio(p.Precio)}</div>
+            <div class="linea">${p.Linea1}</div>
+            <div class="linea">${p.Linea2}</div>
+            <div class="linea">${p.Linea3}</div>
+            <div class="linea">${p.Linea4}</div>
+        `;
+
+        cont.appendChild(card);
+    });
+}
+</script>
 
 </body>
 </html>

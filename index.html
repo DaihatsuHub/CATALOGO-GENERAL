@@ -12,12 +12,11 @@ body {
     transition: background 0.3s;
 }
 
-/* Contenedor principal */
 #contenedor {
     display: flex;
 }
 
-/* Área productos */
+/* Grid productos */
 #productos {
     flex: 1;
     padding: 20px;
@@ -28,18 +27,18 @@ body {
 
 /* Tarjeta */
 .card {
-    background: #ffffffdd;
-    border-radius: 10px;
-    padding: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background: rgba(255,255,255,0.92);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
     text-align: center;
 }
 
 /* Código */
 .codigo {
     font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 6px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 /* Imagen */
@@ -47,15 +46,16 @@ body {
     width: 100%;
     height: 180px;
     object-fit: contain;
-    background: #fff;
+    background: white;
     border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
 /* Precio */
 .precio {
     font-size: 22px;
     font-weight: bold;
-    color: #008000;
+    color: #0b7a2a;
     margin: 8px 0;
 }
 
@@ -64,7 +64,7 @@ body {
     font-size: 14px;
 }
 
-/* Pestañas rubros */
+/* Pestañas */
 #rubros {
     width: 70px;
     background: #ddd;
@@ -88,14 +88,10 @@ body {
 
 /* Responsive */
 @media (max-width: 900px) {
-    #productos {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    #productos { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 600px) {
-    #productos {
-        grid-template-columns: repeat(1, 1fr);
-    }
+    #productos { grid-template-columns: repeat(1, 1fr); }
 }
 </style>
 </head>
@@ -108,7 +104,7 @@ body {
 </div>
 
 <script>
-// COLORES POR RUBRO (editable)
+// ===== COLORES RUBROS =====
 const colores = {
     "TV": "#0b4ea2",
     "AUDIO": "#7b1fa2",
@@ -117,39 +113,47 @@ const colores = {
     "DEFAULT": "#444"
 };
 
-// Formato precio
+// ===== FORMATO PRECIO =====
 function formatPrecio(num) {
     return "$" + Number(num).toLocaleString("es-AR");
 }
 
-// Cargar CSV
+let productosGlobal = [];
+
+// ===== CARGAR CSV =====
 fetch("stock.csv")
 .then(r => r.text())
 .then(data => {
-    let lineas = data.trim().split("\n");
+    // quitar BOM de Excel
+    data = data.replace(/^\uFEFF/, "");
+
+    let lineas = data.split(/\r?\n/).filter(l => l.trim() !== "");
     let headers = lineas.shift().split(";");
 
-    let productos = lineas.map(l => {
+    productosGlobal = lineas.map(l => {
         let v = l.split(";");
         return {
-            Rubro: v[0],
-            Codigo: v[1],
-            Precio: v[2],
-            Linea1: v[3],
-            Linea2: v[4],
-            Linea3: v[5],
-            Linea4: v[6]
+            Rubro: (v[0] || "").trim(),
+            Codigo: (v[1] || "").trim(),
+            Precio: (v[2] || "0").trim(),
+            Linea1: (v[3] || "").trim(),
+            Linea2: (v[4] || "").trim(),
+            Linea3: (v[5] || "").trim(),
+            Linea4: (v[6] || "").trim()
         };
     });
 
-    // Rubros únicos
-    let rubros = [...new Set(productos.map(p => p.Rubro))];
+    console.log("PRODUCTOS:", productosGlobal);
 
+    let rubros = [...new Set(productosGlobal.map(p => p.Rubro))];
     crearRubros(rubros);
-    mostrarRubro(rubros[0], productos);
+    if (rubros.length > 0) mostrarRubro(rubros[0]);
+})
+.catch(e => {
+    alert("ERROR leyendo stock.csv: " + e);
 });
 
-// Crear pestañas
+// ===== CREAR PESTAÑAS =====
 function crearRubros(lista) {
     let cont = document.getElementById("rubros");
     cont.innerHTML = "";
@@ -164,24 +168,20 @@ function crearRubros(lista) {
     });
 }
 
-// Mostrar rubro
-let productosGlobal = [];
-
-function mostrarRubro(rubro, lista = null) {
-    if (lista) productosGlobal = lista;
-
-    let prods = productosGlobal.filter(p => p.Rubro == rubro);
+// ===== MOSTRAR RUBRO =====
+function mostrarRubro(rubro) {
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    // Fondo según rubro
     document.body.style.background = colores[rubro] || colores.DEFAULT;
 
+    let prods = productosGlobal.filter(p => p.Rubro === rubro);
+
     prods.forEach(p => {
+        let rutaFoto = "FOTO_" + p.Rubro + "/" + p.Codigo + ".jpg";
+
         let card = document.createElement("div");
         card.className = "card";
-
-        let rutaFoto = "FOTO_" + p.Rubro + "/" + p.Codigo + ".jpg";
 
         card.innerHTML = `
             <div class="codigo">${p.Codigo}</div>

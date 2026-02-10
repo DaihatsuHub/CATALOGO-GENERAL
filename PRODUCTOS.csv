@@ -1,7 +1,7 @@
 RUBRO;CODIGO;PRECIO;LINEA1;LINEA2;LINEA3;LINEA4
-Air-Fryer;D-AF6500-B;87900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
-Air-Fryer;D-AF6510-B;79900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
-Air-Fryer;D-AF6510-W;79900;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+Air-Fryer;D-AF6500-B;87900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
+Air-Fryer;D-AF6510-B;79900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
+Air-Fryer;D-AF6510-W;79900;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
 Aspiradoras;D-AS100;21900;Linea 1;Linea 2;Linea 3;Linea 4
 Aspiradoras;D-AS101;30900;Linea 1;Linea 2;Linea 3;Linea 4
 Aspiradoras;D-AS102;33900;Linea 1;Linea 2;Linea 3;Linea 4
@@ -56,7 +56,7 @@ Inversores;D-INV1000;59900;Linea 1;Linea 2;Linea 3;Linea 4
 Inversores;D-INV1500;74900;Linea 1;Linea 2;Linea 3;Linea 4
 Inversores;D-INV2000;96900;Linea 1;Linea 2;Linea 3;Linea 4
 Inversores;D-INV500;40900;Linea 1;Linea 2;Linea 3;Linea 4
-Máquina de Coser;D-MC12;63900;Linea 1;Linea 2;Linea 3;Linea 4
+MÃ¡quina de Coser;D-MC12;63900;Linea 1;Linea 2;Linea 3;Linea 4
 Microondas;D-MW1-20MB;145900;Linea 1;Linea 2;Linea 3;Linea 4
 Microondas;D-MW1-20MW;145900;Linea 1;Linea 2;Linea 3;Linea 4
 Microondas;D-MW2-20M;145900;Linea 1;Linea 2;Linea 3;Linea 4

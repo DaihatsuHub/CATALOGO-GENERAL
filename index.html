@@ -1,10 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CATÁLOGO GENERAL</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eee;
+    transition: background 0.3s;
+}
+
+#tabs {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background: #222;
+    padding-top: 10px;
+    overflow-y: auto;
+}
+
+.tab {
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tab:hover {
+    background: #555;
+}
+
+#catalogo {
+    margin-right: 170px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.codigo {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.precio {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+.linea {
+    font-size: 12px;
+}
+</style>
+</head>
+
 <body>
+
+<div id="tabs"></div>
+<div id="catalogo"></div>
+
 <script>
+const carpetasFotos = ["FOTOS", "FOTOS1", "FOTOS2", "FOTOS3", "FOTOS4"];
+const colores = ["#f44336","#2196f3","#4caf50","#ff9800","#9c27b0","#009688","#795548"];
+
 fetch("PRODUCTOS.csv")
-.then(r => alert("STATUS " + r.status))
-.catch(e => alert("ERROR " + e));
+.then(r => r.text())
+.then(csv => {
+    csv = csv.replace(/\uFEFF/g,"").trim();
+    let lineas = csv.split(/\r?\n/);
+    lineas.shift(); 
+
+    let rubros = {};
+    lineas.forEach(l => {
+        if(!l.trim()) return;
+        let [rubro,codigo,precio,l1,l2,l3,l4] = l.split(";");
+
+        let p = {rubro,codigo,precio,l1,l2,l3,l4};
+        if(!rubros[rubro]) rubros[rubro]=[];
+        rubros[rubro].push(p);
+    });
+
+    crearTabs(rubros);
+    mostrarRubro(Object.keys(rubros)[0], colores[0]);
+})
+.catch(e => {
+    document.body.innerHTML = "<h1>ERROR leyendo PRODUCTOS.csv</h1>";
+    console.error(e);
+});
+
+function crearTabs(rubros) {
+    let tabs = document.getElementById("tabs");
+    let i=0;
+    for(let r in rubros) {
+        let d = document.createElement("div");
+        d.className="tab";
+        d.innerText=r;
+        let color = colores[i%colores.length];
+        d.style.background=color;
+        d.onclick=()=>mostrarRubro(r,color);
+        tabs.appendChild(d);
+        i++;
+    }
+}
+
+function mostrarRubro(rubro, color) {
+    document.body.style.background=color;
+    let cont=document.getElementById("catalogo");
+    cont.innerHTML="";
+
+    rubrosGlobal[rubro].forEach(p => {
+        let div=document.createElement("div");
+        div.className="card";
+
+        let img = document.createElement("img");
+        buscarFoto(p.codigo, img);
+
+        div.innerHTML = `<div class="codigo">${p.codigo}</div>`;
+        div.appendChild(img);
+        div.innerHTML += `<div class="precio">$ ${formatearPrecio(p.precio)}</div>
+                          <div class="linea">${p.l1||""}</div>
+                          <div class="linea">${p.l2||""}</div>
+                          <div class="linea">${p.l3||""}</div>
+                          <div class="linea">${p.l4||""}</div>`;
+
+        cont.appendChild(div);
+    });
+}
+
+let rubrosGlobal = {};
+
+function buscarFoto(codigo, img, idx=0) {
+    if(idx >= carpetasFotos.length) {
+        img.src="nofoto.png";
+        return;
+    }
+    let ruta = `${carpetasFotos[idx]}/${codigo}.jpg`;
+    img.src = ruta;
+    img.onerror = () => buscarFoto(codigo, img, idx+1);
+}
+
+function formatearPrecio(p) {
+    p = p.replace(/\D/g,"");
+    return p.replace(/\B(?=(\d{3})+(?!\d))/g,".");
+}
 </script>
+
 </body>
 </html>

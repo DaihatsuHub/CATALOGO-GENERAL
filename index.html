@@ -2,154 +2,213 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>CATÁLOGO GENERAL</title>
 
 <style>
 body {
-  font-family: Arial;
-  margin: 0;
-  background: #eee;
-  transition: background 0.3s;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background 0.4s;
 }
 
-#tabs {
-  position: fixed;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 160px;
-  background: #222;
-  padding-top: 10px;
-  overflow-y: auto;
+/* Rubros lateral */
+#rubros {
+    width: 200px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #111;
+    color: white;
+    padding: 10px;
+    position: fixed;
 }
 
-.tab {
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-  border-bottom: 1px solid #444;
-  text-align: center;
-  font-weight: bold;
+#rubros button {
+    width: 100%;
+    margin: 3px 0;
+    padding: 8px;
+    background: #222;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: left;
 }
 
-#catalogo {
-  margin-right: 180px;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+#rubros button:hover {
+    background: #555;
 }
 
-.card {
-  background: white;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
-  text-align: center;
+/* Contenido */
+#contenido {
+    margin-left: 220px;
+    padding: 10px;
 }
 
-.card img {
-  width: 100%;
-  height: 150px;
-  object-fit: contain;
+/* Buscador */
+#buscador {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-.codigo { font-weight: bold; }
-.precio { color: red; font-size: 18px; font-weight: bold; }
-.linea { font-size: 12px; }
+/* Grilla productos */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.producto {
+    background: rgba(255,255,255,0.9);
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Rubros colores fondo */
+.bg-Air-Fryer { background: #ffe6cc; }
+.bg-Aspiradoras { background: #e6f2ff; }
+.bg-Heladeras { background: #e6ffe6; }
+.bg-Televisores { background: #f2e6ff; }
 </style>
 </head>
 
 <body>
 
-<div id="tabs"></div>
-<div id="catalogo"></div>
+<div id="rubros"></div>
+
+<div id="contenido">
+<input id="buscador" placeholder="Buscar código o descripción...">
+<div id="productos" class="grid"></div>
+</div>
 
 <script>
-const carpetasFotos = ["FOTOS","FOTOS1","FOTOS2","FOTOS3"];
-const colores = ["#f44336","#2196f3","#4caf50","#ff9800","#9c27b0","#009688","#795548"];
+const CSV_FILE = "PRODUCTOS.csv";
+const FOTO_FOLDERS = ["FOTOS1","FOTOS2","FOTOS3","FOTOS4","FOTOS5","FOTOS6"];
 
-let RUBROS = {};   // ← GLOBAL REAL
+let productos = [];
+let rubros = new Set();
+let rubroActual = "";
 
-fetch("PRODUCTOS.csv")
-.then(r => {
-  if(!r.ok) throw "NO ENCUENTRA PRODUCTOS.csv";
-  return r.text();
-})
-.then(csv => {
-  csv = csv.replace(/\uFEFF/g,"").trim();
-  let lineas = csv.split(/\r?\n/);
-  lineas.shift(); // header
+// FORMATEAR PRECIO
+function formatPrecio(p) {
+    return "$ " + Number(p).toLocaleString("es-AR");
+}
 
-  lineas.forEach(l => {
-    if(!l.trim()) return;
-    let [rubro,codigo,precio,l1,l2,l3,l4] = l.split(";");
+// BUSCAR IMAGEN EN TODAS LAS CARPETAS
+function buscarImagen(codigo) {
+    return new Promise(resolve => {
+        let i = 0;
+        function probar() {
+            if (i >= FOTO_FOLDERS.length) {
+                resolve("noimg.jpg"); // imagen fallback
+                return;
+            }
+            let url = FOTO_FOLDERS[i] + "/" + codigo + ".JPG";
+            let img = new Image();
+            img.onload = () => resolve(url);
+            img.onerror = () => { i++; probar(); };
+            img.src = url;
+        }
+        probar();
+    });
+}
 
-    let p = {rubro,codigo,precio,l1,l2,l3,l4};
+// LEER CSV
+fetch(CSV_FILE)
+.then(r => r.text())
+.then(text => {
+    let lines = text.trim().split("\n");
+    let headers = lines[0].split(";");
 
-    if(!RUBROS[rubro]) RUBROS[rubro]=[];
-    RUBROS[rubro].push(p);
-  });
+    for (let i = 1; i < lines.length; i++) {
+        let cols = lines[i].split(";");
+        if (cols.length < 3) continue;
 
-  crearTabs();
-  mostrarRubro(Object.keys(RUBROS)[0], colores[0]);
-})
-.catch(e => {
-  document.body.innerHTML = "<h1>ERROR leyendo PRODUCTOS.csv</h1><pre>"+e+"</pre>";
-  console.error(e);
+        let obj = {};
+        headers.forEach((h, j) => obj[h] = cols[j] || "");
+        productos.push(obj);
+        rubros.add(obj.RUBRO);
+    }
+
+    productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
+
+    crearRubros();
+    mostrarRubro([...rubros][0]);
 });
 
-function crearTabs() {
-  let tabs = document.getElementById("tabs");
-  let i=0;
-  for(let r in RUBROS) {
-    let d=document.createElement("div");
-    d.className="tab";
-    d.innerText=r;
-    let color=colores[i%colores.length];
-    d.style.background=color;
-    d.onclick=()=>mostrarRubro(r,color);
-    tabs.appendChild(d);
-    i++;
-  }
+// CREAR BOTONES RUBROS
+function crearRubros() {
+    let div = document.getElementById("rubros");
+    rubros.forEach(r => {
+        let b = document.createElement("button");
+        b.textContent = r;
+        b.onclick = () => mostrarRubro(r);
+        div.appendChild(b);
+    });
 }
 
-function mostrarRubro(rubro,color) {
-  document.body.style.background=color;
-  let cont=document.getElementById("catalogo");
-  cont.innerHTML="";
+// MOSTRAR RUBRO
+async function mostrarRubro(r) {
+    rubroActual = r;
+    document.body.className = "bg-" + r.replace(/ /g,"-");
 
-  RUBROS[rubro].forEach(p => {
-    let div=document.createElement("div");
-    div.className="card";
+    let cont = document.getElementById("productos");
+    cont.innerHTML = "";
 
-    let img=document.createElement("img");
-    buscarFoto(p.codigo,img);
+    let lista = productos.filter(p => p.RUBRO == r);
 
-    div.innerHTML = `<div class="codigo">${p.codigo}</div>`;
-    div.appendChild(img);
-    div.innerHTML += `
-      <div class="precio">$ ${formatear(p.precio)}</div>
-      <div class="linea">${p.l1||""}</div>
-      <div class="linea">${p.l2||""}</div>
-      <div class="linea">${p.l3||""}</div>
-      <div class="linea">${p.l4||""}</div>
-    `;
-    cont.appendChild(div);
-  });
+    for (let p of lista) {
+        let img = await buscarImagen(p.CODIGO);
+
+        let d = document.createElement("div");
+        d.className = "producto";
+        d.innerHTML = `
+            <img src="${img}">
+            <h3>${p.CODIGO}</h3>
+            <b>${p.LINEA1 || ""}</b><br>
+            ${p.LINEA2 || ""}<br>
+            ${p.LINEA3 || ""}<br>
+            ${p.LINEA4 || ""}<br>
+            <h2>${formatPrecio(p.PRECIO)}</h2>
+        `;
+        cont.appendChild(d);
+    }
 }
 
-function buscarFoto(codigo,img,i=0){
-  if(i>=carpetasFotos.length){ img.src="nofoto.png"; return; }
-  let ruta=`${carpetasFotos[i]}/${codigo}.jpg`;
-  img.src=ruta;
-  img.onerror=()=>buscarFoto(codigo,img,i+1);
-}
+// BUSCADOR
+document.getElementById("buscador").addEventListener("input", e => {
+    let t = e.target.value.toLowerCase();
+    let cont = document.getElementById("productos");
+    cont.innerHTML = "";
 
-function formatear(p){
-  p=(p||"").replace(/\D/g,"");
-  return p.replace(/\B(?=(\d{3})+(?!\d))/g,".");
-}
+    productos.filter(p =>
+        p.CODIGO.toLowerCase().includes(t) ||
+        (p.LINEA1 || "").toLowerCase().includes(t)
+    ).forEach(async p => {
+        let img = await buscarImagen(p.CODIGO);
+        let d = document.createElement("div");
+        d.className = "producto";
+        d.innerHTML = `
+            <img src="${img}">
+            <h3>${p.CODIGO}</h3>
+            <b>${p.LINEA1 || ""}</b><br>
+            ${p.LINEA2 || ""}<br>
+            <h2>${formatPrecio(p.PRECIO)}</h2>
+        `;
+        cont.appendChild(d);
+    });
+});
 </script>
 
 </body>

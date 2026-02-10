@@ -114,7 +114,7 @@ function buscarImagen(codigo) {
                 resolve("noimg.jpg"); // imagen fallback
                 return;
             }
-            let url = FOTO_FOLDERS[i] + "/" + codigo + ".JPG";
+            let url = FOTO_FOLDERS[i] + "/" + codigo + ".jpg";
             let img = new Image();
             img.onload = () => resolve(url);
             img.onerror = () => { i++; probar(); };

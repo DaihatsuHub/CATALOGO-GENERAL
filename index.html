@@ -2,199 +2,193 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<title>Catálogo de Productos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catálogo</title>
 
 <style>
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     transition: background 0.3s;
 }
 
-#contenedor {
-    display: flex;
-}
-
-/* Grid productos */
-#productos {
-    flex: 1;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-/* Tarjeta */
-.card {
-    background: rgba(255,255,255,0.92);
-    border-radius: 12px;
-    padding: 10px;
-    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
-    text-align: center;
-}
-
-/* Código */
-.codigo {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-/* Imagen */
-.card img {
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
-    background: white;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-}
-
-/* Precio */
-.precio {
-    font-size: 22px;
-    font-weight: bold;
-    color: #0b7a2a;
-    margin: 8px 0;
-}
-
-/* Líneas */
-.linea {
-    font-size: 14px;
-}
-
-/* Pestañas */
-#rubros {
-    width: 70px;
-    background: #ddd;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Pestañas laterales */
+#tabs {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    background: #222;
+    overflow-y: auto;
     padding-top: 10px;
 }
 
-.rubro-btn {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    margin: 10px 0;
-    padding: 10px 6px;
-    border-radius: 6px;
-    color: white;
-    font-size: 13px;
+.tab {
+    padding: 12px;
     cursor: pointer;
+    color: white;
+    border-bottom: 1px solid #444;
+}
+
+.tab:hover {
+    background: #444;
+}
+
+/* Área productos */
+#content {
+    margin-right: 190px;
+    padding: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Tarjetas */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
     text-align: center;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-    #productos { grid-template-columns: repeat(2, 1fr); }
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
 }
-@media (max-width: 600px) {
-    #productos { grid-template-columns: repeat(1, 1fr); }
+
+.codigo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.precio {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.linea {
+    font-size: 14px;
 }
 </style>
 </head>
 
 <body>
 
-<div id="contenedor">
-    <div id="productos"></div>
-    <div id="rubros"></div>
+<div id="tabs"></div>
+<div id="content">
+    <div id="productos" class="grid"></div>
 </div>
 
 <script>
-// ===== COLORES RUBROS =====
-const colores = {
-    "TV": "#0b4ea2",
-    "AUDIO": "#7b1fa2",
-    "MOVILIDAD": "#f57c00",
-    "ELECTRO": "#2e7d32",
-    "DEFAULT": "#444"
-};
+const archivoCSV = "stock.csv"; // mismo directorio
 
-// ===== FORMATO PRECIO =====
+let productos = [];
+let rubros = [];
+
+/* FORMATO PRECIO */
 function formatPrecio(num) {
-    return "$" + Number(num).toLocaleString("es-AR");
+    return "$ " + Number(num).toLocaleString("es-AR");
 }
 
-let productosGlobal = [];
-
-// ===== CARGAR CSV =====
-fetch("stock.csv")
-.then(r => r.text())
+/* CARGAR CSV */
+fetch(archivoCSV)
+.then(r => {
+    if (!r.ok) throw new Error("No se pudo cargar stock.csv");
+    return r.text();
+})
 .then(data => {
-    // quitar BOM de Excel
-    data = data.replace(/^\uFEFF/, "");
-
-    let lineas = data.split(/\r?\n/).filter(l => l.trim() !== "");
-    let headers = lineas.shift().split(";");
-
-    productosGlobal = lineas.map(l => {
-        let v = l.split(";");
-        return {
-            Rubro: (v[0] || "").trim(),
-            Codigo: (v[1] || "").trim(),
-            Precio: (v[2] || "0").trim(),
-            Linea1: (v[3] || "").trim(),
-            Linea2: (v[4] || "").trim(),
-            Linea3: (v[5] || "").trim(),
-            Linea4: (v[6] || "").trim()
-        };
-    });
-
-    console.log("PRODUCTOS:", productosGlobal);
-
-    let rubros = [...new Set(productosGlobal.map(p => p.Rubro))];
-    crearRubros(rubros);
+    parseCSV(data);
+    crearTabs();
     if (rubros.length > 0) mostrarRubro(rubros[0]);
 })
-.catch(e => {
-    alert("ERROR leyendo stock.csv: " + e);
+.catch(err => {
+    alert("ERROR LEYENDO STOCK.CSV\n" + err);
 });
 
-// ===== CREAR PESTAÑAS =====
-function crearRubros(lista) {
-    let cont = document.getElementById("rubros");
-    cont.innerHTML = "";
+/* PARSE CSV CON ; */
+function parseCSV(texto) {
+    let lineas = texto.split(/\r?\n/).filter(l => l.trim() !== "");
+    let headers = lineas[0].split(";");
 
-    lista.forEach(r => {
-        let b = document.createElement("div");
-        b.className = "rubro-btn";
-        b.innerText = r;
-        b.style.background = colores[r] || colores.DEFAULT;
-        b.onclick = () => mostrarRubro(r);
-        cont.appendChild(b);
+    for (let i = 1; i < lineas.length; i++) {
+        let c = lineas[i].split(";");
+
+        let obj = {};
+        headers.forEach((h, j) => obj[h.trim()] = (c[j] || "").trim());
+
+        productos.push(obj);
+        if (!rubros.includes(obj.Rubro)) rubros.push(obj.Rubro);
+    }
+}
+
+/* CREAR PESTAÑAS */
+function crearTabs() {
+    let tabs = document.getElementById("tabs");
+    tabs.innerHTML = "";
+
+    rubros.forEach((r, i) => {
+        let div = document.createElement("div");
+        div.className = "tab";
+        div.textContent = r;
+        div.onclick = () => mostrarRubro(r);
+        tabs.appendChild(div);
     });
 }
 
-// ===== MOSTRAR RUBRO =====
+/* MOSTRAR RUBRO */
 function mostrarRubro(rubro) {
+    let color = generarColor(rubro);
+    document.body.style.background = color;
+
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    document.body.style.background = colores[rubro] || colores.DEFAULT;
-
-    let prods = productosGlobal.filter(p => p.Rubro === rubro);
-
-    prods.forEach(p => {
-        let rutaFoto = "FOTO_" + p.Rubro + "/" + p.Codigo + ".jpg";
-
+    productos.filter(p => p.Rubro === rubro).forEach(p => {
         let card = document.createElement("div");
         card.className = "card";
 
-        card.innerHTML = `
-            <div class="codigo">${p.Codigo}</div>
-            <img src="${rutaFoto}" onerror="this.src='FOTO_default/placeholder.jpg'">
-            <div class="precio">${formatPrecio(p.Precio)}</div>
-            <div class="linea">${p.Linea1}</div>
-            <div class="linea">${p.Linea2}</div>
-            <div class="linea">${p.Linea3}</div>
-            <div class="linea">${p.Linea4}</div>
-        `;
+        let codigo = p.Codigo;
+        let foto = buscarFoto(codigo);
 
+        card.innerHTML = `
+            <div class="codigo">${codigo}</div>
+            <img src="${foto}" onerror="this.src='nofoto.png'">
+            <div class="precio">${formatPrecio(p.Precio)}</div>
+            <div class="linea">${p.Linea1 || ""}</div>
+            <div class="linea">${p.Linea2 || ""}</div>
+            <div class="linea">${p.Linea3 || ""}</div>
+            <div class="linea">${p.Linea4 || ""}</div>
+        `;
         cont.appendChild(card);
     });
+}
+
+/* COLOR POR RUBRO */
+function generarColor(txt) {
+    let hash = 0;
+    for (let i = 0; i < txt.length; i++) hash = txt.charCodeAt(i) + ((hash << 5) - hash);
+    let color = "#";
+    for (let i = 0; i < 3; i++) {
+        let v = (hash >> (i * 8)) & 255;
+        color += ("00" + v.toString(16)).slice(-2);
+    }
+    return color;
+}
+
+/* BUSCAR FOTO */
+function buscarFoto(codigo) {
+    return "FOTO/" + codigo + ".jpg";
 }
 </script>
 

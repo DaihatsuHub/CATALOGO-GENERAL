@@ -71,7 +71,7 @@ body {
 
 .producto img {
     width: 100%;
-    height: 180px;
+    height: 270px;
     object-fit: contain;
     border-bottom: 1px solid #ccc;
     margin-bottom: 5px;
@@ -174,10 +174,14 @@ async function mostrarRubro(r) {
         d.innerHTML = `
             <img src="${img}">
             <h3>${p.CODIGO}</h3>
-            <b>${p.LINEA1}</b><br>
-            ${p.LINEA2}<br>
-            ${p.LINEA3}<br>
-            ${p.LINEA4}<br>
+
+	<div class="desc">
+	<b>${p.LINEA1}</b><br>
+	${p.LINEA2}<br>
+	${p.LINEA3}<br>
+	${p.LINEA4}<br>
+	</div>
+
             <h2>${formatPrecio(p.PRECIO)}</h2>
         `;
         cont.appendChild(d);

@@ -1,0 +1,329 @@
+/* ========== VARIABLES ========== */
+:root {
+    --sidebar-width: 220px;
+    --primary-bg: #111;
+    --secondary-bg: #222;
+    --hover-bg: #555;
+    --text-light: white;
+    --border-color: #ccc;
+    --transition-speed: 0.3s;
+}
+
+/* ========== RESET Y BASE ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background var(--transition-speed);
+    min-height: 100vh;
+}
+
+/* Clase para lectores de pantalla */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ========== SIDEBAR RUBROS ========== */
+#rubros {
+    width: var(--sidebar-width);
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--primary-bg);
+    color: var(--text-light);
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: transform var(--transition-speed);
+}
+
+.rubros-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--hover-bg);
+}
+
+.rubros-header h2 {
+    font-size: 1.2rem;
+    color: var(--text-light);
+}
+
+.menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--text-light);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.rubros-lista button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 12px;
+    background: var(--secondary-bg);
+    border: none;
+    color: var(--text-light);
+    cursor: pointer;
+    text-align: left;
+    border-radius: 4px;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+}
+
+.rubros-lista button:hover {
+    background: var(--hover-bg);
+    transform: translateX(5px);
+}
+
+.rubros-lista button.active {
+    background: var(--hover-bg);
+    border-left: 4px solid #4CAF50;
+    font-weight: bold;
+}
+
+.rubros-lista button:focus {
+    outline: 2px solid #4CAF50;
+    outline-offset: 2px;
+}
+
+/* ========== CONTENIDO PRINCIPAL ========== */
+#contenido {
+    margin-left: var(--sidebar-width);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* ========== BUSCADOR ========== */
+.buscador-container {
+    position: relative;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#buscador {
+    padding: 12px 40px 12px 12px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    transition: border-color 0.2s;
+}
+
+#buscador:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.btn-limpiar {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #999;
+    padding: 5px 10px;
+    display: none;
+}
+
+.btn-limpiar.visible {
+    display: block;
+}
+
+.btn-limpiar:hover {
+    color: #333;
+}
+
+/* ========== LOADING ========== */
+.loading {
+    text-align: center;
+    padding: 40px;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4CAF50;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 10px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.hidden {
+    display: none;
+}
+
+/* ========== SIN RESULTADOS ========== */
+.sin-resultados {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* ========== GRILLA PRODUCTOS ========== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.producto img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 10px;
+    background: white;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1rem;
+}
+
+.producto .descripcion {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 8px 0;
+    min-height: 60px;
+}
+
+.producto .precio {
+    color: #2E7D32;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ========== COLORES DE FONDO POR RUBRO ========== */
+.bg-Air-Fryer { background: linear-gradient(135deg, #ffe6cc 0%, #ffd9b3 100%); }
+.bg-Aspiradoras { background: linear-gradient(135deg, #e6f2ff 0%, #cce5ff 100%); }
+.bg-Heladeras { background: linear-gradient(135deg, #e6ffe6 0%, #ccffcc 100%); }
+.bg-Televisores { background: linear-gradient(135deg, #f2e6ff 0%, #e6ccff 100%); }
+.bg-default { background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%); }
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    :root {
+        --sidebar-width: 0;
+    }
+
+    #rubros {
+        transform: translateX(-100%);
+    }
+
+    #rubros.active {
+        transform: translateX(0);
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #contenido {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .buscador-container {
+        max-width: 100%;
+    }
+
+    /* Botón flotante para abrir menú en móvil */
+    #rubros::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+        opacity: 0;
+        transition: opacity var(--transition-speed);
+        pointer-events: none;
+    }
+
+    #rubros.active::before {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+    }
+
+    .producto img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .producto {
+        padding: 12px;
+    }
+
+    .rubros-header h2 {
+        font-size: 1rem;
+    }
+}
+
+/* ========== ACCESIBILIDAD ========== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

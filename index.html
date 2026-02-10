@@ -2,193 +2,158 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Catálogo de Productos</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<title>Catálogo</title>
 <style>
+
 body {
+    font-family: Arial;
     margin: 0;
-    font-family: Arial, sans-serif;
+    background: #eee;
     transition: background 0.3s;
 }
 
-/* Pestañas laterales */
 #tabs {
     position: fixed;
     right: 0;
     top: 0;
-    width: 180px;
     height: 100%;
+    width: 140px;
     background: #222;
-    overflow-y: auto;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .tab {
     padding: 12px;
-    cursor: pointer;
     color: white;
+    cursor: pointer;
     border-bottom: 1px solid #444;
+    text-align: center;
+    font-weight: bold;
 }
 
 .tab:hover {
-    background: #444;
+    background: #555;
 }
 
-/* Área productos */
-#content {
-    margin-right: 190px;
-    padding: 15px;
-}
-
-.grid {
+#catalogo {
+    margin-right: 160px;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
 
-/* Tarjetas */
 .card {
     background: white;
-    border-radius: 10px;
     padding: 10px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
     text-align: center;
 }
 
 .card img {
     width: 100%;
-    height: 160px;
+    height: 150px;
     object-fit: contain;
-    border: 1px solid #ddd;
-    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
 }
 
 .codigo {
     font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 16px;
 }
 
 .precio {
-    font-size: 20px;
-    color: green;
+    font-size: 18px;
+    color: red;
     font-weight: bold;
-    margin: 5px 0;
 }
 
 .linea {
-    font-size: 14px;
+    font-size: 12px;
 }
+
 </style>
 </head>
 
 <body>
 
 <div id="tabs"></div>
-<div id="content">
-    <div id="productos" class="grid"></div>
-</div>
+<div id="catalogo"></div>
 
 <script>
-const archivoCSV = "stock.csv"; // mismo directorio
-
 let productos = [];
-let rubros = [];
+let rubros = {};
+let colores = ["#f44336","#2196f3","#4caf50","#ff9800","#9c27b0","#009688","#795548"];
 
-/* FORMATO PRECIO */
-function formatPrecio(num) {
-    return "$ " + Number(num).toLocaleString("es-AR");
-}
+fetch("stock.csv")
+.then(r => r.text())
+.then(csv => {
+    let lineas = csv.trim().split("\n");
+    let header = lineas.shift();
 
-/* CARGAR CSV */
-fetch(archivoCSV)
-.then(r => {
-    if (!r.ok) throw new Error("No se pudo cargar stock.csv");
-    return r.text();
-})
-.then(data => {
-    parseCSV(data);
+    lineas.forEach(l => {
+        let [rubro, codigo, precio, l1, l2, l3, l4] = l.split(";");
+
+        let prod = {rubro, codigo, precio, l1, l2, l3, l4};
+        productos.push(prod);
+
+        if(!rubros[rubro]) rubros[rubro] = [];
+        rubros[rubro].push(prod);
+    });
+
     crearTabs();
-    if (rubros.length > 0) mostrarRubro(rubros[0]);
+    mostrarRubro(Object.keys(rubros)[0]);
 })
-.catch(err => {
-    alert("ERROR LEYENDO STOCK.CSV\n" + err);
+.catch(e => {
+    alert("ERROR leyendo stock.csv");
+    console.error(e);
 });
 
-/* PARSE CSV CON ; */
-function parseCSV(texto) {
-    let lineas = texto.split(/\r?\n/).filter(l => l.trim() !== "");
-    let headers = lineas[0].split(";");
-
-    for (let i = 1; i < lineas.length; i++) {
-        let c = lineas[i].split(";");
-
-        let obj = {};
-        headers.forEach((h, j) => obj[h.trim()] = (c[j] || "").trim());
-
-        productos.push(obj);
-        if (!rubros.includes(obj.Rubro)) rubros.push(obj.Rubro);
-    }
-}
-
-/* CREAR PESTAÑAS */
 function crearTabs() {
     let tabs = document.getElementById("tabs");
-    tabs.innerHTML = "";
-
-    rubros.forEach((r, i) => {
-        let div = document.createElement("div");
-        div.className = "tab";
-        div.textContent = r;
-        div.onclick = () => mostrarRubro(r);
-        tabs.appendChild(div);
-    });
+    let i = 0;
+    for(let r in rubros) {
+        let d = document.createElement("div");
+        d.className = "tab";
+        d.innerText = r;
+        let color = colores[i % colores.length];
+        d.style.background = color;
+        d.onclick = () => mostrarRubro(r, color);
+        tabs.appendChild(d);
+        i++;
+    }
 }
 
-/* MOSTRAR RUBRO */
-function mostrarRubro(rubro) {
-    let color = generarColor(rubro);
+function mostrarRubro(rubro, color="#eee") {
     document.body.style.background = color;
-
-    let cont = document.getElementById("productos");
+    let cont = document.getElementById("catalogo");
     cont.innerHTML = "";
 
-    productos.filter(p => p.Rubro === rubro).forEach(p => {
-        let card = document.createElement("div");
-        card.className = "card";
+    rubros[rubro].forEach(p => {
+        let div = document.createElement("div");
+        div.className = "card";
 
-        let codigo = p.Codigo;
-        let foto = buscarFoto(codigo);
+        let img = `FOTO/${p.codigo}.jpg`;
 
-        card.innerHTML = `
-            <div class="codigo">${codigo}</div>
-            <img src="${foto}" onerror="this.src='nofoto.png'">
-            <div class="precio">${formatPrecio(p.Precio)}</div>
-            <div class="linea">${p.Linea1 || ""}</div>
-            <div class="linea">${p.Linea2 || ""}</div>
-            <div class="linea">${p.Linea3 || ""}</div>
-            <div class="linea">${p.Linea4 || ""}</div>
+        div.innerHTML = `
+            <div class="codigo">${p.codigo}</div>
+            <img src="${img}" onerror="this.src='nofoto.png'">
+            <div class="precio">$ ${formatearPrecio(p.precio)}</div>
+            <div class="linea">${p.l1||""}</div>
+            <div class="linea">${p.l2||""}</div>
+            <div class="linea">${p.l3||""}</div>
+            <div class="linea">${p.l4||""}</div>
         `;
-        cont.appendChild(card);
+
+        cont.appendChild(div);
     });
 }
 
-/* COLOR POR RUBRO */
-function generarColor(txt) {
-    let hash = 0;
-    for (let i = 0; i < txt.length; i++) hash = txt.charCodeAt(i) + ((hash << 5) - hash);
-    let color = "#";
-    for (let i = 0; i < 3; i++) {
-        let v = (hash >> (i * 8)) & 255;
-        color += ("00" + v.toString(16)).slice(-2);
-    }
-    return color;
-}
-
-/* BUSCAR FOTO */
-function buscarFoto(codigo) {
-    return "FOTO/" + codigo + ".jpg";
+function formatearPrecio(p) {
+    p = p.replace(/\D/g,"");
+    return p.replace(/\B(?=(\d{3})+(?!\d))/g,".");
 }
 </script>
 

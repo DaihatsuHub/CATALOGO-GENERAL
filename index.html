@@ -91,10 +91,10 @@ body {
     transform: translateY(-3px);
 }
 
-/* FOTO +20% */
+/* FOTO +30% */
 .producto img {
     width: 100%;
-    height: 190px; /* +20% */
+    height: 250px; /* +30% */
     object-fit: contain;
     transform: none;
     display: block;
@@ -113,10 +113,11 @@ body {
     cursor: pointer;
 }
 
-/* BLOQUE INFO (CARD MÁS ALTA) */
+/* BLOQUE INFO (CARD MÁS ALTO / RECTANGULAR) */
 .info {
     background: #e8e8e8;
-    padding: 12px; /* +20% altura visual */
+    padding: 18px; /* más alto */
+    min-height: 140px; /* fuerza formato rectangular */
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.15);
     text-align: center;
 }
@@ -133,12 +134,12 @@ body {
     color: #333;
 }
 
-/* PRECIO MÁS ABAJO */
+/* PRECIO */
 .precio {
     font-size: 20px;
     font-weight: bold;
     color: darkred;
-    margin-top: 12px; /* baja un renglón */
+    margin-top: 14px;
 }
 
 /* ===== MODAL ===== */
@@ -194,9 +195,9 @@ body {
         gap: 8px;
     }
 
-    /* FOTO +20% MOBILE */
+    /* FOTO +30% MOBILE */
     .producto img {
-        height: 130px;
+        height: 170px;
     }
 
     .desc {

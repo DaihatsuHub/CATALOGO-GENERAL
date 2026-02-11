@@ -3,22 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Catálogo</title>
+<title>CATÁLOGO GENERAL</title>
 
 <style>
-
 body {
-    font-family: Arial;
-    background: #f2f2f2;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
 }
 
-/* Barra rubro */
+/* ===== PANEL RUBROS DESKTOP ===== */
+#rubros {
+    width: 220px;
+    height: 100vh;
+    background: #111;
+    color: white;
+    position: fixed;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#rubros button {
+    width: 100%;
+    margin: 4px 0;
+    padding: 8px;
+    background: #222;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+}
+
+#rubros button:hover {
+    background: #555;
+}
+
+/* ===== CONTENIDO ===== */
+#contenido {
+    margin-left: 230px;
+    padding: 10px;
+}
+
+/* BUSCADOR */
+#buscador {
+    width: 320px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* SELECTOR RUBRO MOBILE */
 #selectorRubro {
     background: orange;
     padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    display: none;
 }
 
 #rubroSelect {
@@ -29,161 +70,312 @@ body {
     border-radius: 4px;
 }
 
-/* Buscador */
-#buscador {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    margin-bottom: 8px;
-}
-
-/* Grid productos */
-#productos {
+/* ===== GRID ===== */
+.grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 14px;
 }
 
-/* Card producto */
+/* ===== PRODUCTO CARD ===== */
 .producto {
     background: white;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     overflow: hidden;
-    border: 1px solid #ccc;
+    transition: transform 0.2s;
 }
 
-/* Imagen */
+.producto:hover {
+    transform: translateY(-3px);
+}
+
+/* FOTO 50% MÁS GRANDE */
 .producto img {
     width: 100%;
-    height: 200px;
+    height: 260px;
     object-fit: contain;
+    transform: scale(1.5);
+    transform-origin: center;
+    filter: drop-shadow(0 10px 18px rgba(0,0,0,0.6));
+    transition: transform 0.2s;
 }
 
-/* Zona gris desde código hacia abajo */
-.infoProducto {
-    background: #eeeeee;
+.producto img:hover {
+    transform: scale(1.6);
+}
+
+/* BLOQUE INFO GRIS */
+.info {
+    background: #e8e8e8;
     padding: 8px;
-    font-size: 14px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.15);
 }
 
-/* Texto */
-.codigo {
-    font-weight: bold;
+/* TEXTO */
+.info h3 {
+    margin: 4px 0;
+    font-size: 16px;
 }
 
-.descripcion {
+.desc {
     font-size: 13px;
-    margin-top: 4px;
+    line-height: 1.2;
+    color: #333;
 }
 
 .precio {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 8px;
-    color: green;
+    color: darkred;
+    margin-top: 4px;
 }
 
-/* MOBILE */
-@media (max-width: 800px) {
-    #productos {
+/* BOTON */
+.btnVer {
+    margin-top: 6px;
+    padding: 6px 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* ===== MODAL ===== */
+#modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#modal img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#modal span {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+
+    /* Ocultar panel lateral */
+    #rubros {
+        display: none;
+    }
+
+    /* Mostrar selector rubro */
+    #selectorRubro {
+        display: block;
+    }
+
+    #contenido {
+        margin-left: 0;
+        padding: 6px;
+    }
+
+    #buscador {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    /* 2 productos por fila */
+    .grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
     }
 
+    /* Fotos grandes pero controladas */
     .producto img {
-        height: 120px; /* achicamos en celular */
+        height: 180px;
+        transform: scale(1.5);
+    }
+
+    .desc {
+        font-size: 12px;
+    }
+
+    .precio {
+        font-size: 16px;
     }
 }
-
 </style>
 </head>
 
 <body>
+
+<div id="rubros"></div>
+
+<div id="contenido">
 
 <div id="selectorRubro">
     <select id="rubroSelect"></select>
 </div>
 
 <input id="buscador" placeholder="Buscar código o descripción...">
+<div id="productos" class="grid"></div>
 
-<div id="productos"></div>
+</div>
+
+<!-- MODAL -->
+<div id="modal">
+<span onclick="cerrarModal()">✖</span>
+<img id="modalImg">
+</div>
 
 <script>
+const CSV_FILE = "PRODUCTOS.csv";
+const FOTO_FOLDERS = ["FOTOS1","FOTOS2","FOTOS3","FOTOS4","FOTOS5","FOTOS6"];
 
-// ====== EJEMPLO DATOS (luego va stock.csv) ======
-let data = [
- {codigo:"SPK-100", desc:"Parlante Bluetooth 10W", precio:45, rubro:"Parlantes", img:"https://via.placeholder.com/300"},
- {codigo:"SPK-200", desc:"Parlante Bluetooth 20W", precio:79, rubro:"Parlantes", img:"https://via.placeholder.com/300"},
- {codigo:"CAB-USB", desc:"Cable USB-C 1m", precio:5, rubro:"Cables", img:"https://via.placeholder.com/300"},
- {codigo:"CAB-HDMI", desc:"Cable HDMI 2m", precio:8, rubro:"Cables", img:"https://via.placeholder.com/300"},
- {codigo:"SUP-001", desc:"Soporte celular auto", precio:12, rubro:"Accesorios", img:"https://via.placeholder.com/300"},
- {codigo:"SUP-002", desc:"Soporte escritorio", precio:15, rubro:"Accesorios", img:"https://via.placeholder.com/300"}
-];
+let productos = [];
+let rubros = new Set();
 
-// ===== RUBROS =====
-let rubros = [...new Set(data.map(x => x.rubro))];
+/* FORMATO PRECIO */
+function formatPrecio(p) {
+    return "$ " + Number(p).toLocaleString("es-AR");
+}
 
-// Crear selector rubro
+/* BUSCAR FOTO */
+function buscarImagen(codigo) {
+    return new Promise(resolve => {
+        let i = 0;
+        function probar() {
+            if (i >= FOTO_FOLDERS.length) {
+                resolve("noimg.jpg");
+                return;
+            }
+            let url = FOTO_FOLDERS[i] + "/" + codigo + ".jpg";
+            let img = new Image();
+            img.onload = () => resolve(url);
+            img.onerror = () => { i++; probar(); };
+            img.src = url;
+        }
+        probar();
+    });
+}
+
+/* LEER CSV */
+fetch(CSV_FILE)
+.then(r => r.text())
+.then(text => {
+    let lines = text.trim().split("\n");
+    let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
+
+    for (let i=1; i<lines.length; i++) {
+        let cols = lines[i].split(";");
+        if (cols.length < 3) continue;
+        let obj = {};
+        headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
+        productos.push(obj);
+        rubros.add(obj.RUBRO);
+    }
+
+    productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
+    crearRubros();
+    crearSelectorRubros();
+    mostrarRubro([...rubros][0]);
+});
+
+/* CREAR PANEL RUBROS DESKTOP */
+function crearRubros() {
+    let div = document.getElementById("rubros");
+    rubros.forEach(r => {
+        let b = document.createElement("button");
+        b.textContent = r;
+        b.onclick = () => mostrarRubro(r);
+        div.appendChild(b);
+    });
+}
+
+/* CREAR SELECTOR MOBILE */
 function crearSelectorRubros() {
     let sel = document.getElementById("rubroSelect");
-    sel.innerHTML = "";
-
     rubros.forEach(r => {
         let opt = document.createElement("option");
         opt.value = r;
-        opt.textContent = r;   // SOLO NOMBRE
+        opt.textContent = "Seleccionar rubro: " + r;
         sel.appendChild(opt);
     });
-
     sel.onchange = () => mostrarRubro(sel.value);
 }
 
-// Mostrar rubro
-function mostrarRubro(rubro) {
+/* MOSTRAR RUBRO */
+async function mostrarRubro(r) {
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    data.filter(x => x.rubro == rubro).forEach(p => {
-        let div = document.createElement("div");
-        div.className = "producto";
-        div.innerHTML = `
-            <img src="${p.img}">
-            <div class="infoProducto">
-                <div class="codigo">${p.codigo}</div>
-                <div class="descripcion">${p.desc}</div>
-                <div class="precio">USD ${p.precio}</div>
+    for (let p of productos.filter(p=>p.RUBRO==r)) {
+        let img = await buscarImagen(p.CODIGO);
+
+        let d = document.createElement("div");
+        d.className = "producto";
+        d.innerHTML = `
+            <img src="${img}" onclick="verGrande('${img}')">
+            <div class="info">
+                <h3>${p.CODIGO}</h3>
+                <div class="desc">
+                    <b>${p.LINEA1||""}</b><br>
+                    ${p.LINEA2||""}<br>
+                    ${p.LINEA3||""}<br>
+                    ${p.LINEA4||""}
+                </div>
+                <div class="precio">${formatPrecio(p.PRECIO)}</div>
+                <button class="btnVer" onclick="verGrande('${img}')">Ver grande</button>
             </div>
         `;
-        cont.appendChild(div);
-    });
+        cont.appendChild(d);
+    }
 }
 
-// Buscador
-document.getElementById("buscador").oninput = function() {
-    let q = this.value.toLowerCase();
+/* BUSCADOR */
+document.getElementById("buscador").addEventListener("input", e=>{
+    let t = e.target.value.toLowerCase();
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    data.filter(p => p.codigo.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q))
-        .forEach(p => {
-            let div = document.createElement("div");
-            div.className = "producto";
-            div.innerHTML = `
-                <img src="${p.img}">
-                <div class="infoProducto">
-                    <div class="codigo">${p.codigo}</div>
-                    <div class="descripcion">${p.desc}</div>
-                    <div class="precio">USD ${p.precio}</div>
+    productos.filter(p =>
+        p.CODIGO.toLowerCase().includes(t) ||
+        (p.LINEA1||"").toLowerCase().includes(t)
+    ).forEach(async p=>{
+        let img = await buscarImagen(p.CODIGO);
+        let d = document.createElement("div");
+        d.className = "producto";
+        d.innerHTML = `
+            <img src="${img}" onclick="verGrande('${img}')">
+            <div class="info">
+                <h3>${p.CODIGO}</h3>
+                <div class="desc">
+                    <b>${p.LINEA1||""}</b><br>${p.LINEA2||""}
                 </div>
-            `;
-            cont.appendChild(div);
-        });
-};
+                <div class="precio">${formatPrecio(p.PRECIO)}</div>
+            </div>
+        `;
+        cont.appendChild(d);
+    });
+});
 
-// INIT
-crearSelectorRubros();
-mostrarRubro(rubros[0]);
+/* MODAL */
+function verGrande(src) {
+    document.getElementById("modalImg").src = src;
+    document.getElementById("modal").style.display = "flex";
+}
 
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
 </script>
 
 </body>

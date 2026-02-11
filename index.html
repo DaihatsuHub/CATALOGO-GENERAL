@@ -9,10 +9,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f2f2f2;
+    background: #f0f0f0;
 }
 
-/* PANEL RUBROS DESKTOP */
+/* ===== PANEL RUBROS DESKTOP ===== */
 #rubros {
     width: 220px;
     height: 100vh;
@@ -33,14 +33,13 @@ body {
     cursor: pointer;
     text-align: left;
     font-size: 14px;
-    transition: 0.2s;
 }
 
 #rubros button:hover {
     background: #555;
 }
 
-/* CONTENIDO */
+/* ===== CONTENIDO ===== */
 #contenido {
     margin-left: 230px;
     padding: 10px;
@@ -51,47 +50,74 @@ body {
     width: 320px;
     padding: 10px;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
-/* GRID */
+/* SELECTOR RUBRO MOBILE */
+#selectorRubro {
+    background: orange;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    display: none;
+}
+
+#rubroSelect {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* ===== GRID ===== */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 14px;
 }
 
-/* PRODUCTO CARD */
+/* ===== PRODUCTO CARD ===== */
 .producto {
     background: white;
     border-radius: 12px;
-    padding: 8px;
-    text-align: center;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
-    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    overflow: hidden;
+    transition: transform 0.2s;
 }
 
 .producto:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 26px rgba(0,0,0,0.35);
 }
 
-/* IMAGEN 50% MÁS GRANDE SIN AGRANDAR CARD */
+/* FOTO 50% MÁS GRANDE */
 .producto img {
     width: 100%;
-    height: 300px;
+    height: 260px;
     object-fit: contain;
-    margin-bottom: 6px;
-    cursor: zoom-in;
-    filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5));
+    transform: scale(1.5);
+    transform-origin: center;
+    filter: drop-shadow(0 10px 18px rgba(0,0,0,0.6));
     transition: transform 0.2s;
 }
 
 .producto img:hover {
-    transform: scale(1.05);
+    transform: scale(1.6);
+}
+
+/* BLOQUE INFO GRIS */
+.info {
+    background: #e8e8e8;
+    padding: 8px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.15);
 }
 
 /* TEXTO */
+.info h3 {
+    margin: 4px 0;
+    font-size: 16px;
+}
+
 .desc {
     font-size: 13px;
     line-height: 1.2;
@@ -99,9 +125,10 @@ body {
 }
 
 .precio {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: darkred;
+    margin-top: 4px;
 }
 
 /* BOTON */
@@ -115,7 +142,7 @@ body {
     font-size: 12px;
 }
 
-/* MODAL */
+/* ===== MODAL ===== */
 #modal {
     position: fixed;
     top: 0; left: 0;
@@ -142,34 +169,17 @@ body {
     cursor: pointer;
 }
 
-/* ===== MOBILE APP MODE ===== */
+/* ===== MOBILE ===== */
 @media (max-width: 600px) {
 
-    /* RUBROS TIPO APP (3 VISIBLES) */
+    /* Ocultar panel lateral */
     #rubros {
-        position: sticky;
-        top: 0;
-        z-index: 2000;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        background: #000;
-        padding: 10px;
-        gap: 8px;
-        border-bottom: 3px solid orange;
+        display: none;
     }
 
-    #rubros button {
-        flex: 0 0 33%;
-        min-width: 120px;
-        text-align: center;
-        font-size: 16px;
-        padding: 12px 8px;
-        border-radius: 20px;
-        background: #222;
-        border: 1px solid #555;
+    /* Mostrar selector rubro */
+    #selectorRubro {
+        display: block;
     }
 
     #contenido {
@@ -182,21 +192,16 @@ body {
         font-size: 15px;
     }
 
-    /* 2 PRODUCTOS POR FILA */
+    /* 2 productos por fila */
     .grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
 
-    /* CARDS MÁS COMPACTAS */
-    .producto {
-        padding: 6px;
-        border-radius: 10px;
-    }
-
-    /* FOTO 50% MÁS GRANDE SIN AGRANDAR CARD */
+    /* Fotos grandes pero controladas */
     .producto img {
-        height: 220px;
+        height: 180px;
+        transform: scale(1.5);
     }
 
     .desc {
@@ -215,8 +220,14 @@ body {
 <div id="rubros"></div>
 
 <div id="contenido">
+
+<div id="selectorRubro">
+    <select id="rubroSelect"></select>
+</div>
+
 <input id="buscador" placeholder="Buscar código o descripción...">
 <div id="productos" class="grid"></div>
+
 </div>
 
 <!-- MODAL -->
@@ -232,12 +243,12 @@ const FOTO_FOLDERS = ["FOTOS1","FOTOS2","FOTOS3","FOTOS4","FOTOS5","FOTOS6"];
 let productos = [];
 let rubros = new Set();
 
-// PRECIO
+/* FORMATO PRECIO */
 function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
-// BUSCAR FOTO
+/* BUSCAR FOTO */
 function buscarImagen(codigo) {
     return new Promise(resolve => {
         let i = 0;
@@ -256,7 +267,7 @@ function buscarImagen(codigo) {
     });
 }
 
-// LEER CSV
+/* LEER CSV */
 fetch(CSV_FILE)
 .then(r => r.text())
 .then(text => {
@@ -274,25 +285,34 @@ fetch(CSV_FILE)
 
     productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
     crearRubros();
+    crearSelectorRubros();
     mostrarRubro([...rubros][0]);
 });
 
-// CREAR RUBROS
+/* CREAR PANEL RUBROS DESKTOP */
 function crearRubros() {
     let div = document.getElementById("rubros");
     rubros.forEach(r => {
         let b = document.createElement("button");
         b.textContent = r;
-        b.onclick = (e) => {
-            document.querySelectorAll("#rubros button").forEach(x=>x.classList.remove("activo"));
-            e.target.classList.add("activo");
-            mostrarRubro(r);
-        };
+        b.onclick = () => mostrarRubro(r);
         div.appendChild(b);
     });
 }
 
-// MOSTRAR RUBRO
+/* CREAR SELECTOR MOBILE */
+function crearSelectorRubros() {
+    let sel = document.getElementById("rubroSelect");
+    rubros.forEach(r => {
+        let opt = document.createElement("option");
+        opt.value = r;
+        opt.textContent = "Seleccionar rubro: " + r;
+        sel.appendChild(opt);
+    });
+    sel.onchange = () => mostrarRubro(sel.value);
+}
+
+/* MOSTRAR RUBRO */
 async function mostrarRubro(r) {
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
@@ -304,21 +324,23 @@ async function mostrarRubro(r) {
         d.className = "producto";
         d.innerHTML = `
             <img src="${img}" onclick="verGrande('${img}')">
-            <h3>${p.CODIGO}</h3>
-            <div class="desc">
-            <b>${p.LINEA1||""}</b><br>
-            ${p.LINEA2||""}<br>
-            ${p.LINEA3||""}<br>
-            ${p.LINEA4||""}
+            <div class="info">
+                <h3>${p.CODIGO}</h3>
+                <div class="desc">
+                    <b>${p.LINEA1||""}</b><br>
+                    ${p.LINEA2||""}<br>
+                    ${p.LINEA3||""}<br>
+                    ${p.LINEA4||""}
+                </div>
+                <div class="precio">${formatPrecio(p.PRECIO)}</div>
+                <button class="btnVer" onclick="verGrande('${img}')">Ver grande</button>
             </div>
-            <div class="precio">${formatPrecio(p.PRECIO)}</div>
-            <button class="btnVer" onclick="verGrande('${img}')">Ver grande</button>
         `;
         cont.appendChild(d);
     }
 }
 
-// BUSCADOR
+/* BUSCADOR */
 document.getElementById("buscador").addEventListener("input", e=>{
     let t = e.target.value.toLowerCase();
     let cont = document.getElementById("productos");
@@ -333,17 +355,19 @@ document.getElementById("buscador").addEventListener("input", e=>{
         d.className = "producto";
         d.innerHTML = `
             <img src="${img}" onclick="verGrande('${img}')">
-            <h3>${p.CODIGO}</h3>
-            <div class="desc">
-            <b>${p.LINEA1||""}</b><br>${p.LINEA2||""}
+            <div class="info">
+                <h3>${p.CODIGO}</h3>
+                <div class="desc">
+                    <b>${p.LINEA1||""}</b><br>${p.LINEA2||""}
+                </div>
+                <div class="precio">${formatPrecio(p.PRECIO)}</div>
             </div>
-            <div class="precio">${formatPrecio(p.PRECIO)}</div>
         `;
         cont.appendChild(d);
     });
 });
 
-// MODAL
+/* MODAL */
 function verGrande(src) {
     document.getElementById("modalImg").src = src;
     document.getElementById("modal").style.display = "flex";

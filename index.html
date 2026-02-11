@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Catálogo</title>
 
 <style>
@@ -12,10 +11,9 @@ body {
     font-family: Arial;
     background: #f2f2f2;
     margin: 0;
-    padding: 0;
 }
 
-/* Barra rubro */
+/* selector rubro */
 #selectorRubro {
     background: orange;
     padding: 8px;
@@ -23,21 +21,20 @@ body {
 
 #rubroSelect {
     width: 100%;
-    font-size: 16px;
     padding: 8px;
-    border: none;
+    font-size: 16px;
     border-radius: 4px;
+    border: none;
 }
 
-/* Buscador */
+/* buscador */
 #buscador {
     width: 100%;
     padding: 8px;
     font-size: 16px;
-    margin-bottom: 8px;
 }
 
-/* Grid productos */
+/* grid */
 #productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,42 +42,56 @@ body {
     padding: 10px;
 }
 
-/* Card producto */
+/* card */
 .producto {
     background: white;
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #ccc;
+    position: relative;
 }
 
-/* Imagen */
+/* imagen */
 .producto img {
     width: 100%;
-    height: 200px;
+    height: 140px;
     object-fit: contain;
+    display: block;
 }
 
-/* Zona gris desde código hacia abajo */
-.infoProducto {
-    background: #eeeeee;
-    padding: 8px;
+/* lupa */
+.lupa {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 4px 6px;
+    border-radius: 50%;
+    cursor: pointer;
     font-size: 14px;
 }
 
-/* Texto */
+/* zona gris */
+.infoProducto {
+    background: #eeeeee;
+    padding: 6px;
+    text-align: center;
+    font-size: 13px;
+}
+
 .codigo {
     font-weight: bold;
 }
 
 .descripcion {
-    font-size: 13px;
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 .precio {
-    font-size: 16px;
+    margin-top: 6px;
+    font-size: 15px;
     font-weight: bold;
-    margin-top: 8px;
     color: green;
 }
 
@@ -91,7 +102,7 @@ body {
     }
 
     .producto img {
-        height: 120px; /* achicamos en celular */
+        height: 90px;
     }
 }
 
@@ -110,47 +121,50 @@ body {
 
 <script>
 
-// ====== EJEMPLO DATOS (luego va stock.csv) ======
+// ===== DATOS DEMO =====
 let data = [
- {codigo:"SPK-100", desc:"Parlante Bluetooth 10W", precio:45, rubro:"Parlantes", img:"https://via.placeholder.com/300"},
- {codigo:"SPK-200", desc:"Parlante Bluetooth 20W", precio:79, rubro:"Parlantes", img:"https://via.placeholder.com/300"},
- {codigo:"CAB-USB", desc:"Cable USB-C 1m", precio:5, rubro:"Cables", img:"https://via.placeholder.com/300"},
- {codigo:"CAB-HDMI", desc:"Cable HDMI 2m", precio:8, rubro:"Cables", img:"https://via.placeholder.com/300"},
- {codigo:"SUP-001", desc:"Soporte celular auto", precio:12, rubro:"Accesorios", img:"https://via.placeholder.com/300"},
- {codigo:"SUP-002", desc:"Soporte escritorio", precio:15, rubro:"Accesorios", img:"https://via.placeholder.com/300"}
+ {codigo:"SPK-100", linea1:"Parlante", linea2:"Bluetooth 10W", precio:45, rubro:"Parlantes", img:"https://via.placeholder.com/300"},
+ {codigo:"SPK-200", linea1:"Parlante", linea2:"Bluetooth 20W", precio:79, rubro:"Parlantes", img:"https://via.placeholder.com/300"},
+ {codigo:"CAB-USB", linea1:"Cable USB-C", linea2:"1 metro", precio:5, rubro:"Cables", img:"https://via.placeholder.com/300"},
+ {codigo:"SUP-001", linea1:"Soporte", linea2:"Auto celular", precio:12, rubro:"Accesorios", img:"https://via.placeholder.com/300"}
 ];
 
-// ===== RUBROS =====
+// rubros
 let rubros = [...new Set(data.map(x => x.rubro))];
 
-// Crear selector rubro
+// selector rubro
 function crearSelectorRubros() {
     let sel = document.getElementById("rubroSelect");
     sel.innerHTML = "";
-
     rubros.forEach(r => {
         let opt = document.createElement("option");
         opt.value = r;
-        opt.textContent = r;   // SOLO NOMBRE
+        opt.textContent = r;
         sel.appendChild(opt);
     });
-
     sel.onchange = () => mostrarRubro(sel.value);
 }
 
-// Mostrar rubro
-function mostrarRubro(rubro) {
+// mostrar rubro
+function mostrarRubro(r) {
+    render(data.filter(p => p.rubro == r));
+}
+
+// render general
+function render(lista) {
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    data.filter(x => x.rubro == rubro).forEach(p => {
+    lista.forEach(p => {
         let div = document.createElement("div");
         div.className = "producto";
         div.innerHTML = `
             <img src="${p.img}">
+            <div class="lupa" onclick="alert('${p.codigo}')">🔍</div>
             <div class="infoProducto">
                 <div class="codigo">${p.codigo}</div>
-                <div class="descripcion">${p.desc}</div>
+                <div class="descripcion">${p.linea1}</div>
+                <div class="descripcion">${p.linea2}</div>
                 <div class="precio">USD ${p.precio}</div>
             </div>
         `;
@@ -158,29 +172,17 @@ function mostrarRubro(rubro) {
     });
 }
 
-// Buscador
+// buscador
 document.getElementById("buscador").oninput = function() {
     let q = this.value.toLowerCase();
-    let cont = document.getElementById("productos");
-    cont.innerHTML = "";
-
-    data.filter(p => p.codigo.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q))
-        .forEach(p => {
-            let div = document.createElement("div");
-            div.className = "producto";
-            div.innerHTML = `
-                <img src="${p.img}">
-                <div class="infoProducto">
-                    <div class="codigo">${p.codigo}</div>
-                    <div class="descripcion">${p.desc}</div>
-                    <div class="precio">USD ${p.precio}</div>
-                </div>
-            `;
-            cont.appendChild(div);
-        });
+    render(data.filter(p =>
+        p.codigo.toLowerCase().includes(q) ||
+        p.linea1.toLowerCase().includes(q) ||
+        p.linea2.toLowerCase().includes(q)
+    ));
 };
 
-// INIT
+// init
 crearSelectorRubros();
 mostrarRubro(rubros[0]);
 

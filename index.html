@@ -12,6 +12,44 @@ body {
     background: #f0f0f0;
 }
 
+/* ===== TOP BAR LOGO + BUSCADOR ===== */
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 15px;
+    background: #2c2c2c;
+}
+
+.logo {
+    height: 32px;
+}
+
+.search-bar {
+    position: relative;
+    flex: 1;
+    max-width: 600px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background: #d9d9d9;
+    font-size: 14px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #333;
+}
+
 /* ===== PANEL RUBROS DESKTOP ===== */
 #rubros {
     width: 220px;
@@ -45,14 +83,6 @@ body {
     padding: 10px;
 }
 
-/* BUSCADOR */
-#buscador {
-    width: 320px;
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 8px;
-}
-
 /* SELECTOR RUBRO MOBILE */
 #selectorRubro {
     background: orange;
@@ -84,62 +114,48 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     overflow: hidden;
     transition: transform 0.2s;
-    position: relative;
 }
 
 .producto:hover {
     transform: translateY(-3px);
 }
 
-/* FOTO +30% */
+/* FOTO GRANDE */
 .producto img {
     width: 100%;
-    height: 250px; /* +30% */
+    height: 260px;
     object-fit: contain;
-    transform: none;
-    display: block;
+    transform: scale(1.3);
+    transform-origin: center;
+    transition: transform 0.2s;
 }
 
-/* LUPA */
-.lupa {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: rgba(0,0,0,0.6);
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-/* BLOQUE INFO (CARD MÁS ALTO / RECTANGULAR) */
+/* BLOQUE INFO GRIS */
 .info {
     background: #e8e8e8;
-    padding: 18px; /* más alto */
-    min-height: 140px; /* fuerza formato rectangular */
-    box-shadow: inset 0 3px 6px rgba(0,0,0,0.15);
-    text-align: center;
+    padding: 8px;
 }
 
 /* TEXTO */
 .info h3 {
     margin: 4px 0;
     font-size: 16px;
+    text-align: center;
 }
 
 .desc {
     font-size: 13px;
     line-height: 1.2;
     color: #333;
+    text-align: center;
 }
 
-/* PRECIO */
 .precio {
     font-size: 20px;
     font-weight: bold;
     color: darkred;
-    margin-top: 14px;
+    margin-top: 8px;
+    text-align: center;
 }
 
 /* ===== MODAL ===== */
@@ -172,6 +188,15 @@ body {
 /* ===== MOBILE ===== */
 @media (max-width: 600px) {
 
+    .top-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .logo {
+        margin-bottom: 6px;
+    }
+
     #rubros {
         display: none;
     }
@@ -185,19 +210,14 @@ body {
         padding: 6px;
     }
 
-    #buscador {
-        width: 100%;
-        font-size: 15px;
-    }
-
     .grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
 
-    /* FOTO +30% MOBILE */
     .producto img {
-        height: 170px;
+        height: 160px;
+        transform: scale(1.2);
     }
 
     .desc {
@@ -213,6 +233,16 @@ body {
 
 <body>
 
+<!-- TOP BAR -->
+<div class="top-bar">
+    <img src="LOGO.jpg" class="logo">
+
+    <div class="search-bar">
+        <input id="buscador" placeholder="¿Qué estás buscando?">
+        <span class="search-icon">🔍</span>
+    </div>
+</div>
+
 <div id="rubros"></div>
 
 <div id="contenido">
@@ -221,7 +251,6 @@ body {
     <select id="rubroSelect"></select>
 </div>
 
-<input id="buscador" placeholder="Buscar código o descripción...">
 <div id="productos" class="grid"></div>
 
 </div>
@@ -239,12 +268,10 @@ const FOTO_FOLDERS = ["FOTOS1","FOTOS2","FOTOS3","FOTOS4","FOTOS5","FOTOS6"];
 let productos = [];
 let rubros = new Set();
 
-/* FORMATO PRECIO */
 function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
-/* BUSCAR FOTO */
 function buscarImagen(codigo) {
     return new Promise(resolve => {
         let i = 0;
@@ -263,13 +290,11 @@ function buscarImagen(codigo) {
     });
 }
 
-/* LEER CSV (FIX MOBILE + BOM) */
 fetch(CSV_FILE)
 .then(r => r.text())
 .then(text => {
-
-    let lines = text.split(/\r?\n/).filter(l=>l.trim()!="");
-    let headers = lines[0].replace("\ufeff","").split(";").map(h=>h.trim().toUpperCase());
+    let lines = text.trim().split("\n");
+    let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
 
     for (let i=1; i<lines.length; i++) {
         let cols = lines[i].split(";");
@@ -286,7 +311,6 @@ fetch(CSV_FILE)
     mostrarRubro([...rubros][0]);
 });
 
-/* CREAR PANEL RUBROS DESKTOP */
 function crearRubros() {
     let div = document.getElementById("rubros");
     rubros.forEach(r => {
@@ -297,7 +321,6 @@ function crearRubros() {
     });
 }
 
-/* CREAR SELECTOR MOBILE */
 function crearSelectorRubros() {
     let sel = document.getElementById("rubroSelect");
     rubros.forEach(r => {
@@ -309,7 +332,6 @@ function crearSelectorRubros() {
     sel.onchange = () => mostrarRubro(sel.value);
 }
 
-/* MOSTRAR RUBRO */
 async function mostrarRubro(r) {
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
@@ -320,8 +342,7 @@ async function mostrarRubro(r) {
         let d = document.createElement("div");
         d.className = "producto";
         d.innerHTML = `
-            <img src="${img}">
-            <div class="lupa" onclick="verGrande('${img}')">🔍</div>
+            <img src="${img}" onclick="verGrande('${img}')">
             <div class="info">
                 <h3>${p.CODIGO}</h3>
                 <div class="desc">
@@ -337,7 +358,6 @@ async function mostrarRubro(r) {
     }
 }
 
-/* BUSCADOR */
 document.getElementById("buscador").addEventListener("input", e=>{
     let t = e.target.value.toLowerCase();
     let cont = document.getElementById("productos");
@@ -351,8 +371,7 @@ document.getElementById("buscador").addEventListener("input", e=>{
         let d = document.createElement("div");
         d.className = "producto";
         d.innerHTML = `
-            <img src="${img}">
-            <div class="lupa" onclick="verGrande('${img}')">🔍</div>
+            <img src="${img}" onclick="verGrande('${img}')">
             <div class="info">
                 <h3>${p.CODIGO}</h3>
                 <div class="desc">
@@ -365,7 +384,6 @@ document.getElementById("buscador").addEventListener("input", e=>{
     });
 });
 
-/* MODAL */
 function verGrande(src) {
     document.getElementById("modalImg").src = src;
     document.getElementById("modal").style.display = "flex";

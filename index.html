@@ -12,19 +12,27 @@ body {
     background: #f0f0f0;
 }
 
-/* ===== TOP BAR LOGO + BUSCADOR ===== */
+/* ===== TOP BAR ===== */
 .top-bar {
+    background: #2c2c2c;
+    padding: 8px 0;
+}
+
+.top-bar-inner {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 8px 15px;
-    background: #2c2c2c;
+    padding: 0 15px;
 }
 
 .logo {
-    height: 32px;
+    height: 34px;
+    width: auto;
 }
 
+/* BUSCADOR */
 .search-bar {
     position: relative;
     flex: 1;
@@ -50,7 +58,7 @@ body {
     color: #333;
 }
 
-/* ===== PANEL RUBROS DESKTOP ===== */
+/* ===== PANEL RUBROS ===== */
 #rubros {
     width: 220px;
     height: 100vh;
@@ -83,7 +91,7 @@ body {
     padding: 10px;
 }
 
-/* SELECTOR RUBRO MOBILE */
+/* SELECTOR MOBILE */
 #selectorRubro {
     background: orange;
     padding: 8px;
@@ -107,33 +115,33 @@ body {
     gap: 14px;
 }
 
-/* ===== PRODUCTO CARD ===== */
+/* ===== PRODUCTO ===== */
 .producto {
     background: white;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     overflow: hidden;
     transition: transform 0.2s;
+    padding-bottom: 18px; /* MÁS ALTO */
 }
 
 .producto:hover {
     transform: translateY(-3px);
 }
 
-/* FOTO GRANDE */
+/* FOTO */
 .producto img {
     width: 100%;
     height: 260px;
     object-fit: contain;
     transform: scale(1.3);
     transform-origin: center;
-    transition: transform 0.2s;
 }
 
-/* BLOQUE INFO GRIS */
+/* INFO GRIS */
 .info {
     background: #e8e8e8;
-    padding: 8px;
+    padding: 12px;
 }
 
 /* TEXTO */
@@ -154,7 +162,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: darkred;
-    margin-top: 8px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -188,13 +196,14 @@ body {
 /* ===== MOBILE ===== */
 @media (max-width: 600px) {
 
-    .top-bar {
+    .top-bar-inner {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
     }
 
     .logo {
-        margin-bottom: 6px;
+        height: 30px;
+        width: auto; /* NO ESTIRAR */
     }
 
     #rubros {
@@ -235,24 +244,23 @@ body {
 
 <!-- TOP BAR -->
 <div class="top-bar">
+  <div class="top-bar-inner">
     <img src="LOGO.jpg" class="logo">
-
     <div class="search-bar">
         <input id="buscador" placeholder="¿Qué estás buscando?">
         <span class="search-icon">🔍</span>
     </div>
+  </div>
 </div>
 
 <div id="rubros"></div>
 
 <div id="contenido">
-
 <div id="selectorRubro">
     <select id="rubroSelect"></select>
 </div>
 
 <div id="productos" class="grid"></div>
-
 </div>
 
 <!-- MODAL -->
@@ -272,6 +280,7 @@ function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
+/* BUSCAR FOTO */
 function buscarImagen(codigo) {
     return new Promise(resolve => {
         let i = 0;
@@ -290,6 +299,7 @@ function buscarImagen(codigo) {
     });
 }
 
+/* LEER CSV */
 fetch(CSV_FILE)
 .then(r => r.text())
 .then(text => {
@@ -311,6 +321,7 @@ fetch(CSV_FILE)
     mostrarRubro([...rubros][0]);
 });
 
+/* RUBROS */
 function crearRubros() {
     let div = document.getElementById("rubros");
     rubros.forEach(r => {
@@ -332,63 +343,55 @@ function crearSelectorRubros() {
     sel.onchange = () => mostrarRubro(sel.value);
 }
 
+/* MOSTRAR RUBRO */
 async function mostrarRubro(r) {
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
     for (let p of productos.filter(p=>p.RUBRO==r)) {
         let img = await buscarImagen(p.CODIGO);
-
-        let d = document.createElement("div");
-        d.className = "producto";
-        d.innerHTML = `
-            <img src="${img}" onclick="verGrande('${img}')">
-            <div class="info">
-                <h3>${p.CODIGO}</h3>
-                <div class="desc">
-                    <b>${p.LINEA1||""}</b><br>
-                    ${p.LINEA2||""}<br>
-                    ${p.LINEA3||""}<br>
-                    ${p.LINEA4||""}
-                </div>
-                <div class="precio">${formatPrecio(p.PRECIO)}</div>
-            </div>
-        `;
-        cont.appendChild(d);
+        cont.innerHTML += cardHTML(p, img);
     }
 }
 
+/* BUSCADOR INTELIGENTE */
 document.getElementById("buscador").addEventListener("input", e=>{
-    let t = e.target.value.toLowerCase();
+    let t = e.target.value.toLowerCase().trim();
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    productos.filter(p =>
-        p.CODIGO.toLowerCase().includes(t) ||
-        (p.LINEA1||"").toLowerCase().includes(t)
-    ).forEach(async p=>{
+    productos.filter(p=>{
+        let texto = Object.values(p).join(" ").toLowerCase();
+        return texto.includes(t);
+    }).forEach(async p=>{
         let img = await buscarImagen(p.CODIGO);
-        let d = document.createElement("div");
-        d.className = "producto";
-        d.innerHTML = `
-            <img src="${img}" onclick="verGrande('${img}')">
-            <div class="info">
-                <h3>${p.CODIGO}</h3>
-                <div class="desc">
-                    <b>${p.LINEA1||""}</b><br>${p.LINEA2||""}
-                </div>
-                <div class="precio">${formatPrecio(p.PRECIO)}</div>
-            </div>
-        `;
-        cont.appendChild(d);
+        cont.innerHTML += cardHTML(p, img);
     });
 });
 
+/* TEMPLATE CARD */
+function cardHTML(p, img){
+    return `
+    <div class="producto">
+        <img src="${img}" onclick="verGrande('${img}')">
+        <div class="info">
+            <h3>${p.CODIGO}</h3>
+            <div class="desc">
+                <b>${p.LINEA1||""}</b><br>
+                ${p.LINEA2||""}<br>
+                ${p.LINEA3||""}<br>
+                ${p.LINEA4||""}
+            </div>
+            <div class="precio">${formatPrecio(p.PRECIO)}</div>
+        </div>
+    </div>`;
+}
+
+/* MODAL */
 function verGrande(src) {
     document.getElementById("modalImg").src = src;
     document.getElementById("modal").style.display = "flex";
 }
-
 function cerrarModal() {
     document.getElementById("modal").style.display = "none";
 }

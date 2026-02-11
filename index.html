@@ -33,6 +33,7 @@ body {
     cursor: pointer;
     text-align: left;
     font-size: 14px;
+    transition: 0.2s;
 }
 
 #rubros button:hover {
@@ -53,13 +54,14 @@ body {
     margin-bottom: 10px;
 }
 
-/* GRID PRODUCTOS */
+/* GRID */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 12px;
 }
 
+/* PRODUCTO */
 .producto {
     background: white;
     border: 2px solid black;
@@ -67,6 +69,12 @@ body {
     padding: 8px;
     text-align: center;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.producto:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
 }
 
 .producto img {
@@ -75,12 +83,111 @@ body {
     object-fit: contain;
     border-bottom: 1px solid #ccc;
     margin-bottom: 5px;
+    cursor: zoom-in;
+    transition: transform 0.2s;
 }
 
-/* EJEMPLO COLORES RUBRO */
-.bg-ELECTRODOMESTICOS { background: #f2f2ff; }
-.bg-AUDIO { background: #fff0e6; }
-.bg-REPUESTOS { background: #e6fff2; }
+.producto img:hover {
+    transform: scale(1.05);
+}
+
+.desc {
+    font-size: 13px;
+    line-height: 1.2;
+    color: #333;
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: bold;
+    color: darkred;
+}
+
+/* BOTON VER GRANDE */
+.btnVer {
+    margin-top: 5px;
+    padding: 6px 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* MODAL IMAGEN */
+#modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#modal img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#modal span {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+
+    #rubros {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background: #111;
+        padding: 5px;
+    }
+
+    #rubros button {
+        flex: 1 1 120px;
+        font-size: 13px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    #contenido {
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    #buscador {
+        width: 100%;
+    }
+
+    /* 2 productos por fila */
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
+    }
+
+    .producto img {
+        height: 150px;
+    }
+
+    .desc {
+        font-size: 11px;
+    }
+
+    .precio {
+        font-size: 16px;
+    }
+}
 </style>
 </head>
 
@@ -93,20 +200,25 @@ body {
 <div id="productos" class="grid"></div>
 </div>
 
+<!-- MODAL -->
+<div id="modal">
+<span onclick="cerrarModal()">✖</span>
+<img id="modalImg">
+</div>
+
 <script>
 const CSV_FILE = "PRODUCTOS.csv";
 const FOTO_FOLDERS = ["FOTOS1","FOTOS2","FOTOS3","FOTOS4","FOTOS5","FOTOS6"];
 
 let productos = [];
 let rubros = new Set();
-let rubroActual = "";
 
 // FORMATO PRECIO
 function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
-// BUSCAR IMAGEN
+// BUSCAR FOTO EN TODAS LAS CARPETAS
 function buscarImagen(codigo) {
     return new Promise(resolve => {
         let i = 0;
@@ -115,7 +227,7 @@ function buscarImagen(codigo) {
                 resolve("noimg.jpg");
                 return;
             }
-            let url = FOTO_FOLDERS[i] + "/" + codigo + ".jpg"; // MINUSCULA
+            let url = FOTO_FOLDERS[i] + "/" + codigo + ".jpg";
             let img = new Image();
             img.onload = () => resolve(url);
             img.onerror = () => { i++; probar(); };
@@ -135,7 +247,6 @@ fetch(CSV_FILE)
     for (let i=1; i<lines.length; i++) {
         let cols = lines[i].split(";");
         if (cols.length < 3) continue;
-
         let obj = {};
         headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
         productos.push(obj);
@@ -160,9 +271,6 @@ function crearRubros() {
 
 // MOSTRAR RUBRO
 async function mostrarRubro(r) {
-    rubroActual = r;
-    document.body.className = "bg-" + r.replace(/ /g,"-");
-
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
@@ -172,17 +280,16 @@ async function mostrarRubro(r) {
         let d = document.createElement("div");
         d.className = "producto";
         d.innerHTML = `
-            <img src="${img}">
+            <img src="${img}" onclick="verGrande('${img}')">
             <h3>${p.CODIGO}</h3>
-
-	<div class="desc">
-	<b>${p.LINEA1}</b><br>
-	${p.LINEA2}<br>
-	${p.LINEA3}<br>
-	${p.LINEA4}<br>
-	</div>
-
-            <h2>${formatPrecio(p.PRECIO)}</h2>
+            <div class="desc">
+            <b>${p.LINEA1||""}</b><br>
+            ${p.LINEA2||""}<br>
+            ${p.LINEA3||""}<br>
+            ${p.LINEA4||""}
+            </div>
+            <div class="precio">${formatPrecio(p.PRECIO)}</div>
+            <button class="btnVer" onclick="verGrande('${img}')">Ver grande</button>
         `;
         cont.appendChild(d);
     }
@@ -202,75 +309,27 @@ document.getElementById("buscador").addEventListener("input", e=>{
         let d = document.createElement("div");
         d.className = "producto";
         d.innerHTML = `
-            <img src="${img}">
+            <img src="${img}" onclick="verGrande('${img}')">
             <h3>${p.CODIGO}</h3>
-            <b>${p.LINEA1}</b><br>
-            ${p.LINEA2}<br>
-            <h2>${formatPrecio(p.PRECIO)}</h2>
+            <div class="desc">
+            <b>${p.LINEA1||""}</b><br>${p.LINEA2||""}
+            </div>
+            <div class="precio">${formatPrecio(p.PRECIO)}</div>
         `;
         cont.appendChild(d);
     });
 });
 
-
-/* ================= MOBILE ================= */
-@media (max-width: 900px) {
-
-    /* Rubros arriba */
-    #rubros {
-        position: relative;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        background: #111;
-        padding: 5px;
-    }
-
-    #rubros button {
-        width: auto;
-        flex: 1 1 120px;
-        font-size: 13px;
-        padding: 6px;
-        text-align: center;
-    }
-
-    /* Contenido */
-    #contenido {
-        margin-left: 0;
-        padding: 5px;
-    }
-
-    /* Buscador */
-    #buscador {
-        width: 100%;
-        font-size: 16px;
-    }
-
-    /* === 2 PRODUCTOS POR FILA === */
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 6px;
-    }
-
-    /* Imagen celular */
-    .producto img {
-        height: 150px;
-    }
-
-    .producto h3 {
-        font-size: 14px;
-    }
-
-    .desc {
-        font-size: 11px;
-    }
-
-    .producto h2 {
-        font-size: 16px;
-    }
+// MODAL
+function verGrande(src) {
+    document.getElementById("modalImg").src = src;
+    document.getElementById("modal").style.display = "flex";
 }
 
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
 </script>
+
 </body>
 </html>

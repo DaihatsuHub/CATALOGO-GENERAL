@@ -19,7 +19,7 @@ body {
 }
 
 .top-bar-inner {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ body {
 .search-bar {
     position: relative;
     flex: 1;
-    max-width: 600px;
+    max-width: 650px;
 }
 
 .search-bar input {
@@ -109,60 +109,60 @@ body {
     border-radius: 4px;
 }
 
-/* ===== GRID ===== */
+/* ===== GRID 4 COLUMNAS ===== */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 14px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
 }
 
 /* ===== PRODUCTO CARD ===== */
 .producto {
     background: white;
-    border-radius: 12px;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.20);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     overflow: hidden;
+    min-height: 420px;
     transition: transform 0.2s;
-    min-height: 560px; /* MÁS RECTANGULAR */
 }
 
 .producto:hover {
     transform: translateY(-3px);
 }
 
-/* FOTO GRANDE REAL */
+/* FOTO */
 .producto img {
     width: 100%;
-    height: 360px; /* 30% más grande REAL */
+    height: 220px;
     object-fit: contain;
-    background: #fff;
+    background: white;
 }
 
-/* BLOQUE INFO GRIS */
+/* INFO */
 .info {
-    background: #e9e9e9;
-    padding: 12px;
+    background: #ededed;
+    padding: 10px;
 }
 
 /* TEXTO */
 .info h3 {
     margin: 4px 0;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
 
 .desc {
-    font-size: 13px;
-    line-height: 1.25;
+    font-size: 12px;
+    line-height: 1.2;
     color: #333;
     text-align: center;
 }
 
 .precio {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: darkred;
-    margin-top: 12px;
+    margin-top: 8px;
     text-align: center;
 }
 
@@ -203,7 +203,7 @@ body {
 
     .logo {
         height: 32px;
-        width: auto; /* NO ESTIRAR */
+        width: auto;
     }
 
     #rubros {
@@ -225,19 +225,19 @@ body {
     }
 
     .producto {
-        min-height: 420px;
+        min-height: 360px;
     }
 
     .producto img {
-        height: 220px;
+        height: 180px;
     }
 
     .desc {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .precio {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 </style>
@@ -251,7 +251,7 @@ body {
     <img src="LOGO.jpg" class="logo">
 
     <div class="search-bar">
-        <input id="buscador" placeholder="¿Qué estás buscando?">
+        <input id="buscador" placeholder="Buscar código, descripción, rubro...">
         <span class="search-icon">🔍</span>
     </div>
   </div>
@@ -282,7 +282,7 @@ const FOTO_FOLDERS = ["FOTOS1","FOTOS2","FOTOS3","FOTOS4","FOTOS5","FOTOS6"];
 let productos = [];
 let rubros = new Set();
 
-/* FORMATO PRECIO */
+/* PRECIO */
 function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
@@ -328,7 +328,7 @@ fetch(CSV_FILE)
     mostrarRubro([...rubros][0]);
 });
 
-/* PANEL RUBROS */
+/* RUBROS PANEL */
 function crearRubros() {
     let div = document.getElementById("rubros");
     rubros.forEach(r => {
@@ -379,15 +379,22 @@ async function mostrarRubro(r) {
     }
 }
 
-/* BUSCADOR GLOBAL */
+/* BUSCADOR MULTICAMPO REAL */
 document.getElementById("buscador").addEventListener("input", e=>{
     let t = e.target.value.toLowerCase().trim();
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
+    if (t === "") {
+        mostrarRubro([...rubros][0]);
+        return;
+    }
+
+    let palabras = t.split(/\s+/);
+
     productos.filter(p=>{
         let texto = Object.values(p).join(" ").toLowerCase();
-        return texto.includes(t);
+        return palabras.every(w => texto.includes(w));
     }).forEach(async p=>{
         let img = await buscarImagen(p.CODIGO);
         cont.innerHTML += cardHTML(p, img);

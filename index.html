@@ -188,10 +188,10 @@ body {
     }
 }
 
-/* MOBILE PRO (CELULAR REAL) */
+/* MOBILE REAL COMERCIAL */
 @media (max-width: 600px) {
 
-    /* Rubros tipo Netflix scroll horizontal */
+    /* Rubros en scroll con aviso */
     #rubros {
         position: relative;
         width: 100%;
@@ -202,6 +202,21 @@ body {
         background: #111;
         padding: 5px;
         gap: 5px;
+        border-bottom: 3px solid orange;
+    }
+
+    #rubros::before {
+        content: "← Deslizá para ver rubros →";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: orange;
+        color: black;
+        font-size: 12px;
+        text-align: center;
+        padding: 2px;
+        z-index: 999;
     }
 
     #rubros button {
@@ -209,11 +224,13 @@ body {
         font-size: 12px;
         padding: 6px 10px;
         white-space: nowrap;
+        background: #222;
     }
 
     #contenido {
         margin-left: 0;
         padding: 5px;
+        margin-top: 20px;
     }
 
     #buscador {
@@ -221,26 +238,27 @@ body {
         font-size: 14px;
     }
 
-    /* 1 producto por fila */
+    /* 2 productos por fila (CLAVE) */
     .grid {
-        grid-template-columns: 1fr;
-        gap: 8px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
     }
 
     .producto {
-        padding: 6px;
+        padding: 5px;
     }
 
     .producto img {
-        height: 180px;
+        height: 120px;
     }
 
     .desc {
-        font-size: 12px;
+        font-size: 11px;
+        line-height: 1.1;
     }
 
     .precio {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 </style>

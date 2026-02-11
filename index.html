@@ -141,7 +141,7 @@ body {
     cursor: pointer;
 }
 
-/* MOBILE */
+/* MOBILE TABLET */
 @media (max-width: 900px) {
 
     #rubros {
@@ -170,7 +170,6 @@ body {
         width: 100%;
     }
 
-    /* 2 productos por fila */
     .grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 6px;
@@ -186,6 +185,62 @@ body {
 
     .precio {
         font-size: 16px;
+    }
+}
+
+/* MOBILE PRO (CELULAR REAL) */
+@media (max-width: 600px) {
+
+    /* Rubros tipo Netflix scroll horizontal */
+    #rubros {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        background: #111;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    #rubros button {
+        flex: 0 0 auto;
+        font-size: 12px;
+        padding: 6px 10px;
+        white-space: nowrap;
+    }
+
+    #contenido {
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    #buscador {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* 1 producto por fila */
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .producto {
+        padding: 6px;
+    }
+
+    .producto img {
+        height: 180px;
+    }
+
+    .desc {
+        font-size: 12px;
+    }
+
+    .precio {
+        font-size: 18px;
     }
 }
 </style>
@@ -218,7 +273,7 @@ function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
-// BUSCAR FOTO EN TODAS LAS CARPETAS
+// BUSCAR FOTO
 function buscarImagen(codigo) {
     return new Promise(resolve => {
         let i = 0;

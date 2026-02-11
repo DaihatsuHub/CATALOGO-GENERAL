@@ -1,11 +1,11 @@
 RUBRO;CODIGO;PRECIO;LINEA1;LINEA2;LINEA3;LINEA4
-Air-Fryer;D-AF6500-B;87900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
-Air-Fryer;D-AF6510-B;79900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
-Air-Fryer;D-AF6510-W;79900;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
-Aspiradoras;D-AS100;21900;Linea 1;Linea 2;Linea 3;Linea 4
-Aspiradoras;D-AS101;30900;Linea 1;Linea 2;Linea 3;Linea 4
-Aspiradoras;D-AS102;33900;Linea 1;Linea 2;Linea 3;Linea 4
-Aspiradoras;D-AS200;119900;Linea 1;Linea 2;Linea 3;Linea 4
+Air-Fryer;D-AF6500-B;87900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+Air-Fryer;D-AF6510-B;79900;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+Air-Fryer;D-AF6510-W;79900;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+Aspiradoras;D-AS100;21900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
+Aspiradoras;D-AS101;30900;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
+Aspiradoras;D-AS102;33900;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
+Aspiradoras;D-AS200;119900;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
 Aspiradoras;D-AS201;145900;Linea 1;Linea 2;Linea 3;Linea 4
 Aspiradoras;D-AS300;57900;Linea 1;Linea 2;Linea 3;Linea 4
 Aspiradoras;D-AS400;74900;Linea 1;Linea 2;Linea 3;Linea 4
@@ -56,7 +56,7 @@ Inversores;D-INV1000;59900;Linea 1;Linea 2;Linea 3;Linea 4
 Inversores;D-INV1500;74900;Linea 1;Linea 2;Linea 3;Linea 4
 Inversores;D-INV2000;96900;Linea 1;Linea 2;Linea 3;Linea 4
 Inversores;D-INV500;40900;Linea 1;Linea 2;Linea 3;Linea 4
-MÃ¡quina de Coser;D-MC12;63900;Linea 1;Linea 2;Linea 3;Linea 4
+Máquina de Coser;D-MC12;63900;Linea 1;Linea 2;Linea 3;Linea 4
 Microondas;D-MW1-20MB;145900;Linea 1;Linea 2;Linea 3;Linea 4
 Microondas;D-MW1-20MW;145900;Linea 1;Linea 2;Linea 3;Linea 4
 Microondas;D-MW2-20M;145900;Linea 1;Linea 2;Linea 3;Linea 4

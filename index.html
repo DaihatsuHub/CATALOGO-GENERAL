@@ -84,25 +84,33 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     overflow: hidden;
     transition: transform 0.2s;
+    position: relative;
 }
 
 .producto:hover {
     transform: translateY(-3px);
 }
 
-/* FOTO 50% MÁS GRANDE */
+/* FOTO CONTROLADA (NO INVADIR TEXTO) */
 .producto img {
     width: 100%;
-    height: 260px;
+    height: 160px;
     object-fit: contain;
-    transform: scale(1.5);
-    transform-origin: center;
-    filter: drop-shadow(0 10px 18px rgba(0,0,0,0.6));
-    transition: transform 0.2s;
+    transform: none;
+    display: block;
 }
 
-.producto img:hover {
-    transform: scale(1.6);
+/* LUPA */
+.lupa {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 /* BLOQUE INFO GRIS */
@@ -110,6 +118,7 @@ body {
     background: #e8e8e8;
     padding: 8px;
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.15);
+    text-align: center;
 }
 
 /* TEXTO */
@@ -129,17 +138,6 @@ body {
     font-weight: bold;
     color: darkred;
     margin-top: 4px;
-}
-
-/* BOTON */
-.btnVer {
-    margin-top: 6px;
-    padding: 6px 10px;
-    background: black;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 12px;
 }
 
 /* ===== MODAL ===== */
@@ -172,12 +170,10 @@ body {
 /* ===== MOBILE ===== */
 @media (max-width: 600px) {
 
-    /* Ocultar panel lateral */
     #rubros {
         display: none;
     }
 
-    /* Mostrar selector rubro */
     #selectorRubro {
         display: block;
     }
@@ -192,16 +188,13 @@ body {
         font-size: 15px;
     }
 
-    /* 2 productos por fila */
     .grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
 
-    /* Fotos grandes pero controladas */
     .producto img {
-        height: 180px;
-        transform: scale(1.5);
+        height: 110px;
     }
 
     .desc {
@@ -267,12 +260,13 @@ function buscarImagen(codigo) {
     });
 }
 
-/* LEER CSV */
+/* LEER CSV (FIX MOBILE + BOM) */
 fetch(CSV_FILE)
 .then(r => r.text())
 .then(text => {
-    let lines = text.trim().split("\n");
-    let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
+
+    let lines = text.split(/\r?\n/).filter(l=>l.trim()!="");
+    let headers = lines[0].replace("\ufeff","").split(";").map(h=>h.trim().toUpperCase());
 
     for (let i=1; i<lines.length; i++) {
         let cols = lines[i].split(";");
@@ -306,7 +300,7 @@ function crearSelectorRubros() {
     rubros.forEach(r => {
         let opt = document.createElement("option");
         opt.value = r;
-        opt.textContent = "Seleccionar rubro: " + r;
+        opt.textContent = r;   // SOLO NOMBRE RUBRO
         sel.appendChild(opt);
     });
     sel.onchange = () => mostrarRubro(sel.value);
@@ -323,7 +317,8 @@ async function mostrarRubro(r) {
         let d = document.createElement("div");
         d.className = "producto";
         d.innerHTML = `
-            <img src="${img}" onclick="verGrande('${img}')">
+            <img src="${img}">
+            <div class="lupa" onclick="verGrande('${img}')">🔍</div>
             <div class="info">
                 <h3>${p.CODIGO}</h3>
                 <div class="desc">
@@ -333,7 +328,6 @@ async function mostrarRubro(r) {
                     ${p.LINEA4||""}
                 </div>
                 <div class="precio">${formatPrecio(p.PRECIO)}</div>
-                <button class="btnVer" onclick="verGrande('${img}')">Ver grande</button>
             </div>
         `;
         cont.appendChild(d);
@@ -354,7 +348,8 @@ document.getElementById("buscador").addEventListener("input", e=>{
         let d = document.createElement("div");
         d.className = "producto";
         d.innerHTML = `
-            <img src="${img}" onclick="verGrande('${img}')">
+            <img src="${img}">
+            <div class="lupa" onclick="verGrande('${img}')">🔍</div>
             <div class="info">
                 <h3>${p.CODIGO}</h3>
                 <div class="desc">

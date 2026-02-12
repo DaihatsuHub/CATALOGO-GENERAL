@@ -3,174 +3,379 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catálogo</title>
+<title>CATÁLOGO GENERAL</title>
 
 <style>
-
-/* ====== GENERAL ====== */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
 }
 
-/* ====== RUBROS SCROLL ====== */
-.rubros-bar {
-  display: flex;
-  overflow-x: auto;
-  background: #222;
-  padding: 8px;
-  gap: 10px;
+/* ===== BANNER SUPERIOR ===== */
+#banner {
+    background: #3b3b3b;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo {
+    height: 50px;
+}
+
+#buscador {
+    width: 320px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* ===== RUBROS DESKTOP ===== */
+#rubros {
+    width: 220px;
+    height: calc(100vh - 70px);
+    background: #111;
+    color: white;
+    position: fixed;
+    top: 70px;
+    padding: 10px;
+    overflow-y: auto;
 }
 
 .rubro-btn {
-  background: #444;
-  color: white;
-  padding: 8px 14px;
-  border-radius: 20px;
-  white-space: nowrap;
-  border: none;
-  cursor: pointer;
+    width: 100%;
+    margin: 4px 0;
+    padding: 8px;
+    background: #222;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
 }
 
-/* ====== GRID PRODUCTOS ====== */
-.products-grid {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start; /* evita banda blanca */
-  padding: 10px;
-  gap: 10px;
+.rubro-btn:hover {
+    background: #555;
 }
 
-/* ====== CARD PRODUCTO ====== */
-.product-card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-  height: auto !important;
-  width: 24%; /* desktop 4 por fila */
+.rubro-btn.activo {
+    background: orange;
+    color: black;
+    font-weight: bold;
 }
 
-/* IMAGEN */
-.product-img {
-  width: 100%;
-  border-radius: 8px;
-  transition: transform 0.2s ease;
+/* ===== RUBROS MOBILE ===== */
+#rubrosMobile {
+    display: none;
+    background: #111;
+    padding: 6px;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
-.product-img:active {
-  transform: scale(1.4);
-  z-index: 10;
+#rubrosMobile button {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 6px 10px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
 }
 
-/* TEXTO */
-.product-code {
-  font-size: 12px;
-  font-weight: bold;
-  margin: 3px 0;
+#rubrosMobile button.activo {
+    background: orange;
+    color: black;
+    font-weight: bold;
 }
 
-.product-line {
-  font-size: 13px;
-  margin: 1px 0;
-  min-height: 1.1em; /* fuerza 4 líneas iguales */
+/* ===== CONTENIDO ===== */
+#contenido {
+    margin-left: 230px;
+    padding: 10px;
+    margin-top: 70px;
 }
 
-/* PRECIO ABAJO */
-.product-price {
-  margin-top: auto;
-  font-size: 16px;
-  font-weight: bold;
-  color: green;
-  padding-top: 6px;
+/* GRID 4 POR FILA */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
 }
 
-/* ====== CELULAR ====== */
+/* ===== TARJETA PRODUCTO ===== */
+.producto {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    min-height: 620px;
+    position: relative;
+}
+
+/* ETIQUETA NUEVO */
+.nuevo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: red;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+/* FOTO */
+.producto img {
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    background: white;
+}
+
+/* INFO GRIS */
+.info {
+    background: #e8e8e8;
+    padding: 10px;
+}
+
+/* TEXTO CENTRADO */
+.info h3,
+.desc,
+.precio {
+    text-align: center;
+}
+
+.desc {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    margin-top: 12px;
+}
+
+/* ===== MODAL FOTO ===== */
+#modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#modal img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#modal span {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* ===== MOBILE ===== */
 @media (max-width: 700px) {
-  .product-card {
-    width: 48%; /* 2 por fila */
-  }
-}
 
+    #logo {
+        height: 40px;
+    }
+
+    #buscador {
+        width: 180px;
+    }
+
+    #rubros {
+        display: none;
+    }
+
+    #rubrosMobile {
+        display: block;
+    }
+
+    #contenido {
+        margin-left: 0;
+        margin-top: 120px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .producto img {
+        height: 200px;
+    }
+
+    .producto {
+        min-height: 520px;
+    }
+}
 </style>
 </head>
 
 <body>
 
-<!-- RUBROS -->
-<div class="rubros-bar" id="rubrosBar"></div>
+<!-- BANNER -->
+<div id="banner">
+    <img id="logo" src="LOGO.jpg">
+    <input id="buscador" placeholder="Buscar código o descripción...">
+</div>
 
-<!-- PRODUCTOS -->
-<div class="products-grid" id="productos"></div>
+<!-- RUBROS MOBILE -->
+<div id="rubrosMobile"></div>
+
+<!-- RUBROS DESKTOP -->
+<div id="rubros"></div>
+
+<!-- CONTENIDO -->
+<div id="contenido">
+    <div id="productos" class="grid"></div>
+</div>
+
+<!-- MODAL -->
+<div id="modal">
+<span onclick="cerrarModal()">✖</span>
+<img id="modalImg">
+</div>
 
 <script>
+const CSV_FILE = "PRODUCTOS.csv";
 
-// ====== CARGAR CSV ======
-fetch("stock.csv")
+let productos = [];
+let rubros = new Set();
+
+/* FORMATO PRECIO */
+function formatPrecio(p) {
+    return "$ " + Number(p).toLocaleString("es-AR");
+}
+
+/* FOTO DESDE CSV */
+function buscarImagen(p) {
+    if (p.CARPETA && p.CARPETA !== "") {
+        return p.CARPETA + "/" + p.CODIGO + ".jpg";
+    }
+    return "noimg.jpg";
+}
+
+/* TARJETA */
+function cardHTML(p) {
+    let img = buscarImagen(p);
+    let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
+    return `
+    <div class="producto">
+        ${nuevo}
+        <img src="${img}" onclick="verGrande('${img}')">
+        <div class="info">
+            <h3>${p.CODIGO}</h3>
+            <div class="desc">
+                <b>${p.LINEA1||""}</b><br>
+                ${p.LINEA2||""}<br>
+                ${p.LINEA3||""}<br>
+                ${p.LINEA4||""}
+            </div>
+            <div class="precio">${formatPrecio(p.PRECIO)}</div>
+        </div>
+    </div>`;
+}
+
+/* LEER CSV */
+fetch(CSV_FILE)
 .then(r => r.text())
-.then(data => {
-  const rows = data.split("\n").slice(1);
-  const productos = [];
-  const rubros = new Set();
+.then(text => {
+    let lines = text.trim().split("\n");
+    let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
 
-  rows.forEach(r => {
-    const c = r.split(";");
-    if (c.length < 8) return;
+    for (let i=1; i<lines.length; i++) {
+        let cols = lines[i].split(";");
+        let obj = {};
+        headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
+        productos.push(obj);
+        rubros.add(obj.RUBRO);
+    }
 
-    productos.push({
-      codigo: c[0],
-      l1: c[1],
-      l2: c[2],
-      l3: c[3],
-      l4: c[4],
-      precio: c[5],
-      rubro: c[6],
-      carpeta: c[7]
-    });
+    productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
 
-    rubros.add(c[6]);
-  });
-
-  // RUBROS
-  const rubrosBar = document.getElementById("rubrosBar");
-  rubros.forEach(r => {
-    const b = document.createElement("button");
-    b.className = "rubro-btn";
-    b.innerText = r;
-    b.onclick = () => mostrar(r);
-    rubrosBar.appendChild(b);
-  });
-
-  // MOSTRAR PRODUCTOS
-  function mostrar(rubro) {
-    const cont = document.getElementById("productos");
-    cont.innerHTML = "";
-
-    productos.filter(p => p.rubro == rubro).forEach(p => {
-      const div = document.createElement("div");
-      div.className = "product-card";
-
-      div.innerHTML = `
-        <img class="product-img" src="imagenes/${p.carpeta}/${p.codigo}.jpg">
-        <div class="product-code">${p.codigo}</div>
-        <div class="product-line">${p.l1}</div>
-        <div class="product-line">${p.l2}</div>
-        <div class="product-line">${p.l3}</div>
-        <div class="product-line">${p.l4}</div>
-        <div class="product-price">$ ${p.precio}</div>
-      `;
-
-      cont.appendChild(div);
-    });
-  }
-
-  // mostrar primer rubro
-  mostrar([...rubros][0]);
+    crearRubros();
+    mostrarNovedades();
 });
 
+/* CREAR RUBROS PC + MOBILE */
+function crearRubros() {
+    let div = document.getElementById("rubros");
+    let mob = document.getElementById("rubrosMobile");
+
+    div.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+    mob.innerHTML = `<button class="activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+
+    rubros.forEach(r => {
+        div.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${r}')">${r}</button>`;
+        mob.innerHTML += `<button onclick="mostrarRubro('${r}')">${r}</button>`;
+    });
+}
+
+/* MOSTRAR RUBRO */
+function mostrarRubro(r) {
+    activarBoton(r);
+    let cont = document.getElementById("productos");
+    cont.innerHTML = productos.filter(p=>p.RUBRO==r).map(cardHTML).join("");
+}
+
+/* MOSTRAR NOVEDADES */
+function mostrarNovedades() {
+    activarBoton("NOVEDADES");
+    let cont = document.getElementById("productos");
+    cont.innerHTML = productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
+}
+
+/* ACTIVAR BOTON PC + MOBILE */
+function activarBoton(nombre) {
+    document.querySelectorAll(".rubro-btn, #rubrosMobile button").forEach(b=>{
+        b.classList.remove("activo");
+        if (b.textContent == nombre) b.classList.add("activo");
+    });
+}
+
+/* BUSCADOR GLOBAL */
+document.getElementById("buscador").addEventListener("input", e=>{
+    let t = e.target.value.toLowerCase();
+    let cont = document.getElementById("productos");
+    cont.innerHTML = productos.filter(p =>
+        Object.values(p).join(" ").toLowerCase().includes(t)
+    ).map(cardHTML).join("");
+});
+
+/* MODAL */
+function verGrande(src) {
+    document.getElementById("modalImg").src = src;
+    document.getElementById("modal").style.display = "flex";
+}
+
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
 </script>
 
 </body>

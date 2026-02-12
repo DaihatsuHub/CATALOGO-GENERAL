@@ -3,135 +3,203 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catálogo DAIHATSU</title>
+<title>CATÁLOGO GENERAL</title>
 
 <style>
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
 }
 
-/* HEADER */
-header {
-    background: #ff6a00;
+/* ===== BANNER SUPERIOR ===== */
+#banner {
+    background: #777; /* gris logo */
     padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-.header-box {
-    max-width: 1200px;
-    width: 100%;
     display: flex;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
-header img {
-    height: 60px;
-    object-fit: contain;
+
+#logo {
+    height: 50px;
 }
-header input {
-    flex: 1;
+
+#buscador {
+    width: 320px;
     padding: 10px;
-    border-radius: 6px;
-    border: none;
     font-size: 16px;
-}
-
-/* RUBROS */
-#rubros {
-    background: #fff;
-    padding: 10px;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-.rubro-btn {
-    padding: 8px 14px;
-    border: none;
-    background: #ddd;
     border-radius: 6px;
-    margin-right: 6px;
+    border: none;
+}
+
+/* ===== PANEL RUBROS ===== */
+#rubros {
+    width: 220px;
+    height: calc(100vh - 70px);
+    background: #111;
+    color: white;
+    position: fixed;
+    top: 70px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.rubro-btn {
+    width: 100%;
+    margin: 4px 0;
+    padding: 8px;
+    background: #222;
+    border: none;
+    color: white;
     cursor: pointer;
+    text-align: left;
+    font-size: 14px;
 }
+
+.rubro-btn:hover {
+    background: #555;
+}
+
 .rubro-btn.activo {
-    background: #ff6a00;
-    color: white;
-    font-weight: bold;
-}
-.rubro-btn:first-child {
-    background: #c00;
-    color: white;
+    background: orange;
+    color: black;
     font-weight: bold;
 }
 
-/* GRID */
+/* ===== CONTENIDO ===== */
+#contenido {
+    margin-left: 230px;
+    padding: 10px;
+    margin-top: 70px;
+}
+
+/* GRID 4 POR FILA */
 .grid {
-    padding: 12px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    gap: 14px;
 }
 
-/* PRODUCTO */
+/* ===== TARJETA PRODUCTO ===== */
 .producto {
     background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     overflow: hidden;
-    min-height: 480px;
+    min-height: 620px;
     position: relative;
 }
 
 /* ETIQUETA NUEVO */
 .nuevo {
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 10px;
+    left: 10px;
     background: red;
     color: white;
-    font-size: 12px;
     padding: 4px 8px;
-    border-radius: 4px;
+    font-size: 12px;
     font-weight: bold;
+    border-radius: 4px;
+    z-index: 2;
 }
 
-/* IMAGEN */
+/* FOTO */
 .producto img {
     width: 100%;
-    height: 260px;
+    height: 320px;
     object-fit: contain;
     background: white;
 }
 
-/* INFO */
+/* INFO GRIS */
 .info {
-    background: #eee;
-    padding: 8px;
-    text-align: center;
-}
-.codigo {
-    font-weight: bold;
-}
-.linea {
-    font-size: 14px;
-}
-.precio {
-    margin-top: 6px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #c00;
+    background: #e8e8e8;
+    padding: 10px;
 }
 
-/* MOBILE */
-@media (max-width: 600px) {
+/* TEXTO CENTRADO */
+.info h3,
+.desc,
+.precio {
+    text-align: center;
+}
+
+.desc {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    margin-top: 10px;
+}
+
+/* ===== MODAL FOTO ===== */
+#modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#modal img {
+    max-width: 95%;
+    max-height: 95%;
+}
+
+#modal span {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 700px) {
+
+    #logo {
+        height: 40px;
+    }
+
+    #buscador {
+        width: 180px;
+    }
+
+    #rubros {
+        display: none;
+    }
+
+    #contenido {
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .producto img {
-        height: 180px;
+        height: 200px;
     }
+
     .producto {
-        min-height: 380px;
+        min-height: 520px;
     }
 }
 </style>
@@ -139,128 +207,160 @@ header input {
 
 <body>
 
-<header>
-    <div class="header-box">
-        <img src="LOGO.jpg" alt="DAIHATSU">
-        <input type="text" id="buscador" placeholder="Buscar producto...">
-    </div>
-</header>
+<!-- BANNER -->
+<div id="banner">
+    <img id="logo" src="LOGO.jpg">
+    <input id="buscador" placeholder="Buscar código o descripción...">
+</div>
 
+<!-- RUBROS -->
 <div id="rubros"></div>
-<div id="productos" class="grid"></div>
+
+<!-- CONTENIDO -->
+<div id="contenido">
+    <div id="productos" class="grid"></div>
+</div>
+
+<!-- MODAL -->
+<div id="modal">
+<span onclick="cerrarModal()">✖</span>
+<img id="modalImg">
+</div>
 
 <script>
+const CSV_FILE = "PRODUCTOS.csv";
+const FOTO_FOLDERS = ["FOTO1","FOTO2","FOTO3","FOTO4","FOTO5","FOTO6"];
+
 let productos = [];
 let rubros = new Set();
 
-/* CARGAR CSV */
-fetch("PRODUCTOS.csv")
-.then(r => r.text())
-.then(data => {
-    let filas = data.split("\n");
-    let cab = filas[0].split(";");
-    
-    for (let i=1; i<filas.length; i++) {
-        let v = filas[i].split(";");
-        if (v.length < cab.length) continue;
-        let obj = {};
-        cab.forEach((c,j)=> obj[c.trim()] = v[j]?.trim());
-        productos.push(obj);
-    }
+/* FORMATO PRECIO */
+function formatPrecio(p) {
+    return "$ " + Number(p).toLocaleString("es-AR");
+}
 
-    // ordenar: novedades primero
-    productos.sort((a,b)=>{
-        if (a.NEW=="SI" && b.NEW!="SI") return -1;
-        if (a.NEW!="SI" && b.NEW=="SI") return 1;
-        return a.RUBRO.localeCompare(b.RUBRO);
-    });
-
-    rubros = new Set(productos.map(p => p.RUBRO));
-    crearRubros();
-    mostrarNovedades();
-});
-
-/* RUBROS */
-function crearRubros() {
-    let r = document.getElementById("rubros");
-    r.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
-    rubros.forEach(x=>{
-        r.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${x}')">${x}</button>`;
+/* BUSCAR FOTO */
+function buscarImagen(codigo) {
+    return new Promise(resolve => {
+        let i = 0;
+        function probar() {
+            if (i >= FOTO_FOLDERS.length) {
+                resolve("noimg.jpg");
+                return;
+            }
+            let url = FOTO_FOLDERS[i] + "/" + codigo + ".jpg";
+            let img = new Image();
+            img.onload = () => resolve(url);
+            img.onerror = () => { i++; probar(); };
+            img.src = url;
+        }
+        probar();
     });
 }
 
-/* BUSCAR IMAGEN */
-async function buscarImagen(cod) {
-    let exts = ["jpg","png","webp"];
-    for (let e of exts) {
-        let url = "imagenes/" + cod + "." + e;
-        let res = await fetch(url, {method:"HEAD"});
-        if (res.ok) return url;
-    }
-    return "imagenes/no.jpg";
-}
-
-/* CARD */
+/* TARJETA HTML */
 function cardHTML(p, img) {
+    let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
     return `
     <div class="producto">
-        ${p.NEW=="SI" ? '<div class="nuevo">NUEVO</div>' : ''}
-        <img src="${img}">
+        ${nuevo}
+        <img src="${img}" onclick="verGrande('${img}')">
         <div class="info">
-            <div class="codigo">${p.CODIGO}</div>
-            <div class="linea">${p.LINEA1 || ""}</div>
-            <div class="linea">${p.LINEA2 || ""}</div>
-            <div class="precio">$ ${p.PRECIO || ""}</div>
+            <h3>${p.CODIGO}</h3>
+            <div class="desc">
+                <b>${p.LINEA1||""}</b><br>
+                ${p.LINEA2||""}<br>
+                ${p.LINEA3||""}<br>
+                ${p.LINEA4||""}
+            </div>
+            <div class="precio">${formatPrecio(p.PRECIO)}</div>
         </div>
     </div>`;
 }
 
+/* LEER CSV */
+fetch(CSV_FILE)
+.then(r => r.text())
+.then(text => {
+    let lines = text.trim().split("\n");
+    let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
+
+    for (let i=1; i<lines.length; i++) {
+        let cols = lines[i].split(";");
+        let obj = {};
+        headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
+        productos.push(obj);
+        rubros.add(obj.RUBRO);
+    }
+
+    productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
+
+    crearRubros();
+    mostrarNovedades();
+});
+
+/* CREAR RUBROS */
+function crearRubros() {
+    let div = document.getElementById("rubros");
+    div.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+    rubros.forEach(r => {
+        div.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${r}')">${r}</button>`;
+    });
+}
+
 /* MOSTRAR RUBRO */
 async function mostrarRubro(r) {
-    document.querySelectorAll(".rubro-btn").forEach(b=>b.classList.remove("activo"));
-    [...document.querySelectorAll(".rubro-btn")].find(b=>b.innerText==r).classList.add("activo");
-
+    activarBoton(r);
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
-
-    for (let p of productos.filter(x=>x.RUBRO==r)) {
+    for (let p of productos.filter(p=>p.RUBRO==r)) {
         let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p,img);
+        cont.innerHTML += cardHTML(p, img);
     }
 }
 
-/* NOVEDADES */
+/* MOSTRAR NOVEDADES */
 async function mostrarNovedades() {
-    document.querySelectorAll(".rubro-btn").forEach(b=>b.classList.remove("activo"));
-    document.querySelector(".rubro-btn").classList.add("activo");
-
+    activarBoton("NOVEDADES");
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
-
-    for (let p of productos.filter(x=>x.NEW=="SI")) {
+    for (let p of productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI")) {
         let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p,img);
+        cont.innerHTML += cardHTML(p, img);
     }
+}
+
+/* ACTIVAR BOTON */
+function activarBoton(nombre) {
+    document.querySelectorAll(".rubro-btn").forEach(b=>{
+        b.classList.remove("activo");
+        if (b.textContent == nombre) b.classList.add("activo");
+    });
 }
 
 /* BUSCADOR AVANZADO */
 document.getElementById("buscador").addEventListener("input", e=>{
-    let t = e.target.value.toLowerCase().trim();
+    let t = e.target.value.toLowerCase();
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    if (t=="") { mostrarNovedades(); return; }
-
-    let palabras = t.split(/\s+/);
-
-    productos.filter(p=>{
-        let texto = Object.values(p).join(" ").toLowerCase();
-        return palabras.every(w => texto.includes(w));
+    productos.filter(p => {
+        return Object.values(p).join(" ").toLowerCase().includes(t);
     }).forEach(async p=>{
         let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p,img);
+        cont.innerHTML += cardHTML(p, img);
     });
 });
+
+/* MODAL */
+function verGrande(src) {
+    document.getElementById("modalImg").src = src;
+    document.getElementById("modal").style.display = "flex";
+}
+
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
 </script>
 
 </body>

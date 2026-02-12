@@ -1,11 +1,11 @@
-CODIGO;RUBRO;PRECIO;NEW;CARPETA;LINEA1;LINEA2;LINEA3;LINEA4
-D-AF6500-B;Air-Fryer;87900;SI;FOTOS1;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
-D-AF6510-B;Air-Fryer;79900;;FOTOS1;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
-D-AF6510-W;Air-Fryer;79900;;FOTOS1;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+ï»¿CODIGO;RUBRO;PRECIO;NEW;CARPETA;LINEA1;LINEA2;LINEA3;LINEA4
+D-AF6500-B;Air-Fryer;87900;SI;FOTOS1;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
+D-AF6510-B;Air-Fryer;79900;;FOTOS1;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
+D-AF6510-W;Air-Fryer;79900;;FOTOS1;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 WÂ ;Control de temperatura ajustable de 80 Â°C a 200 Â°C.;Peso: 5,05 kg.
 D-AS100;Aspiradoras;21900;;FOTOS1;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
-D-AS101;Aspiradoras;30900;;FOTOS1;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
-D-AS102;Aspiradoras;33900;SI;FOTOS1;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
-D-AS200;Aspiradoras;119900;;FOTOS1;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
+D-AS101;Aspiradoras;30900;;FOTOS1;Aspiradora de mano inalÃ¡mbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
+D-AS102;Aspiradoras;33900;SI;FOTOS1;Aspiradora de mano inalÃ¡mbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
+D-AS200;Aspiradoras;119900;;FOTOS1;Aspiradora inalÃ¡mbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
 D-AS201;Aspiradoras;145900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-AS300;Aspiradoras;57900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-AS400;Aspiradoras;74900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
@@ -56,7 +56,7 @@ D-INV1000;Inversores;59900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-INV1500;Inversores;74900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-INV2000;Inversores;96900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-INV500;Inversores;40900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
-D-MC12;Máquina de Coser;63900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-MC12;MÃ¡quina de Coser;63900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-MW1-20MB;Microondas;145900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-MW1-20MW;Microondas;145900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-MW2-20M;Microondas;145900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4

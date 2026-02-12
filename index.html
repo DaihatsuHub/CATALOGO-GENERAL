@@ -3,241 +3,135 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CATÁLOGO GENERAL</title>
+<title>Catálogo DAIHATSU</title>
 
 <style>
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background: #f0f0f0;
+    margin: 0;
+    background: #f2f2f2;
 }
 
-/* ===== TOP BAR ===== */
-.top-bar {
-    background: #2c2c2c;
-    padding: 8px 0;
+/* HEADER */
+header {
+    background: #ff6a00;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
-
-.top-bar-inner {
-    max-width: 1300px;
-    margin: auto;
+.header-box {
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 15px;
+    gap: 15px;
 }
-
-.logo {
-    height: 36px;
-    width: auto;
+header img {
+    height: 60px;
+    object-fit: contain;
 }
-
-/* BUSCADOR */
-.search-bar {
-    position: relative;
+header input {
     flex: 1;
-    max-width: 650px;
-}
-
-.search-bar input {
-    width: 100%;
-    padding: 10px 40px 10px 15px;
-    border-radius: 8px;
-    border: none;
-    background: #d9d9d9;
-    font-size: 14px;
-    outline: none;
-}
-
-.search-icon {
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 16px;
-    color: #333;
-}
-
-/* ===== PANEL RUBROS ===== */
-#rubros {
-    width: 220px;
-    height: 100vh;
-    background: #111;
-    color: white;
-    position: fixed;
     padding: 10px;
-    overflow-y: auto;
-}
-
-#rubros button {
-    width: 100%;
-    margin: 4px 0;
-    padding: 8px;
-    background: #222;
-    border: none;
-    color: white;
-    cursor: pointer;
-    text-align: left;
-    font-size: 14px;
-}
-
-#rubros button:hover {
-    background: #555;
-}
-
-/* ===== CONTENIDO ===== */
-#contenido {
-    margin-left: 230px;
-    padding: 10px;
-}
-
-/* SELECTOR MOBILE */
-#selectorRubro {
-    background: orange;
-    padding: 8px;
-    margin-bottom: 6px;
     border-radius: 6px;
-    display: none;
-}
-
-#rubroSelect {
-    width: 100%;
-    font-size: 16px;
-    padding: 8px;
     border: none;
-    border-radius: 4px;
+    font-size: 16px;
 }
 
-/* ===== GRID 4 COLUMNAS ===== */
+/* RUBROS */
+#rubros {
+    background: #fff;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.rubro-btn {
+    padding: 8px 14px;
+    border: none;
+    background: #ddd;
+    border-radius: 6px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.rubro-btn.activo {
+    background: #ff6a00;
+    color: white;
+    font-weight: bold;
+}
+.rubro-btn:first-child {
+    background: #c00;
+    color: white;
+    font-weight: bold;
+}
+
+/* GRID */
 .grid {
+    padding: 12px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 }
 
-/* ===== PRODUCTO CARD ===== */
+/* PRODUCTO */
 .producto {
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     overflow: hidden;
-    min-height: 420px;
-    transition: transform 0.2s;
+    min-height: 480px;
+    position: relative;
 }
 
-.producto:hover {
-    transform: translateY(-3px);
+/* ETIQUETA NUEVO */
+.nuevo {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
-/* FOTO */
+/* IMAGEN */
 .producto img {
     width: 100%;
-    height: 220px;
+    height: 260px;
     object-fit: contain;
     background: white;
 }
 
 /* INFO */
 .info {
-    background: #ededed;
-    padding: 10px;
-}
-
-/* TEXTO */
-.info h3 {
-    margin: 4px 0;
-    font-size: 14px;
+    background: #eee;
+    padding: 8px;
     text-align: center;
 }
-
-.desc {
-    font-size: 12px;
-    line-height: 1.2;
-    color: #333;
-    text-align: center;
-}
-
-.precio {
-    font-size: 18px;
+.codigo {
     font-weight: bold;
-    color: darkred;
-    margin-top: 8px;
-    text-align: center;
+}
+.linea {
+    font-size: 14px;
+}
+.precio {
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #c00;
 }
 
-/* ===== MODAL ===== */
-#modal {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.9);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-}
-
-#modal img {
-    max-width: 95%;
-    max-height: 95%;
-}
-
-#modal span {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-/* ===== MOBILE ===== */
+/* MOBILE */
 @media (max-width: 600px) {
-
-    .top-bar-inner {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo {
-        height: 32px;
-        width: auto;
-    }
-
-    #rubros {
-        display: none;
-    }
-
-    #selectorRubro {
-        display: block;
-    }
-
-    #contenido {
-        margin-left: 0;
-        padding: 6px;
-    }
-
     .grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
     }
-
-    .producto {
-        min-height: 360px;
-    }
-
     .producto img {
         height: 180px;
     }
-
-    .desc {
-        font-size: 11px;
-    }
-
-    .precio {
-        font-size: 15px;
+    .producto {
+        min-height: 380px;
     }
 }
 </style>
@@ -245,150 +139,117 @@ body {
 
 <body>
 
-<!-- TOP BAR -->
-<div class="top-bar">
-  <div class="top-bar-inner">
-    <img src="LOGO.jpg" class="logo">
-
-    <div class="search-bar">
-        <input id="buscador" placeholder="Buscar código, descripción, rubro...">
-        <span class="search-icon">🔍</span>
+<header>
+    <div class="header-box">
+        <img src="LOGO.jpg" alt="DAIHATSU">
+        <input type="text" id="buscador" placeholder="Buscar producto...">
     </div>
-  </div>
-</div>
+</header>
 
 <div id="rubros"></div>
-
-<div id="contenido">
-
-<div id="selectorRubro">
-    <select id="rubroSelect"></select>
-</div>
-
 <div id="productos" class="grid"></div>
 
-</div>
-
-<!-- MODAL -->
-<div id="modal">
-<span onclick="cerrarModal()">✖</span>
-<img id="modalImg">
-</div>
-
 <script>
-const CSV_FILE = "PRODUCTOS.csv";
-const FOTO_FOLDERS = ["FOTOS1","FOTOS2","FOTOS3","FOTOS4","FOTOS5","FOTOS6"];
-
 let productos = [];
 let rubros = new Set();
 
-/* PRECIO */
-function formatPrecio(p) {
-    return "$ " + Number(p).toLocaleString("es-AR");
-}
-
-/* BUSCAR FOTO */
-function buscarImagen(codigo) {
-    return new Promise(resolve => {
-        let i = 0;
-        function probar() {
-            if (i >= FOTO_FOLDERS.length) {
-                resolve("noimg.jpg");
-                return;
-            }
-            let url = FOTO_FOLDERS[i] + "/" + codigo + ".jpg";
-            let img = new Image();
-            img.onload = () => resolve(url);
-            img.onerror = () => { i++; probar(); };
-            img.src = url;
-        }
-        probar();
-    });
-}
-
-/* LEER CSV */
-fetch(CSV_FILE)
+/* CARGAR CSV */
+fetch("PRODUCTOS.csv")
 .then(r => r.text())
-.then(text => {
-    let lines = text.trim().split("\n");
-    let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
-
-    for (let i=1; i<lines.length; i++) {
-        let cols = lines[i].split(";");
-        if (cols.length < 3) continue;
+.then(data => {
+    let filas = data.split("\n");
+    let cab = filas[0].split(";");
+    
+    for (let i=1; i<filas.length; i++) {
+        let v = filas[i].split(";");
+        if (v.length < cab.length) continue;
         let obj = {};
-        headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
+        cab.forEach((c,j)=> obj[c.trim()] = v[j]?.trim());
         productos.push(obj);
-        rubros.add(obj.RUBRO);
     }
 
-    productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
+    // ordenar: novedades primero
+    productos.sort((a,b)=>{
+        if (a.NEW=="SI" && b.NEW!="SI") return -1;
+        if (a.NEW!="SI" && b.NEW=="SI") return 1;
+        return a.RUBRO.localeCompare(b.RUBRO);
+    });
+
+    rubros = new Set(productos.map(p => p.RUBRO));
     crearRubros();
-    crearSelectorRubros();
-    mostrarRubro([...rubros][0]);
+    mostrarNovedades();
 });
 
-/* RUBROS PANEL */
+/* RUBROS */
 function crearRubros() {
-    let div = document.getElementById("rubros");
-    rubros.forEach(r => {
-        let b = document.createElement("button");
-        b.textContent = r;
-        b.onclick = () => mostrarRubro(r);
-        div.appendChild(b);
+    let r = document.getElementById("rubros");
+    r.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+    rubros.forEach(x=>{
+        r.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${x}')">${x}</button>`;
     });
 }
 
-/* SELECTOR MOBILE */
-function crearSelectorRubros() {
-    let sel = document.getElementById("rubroSelect");
-    rubros.forEach(r => {
-        let opt = document.createElement("option");
-        opt.value = r;
-        opt.textContent = r;
-        sel.appendChild(opt);
-    });
-    sel.onchange = () => mostrarRubro(sel.value);
+/* BUSCAR IMAGEN */
+async function buscarImagen(cod) {
+    let exts = ["jpg","png","webp"];
+    for (let e of exts) {
+        let url = "imagenes/" + cod + "." + e;
+        let res = await fetch(url, {method:"HEAD"});
+        if (res.ok) return url;
+    }
+    return "imagenes/no.jpg";
 }
 
-/* TEMPLATE CARD */
-function cardHTML(p, img){
+/* CARD */
+function cardHTML(p, img) {
     return `
     <div class="producto">
-        <img src="${img}" onclick="verGrande('${img}')">
+        ${p.NEW=="SI" ? '<div class="nuevo">NUEVO</div>' : ''}
+        <img src="${img}">
         <div class="info">
-            <h3>${p.CODIGO}</h3>
-            <div class="desc">
-                <b>${p.LINEA1||""}</b><br>
-                ${p.LINEA2||""}<br>
-                ${p.LINEA3||""}<br>
-                ${p.LINEA4||""}
-            </div>
-            <div class="precio">${formatPrecio(p.PRECIO)}</div>
+            <div class="codigo">${p.CODIGO}</div>
+            <div class="linea">${p.LINEA1 || ""}</div>
+            <div class="linea">${p.LINEA2 || ""}</div>
+            <div class="precio">$ ${p.PRECIO || ""}</div>
         </div>
     </div>`;
 }
 
 /* MOSTRAR RUBRO */
 async function mostrarRubro(r) {
+    document.querySelectorAll(".rubro-btn").forEach(b=>b.classList.remove("activo"));
+    [...document.querySelectorAll(".rubro-btn")].find(b=>b.innerText==r).classList.add("activo");
+
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
-    for (let p of productos.filter(p=>p.RUBRO==r)) {
+
+    for (let p of productos.filter(x=>x.RUBRO==r)) {
         let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p, img);
+        cont.innerHTML += cardHTML(p,img);
     }
 }
 
-/* BUSCADOR MULTICAMPO REAL */
+/* NOVEDADES */
+async function mostrarNovedades() {
+    document.querySelectorAll(".rubro-btn").forEach(b=>b.classList.remove("activo"));
+    document.querySelector(".rubro-btn").classList.add("activo");
+
+    let cont = document.getElementById("productos");
+    cont.innerHTML = "";
+
+    for (let p of productos.filter(x=>x.NEW=="SI")) {
+        let img = await buscarImagen(p.CODIGO);
+        cont.innerHTML += cardHTML(p,img);
+    }
+}
+
+/* BUSCADOR AVANZADO */
 document.getElementById("buscador").addEventListener("input", e=>{
     let t = e.target.value.toLowerCase().trim();
     let cont = document.getElementById("productos");
     cont.innerHTML = "";
 
-    if (t === "") {
-        mostrarRubro([...rubros][0]);
-        return;
-    }
+    if (t=="") { mostrarNovedades(); return; }
 
     let palabras = t.split(/\s+/);
 
@@ -397,18 +258,9 @@ document.getElementById("buscador").addEventListener("input", e=>{
         return palabras.every(w => texto.includes(w));
     }).forEach(async p=>{
         let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p, img);
+        cont.innerHTML += cardHTML(p,img);
     });
 });
-
-/* MODAL */
-function verGrande(src) {
-    document.getElementById("modalImg").src = src;
-    document.getElementById("modal").style.display = "flex";
-}
-function cerrarModal() {
-    document.getElementById("modal").style.display = "none";
-}
 </script>
 
 </body>

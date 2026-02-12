@@ -14,7 +14,7 @@ body {
 
 /* ===== BANNER SUPERIOR ===== */
 #banner {
-    background: #3b3b3b; /* gris oscuro industrial */
+    background: #3b3b3b;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ body {
     border: none;
 }
 
-/* ===== PANEL RUBROS ===== */
+/* ===== RUBROS DESKTOP ===== */
 #rubros {
     width: 220px;
     height: calc(100vh - 70px);
@@ -66,6 +66,33 @@ body {
 }
 
 .rubro-btn.activo {
+    background: orange;
+    color: black;
+    font-weight: bold;
+}
+
+/* ===== RUBROS MOBILE ===== */
+#rubrosMobile {
+    display: none;
+    background: #111;
+    padding: 6px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#rubrosMobile button {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 6px 10px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#rubrosMobile button.activo {
     background: orange;
     color: black;
     font-weight: bold;
@@ -185,9 +212,13 @@ body {
         display: none;
     }
 
+    #rubrosMobile {
+        display: block;
+    }
+
     #contenido {
         margin-left: 0;
-        margin-top: 80px;
+        margin-top: 120px;
     }
 
     .grid {
@@ -213,7 +244,10 @@ body {
     <input id="buscador" placeholder="Buscar código o descripción...">
 </div>
 
-<!-- RUBROS -->
+<!-- RUBROS MOBILE -->
+<div id="rubrosMobile"></div>
+
+<!-- RUBROS DESKTOP -->
 <div id="rubros"></div>
 
 <!-- CONTENIDO -->
@@ -238,7 +272,7 @@ function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
-/* BUSCAR FOTO POR CARPETA CSV */
+/* FOTO DESDE CSV */
 function buscarImagen(p) {
     if (p.CARPETA && p.CARPETA !== "") {
         return p.CARPETA + "/" + p.CODIGO + ".jpg";
@@ -246,7 +280,7 @@ function buscarImagen(p) {
     return "noimg.jpg";
 }
 
-/* TARJETA HTML */
+/* TARJETA */
 function cardHTML(p) {
     let img = buscarImagen(p);
     let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
@@ -288,12 +322,17 @@ fetch(CSV_FILE)
     mostrarNovedades();
 });
 
-/* CREAR RUBROS */
+/* CREAR RUBROS PC + MOBILE */
 function crearRubros() {
     let div = document.getElementById("rubros");
+    let mob = document.getElementById("rubrosMobile");
+
     div.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+    mob.innerHTML = `<button class="activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+
     rubros.forEach(r => {
         div.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${r}')">${r}</button>`;
+        mob.innerHTML += `<button onclick="mostrarRubro('${r}')">${r}</button>`;
     });
 }
 
@@ -311,9 +350,9 @@ function mostrarNovedades() {
     cont.innerHTML = productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
 }
 
-/* ACTIVAR BOTON */
+/* ACTIVAR BOTON PC + MOBILE */
 function activarBoton(nombre) {
-    document.querySelectorAll(".rubro-btn").forEach(b=>{
+    document.querySelectorAll(".rubro-btn, #rubrosMobile button").forEach(b=>{
         b.classList.remove("activo");
         if (b.textContent == nombre) b.classList.add("activo");
     });

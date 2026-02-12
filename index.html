@@ -14,7 +14,7 @@ body {
 
 /* ===== BANNER SUPERIOR ===== */
 #banner {
-    background: #777; /* gris logo */
+    background: #3b3b3b; /* gris oscuro industrial */
     padding: 10px;
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: darkred;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 /* ===== MODAL FOTO ===== */
@@ -229,7 +229,6 @@ body {
 
 <script>
 const CSV_FILE = "PRODUCTOS.csv";
-const FOTO_FOLDERS = ["FOTO1","FOTO2","FOTO3","FOTO4","FOTO5","FOTO6"];
 
 let productos = [];
 let rubros = new Set();
@@ -239,27 +238,17 @@ function formatPrecio(p) {
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
-/* BUSCAR FOTO */
-function buscarImagen(codigo) {
-    return new Promise(resolve => {
-        let i = 0;
-        function probar() {
-            if (i >= FOTO_FOLDERS.length) {
-                resolve("noimg.jpg");
-                return;
-            }
-            let url = FOTO_FOLDERS[i] + "/" + codigo + ".jpg";
-            let img = new Image();
-            img.onload = () => resolve(url);
-            img.onerror = () => { i++; probar(); };
-            img.src = url;
-        }
-        probar();
-    });
+/* BUSCAR FOTO POR CARPETA CSV */
+function buscarImagen(p) {
+    if (p.CARPETA && p.CARPETA !== "") {
+        return p.CARPETA + "/" + p.CODIGO + ".jpg";
+    }
+    return "noimg.jpg";
 }
 
 /* TARJETA HTML */
-function cardHTML(p, img) {
+function cardHTML(p) {
+    let img = buscarImagen(p);
     let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
     return `
     <div class="producto">
@@ -309,25 +298,17 @@ function crearRubros() {
 }
 
 /* MOSTRAR RUBRO */
-async function mostrarRubro(r) {
+function mostrarRubro(r) {
     activarBoton(r);
     let cont = document.getElementById("productos");
-    cont.innerHTML = "";
-    for (let p of productos.filter(p=>p.RUBRO==r)) {
-        let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p, img);
-    }
+    cont.innerHTML = productos.filter(p=>p.RUBRO==r).map(cardHTML).join("");
 }
 
 /* MOSTRAR NOVEDADES */
-async function mostrarNovedades() {
+function mostrarNovedades() {
     activarBoton("NOVEDADES");
     let cont = document.getElementById("productos");
-    cont.innerHTML = "";
-    for (let p of productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI")) {
-        let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p, img);
-    }
+    cont.innerHTML = productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
 }
 
 /* ACTIVAR BOTON */
@@ -338,18 +319,13 @@ function activarBoton(nombre) {
     });
 }
 
-/* BUSCADOR AVANZADO */
+/* BUSCADOR GLOBAL */
 document.getElementById("buscador").addEventListener("input", e=>{
     let t = e.target.value.toLowerCase();
     let cont = document.getElementById("productos");
-    cont.innerHTML = "";
-
-    productos.filter(p => {
-        return Object.values(p).join(" ").toLowerCase().includes(t);
-    }).forEach(async p=>{
-        let img = await buscarImagen(p.CODIGO);
-        cont.innerHTML += cardHTML(p, img);
-    });
+    cont.innerHTML = productos.filter(p =>
+        Object.values(p).join(" ").toLowerCase().includes(t)
+    ).map(cardHTML).join("");
 });
 
 /* MODAL */

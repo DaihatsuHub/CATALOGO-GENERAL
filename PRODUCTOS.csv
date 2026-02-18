@@ -40,7 +40,9 @@ D-CE18-BU;Camas Elasticas;199900;;FOTOS2;Cama Elástica Saltarina Reforzada 1,80
 D-CE24-BU;Camas Elasticas;245900;;FOTOS2;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
 D-CF1000;Cafeteras;29900;;FOTOS1;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
 D-CF2000;Cafeteras;159900;;FOTOS1;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
-D-CF3000;Cafeteras;299900;;FOTOS1;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
+D-CF3000;Cafeteras;299900;;FOTOS1;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-B;Seguridad;0;;FOTOS1;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-W;Seguridad;0;;FOTOS1;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
 D-COR150-B;Procesadoras Alimentos;94900;;FOTOS1;Cortadora de Alimentos | Negro;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-COR150-S;Procesadoras Alimentos;94900;;FOTOS1;Cortadora de Alimentos | Plateado;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-CS01;Seguridad;38900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
@@ -67,14 +69,24 @@ D-PI1200-W;Procesadoras Alimentos;84900;;FOTOS1;Picadora de Carne 1200 W | Blanc
 D-PR500-BK;Procesadoras Alimentos;33900;;FOTOS1;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-PR500-BU;Procesadoras Alimentos;33900;;FOTOS1;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-RK1;Radios;19900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RK2;Radios;19900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RK3;Radios;13900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-RK7;Radios;19900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RK9;Radios;19900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-RP38-BK;Radios;39900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-RP38-RD;Radios;39900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RP38-WE;Radios;39900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RP400-BK;Radios;39900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RP400-RD;Radios;39900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RP400-WE;Radios;39900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-RP50USB;Radios;26900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-RP60PROB;Radios;35900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-RP60PROS;Radios;35900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-RP61USB;Radios;28500;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-S8000BT;Parlantes;42900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-S8010BT;Parlantes;99900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-S8020BT;Parlantes;169900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-S8030BT;Parlantes;169900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-S8040BT;Parlantes;159900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-SAR1500;Sarten Electrica;54900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-SOP3275;Soportes TV;50900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4

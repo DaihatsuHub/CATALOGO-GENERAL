@@ -161,7 +161,7 @@ body {
     font-size: 13px;
     color: #333;
     line-height: 1.3;
-    min-height: 90px; /* ALINEA VISUALMENTE SIN BANDA BLANCA */
+    min-height: 90px; /* alinea precios visualmente sin banda blanca */
 }
 
 .precio {
@@ -266,6 +266,7 @@ let rubros = new Set();
 
 /* FORMATO PRECIO */
 function formatPrecio(p) {
+    if (!p || p=="") return "";
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
@@ -277,7 +278,7 @@ function buscarImagen(p) {
     return "noimg.jpg";
 }
 
-/* TARJETA */
+/* TARJETA PRODUCTO */
 function cardHTML(p) {
     let img = buscarImagen(p);
     let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
@@ -310,7 +311,7 @@ fetch(CSV_FILE)
         let obj = {};
         headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
         productos.push(obj);
-        rubros.add(obj.RUBRO);
+        if (obj.RUBRO) rubros.add(obj.RUBRO);
     }
 
     productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
@@ -319,7 +320,7 @@ fetch(CSV_FILE)
     mostrarNovedades();
 });
 
-/* CREAR RUBROS */
+/* CREAR RUBROS ORDENADOS */
 function crearRubros() {
     let div = document.getElementById("rubros");
     let mob = document.getElementById("rubrosMobile");
@@ -327,7 +328,10 @@ function crearRubros() {
     div.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
     mob.innerHTML = `<button class="activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
 
-    rubros.forEach(r => {
+    // ordenar rubros A-Z
+    let rubrosOrdenados = [...rubros].sort((a,b)=>a.localeCompare(b,"es"));
+
+    rubrosOrdenados.forEach(r => {
         div.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${r}')">${r}</button>`;
         mob.innerHTML += `<button onclick="mostrarRubro('${r}')">${r}</button>`;
     });
@@ -340,7 +344,7 @@ function mostrarRubro(r) {
         productos.filter(p=>p.RUBRO==r).map(cardHTML).join("");
 }
 
-/* NOVEDADES */
+/* MOSTRAR NOVEDADES */
 function mostrarNovedades() {
     activarBoton("NOVEDADES");
     document.getElementById("productos").innerHTML =
@@ -364,7 +368,7 @@ document.getElementById("buscador").addEventListener("input", e=>{
         ).map(cardHTML).join("");
 });
 
-/* MODAL */
+/* MODAL FOTO */
 function verGrande(src) {
     document.getElementById("modalImg").src = src;
     document.getElementById("modal").style.display = "flex";

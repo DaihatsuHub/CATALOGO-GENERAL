@@ -54,10 +54,10 @@ D-GA5-GN;Sillon Gamer;149900;;FOTOS1;Silla Gamer D-GA5 | Verde;Material: Cuero/P
 D-GA5-GY;Sillon Gamer;149900;;FOTOS1;Silla Gamer D-GA5 | Gris;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
 D-GA5-RD;Sillon Gamer;149900;;FOTOS1;Silla Gamer D-GA5 | Rojo;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
 D-GA5-WE;Sillon Gamer;149900;;FOTOS1;Silla Gamer D-GA5 | Blanco;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-INV1000;Inversores;59900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
-D-INV1500;Inversores;74900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
-D-INV2000;Inversores;96900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
-D-INV500;Inversores;40900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
+D-INV1000;Inversores;59900;;FOTOS1;Inversor Conversor De Corriente 1000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV1500;Inversores;74900;;FOTOS1;Inversor Conversor De Corriente 1500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV2000;Inversores;96900;;FOTOS1;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV500;Inversores;40900;;FOTOS1;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
 D-MC12;Máquina de Coser;63900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-MW1-20MB;Microondas;145900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-MW1-20MW;Microondas;145900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
@@ -68,21 +68,21 @@ D-PI1200-B;Procesadoras Alimentos;84900;;FOTOS1;Picadora de Carne 1200 W | Negro
 D-PI1200-W;Procesadoras Alimentos;84900;;FOTOS1;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
 D-PR500-BK;Procesadoras Alimentos;33900;;FOTOS1;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-PR500-BU;Procesadoras Alimentos;33900;;FOTOS1;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-RK1;Radios;19900;;FOTOS1;Radio Portàtil Anàloga AM/FM;Dimensiones: 6x10x2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
-D-RK2;Radios;19900;;FOTOS1;Radio Portàtil Anàloga AM/FM;Dimensiones:13x8x3cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
-D-RK3;Radios;13900;;FOTOS1;Radio Portàtil Anàloga AM/FM;Dimensiones: 12x7x4cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
-D-RK7;Radios;19900;;FOTOS1;Radio Portàtil Anàloga AM/FM;Dimensiones: 7x12x3cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
-D-RK9;Radios;19900;;FOTOS1;Radio Portàtil Anàloga AM/FM;Dimensiones: 7x12x3cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
-D-RP38-BK;Radios;39900;;FOTOS1;Radio Dual Anàloga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
-D-RP38-RD;Radios;39900;;FOTOS1;Radio Dual Anàloga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
-D-RP38-WE;Radios;39900;;FOTOS1;Radio Dual Anàloga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
-D-RP400-BK;Radios;39900;;FOTOS1;Radio Dual Anàloga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
-D-RP400-RD;Radios;39900;;FOTOS1;Radio Dual Anàloga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
-D-RP400-WE;Radios;39900;;FOTOS1;Radio Dual Anàloga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
-D-RP50USB;Radios;26900;;FOTOS1;Radio Dual Anàloga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
-D-RP60PROB;Radios;35900;;FOTOS1;Radio Dual Anàloga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP60PROS;Radios;35900;;FOTOS1;Radio Dual Anàloga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP61USB;Radios;28500;;FOTOS1;Radio Dual Anàloga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
+D-RK1;Radios;19900;;FOTOS1;Radio Portátil Anàloga AM/FM;Dimensiones: 6x10x2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
+D-RK2;Radios;19900;;FOTOS1;Radio Portátil Anàloga AM/FM;Dimensiones:13x8x3cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
+D-RK3;Radios;13900;;FOTOS1;Radio Portátil Anàloga AM/FM;Dimensiones: 12x7x4cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
+D-RK7;Radios;19900;;FOTOS1;Radio Portátil Anàloga AM/FM;Dimensiones: 7x12x3cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
+D-RK9;Radios;19900;;FOTOS1;Radio Portátil Anàloga AM/FM;Dimensiones: 7x12x3cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  2 pilas ""AA"""
+D-RP38-BK;Radios;39900;;FOTOS1;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
+D-RP38-RD;Radios;39900;;FOTOS1;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
+D-RP38-WE;Radios;39900;;FOTOS1;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
+D-RP400-BK;Radios;39900;;FOTOS1;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
+D-RP400-RD;Radios;39900;;FOTOS1;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
+D-RP400-WE;Radios;39900;;FOTOS1;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;FM 88-108 MHz AM 520-1710 KHz;"Alimentación:  4 pilas ""C"" o 220V"
+D-RP50USB;Radios;26900;;FOTOS1;Radio Dual Análoga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
+D-RP60PROB;Radios;35900;;FOTOS1;Radio Dual Análoga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
+D-RP60PROS;Radios;35900;;FOTOS1;Radio Dual Análoga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
+D-RP61USB;Radios;28500;;FOTOS1;Radio Dual Análoga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
 D-S8000BT;Parlantes;42900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-S8010BT;Parlantes;99900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4
 D-S8020BT;Parlantes;169900;;FOTOS1;Linea 1;Linea 2;Linea 3;Linea 4

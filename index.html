@@ -161,7 +161,12 @@ body {
     font-size: 13px;
     color: #333;
     line-height: 1.3;
-    min-height: 90px; /* alinea precios visualmente sin banda blanca */
+    min-height: 105px; /* ajustado para 4 líneas + EAN */
+}
+
+.ean {
+    font-size: 12px;
+    color: #666;
 }
 
 .precio {
@@ -282,6 +287,13 @@ function buscarImagen(p) {
 function cardHTML(p) {
     let img = buscarImagen(p);
     let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
+
+    // EAN condicional
+    let eanHTML = "";
+    if (p.EAN && p.EAN.trim() !== "") {
+        eanHTML = `<br><span class="ean">EAN: ${p.EAN}</span>`;
+    }
+
     return `
     <div class="producto">
         ${nuevo}
@@ -293,6 +305,7 @@ function cardHTML(p) {
                 ${p.LINEA2||""}<br>
                 ${p.LINEA3||""}<br>
                 ${p.LINEA4||""}
+                ${eanHTML}
             </div>
             <div class="precio">${formatPrecio(p.PRECIO)}</div>
         </div>
@@ -328,7 +341,6 @@ function crearRubros() {
     div.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
     mob.innerHTML = `<button class="activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
 
-    // ordenar rubros A-Z
     let rubrosOrdenados = [...rubros].sort((a,b)=>a.localeCompare(b,"es"));
 
     rubrosOrdenados.forEach(r => {

@@ -58,12 +58,12 @@ D-INV1000;Inversores;59900;;FOTOS1;;Inversor Conversor De Corriente 1000w Para A
 D-INV1500;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
 D-INV2000;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
 D-INV500;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
-D-MC12;Máquina de Coser;63900;;FOTOS1;'7799199016062;Linea 1;Linea 2;Linea 3;Linea 4
-D-MW1-20MB;Microondas;145900;;FOTOS1;;Linea 1;Linea 2;Linea 3;Linea 4
-D-MW1-20MW;Microondas;145900;;FOTOS1;;Linea 1;Linea 2;Linea 3;Linea 4
-D-MW2-20M;Microondas;145900;;FOTOS1;;Linea 1;Linea 2;Linea 3;Linea 4
-D-MW3-20D;Microondas;165900;;FOTOS1;;Linea 1;Linea 2;Linea 3;Linea 4
-D-MW4-25D;Microondas;225900;;FOTOS1;;Linea 1;Linea 2;Linea 3;Linea 4
+D-MC12;Máquina de Coser;63900;;FOTOS1;'7799199016062;Máquina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atrás; Enhebrado automático
+D-MW1-20MB;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW1-20MW;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW2-20M;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW3-20D;Microondas;165900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
+D-MW4-25D;Microondas;225900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
 D-PI1200-B;Procesadoras Alimentos;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
 D-PI1200-W;Procesadoras Alimentos;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
 D-PR500-BK;Procesadoras Alimentos;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable

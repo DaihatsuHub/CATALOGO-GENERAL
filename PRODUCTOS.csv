@@ -1,112 +1,108 @@
-﻿ART_COD;ART_PRE;ART_STK;ART_STKT;PRODUCTOS;;;NO VENDER
-D-AF6500-B;87900;886;;D-AF6500-B;;;D-AU303-GD
-D-AF6510-B;79900;917;;D-AF6510-B;;;D-AU303-RG
-D-AF6510-W;79900;917;;D-AF6510-W;;;D-AU307-BK
-D-AS100;21900;828;0;D-AS100;;;D-AU307-GN
-D-AS101;30900;859;;D-AS101;;;D-AU307-PK
-D-AS102;33900;670;;D-AS102;;;D-AU307-PU
-D-AS200;119900;927;;D-AS200;;;D-AU308-GN
-D-AS201;145900;966;;D-AS201;;;D-AU308-PK
-D-AS300;57900;957;;D-AS300;;;
-D-AS400;74900;840;;D-AS400;;;
-D-AS500;89900;845;;D-AS500;;"REEMPLAZAR TODOS LOS ""/"" POR ""-"" EN ART_COD";
-D-AU100-BK;3700;1641;;D-AU100-BK;;;
-D-AU100-WE;3700;668;;D-AU100-WE;;;
-D-AU102-WE;9900;713;;D-AU102-WE;;;
-D-AU103-BR;3700;232;;D-AU103-BR;;;
-D-AU104-BK;3700;530;;D-AU104-BK;;;
-D-AU106-BR;3700;681;;D-AU106-BR;;;
-D-AU107-BK;3700;1302;;D-AU107-BK;;;
-D-AU310-BK;21900;827;;D-AU310-BK;;;
-D-AU315-BK;25500;838;;D-AU315-BK;;;
-D-AU401;22900;56;;D-AU401;;;
-D-AU402;15900;301;;D-AU402;;;
-D-AU512-BK;14900;786;;D-AU512-BK;;;
-D-AU513-BK;15900;711;;D-AU513-BK;;;
-D-AU515-BK;19900;284;;D-AU515-BK;;;
-D-AU516-BK;16900;334;;D-AU516-BK;;;
-D-AU517-BK;19900;18;;D-AU517-BK;;;
-D-AU518-BK;19900;239;;D-AU518-BK;;;
-D-AU519-WE;17900;690;0;D-AU519-WE;;;
-D-CE18-BU;199900;153;;D-CE18-BU;;;
-D-CE24-BU;245900;15;;D-CE24-BU;;;
-D-CF1000;29900;906;;D-CF1000;;;
-D-CF2000;159900;751;;D-CF2000;;;
-D-CF3000;299900;161;;D-CF3000;;;
-D-CF4000-B;129900;1094;;D-CF4000-B;;;
-D-CF4000-W;129900;1096;;D-CF4000-W;;;
-D-COR150-B;94900;254;;D-COR150-B;;;
-D-COR150-S;94900;276;;D-COR150-S;;;
-D-CS01;38900;447;;D-CS01;;;
-D-CS02;27900;478;;D-CS02;;;
-D-CS03;59900;454;;D-CS03;;;
-D-ES300-B;49900;930;;D-ES300-B;;;
-D-GA5-BU;149900;117;;D-GA5-BU;;;
-D-GA5-GN;149900;120;;D-GA5-GN;;;
-D-GA5-GY;149900;104;;D-GA5-GY;;;
-D-GA5-RD;149900;120;0;D-GA5-RD;;;
-D-GA5-WE;149900;123;;D-GA5-WE;;;
-D-INV1000;59900;;467;D-INV1000;;;
-D-INV1500;74900;;137;D-INV1500;;;
-D-INV2000;96900;;474;D-INV2000;;;
-D-INV500;40900;;939;D-INV500;;;
-D-MC12;63900;319;;D-MC12;;;
-D-MW1-20MB;145900;342;0;D-MW1-20MB;;;
-D-MW1-20MW;145900;234;0;D-MW1-20MW;;;
-D-MW2-20M;145900;611;0;D-MW2-20M;;;
-D-MW3-20D;165900;517;;D-MW3-20D;;;
-D-MW4-25D;225900;74;;D-MW4-25D;;;
-D-PI1200-B;84900;278;;D-PI1200-B;;;
-D-PI1200-W;84900;404;;D-PI1200-W;;;
-D-PR500-BK;33900;1181;;D-PR500-BK;;;
-D-PR500-BU;33900;1187;;D-PR500-BU;;;
-D-RK1;19900;1632;0;D-RK1;;;
-D-RK2;19900;1500;;D-RK2;;;
-D-RK3;19900;1501;0;D-RK3;;;
-D-RK7;19900;215;0;D-RK7;;;
-D-RK9;19900;1485;0;D-RK9;;;
-D-RP38-BK;39900;2279;;D-RP38-BK;;;
-D-RP38-RD;39900;812;;D-RP38-RD;;;
-D-RP38-WE;39900;1485;;D-RP38-WE;;;
-D-RP400-BK;39900;1570;;D-RP400-BK;;;
-D-RP400-RD;39900;692;;D-RP400-RD;;;
-D-RP400-WE;39900;1470;0;D-RP400-WE;;;
-D-RP50USB;27900;1509;;D-RP50USB;;;
-D-RP60PROB;35900;154;;D-RP60PROB;;;
-D-RP60PROS;35900;201;;D-RP60PROS;;;
-D-RP61USB;30900;1502;0;D-RP61USB;;;
-D-S8000BT;42900;231;;D-S8000BT;;;
-D-S8010BT;99900;173;;D-S8010BT;;;
-D-S8020BT;169900;392;;D-S8020BT;;;
-D-S8030BT;169900;387;;D-S8030BT;;;
-D-S8040BT;159900;24;;D-S8040BT;;;
-D-SAR1500;54900;697;;D-SAR1500;;;
-D-SOP3275;50900;449;;D-SOP3275;;;
-D-SOPSL;37900;106;;D-SOPSL;;;
-D-TA50;179900;434;;D-TA50;;;
-D-V100-WE;629900;15;;D-V100-WE;;;
-D-V102-BK;899900;113;;D-V102-BK;;;
-D-V200-GY;1049900;51;;D-V200-GY;;;
-D-V300-BK;1499900;131;;D-V300-BK;;;
-D-V301-BK;2099900;4;;D-V301-BK;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-;;;;;;;
-ML-ARM01B;41900;484;;ML-ARM01B;;;
-ML-ARM01G;41900;562;;ML-ARM01G;;;
-ML-ARM02G;24900;158;0;#N/A;;;
-ML-ARM03G;28900;37;;ML-ARM03G;;;
-ML-ARM04G;36900;46;;ML-ARM04G;;;
-ML-ARM05G;36900;61;;ML-ARM05G;;;
-ML-ARM06B;39900;7;;ML-ARM06B;;;
-ML-ARM06W;39900;7;;ML-ARM06W;;;
-ML-ARM07B;36900;53;;ML-ARM07B;;;
-ML-ARM07W;36900;76;;ML-ARM07W;;;
-ML-ARM08B;46900;74;;ML-ARM08B;;;
-ML-ARM08W;46900;80;;ML-ARM08W;;;
-ML-ARM09B;32900;45;;ML-ARM09B;;;
-ML-ARM09W;32900;56;;ML-ARM09W;;;
+﻿CODIGO;RUBRO;PRECIO;NEW;CARPETA;EAN;LINEA1;LINEA2;LINEA3;LINEA4
+D-AF6500-B;Air-Fryer;87900;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+D-AF6510-B;Air-Fryer;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+D-AF6510-W;Air-Fryer;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W ;Control de temperatura ajustable de 80 °C a 200 °C.;Peso: 5,05 kg.
+D-AS100;Aspiradoras;21900;;FOTOS1;'7799199013900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
+D-AS101;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
+D-AS102;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
+D-AS200;Aspiradoras;119900;;FOTOS1;'7799199015720;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
+D-AS201;Aspiradoras;145900;;FOTOS1;'7799199015737;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 800ML;Potencia: 120W;Voltaje: 22.2V 
+D-AS300;Aspiradoras;57900;;FOTOS1;'7799199015744;Aspiradora Vertical con cable ;Capacidad: 800ML;Potencia: 600W;Voltaje: 220 - 240 V - 50/60 Hz
+D-AS400;Aspiradoras;74900;;FOTOS1;'7799199015751;Aspiradora con bolsa lavable;Capacidad: 1 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
+D-AS500;Aspiradoras;89900;;FOTOS1;'7799199015768;Aspiradora Ciclónica sin bolsa;Capacidad: 1.5 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
+D-AU100-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micrófono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AU100-WE;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micrófono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AU102-WE;Auriculares;9900;;FOTOS1;'7798019955376;Auricular Vincha ;Largo del cable: 1 metro;Largo del cable: 1 metro;Frecuencia: 20Hz- 20KHz
+D-AU103-BR;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AU104-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AU106-BR;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AU107-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AU310-BK;Auriculares;21900;;FOTOS1;'7799199014822;Auricular Inalámbrico Plegable ;Manos libres, Versión BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
+D-AU315-BK;Auriculares;25500;;FOTOS1;'7799199014822;Auricular Inalámbrico Plegable ;Manos libres, Versión BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
+D-AU401;Auriculares;22900;;FOTOS1;'7798019954652;Auriculares Gamer Hunterspider M180 Pro Led Pc Play;Conector jack 3.5mm de 4 secciones + USB;Altavoz de 50mm que ofrece sonido envolvente.;Micrófono omnidireccional con sensibilidad de -42 dB.
+D-AU402;Auriculares;15900;;FOTOS1;'7798019954669;Auricular Vincha Daihatsu C/ Microfono;Cable de 2 m;Modo manos libres que permite llamadas;Micrófono flexible
+D-AU512-BK;Auriculares;14900;;FOTOS1;'7798019955414;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
+D-AU513-BK;Auriculares;15900;;FOTOS1;'7798019955415;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
+D-AU515-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
+D-AU516-BK;Auriculares;16900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
+D-AU517-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
+D-AU518-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
+D-AU519-WE;Auriculares;17900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
+D-CE18-BU;Camas Elásticas;199900;;FOTOS2;;Cama Elástica Saltarina Reforzada 1,80 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
+D-CE24-BU;Camas Elásticas;245900;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
+D-CF1000;Cafeteras;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
+D-CF2000;Cafeteras;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
+D-CF3000;Cafeteras;299900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-B;Cafeteras;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-W;Cafeteras;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
+D-COR150-B;Procesadoras Alimentos;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-COR150-S;Procesadoras Alimentos;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-CS01;Seguridad;38900;;FOTOS1;;Cámara Seguridad Cs01 Wifi Apto Exterior Visión Nocturna Fhd;Resolución Full HD;Cobertura 360°. Zoom 4x;Conexión WiFi 
+D-CS02;Seguridad;27900;;FOTOS1;;Cámara de Seguridad WiFi IP Full HD Domo;Resolución Full HD;Cobertura 360°. Zoom 4x;Conexión WiFi 
+D-CS03;Seguridad;59900;;FOTOS1;;Cámara De Seguridad Wifi Ip 6mp Exterior Visión Nocturna;Resolución 6MP 4K;Cobertura 360°. Visión nocturna a color;Conexión WiFi o cable
+D-ES300-B;Cafeteras;49900;;FOTOS1;'7799199017854;Espumador de leche;Capacidad: 300 ml;Potencia: 500 W;Espuma fría o caliente
+D-GA5-BU;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Azul;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-GN;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Verde;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-GY;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Gris;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-RD;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Rojo;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-WE;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Blanco;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-INV1000;Inversores;59900;;FOTOS1;;Inversor Conversor De Corriente 1000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV1500;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV2000;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV500;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
+D-MC12;Máquina de Coser;63900;;FOTOS1;'7799199016062;Máquina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atrás; Enhebrado automático
+D-MW1-20MB;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW1-20MW;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW2-20M;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW3-20D;Microondas;165900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
+D-MW4-25D;Microondas;225900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
+D-PI1200-B;Procesadoras Alimentos;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
+D-PI1200-W;Procesadoras Alimentos;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
+D-PR500-BK;Procesadoras Alimentos;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
+D-PR500-BU;Procesadoras Alimentos;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
+D-RK1;Radios;19900;SI;FOTOS1;'7798019955284;Radio Portátil Anàloga AM/FM;Dimensiones: 6x10x2cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 6x10x2cm
+D-RK2;Radios;19900;SI;FOTOS1;;Radio Portátil Anàloga AM/FM;Dimensiones:13x8x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones:13x8x3cm
+D-RK3;Radios;19900;SI;FOTOS1;'7798019955307;Radio Portátil Anàloga AM/FM;Dimensiones: 12x7x4cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 12x7x4cm
+D-RK7;Radios;19900;SI;FOTOS1;'7798019950616;Radio Portátil Anàloga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3cm
+D-RK9;Radios;19900;SI;FOTOS1;'7798019950692;Radio Portátil Anàloga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3c
+D-RP38-BK;Radios;39900;SI;FOTOS1;'7798019950104;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP38-RD;Radios;39900;SI;FOTOS1;'7798019955871;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP38-WE;Radios;39900;SI;FOTOS1;'7798019950081;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP400-BK;Radios;39900;SI;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP400-RD;Radios;39900;SI;FOTOS1;'7798019955949;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP400-WE;Radios;39900;SI;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP50USB;Radios;27900;SI;FOTOS1;'7798019951675;Radio Dual Análoga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
+D-RP60PROB;Radios;35900;SI;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
+D-RP60PROS;Radios;35900;SI;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
+D-RP61USB;Radios;30900;SI;FOTOS1;;Radio Dual Análoga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
+D-S8000BT;Parlantes;42900;;FOTOS1;'7799199013931;Parlante Bluetooth;Potencia: 2600W PMPO.;Función karaoke: incluye micrófono cableado;Dimensiones: 20,6 x 24,8 x 37,4cm
+D-S8010BT;Parlantes;99900;;FOTOS1;'7799199013948;Parlante Bluetooth;"Potencia: 3800W PMPO con parlante de 8"" y tweeter de 1.5""";Función karaoke: incluye micrófono cableado;Dimensiones: 28,5 x 27,5 x 35,5 cm
+D-S8020BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8” y tweeter de 1”;Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82cm
+D-S8030BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuración de 3 parlantes, incluyendo woofer de 8""";Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82 cm
+D-S8040BT;Parlantes;159900;;FOTOS1;;Parlante Bluetooth;"Potencia: 5000W PMPO con dos parlantes de 8"" y un tweeter de 1""";Función karaoke: incluye micrófono cableado;Dimensiones: 25,5 x 26,5 x 54 cm
+D-SAR1500;Sarten Eléctrica;54900;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 × 30 × 6 cm
+D-SOP3275;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tamaños de pantalla:  Desde 32 - 75 Pulgadas;Estándares VESA: 400x400;Inclinable, Articulado y Giratorio
+D-SOPSL;Soportes TV;37900;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
+D-TA50;Tachos Electricos;179900;;FOTOS1;'7799199015942;Cesto de basura automático | 50 lts;Dimensiones: 29,3 × 42 × 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
+D-V100-WE;Monopatines;629900;;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Baterìa 36v / 7,5Ah;Autonomìa 18-22Km, Vel.Màx. 30Km/h;Frenos Elèctrico+Disco, Suspensiòn NO
+D-V102-BK;Monopatines;899900;;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Baterìa 36v / 10Ah;Autonomìa 20-30Km, Vel.Màx. 30Km/h;Frenos Elèctrico+Disco, Suspensiòn Delantera y Trasera
+D-V200-GY;Monopatines;1049900;;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Baterìa 36v / 15Ah;Autonomìa 30-45Km, Vel.Màx. 35Km/h;Frenos Elèctrico+de tambor, Suspensiòn Delantera
+D-V300-BK;Monopatines;1499900;;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Baterìa 48v / 18Ah;Autonomìa 30-65Km, Vel.Màx. 45Km/h;Frenos Dual Disco, Suspensiòn Delantera y Trasera
+D-V301-BK;Monopatines;2099900;;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Baterìa 48v / 18Ah;Autonomìa 30-65Km, Vel.Màx. 50Km/h;Frenos Dual Disco, Suspensiòn Delantera y Trasera
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+ML-ARM01B;Armarios / Org.Ropa;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plàstico;Medidas: 170 cm x 130 cm x 45 cm;
+ML-ARM01G;Armarios / Org.Ropa;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plàstico;Medidas: 170 cm x 130 cm x 45 cm;
+ML-ARM03G;Armarios / Org.Ropa;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Plàstico;Medidas: 158 cm x 58 cm x 30 cm;
+ML-ARM04G;Armarios / Org.Ropa;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Doble 16 Estantes;Material: Metal/Plàstico;Medidas: 141 cm x 113 cm x 30 cm;Peso 3,5 Kg
+ML-ARM05G;Armarios / Org.Ropa;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Y Botas 12 Estantes;Material: Metal/Plàstico;Medidas: 124 cm x 113 cm x 30 cm;
+ML-ARM06B;Armarios / Org.Ropa;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plàstico;Medidas: 170 cm x 160 cm x 36 cm;
+ML-ARM06W;Armarios / Org.Ropa;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plàstico;Medidas: 170 cm x 160 cm x 36 cm;
+ML-ARM07B;Armarios / Org.Ropa;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plàstico;Medidas: 170 cm x 95 cm x 36 cm;
+ML-ARM07W;Armarios / Org.Ropa;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plàstico;Medidas: 170 cm x 95 cm x 36 cm;
+ML-ARM08B;Armarios / Org.Ropa;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plàstico;Medidas: 170 cm x 130 cm x 36 cm;
+ML-ARM08W;Armarios / Org.Ropa;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plàstico;Medidas: 170 cm x 130 cm x 36 cm;
+ML-ARM09B;Armarios / Org.Ropa;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plàstico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
+ML-ARM09W;Armarios / Org.Ropa;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plàstico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg

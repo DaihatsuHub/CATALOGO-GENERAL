@@ -25,9 +25,7 @@ body {
     z-index: 1000;
 }
 
-#logo {
-    height: 50px;
-}
+#logo { height: 50px; }
 
 #buscador {
     width: 320px;
@@ -61,23 +59,26 @@ body {
     font-size: 14px;
 }
 
-.rubro-btn:hover {
-    background: #555;
-}
+.rubro-btn:hover { background: #555; }
 
 .rubro-btn.activo {
-    background: #d40000; /* Rojo Ferrari */
-    color: black;
+    background: #d40000; /* ROJO FERRARI */
+    color: white;
     font-weight: bold;
 }
 
 /* ===== RUBROS MOBILE ===== */
+#rubrosMobileWrapper {
+    position: relative;
+}
+
 #rubrosMobile {
     display: none;
     background: #111;
-    padding: 6px;
+    padding: 6px 30px;
     overflow-x: auto;
     white-space: nowrap;
+    scroll-behavior: smooth;
 }
 
 #rubrosMobile button {
@@ -93,9 +94,32 @@ body {
 }
 
 #rubrosMobile button.activo {
-    background: #d40000; /* Rojo Ferrari */
-    color: black;
+    background: #d40000;
+    color: white;
     font-weight: bold;
+}
+
+/* Flechas Mobile */
+#flechaIzq,
+#flechaDer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: yellow;
+    font-size: 22px;
+    animation: titilar 1s infinite;
+    display: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#flechaIzq { left: 5px; }
+#flechaDer { right: 5px; }
+
+@keyframes titilar {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
 }
 
 /* ===== CONTENIDO ===== */
@@ -105,7 +129,6 @@ body {
     margin-top: 70px;
 }
 
-/* GRID 4 POR FILA */
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -121,7 +144,6 @@ body {
     position: relative;
 }
 
-/* ETIQUETA NUEVO */
 .nuevo {
     position: absolute;
     top: 10px;
@@ -135,7 +157,6 @@ body {
     z-index: 2;
 }
 
-/* FOTO */
 .producto img {
     width: 100%;
     height: 320px;
@@ -144,13 +165,11 @@ body {
     cursor: zoom-in;
 }
 
-/* INFO GRIS */
 .info {
     background: #e8e8e8;
     padding: 10px;
 }
 
-/* TEXTO CENTRADO */
 .info h3,
 .desc,
 .precio {
@@ -161,7 +180,7 @@ body {
     font-size: 13px;
     color: #333;
     line-height: 1.3;
-    min-height: 105px; /* ajustado para 4 líneas + EAN */
+    min-height: 105px;
 }
 
 .ean {
@@ -176,7 +195,7 @@ body {
     margin-top: 10px;
 }
 
-/* ===== MODAL FOTO ===== */
+/* ===== MODAL ===== */
 #modal {
     position: fixed;
     top: 0; left: 0;
@@ -206,58 +225,45 @@ body {
 /* ===== MOBILE ===== */
 @media (max-width: 700px) {
 
-    #logo {
-        height: 40px;
-    }
+    #logo { height: 40px; }
 
-    #buscador {
-        width: 180px;
-    }
+    #buscador { width: 180px; }
 
-    #rubros {
-        display: none;
-    }
+    #rubros { display: none; }
 
-    #rubrosMobile {
-        display: block;
-    }
+    #rubrosMobile { display: block; }
 
     #contenido {
         margin-left: 0;
         margin-top: 120px;
     }
 
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    .grid { grid-template-columns: repeat(2, 1fr); }
 
-    .producto img {
-        height: 200px;
-    }
+    .producto img { height: 200px; }
 }
 </style>
 </head>
 
 <body>
 
-<!-- BANNER -->
 <div id="banner">
     <img id="logo" src="LOGO.jpg">
     <input id="buscador" placeholder="Buscar código o descripción...">
 </div>
 
-<!-- RUBROS MOBILE -->
-<div id="rubrosMobile"></div>
+<div id="rubrosMobileWrapper">
+    <div id="flechaIzq">◀</div>
+    <div id="rubrosMobile"></div>
+    <div id="flechaDer">▶</div>
+</div>
 
-<!-- RUBROS DESKTOP -->
 <div id="rubros"></div>
 
-<!-- CONTENIDO -->
 <div id="contenido">
     <div id="productos" class="grid"></div>
 </div>
 
-<!-- MODAL -->
 <div id="modal">
 <span onclick="cerrarModal()">✖</span>
 <img id="modalImg">
@@ -287,8 +293,6 @@ function buscarImagen(p) {
 function cardHTML(p) {
     let img = buscarImagen(p);
     let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
-
-    // EAN condicional
     let eanHTML = "";
     if (p.EAN && p.EAN.trim() !== "") {
         eanHTML = `<br><span class="ean">EAN: ${p.EAN}</span>`;
@@ -328,12 +332,12 @@ fetch(CSV_FILE)
     }
 
     productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
-
     crearRubros();
     mostrarNovedades();
+    setTimeout(actualizarFlechas, 300);
 });
 
-/* CREAR RUBROS ORDENADOS */
+/* CREAR RUBROS */
 function crearRubros() {
     let div = document.getElementById("rubros");
     let mob = document.getElementById("rubrosMobile");
@@ -349,21 +353,49 @@ function crearRubros() {
     });
 }
 
-/* MOSTRAR RUBRO */
+/* FLECHAS MOBILE */
+function actualizarFlechas() {
+    const cont = document.getElementById("rubrosMobile");
+    const izq = document.getElementById("flechaIzq");
+    const der = document.getElementById("flechaDer");
+
+    if (window.innerWidth > 700) {
+        izq.style.display = "none";
+        der.style.display = "none";
+        return;
+    }
+
+    const scrollLeft = cont.scrollLeft;
+    const maxScroll = cont.scrollWidth - cont.clientWidth;
+
+    izq.style.display = scrollLeft > 5 ? "block" : "none";
+    der.style.display = scrollLeft < maxScroll - 5 ? "block" : "none";
+}
+
+document.getElementById("rubrosMobile").addEventListener("scroll", actualizarFlechas);
+window.addEventListener("resize", actualizarFlechas);
+
+document.getElementById("flechaIzq").onclick = () => {
+    document.getElementById("rubrosMobile").scrollBy({ left: -200 });
+};
+
+document.getElementById("flechaDer").onclick = () => {
+    document.getElementById("rubrosMobile").scrollBy({ left: 200 });
+};
+
+/* RESTO JS ORIGINAL */
 function mostrarRubro(r) {
     activarBoton(r);
     document.getElementById("productos").innerHTML =
         productos.filter(p=>p.RUBRO==r).map(cardHTML).join("");
 }
 
-/* MOSTRAR NOVEDADES */
 function mostrarNovedades() {
     activarBoton("NOVEDADES");
     document.getElementById("productos").innerHTML =
         productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
 }
 
-/* ACTIVAR BOTONES */
 function activarBoton(nombre) {
     document.querySelectorAll(".rubro-btn, #rubrosMobile button").forEach(b=>{
         b.classList.remove("activo");
@@ -371,7 +403,6 @@ function activarBoton(nombre) {
     });
 }
 
-/* BUSCADOR GLOBAL */
 document.getElementById("buscador").addEventListener("input", e=>{
     let t = e.target.value.toLowerCase();
     document.getElementById("productos").innerHTML =
@@ -380,7 +411,6 @@ document.getElementById("buscador").addEventListener("input", e=>{
         ).map(cardHTML).join("");
 });
 
-/* MODAL FOTO */
 function verGrande(src) {
     document.getElementById("modalImg").src = src;
     document.getElementById("modal").style.display = "flex";

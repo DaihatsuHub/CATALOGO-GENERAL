@@ -102,16 +102,26 @@ ML-ARM08B;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Es
 ML-ARM08W;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
 ML-ARM09B;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
 ML-ARM09W;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
-ML-BA888X1;Baofeng;19900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
-ML-BA888X2;Baofeng;38900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
-ML-BAT888S;Baofeng;4500;;FOTOS2;;Batería para el modelo BA888;;;
-ML-BAUV17L;Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 999 canales;Alcance: 10km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 8hs aprox
-ML-BAA58S;Baofeng;79900;;FOTOS2;;;;;
-ML-BAK5PLU;Baofeng;129900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 2500mAh Li-ion. Autonomía: 8hs aprox
-ML-BAK6;Baofeng;84900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 15km;Alimentación:  Batería: 2600mAh Li-ion. Autonomía: 8hs aprox
-ML-BA-T3X2;Baofeng;27900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 446 mhz;Alcance: 2km;Alimentación 4 x AAA.
-ML-BAUV17L;Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 8hs aprox
-ML-BAUV5R5;Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 10km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
-ML-BAUV5R8;Baofeng;89900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 13km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
-ML-BAUV82;Baofeng;49900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
-ML-BAUV822;Baofeng;97900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
+ML-BA888X1;Handies Baofeng;19900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
+ML-BA888X2;Handies Baofeng;38900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
+ML-BAT888S;Handies Baofeng;4500;;FOTOS2;;Batería para el modelo BA888;;;
+ML-BAUV17L;Handies Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 999 canales;Alcance: 10km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 8hs aprox
+ML-BAA58S;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 10km;Alimentación:  Batería: 2800mAh Li-ion. Autonomía: 8hs aprox
+ML-BAK5PLU;Handies Baofeng;129900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 2500mAh Li-ion. Autonomía: 8hs aprox
+ML-BAK6;Handies Baofeng;84900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 15km;Alimentación:  Batería: 2600mAh Li-ion. Autonomía: 8hs aprox
+ML-BA-T3X2;Handies Baofeng;27900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 446 mhz;Alcance: 2km;Alimentación 4 x AAA.
+ML-BAUV17L;Handies Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 8hs aprox
+ML-BAUV5R5;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 10km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
+ML-BAUV5R8;Handies Baofeng;89900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 13km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
+ML-BAUV82;Handies Baofeng;49900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
+ML-BAUV822;Handies Baofeng;97900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
+ML-BASE01B;Bases Móviles;22900;;FOTOS2;;Base Móvil Con Ruedas Electrodomésticos Heladera Lavarropas;Extensible hasta 56 x 56cm;Soporta hasta 138Kg;
+ML-BASE02G;Bases Móviles;32900;;FOTOS2;;Base Móvil Reforzada Con Ruedas Electrodomésticos;Extensible hasta 60 x 60cm;Soporta hasta 138Kg;
+ML-BEACH;Sillas de Exterior;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
+ML-BEACH2;Sillas de Exterior;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
+ML-DIREC-A;Sillas de Exterior;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-M;Sillas de Exterior;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-N;Sillas de Exterior;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-R;Sillas de Exterior;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-V;Sillas de Exterior;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-REPO01;Sillas de Exterior;67900;;FOTOS2;;Silla De Jardín;Altura 94cm, Ancho 58cm, Profundidad 64cm, con Apoyabrazos;Soporta hasta 130Kg;Estructura de Acero, Tela Rattan sintético

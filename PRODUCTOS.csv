@@ -5,7 +5,7 @@ D-AF6510-W;Freidora de Aire;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L 
 D-AS100;Aspiradoras;21900;;FOTOS1;'7799199013900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
 D-AS101;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
 D-AS102;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
-D-AS200;Aspiradoras;119900;;FOTOS1;'7799199015720;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
+D-AS200;Aspiradoras;135900;;FOTOS1;'7799199015720;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
 D-AS201;Aspiradoras;145900;;FOTOS1;'7799199015737;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 800ML;Potencia: 120W;Voltaje: 22.2V 
 D-AS300;Aspiradoras;57900;;FOTOS1;'7799199015744;Aspiradora Vertical con cable ;Capacidad: 800ML;Potencia: 600W;Voltaje: 220 - 240 V - 50/60 Hz
 D-AS400;Aspiradoras;74900;;FOTOS1;'7799199015751;Aspiradora con bolsa lavable;Capacidad: 1 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
@@ -32,11 +32,11 @@ D-CE18-BU;Camas Elásticas;199900;;FOTOS2;;Cama Elástica Saltarina Reforzada 1,
 D-CE24-BU;Camas Elásticas;245900;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
 D-CF1000;Cafeteras;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
 D-CF2000;Cafeteras;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
-D-CF3000;Cafeteras;299900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF3000;Cafeteras;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
 D-CF4000-B;Cafeteras;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
 D-CF4000-W;Cafeteras;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
-D-COR150-B;Procesadoras Alimentos;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-COR150-S;Procesadoras Alimentos;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-COR150-B;Cocción;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-COR150-S;Cocción;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 W ;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-CS01;Seguridad;38900;;FOTOS1;;Cámara Seguridad Cs01 Wifi Apto Exterior Visión Nocturna Fhd;Resolución Full HD;Cobertura 360°. Zoom 4x;Conexión WiFi 
 D-CS02;Seguridad;27900;;FOTOS1;;Cámara de Seguridad WiFi IP Full HD Domo;Resolución Full HD;Cobertura 360°. Zoom 4x;Conexión WiFi 
 D-CS03;Seguridad;59900;;FOTOS1;;Cámara De Seguridad Wifi Ip 6mp Exterior Visión Nocturna;Resolución 6MP 4K;Cobertura 360°. Visión nocturna a color;Conexión WiFi o cable
@@ -51,15 +51,15 @@ D-INV1500;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para A
 D-INV2000;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
 D-INV500;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
 D-MC12;Máquina de Coser;63900;;FOTOS1;'7799199016062;Máquina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atrás; Enhebrado automático
-D-MW1-20MB;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW1-20MW;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW2-20M;Microondas;145900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW3-20D;Microondas;165900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
-D-MW4-25D;Microondas;225900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
-D-PI1200-B;Procesadoras Alimentos;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
-D-PI1200-W;Procesadoras Alimentos;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
-D-PR500-BK;Procesadoras Alimentos;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-PR500-BU;Procesadoras Alimentos;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
+D-MW1-20MB;Microondas;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW1-20MW;Microondas;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW2-20M;Microondas;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW3-20D;Microondas;179900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
+D-MW4-25D;Microondas;259900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
+D-PI1200-B;Cocción;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
+D-PI1200-W;Cocción;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Diseño liviano: 2,3 kg.
+D-PR500-BK;Cocción;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
+D-PR500-BU;Cocción;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-RK1;Radios;19900;SI;FOTOS1;'7798019955284;Radio Portátil Análoga AM/FM;Dimensiones: 6x10x2cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 6x10x2cm
 D-RK2;Radios;19900;SI;FOTOS1;;Radio Portátil Análoga AM/FM;Dimensiones:13x8x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones:13x8x3cm
 D-RK3;Radios;19900;SI;FOTOS1;'7798019955307;Radio Portátil Análoga AM/FM;Dimensiones: 12x7x4cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 12x7x4cm
@@ -80,7 +80,7 @@ D-S8010BT;Parlantes;99900;;FOTOS1;'7799199013948;Parlante Bluetooth;"Potencia: 3
 D-S8020BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8” y tweeter de 1”;Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82cm
 D-S8030BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuración de 3 parlantes, incluyendo woofer de 8""";Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82 cm
 D-S8040BT;Parlantes;159900;;FOTOS1;;Parlante Bluetooth;"Potencia: 5000W PMPO con dos parlantes de 8"" y un tweeter de 1""";Función karaoke: incluye micrófono cableado;Dimensiones: 25,5 x 26,5 x 54 cm
-D-SAR1500;Sarten Eléctrica;54900;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 × 30 × 6 cm
+D-SAR1500;Cocción;54900;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 × 30 × 6 cm
 D-SOP3275;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tamaños de pantalla:  Desde 32 - 75 Pulgadas;Estándares VESA: 400x400;Inclinable, Articulado y Giratorio
 D-SOPSL;Soportes TV;37900;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
 D-TA50;Tachos Electricos;179900;;FOTOS1;'7799199015942;Cesto de basura automático | 50 lts;Dimensiones: 29,3 × 42 × 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
@@ -88,7 +88,7 @@ D-V100-WE;Monopatines;629900;;FOTOS1;'7799199015775;"Monopatín Scooter Eléctri
 D-V102-BK;Monopatines;899900;;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 10Ah;Autonomía 20-30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión Delantera y Trasera
 D-V200-GY;Monopatines;1049900;;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
 D-V300-BK;Monopatines;1499900;;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
-D-V301-BK;Monopatines;2099900;;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
+D-V301-BK;Monopatines;AGOTADO;;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
 ML-ARM01B;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
 ML-ARM01G;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
 ML-ARM03G;Armarios y Percheros;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Plástico;Medidas: 158 cm x 58 cm x 30 cm;
@@ -105,7 +105,6 @@ ML-ARM09W;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material:
 ML-BA888X1;Handies Baofeng;19900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
 ML-BA888X2;Handies Baofeng;38900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
 ML-BAT888S;Handies Baofeng;4500;;FOTOS2;;Batería para el modelo BA888;;;
-ML-BAUV17L;Handies Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 999 canales;Alcance: 10km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 8hs aprox
 ML-BAA58S;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 10km;Alimentación:  Batería: 2800mAh Li-ion. Autonomía: 8hs aprox
 ML-BAK5PLU;Handies Baofeng;129900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 2500mAh Li-ion. Autonomía: 8hs aprox
 ML-BAK6;Handies Baofeng;84900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 15km;Alimentación:  Batería: 2600mAh Li-ion. Autonomía: 8hs aprox
@@ -130,3 +129,13 @@ ML-CARRO02;Carros / Carretillas;99900;;FOTOS2;;Carro Plegable Camping Playa;Dime
 ML-CONS02A;Conservadoras Térmicas;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
 ML-CONS02B;Conservadoras Térmicas;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
 ML-CONS02C;Conservadoras Térmicas;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
+ML-GAZ01-A;Carpas / Gazebos;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
+ML-GAZ01-R;Carpas / Gazebos;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
+ML-GAZ02-A;Carpas / Gazebos;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
+ML-GAZ02-R;Carpas / Gazebos;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
+ML-GAZ02-W;Carpas / Gazebos;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
+ML-TENT1-A;Carpas / Gazebos;89900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
+ML-TENT2-R;Carpas / Gazebos;64900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
+ML-TENT2-V;Carpas / Gazebos;64900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
+ML-TENT4-V;Carpas / Gazebos;89900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
+ML-TENT5-N;Carpas / Gazebos;37900;;FOTOS2;;Carpa Playera;Dimensiones: 2,2m x 1,2m x 1,20m;;

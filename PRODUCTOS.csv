@@ -1,7 +1,7 @@
 ﻿CODIGO;RUBRO;PRECIO;NEW;CARPETA;EAN;LINEA1;LINEA2;LINEA3;LINEA4
-D-AF6500-B;Freidora de Aire;87900;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-AF6510-B;Freidora de Aire;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-AF6510-W;Freidora de Aire;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
+D-AF6500-B;Cocina;87900;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
+D-AF6510-B;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
+D-AF6510-W;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
 D-AS100;Aspiradoras;21900;;FOTOS1;'7799199013900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
 D-AS101;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
 D-AS102;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
@@ -30,11 +30,11 @@ D-AU518-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;A
 D-AU519-WE;Auriculares;17900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
 D-CE18-BU;Tiempo Libre;199900;;FOTOS2;;Cama Elástica Saltarina Reforzada 1,80 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
 D-CE24-BU;Tiempo Libre;245900;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
-D-CF1000;Cafeteras;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
-D-CF2000;Cafeteras;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
-D-CF3000;Cafeteras;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-B;Cafeteras;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-W;Cafeteras;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
+D-CF1000;Cocina;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
+D-CF2000;Cocina;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
+D-CF3000;Cocina;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-B;Cocina;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-W;Cocina;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
 D-COR150-B;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-COR150-S;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-CS01;Seguridad;38900;;FOTOS1;;Cámara Seguridad Cs01 Wifi Apto Exterior Visión Nocturna Fhd;Resolución Full HD;Cobertura 360º. Zoom 4x;Conexión WiFi 
@@ -51,11 +51,11 @@ D-INV1500;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para A
 D-INV2000;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
 D-INV500;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
 D-MC12;Máquina de Coser;63900;;FOTOS1;'7799199016062;Máquina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atrás;áEnhebrado automático
-D-MW1-20MB;Microondas;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW1-20MW;Microondas;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW2-20M;Microondas;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW3-20D;Microondas;179900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
-D-MW4-25D;Microondas;259900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
+D-MW1-20MB;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW1-20MW;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW2-20M;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW3-20D;Cocina;179900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
+D-MW4-25D;Cocina;259900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
 D-PI1200-B;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
 D-PI1200-W;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
 D-PR500-BK;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable

@@ -62,7 +62,7 @@ body {
 .rubro-btn:hover { background: #555; }
 
 .rubro-btn.activo {
-    background: #d40000; /* ROJO FERRARI */
+    background: #d40000;
     color: white;
     font-weight: bold;
 }
@@ -226,12 +226,17 @@ body {
 @media (max-width: 700px) {
 
     #logo { height: 40px; }
-
     #buscador { width: 180px; }
 
     #rubros { display: none; }
-
     #rubrosMobile { display: block; }
+
+    /* NUEVO: RUBROS SIEMPRE VISIBLES */
+    #rubrosMobileWrapper {
+        position: sticky;
+        top: 60px;
+        z-index: 999;
+    }
 
     #contenido {
         margin-left: 0;
@@ -239,7 +244,6 @@ body {
     }
 
     .grid { grid-template-columns: repeat(2, 1fr); }
-
     .producto img { height: 200px; }
 }
 </style>
@@ -278,6 +282,7 @@ let rubros = new Set();
 /* FORMATO PRECIO */
 function formatPrecio(p) {
     if (!p || p=="") return "";
+    if (p.toUpperCase() === "AGOTADO") return "AGOTADO";
     return "$ " + Number(p).toLocaleString("es-AR");
 }
 
@@ -316,7 +321,7 @@ function cardHTML(p) {
     </div>`;
 }
 
-/* LEER CSV */
+/* RESTO DEL JS ORIGINAL SIN CAMBIOS */
 fetch(CSV_FILE)
 .then(r => r.text())
 .then(text => {
@@ -337,7 +342,6 @@ fetch(CSV_FILE)
     setTimeout(actualizarFlechas, 300);
 });
 
-/* CREAR RUBROS */
 function crearRubros() {
     let div = document.getElementById("rubros");
     let mob = document.getElementById("rubrosMobile");
@@ -353,7 +357,6 @@ function crearRubros() {
     });
 }
 
-/* FLECHAS MOBILE */
 function actualizarFlechas() {
     const cont = document.getElementById("rubrosMobile");
     const izq = document.getElementById("flechaIzq");
@@ -383,7 +386,6 @@ document.getElementById("flechaDer").onclick = () => {
     document.getElementById("rubrosMobile").scrollBy({ left: 200 });
 };
 
-/* RESTO JS ORIGINAL */
 function mostrarRubro(r) {
     activarBoton(r);
     document.getElementById("productos").innerHTML =

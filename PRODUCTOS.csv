@@ -87,7 +87,7 @@ D-TA50;Cocina;179900;;FOTOS1;'7799199015942;Cesto de basura automático | 50 lts
 D-V100-WE;Monopatines;AGOTADO;;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
 D-V102-BK;Monopatines;899900;;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 10Ah;Autonomía 20-30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión Delantera y Trasera
 D-V200-GY;Monopatines;1049900;;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
-D-V300-BK;Monopatines;1499900;;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
+D-V300-BK;Monopatines;1599900;;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
 D-V301-BK;Monopatines;AGOTADO;;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
 D-CB100;Contadoras de Billetes;71900;;FOTOS1;;Contadora Billetes;Tipo de detección: UV /MG;220v;Dimensiones: 19cm de alto, 28cm de largo y 25cm de ancho.
 D-CB2000;Contadoras de Billetes;119900;;FOTOS1;;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 190 x 280 x 250 mm
@@ -150,3 +150,26 @@ ML-GYM01;Gimnasio;189900;;FOTOS2;;Banco Pecho Plano Gimnasio Plegable;Altura: 10
 ML-GYM02;Gimnasio;169900;;FOTOS2;;Soporte Para Barra Sentadillas Regulable;Altura regulable: 112-177cm, Ancho: 53cm;Soporta hasta 250kg;Material: Hierro
 ML-GYM04;Gimnasio;169900;;FOTOS2;;Banco Gimnasio Plano Multiangular;Altura: 93,5cm, Largo 111cm, Ancho: 31cm;Respaldo regulable con 8 posiciones;Materiales: Hierro, espuma, cuero sintetico
 ML-GYM05;Gimnasio;209900;;FOTOS2;;Agarres Dorsales para Polea de Gimnasio SET x5;Ancho de los agarres: 30.5cm, 30.5cm, 55.5cm, 60.5cm, 81.5cm;Incluye 5 ganchos de acero reforzado;Materiales: Acero recubierto en goma rugosa antideslizante
+D-E1200T;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 140x100x34mm;Solar y a Pila
+D-E1205;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 130x107x34mm;Solar y a Pila
+D-E1240-B;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1240-W;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1275-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1275-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1280-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x100x18,5mm;Solar y a Pila
+D-E1280-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x100x18,5mm;Solar y a Pila
+D-E1285-BK;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 170x110x18,5mm;Solar y a Pila
+D-E1285-WE;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 170x110x18,5mm;Solar y a Pila
+D-I100T-BK;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos - 2 colores;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
+D-I100T-WE;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos - 2 colores;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
+D-I200TH-B;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora Térmica;12 dígitos;Velocidad de impresión: 8 líneas/seg;Alimentación USB-C ( Incluye cable y cargador )
+D-I200TH-W;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora Térmica;12 dígitos;Velocidad de impresión: 8 líneas/seg;Alimentación USB-C ( Incluye cable y cargador )
+D-I8T-BK;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
+D-I8T-WE;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
+D-P1013B;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo;10 dígitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
+D-P1013W;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo;10 dígitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
+D-P803;Calculadoras Daihatsu;5900;;FOTOS1;;Calculadora de Bolsillo;8 dígitos;Medidas: 88x58x6,5mm;Pila
+D-P803S;Calculadoras Daihatsu;6900;;FOTOS1;;Calculadora de Bolsillo;8 dígitos;Medidas: 88x58x6,5mm;Pila
+D-X570LAPLUS;Calculadoras Daihatsu;32900;;FOTOS1;;Calculadora Cientìfica;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
+D-X82;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora Cientìfica;10+2 dígitos, 240 funciones;Medidas: 181x85x20mm;Pila
+D-X95;Calculadoras Daihatsu;17900;;FOTOS1;;Calculadora Cientìfica;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila

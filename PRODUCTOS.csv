@@ -1,175 +1,387 @@
-﻿CODIGO;RUBRO;PRECIO;NEW;CARPETA;EAN;LINEA1;LINEA2;LINEA3;LINEA4
-D-AF6500-B;Cocina;87900;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-AF6510-B;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-AF6510-W;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-AS100;Aspiradoras;21900;;FOTOS1;'7799199013900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
-D-AS101;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
-D-AS102;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
-D-AS200;Aspiradoras;135900;;FOTOS1;'7799199015720;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
-D-AS201;Aspiradoras;145900;;FOTOS1;'7799199015737;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 800ML;Potencia: 120W;Voltaje: 22.2Vá
-D-AS300;Aspiradoras;57900;;FOTOS1;'7799199015744;Aspiradora Vertical con cableá;Capacidad: 800ML;Potencia: 600W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AS400;Aspiradoras;74900;;FOTOS1;'7799199015751;Aspiradora con bolsa lavable;Capacidad: 1 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AS500;Aspiradoras;89900;;FOTOS1;'7799199015768;Aspiradora Ciclónica sin bolsa;Capacidad: 1.5 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AU100-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micrófono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU100-WE;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micrófono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU102-WE;Auriculares;9900;;FOTOS1;'7798019955376;Auricular Vincha ;Largo del cable: 1 metro;Largo del cable: 1 metro;Frecuencia: 20Hz- 20KHz
-D-AU103-BR;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU104-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU106-BR;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU107-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU310-BK;Auriculares;21900;;FOTOS1;'7799199014822;Auricular Inalámbrico Plegableá;Manos libres, Versión BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
-D-AU315-BK;Auriculares;25500;;FOTOS1;'7799199014822;Auricular Inalámbrico Plegableá;Manos libres, Versión BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
-D-AU401;Auriculares;22900;;FOTOS1;'7798019954652;Auriculares Gamer Hunterspider M180 Pro Led Pc Play;Conector jack 3.5mm de 4 secciones + USB;Altavoz de 50mm que ofrece sonido envolvente.;Micrófono omnidireccional con sensibilidad de -42 dB.
-D-AU402;Auriculares;15900;;FOTOS1;'7798019954669;Auricular Vincha Daihatsu C/ Microfono;Cable de 2 m;Modo manos libres que permite llamadas;Micrófono flexible
-D-AU512-BK;Auriculares;14900;;FOTOS1;'7798019955414;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-AU513-BK;Auriculares;15900;;FOTOS1;'7798019955415;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-AU515-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-AU516-BK;Auriculares;16900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
-D-AU517-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
-D-AU518-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
-D-AU519-WE;Auriculares;17900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-CE18-BU;Tiempo Libre;199900;;FOTOS2;;Cama Elástica Saltarina Reforzada 1,80 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
-D-CE24-BU;Tiempo Libre;245900;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
-D-CF1000;Cocina;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
-D-CF2000;Cocina;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
-D-CF3000;Cocina;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-B;Cocina;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-W;Cocina;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
-D-COR150-B;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-COR150-S;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-CS01;Seguridad;38900;;FOTOS1;;Cámara Seguridad Cs01 Wifi Apto Exterior Visión Nocturna Fhd;Resolución Full HD;Cobertura 360º. Zoom 4x;Conexión WiFi 
-D-CS02;Seguridad;27900;;FOTOS1;;Cámara de Seguridad WiFi IP Full HD Domo;Resolución Full HD;Cobertura 360º. Zoom 4x;Conexión WiFi 
-D-CS03;Seguridad;59900;;FOTOS1;;Cámara De Seguridad Wifi Ip 6mp Exterior Visión Nocturna;Resolución 6MP 4K;Cobertura 360º. Visión nocturna a color;Conexión WiFi o cable
-D-ES300-B;Cocina;49900;;FOTOS1;'7799199017854;Espumador de leche;Capacidad: 300 ml;Potencia: 500 W;Espuma fría o caliente
-D-GA5-BU;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Azul;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-GN;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Verde;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-GY;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Gris;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-RD;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Rojo;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-WE;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Blanco;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-INV1000;Inversores;59900;;FOTOS1;;Inversor Conversor De Corriente 1000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV1500;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV2000;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV500;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
-D-MC12;Máquina de Coser;63900;;FOTOS1;'7799199016062;Máquina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atrás;áEnhebrado automático
-D-MW1-20MB;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW1-20MW;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW2-20M;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW3-20D;Cocina;179900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
-D-MW4-25D;Cocina;259900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
-D-PI1200-B;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
-D-PI1200-W;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
-D-PR500-BK;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-PR500-BU;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-RK1;Radios;19900;SI;FOTOS1;'7798019955284;Radio Portátil Análoga AM/FM;Dimensiones: 6x10x2cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 6x10x2cm
-D-RK2;Radios;19900;SI;FOTOS1;;Radio Portátil Análoga AM/FM;Dimensiones:13x8x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones:13x8x3cm
-D-RK3;Radios;19900;SI;FOTOS1;'7798019955307;Radio Portátil Análoga AM/FM;Dimensiones: 12x7x4cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 12x7x4cm
-D-RK7;Radios;19900;SI;FOTOS1;'7798019950616;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3cm
-D-RK9;Radios;19900;SI;FOTOS1;'7798019950692;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3c
-D-RP38-BK;Radios;39900;SI;FOTOS1;'7798019950104;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-RD;Radios;39900;SI;FOTOS1;'7798019955871;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-WE;Radios;39900;SI;FOTOS1;'7798019950081;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP400-BK;Radios;39900;SI;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-RD;Radios;39900;SI;FOTOS1;'7798019955949;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-WE;Radios;39900;SI;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP50USB;Radios;27900;SI;FOTOS1;'7798019951675;Radio Dual Análoga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
-D-RP60PROB;Radios;35900;SI;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP60PROS;Radios;35900;SI;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP61USB;Radios;30900;SI;FOTOS1;;Radio Dual Análoga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
-D-S8000BT;Parlantes;42900;;FOTOS1;'7799199013931;Parlante Bluetooth;Potencia: 2600W PMPO.;Función karaoke: incluye micrófono cableado;Dimensiones: 20,6 x 24,8 x 37,4cm
-D-S8010BT;Parlantes;99900;;FOTOS1;'7799199013948;Parlante Bluetooth;"Potencia: 3800W PMPO con parlante de 8"" y tweeter de 1.5""";Función karaoke: incluye micrófono cableado;Dimensiones: 28,5 x 27,5 x 35,5 cm
-D-S8020BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8ö y tweeter de 1ö;Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82cm
-D-S8030BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuración de 3 parlantes, incluyendo woofer de 8""";Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82 cm
-D-S8040BT;Parlantes;159900;;FOTOS1;;Parlante Bluetooth;"Potencia: 5000W PMPO con dos parlantes de 8"" y un tweeter de 1""";Función karaoke: incluye micrófono cableado;Dimensiones: 25,5 x 26,5 x 54 cm
-D-SAR1500;Cocina;54900;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 x 30 x 6 cm
-D-SOP3275;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tama±os de pantalla:  Desde 32 - 75 Pulgadas;Estándares VESA: 400x400;Inclinable, Articulado y Giratorio
-D-SOPSL;Soportes TV;37900;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
-D-TA50;Cocina;179900;;FOTOS1;'7799199015942;Cesto de basura automático | 50 lts;Dimensiones: 29,3 Î 42 Î 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
-D-V100-WE;Monopatines;AGOTADO;;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-V102-BK;Monopatines;899900;;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 10Ah;Autonomía 20-30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión Delantera y Trasera
-D-V200-GY;Monopatines;1049900;;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
-D-V300-BK;Monopatines;1599900;;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
-D-V301-BK;Monopatines;AGOTADO;;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
-D-CB100;Contadoras de Billetes;71900;;FOTOS1;;Contadora Billetes;Tipo de detección: UV /MG;220v;Dimensiones: 19cm de alto, 28cm de largo y 25cm de ancho.
-D-CB2000;Contadoras de Billetes;119900;;FOTOS1;;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 190 x 280 x 250 mm
-D-CB210;Contadoras de Billetes;89900;;FOTOS1;;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 265 x 235 x 230 mm
-D-CB40;Contadoras de Billetes;35900;;FOTOS1;;Contadora Billetes Portátil;Tipo de detección: UV /MG;220v (FUENTE NO INCLUIDA) y Pilas AA;Medidas: 75x190x102mm
-D-CB3000-C;Contadoras de Billetes;739900;;FOTOS1;;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 265x 235x 230 mm
-D-CB4000-C;Contadoras de Billetes;1499900;;FOTOS1;;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 245 x 270 x 288 mm
-ML-ARM01B;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM01G;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM03G;Armarios y Percheros;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Plástico;Medidas: 158 cm x 58 cm x 30 cm;
-ML-ARM04G;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Doble 16 Estantes;Material: Metal/Plástico;Medidas: 141 cm x 113 cm x 30 cm;Peso 3,5 Kg
-ML-ARM05G;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Y Botas 12 Estantes;Material: Metal/Plástico;Medidas: 124 cm x 113 cm x 30 cm;
-ML-ARM06B;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM06W;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM07B;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM07W;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM08B;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM08W;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM09B;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
-ML-ARM09W;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
-ML-BA888X1;Handies Baofeng;19900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
-ML-BA888X2;Handies Baofeng;38900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
-ML-BAT888S;Handies Baofeng;4500;;FOTOS2;;Batería para el modelo BA888;;;
-ML-BAA58S;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 10km;Alimentación:  Batería: 2800mAh Li-ion. Autonomía: 8hs aprox
-ML-BAK5PLU;Handies Baofeng;129900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 2500mAh Li-ion. Autonomía: 8hs aprox
-ML-BAK6;Handies Baofeng;84900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 15km;Alimentación:  Batería: 2600mAh Li-ion. Autonomía: 8hs aprox
-ML-BA-T3X2;Handies Baofeng;27900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 446 mhz;Alcance: 2km;Alimentación 4 x AAA.
-ML-BAUV17L;Handies Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 8hs aprox
-ML-BAUV5R5;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 10km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
-ML-BAUV5R8;Handies Baofeng;89900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 13km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
-ML-BAUV82;Handies Baofeng;49900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
-ML-BAUV822;Handies Baofeng;97900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
-ML-BASE01B;Cocina;22900;;FOTOS2;;Base Móvil Con Ruedas Electrodomésticos Heladera Lavarropas;Extensible hasta 56 x 56cm;Soporta hasta 138Kg;
-ML-BASE02G;Cocina;32900;;FOTOS2;;Base Móvil Reforzada Con Ruedas Electrodomésticos;Extensible hasta 60 x 60cm;Soporta hasta 138Kg;
-ML-BEACH;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
-ML-BEACH2;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
-ML-DIREC-A;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-M;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-N;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-R;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-V;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-REPO01;Tiempo Libre;67900;;FOTOS2;;Silla De Jardín;Altura 94cm, Ancho 58cm, Profundidad 64cm, con Apoyabrazos;Soporta hasta 130Kg;Estructura de Acero, Tela Rattan sintético
-ML-HAM01;Tiempo Libre;31900;;FOTOS2;;Hamaca Paraguaya;Dimensiones: 2,40 x 1,50m;Soporta hasta 180Kg;Material: Algodón
-ML-CARRO01;Cocina;52900;;FOTOS2;;Carrito de Compras;Dimensiones: 93 x 30 x 30cm;Reforzado, plegable con 8 ruedas;Capacidad: 35L, Soporta hasta 30Kg
-ML-CARRO02;Tiempo Libre;99900;;FOTOS2;;Carro Plegable Camping Playa;Dimensiones: 90*53*98cm/ Plegado: 53*19*75cm.;Capacidad de Carga: 80kgs;Rueda de PVC + Estructura de acero
-ML-CONS02A;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-CONS02B;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-CONS02C;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-GAZ01-A;Tiempo Libre;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ01-R;Tiempo Libre;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ02-A;Tiempo Libre;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ02-R;Tiempo Libre;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ02-W;Tiempo Libre;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-TENT1-A;Tiempo Libre;89900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT2-R;Tiempo Libre;64900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT2-V;Tiempo Libre;64900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT4-V;Tiempo Libre;89900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT5-N;Tiempo Libre;37900;;FOTOS2;;Carpa Playera;Dimensiones: 2,2m x 1,2m x 1,20m;;
-ML-GYM01;Gimnasio;189900;;FOTOS2;;Banco Pecho Plano Gimnasio Plegable;Altura: 105cm, Largo 120cm, Ancho: 71cm;Soporta hasta 150kg;Materiales: Hierro, espuma, cuero sintetico
-ML-GYM02;Gimnasio;169900;;FOTOS2;;Soporte Para Barra Sentadillas Regulable;Altura regulable: 112-177cm, Ancho: 53cm;Soporta hasta 250kg;Material: Hierro
-ML-GYM04;Gimnasio;169900;;FOTOS2;;Banco Gimnasio Plano Multiangular;Altura: 93,5cm, Largo 111cm, Ancho: 31cm;Respaldo regulable con 8 posiciones;Materiales: Hierro, espuma, cuero sintetico
-ML-GYM05;Gimnasio;209900;;FOTOS2;;Agarres Dorsales para Polea de Gimnasio SET x5;Ancho de los agarres: 30.5cm, 30.5cm, 55.5cm, 60.5cm, 81.5cm;Incluye 5 ganchos de acero reforzado;Materiales: Acero recubierto en goma rugosa antideslizante
-D-E1200T;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 140x100x34mm;Solar y a Pila
-D-E1205;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 130x107x34mm;Solar y a Pila
-D-E1240-B;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1240-W;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1275-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1275-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1280-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x100x18,5mm;Solar y a Pila
-D-E1280-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 160x100x18,5mm;Solar y a Pila
-D-E1285-BK;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 170x110x18,5mm;Solar y a Pila
-D-E1285-WE;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio;12 dígitos;Medidas: 170x110x18,5mm;Solar y a Pila
-D-I100T-BK;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos - 2 colores;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-I100T-WE;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos - 2 colores;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-I200TH-B;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora Térmica;12 dígitos;Velocidad de impresión: 8 líneas/seg;Alimentación USB-C ( Incluye cable y cargador )
-D-I200TH-W;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora Térmica;12 dígitos;Velocidad de impresión: 8 líneas/seg;Alimentación USB-C ( Incluye cable y cargador )
-D-I8T-BK;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-I8T-WE;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora eléctrica con Impresor;12 dígitos;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-P1013B;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo;10 dígitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
-D-P1013W;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo;10 dígitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
-D-P803;Calculadoras Daihatsu;5900;;FOTOS1;;Calculadora de Bolsillo;8 dígitos;Medidas: 88x58x6,5mm;Pila
-D-P803S;Calculadoras Daihatsu;6900;;FOTOS1;;Calculadora de Bolsillo;8 dígitos;Medidas: 88x58x6,5mm;Pila
-D-X570LAPLUS;Calculadoras Daihatsu;32900;;FOTOS1;;Calculadora Cientìfica;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
-D-X82;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora Cientìfica;10+2 dígitos, 240 funciones;Medidas: 181x85x20mm;Pila
-D-X95;Calculadoras Daihatsu;17900;;FOTOS1;;Calculadora Cientìfica;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
+﻿ART_COD;ART_PRE;ART_STK;ART_STKT;PRODUCTOS;;;NO VENDER;;;;ART_COD;CODCASIO
+D-AF6500-B;87900;885;;D-AF6500-B;;;D-AU303-GD;;;;AX120B;AX-120B
+D-AF6510-B;79900;916;;D-AF6510-B;;;D-AU303-RG;;;;DX12B;DX-12B-BK
+D-AF6510-W;79900;899;;D-AF6510-W;;;D-AU307-BK;;;;DX12B-WE;DX-12B-WE
+D-AS100;21900;824;0;D-AS100;;;D-AU307-GN;;;;FX570ESP2B;FX-570ESPLUS2BU
+D-AS101;30900;859;;D-AS101;;;D-AU307-PK;;;;FX570ESP2P;FX-570ESPLUS2PK
+D-AS102;33900;666;;D-AS102;;;D-AU307-PU;;;;FX570ESPL2;FX-570ESPLUS2
+D-AS200;135900;922;;D-AS200;;;D-AU308-GN;;;;FX570LAC-W;FX-570LAC-W
+D-AS201;145900;966;;D-AS201;;;D-AU308-PK;;;;FX82ESPL-B;FX-82ESPLUS2-BU
+D-AS300;57900;952;;D-AS300;;;;;;;FX82ESPL-P;FX-82ESPLUS2-PK
+D-AS400;74900;832;;D-AS400;;;;;;;FX82ESPLU2;FX-82ESPLUS2
+D-AS500;89900;844;;D-AS500;;"REEMPLAZAR TODOS LOS ""/"" POR ""-"" EN ART_COD";;;;;FX82LACW-W;FX-82LACW-W
+D-AU100-BK;3700;1641;;D-AU100-BK;;;;;;;FX82LAP2BU;FX-82LAPLUS2-BU
+D-AU100-WE;3700;668;;D-AU100-WE;;"REEMPLAZAR TODOS LOS ""+"" POR ""-"" EN ART_COD";;;;;FX82LAP2PK;FX-82LAPLUS2-PK
+D-AU102-WE;9900;712;;D-AU102-WE;;;;;;;FX82MS-2;FX-82MS-2
+D-AU103-BR;3700;232;;D-AU103-BR;;;;;;;FX95ESPLU2;FX-95ESPLUS2
+D-AU104-BK;3700;530;;D-AU104-BK;;;;;;;FX95MS-2;FX-95MS-2
+D-AU106-BR;3700;681;;D-AU106-BR;;;;;;;FX991ESP-B;FX-991ESPLUS2BU
+D-AU107-BK;3700;1302;;D-AU107-BK;;;;;;;FX991ESP-P;FX-991ESPLUS2PK
+D-AU310-BK;21900;827;;D-AU310-BK;;;;;;;FX991ESPL2;FX-991ESPLUS2
+D-AU315-BK;25500;838;;D-AU315-BK;;;;;;;GX12B;GX-12B-BK
+D-AU401;22900;56;;D-AU401;;;;;;;GX12B-WE;GX-12B-WE
+D-AU402;15900;281;;D-AU402;;;;;;;HR100RC;HR-100RC
+D-AU512-BK;14900;786;;D-AU512-BK;;;;;;;HR150RC;HR-150RC
+D-AU513-BK;15900;711;;D-AU513-BK;;;;;;;HR8RC-BK;HR-8RC-BK
+D-AU515-BK;19900;284;;D-AU515-BK;;;;;;;HR8RC-WE;HR-8RC-WE
+D-AU516-BK;16900;334;;D-AU516-BK;;;;;;;IR-40(B);IR-40(B)
+D-AU517-BK;19900;17;;D-AU517-BK;;;;;;;IR-40(T);IR-40T(R/B)
+D-AU518-BK;19900;239;;D-AU518-BK;;;;;;;LC160LV-BK;LC-160LV-BK
+D-AU519-WE;17900;690;0;D-AU519-WE;;;;;;;LC160LV-WE;LC-160LV-WE
+D-CE18-BU;199900;153;;D-CE18-BU;;;;;;;LC401LV-BK;LC-401LV-BK
+D-CE24-BU;245900;12;;D-CE24-BU;;;;;;;MS120FM;MS-120FM
+D-CF1000;29900;897;;D-CF1000;;;;;;;MS20UC-LB;MS-20UC-LB
+D-CF2000;159900;746;;D-CF2000;;;;;;;MS20UC-PK;MS-20UC-PK
+D-CF3000;369900;120;;D-CF3000;;;;;;;MS20UC-RD;MS-20UC-RD
+D-CF4000-B;129900;1077;;D-CF4000-B;;;;;;;MS20UC-WE;MS-20UC-WE
+D-CF4000-W;129900;1084;;D-CF4000-W;;;;;;;MW8V-BK;MW-8V-BK
+D-COR150-B;94900;247;;D-COR150-B;;;;;;;MW8V-WE;MW-8V-WE
+D-COR150-S;94900;266;;D-COR150-S;;;;;;;MX120B;MX-120B
+D-CS01;38900;432;;D-CS01;;;;;;;MX12B-GNRD;MX-12B-GNRD
+D-CS02;27900;461;;D-CS02;;;;;;;MX12B-PKLB;MX-12B-PKLB
+D-CS03;59900;441;;D-CS03;;;;;;;MX12B-WE;MX-12B-WE
+D-ES300-B;49900;923;;D-ES300-B;;;;;;;XR-18WE1;XR-18WE1
+D-GA5-BU;149900;111;;D-GA5-BU;;;;;;;XR-9WE1;XR-9WE1
+D-GA5-GN;149900;117;;D-GA5-GN;;;;;;;XR-9X1;XR-9X1
+D-GA5-GY;149900;93;;D-GA5-GY;;;;;;;XR-9YW1;XR-9YW1
+D-GA5-RD;149900;106;0;D-GA5-RD;;;;;;;;
+D-GA5-WE;149900;112;;D-GA5-WE;;;;;;;;
+D-INV1000;59900;;464;D-INV1000;;;;;;;;
+D-INV1500;74900;;135;D-INV1500;;;;;;;;
+D-INV2000;96900;;470;D-INV2000;;;;;;;;
+D-INV500;40900;;935;D-INV500;;;;;;;;
+D-MC12;63900;315;;D-MC12;;;;;;;;
+D-MW1-20MB;159900;316;0;D-MW1-20MB;;;;;;;;
+D-MW1-20MW;159900;211;0;D-MW1-20MW;;;;;;;;
+D-MW2-20M;159900;588;0;D-MW2-20M;;;;;;;;
+D-MW3-20D;179900;507;;D-MW3-20D;;;;;;;;
+D-MW4-25D;259900;57;;D-MW4-25D;;;;;;;;
+D-PI1200-B;84900;257;;D-PI1200-B;;;;;;;;
+D-PI1200-W;84900;397;;D-PI1200-W;;;;;;;;
+D-PR500-BK;33900;1172;;D-PR500-BK;;;;;;;;
+D-PR500-BU;33900;1173;;D-PR500-BU;;;;;;;;
+D-RK1;19900;1546;0;D-RK1;;;;;;;;
+D-RK2;19900;1385;;D-RK2;;;;;;;;
+D-RK3;19900;1333;0;D-RK3;;;;;;;;
+D-RK7;19900;168;0;D-RK7;;;;;;;;
+D-RK9;19900;1378;0;D-RK9;;;;;;;;
+D-RP38-BK;39900;2245;;D-RP38-BK;;;;;;;;
+D-RP38-RD;39900;782;;D-RP38-RD;;;;;;;;
+D-RP38-WE;39900;1446;;D-RP38-WE;;;;;;;;
+D-RP400-BK;39900;1202;;D-RP400-BK;;;;;;;;
+D-RP400-RD;39900;542;;D-RP400-RD;;;;;;;;
+D-RP400-WE;39900;1382;0;D-RP400-WE;;;;;;;;
+D-RP50USB;27900;1460;;D-RP50USB;;;;;;;;
+D-RP60PROB;35900;137;;D-RP60PROB;;;;;;;;
+D-RP60PROS;35900;189;;D-RP60PROS;;;;;;;;
+D-RP61USB;30900;1417;0;D-RP61USB;;;;;;;;
+D-S8000BT;42900;220;;D-S8000BT;;;;;;;;
+D-S8010BT;99900;169;;D-S8010BT;;;;;;;;
+D-S8020BT;169900;450;;D-S8020BT;;;;;;;;
+D-S8030BT;169900;306;;D-S8030BT;;;;;;;;
+D-S8040BT;159900;16;;D-S8040BT;;;;;;;;
+D-SAR1500;54900;669;;D-SAR1500;;;;;;;;
+D-SOP3275;50900;410;;D-SOP3275;;;;;;;;
+D-SOPSL;37900;105;;D-SOPSL;;;;;;;;
+D-TA50;179900;407;;D-TA50;;;;;;;;
+D-V102-BK;899900;107;;D-V102-BK;;;;;;;;
+D-V200-GY;1049900;46;;D-V200-GY;;;;;;;;
+D-V300-BK;1599900;117;;D-V300-BK;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+ML-ARM01B;41900;438;;ML-ARM01B;;;;;;;;
+ML-ARM01G;41900;511;;ML-ARM01G;;;;;;;;
+ML-ARM02G;24900;158;0;#N/A;;;;;;;;
+ML-ARM03G;28900;22;;ML-ARM03G;;;;;;;;
+ML-ARM04G;36900;39;;ML-ARM04G;;;;;;;;
+ML-ARM05G;36900;58;;ML-ARM05G;;;;;;;;
+ML-ARM06B;39900;7;;ML-ARM06B;;;;;;;;
+ML-ARM06W;39900;8;;ML-ARM06W;;;;;;;;
+ML-ARM07B;36900;47;;ML-ARM07B;;;;;;;;
+ML-ARM07W;36900;73;;ML-ARM07W;;;;;;;;
+ML-ARM08B;46900;74;;ML-ARM08B;;;;;;;;
+ML-ARM08W;46900;34;;ML-ARM08W;;;;;;;;
+ML-ARM09B;32900;43;;ML-ARM09B;;;;;;;;
+ML-ARM09W;32900;52;;ML-ARM09W;;;;;;;;
+ML-BA888X1;19900;0;967;ML-BA888X1;;;;;;;;
+ML-BA888X2;38900;0;4866;ML-BA888X2;;;;;;;;
+ML-BAA58S;79900;64;;ML-BAA58S;;;;;;;;
+ML-BAK5PLU;129900;176;;ML-BAK5PLU;;;;;;;;
+ML-BAK6;84900;58;;ML-BAK6;;;;;;;;
+ML-BASE01B;22900;84;;ML-BASE01B;;;;;;;;
+ML-BASE02G;32900;12;0;ML-BASE02G;;;;;;;;
+ML-BA-T3X2;27900;118;;ML-BA-T3X2;;;;;;;;
+ML-BAT888S;4500;;170;ML-BAT888S;;;;;;;;
+ML-BATUV5R;11100;3;0;#N/A;;;;;;;;
+ML-BAUV17L;114900;179;;ML-BAUV17L;;;;;;;;
+ML-BAUV5R5;79900;452;0;ML-BAUV5R5;;;;;;;;
+ML-BAUV5R8;89900;11;0;ML-BAUV5R8;;;;;;;;
+ML-BAUV82;49900;91;;ML-BAUV82;;;;;;;;
+ML-BAUV822;97900;28;;ML-BAUV822;;;;;;;;
+ML-BEACH;25900;120;;ML-BEACH;;;;;;;;
+ML-BEACH2;25900;180;;ML-BEACH2;;;;;;;;
+ML-BOLSA2N;59900;333;;#N/A;;;;;;;;
+ML-BOLSA2V;59900;11;;#N/A;;;;;;;;
+ML-BOLSO-N;26900;45;;#N/A;;;;;;;;
+ML-BOLSO-R;26900;6;;#N/A;;;;;;;;
+ML-CARRO01;52900;59;;ML-CARRO01;;;;;;;;
+ML-CARRO02;99900;115;;ML-CARRO02;;;;;;;;
+ML-CONS02A;16900;87;;ML-CONS02A;;;;;;;;
+ML-CONS02B;16900;193;;ML-CONS02B;;;;;;;;
+ML-CONS02C;16900;190;0;ML-CONS02C;;;;;;;;
+ML-DIREC-A;22900;581;;ML-DIREC-A;;;;;;;;
+ML-DIREC-M;22900;600;;ML-DIREC-M;;;;;;;;
+ML-DIREC-N;22900;241;;ML-DIREC-N;;;;;;;;
+ML-DIREC-R;22900;396;;ML-DIREC-R;;;;;;;;
+ML-DIREC-V;22900;495;;ML-DIREC-V;;;;;;;;
+ML-GAZ01-A;215900;171;;ML-GAZ01-A;;;;;;;;
+ML-GAZ01-R;215900;166;0;ML-GAZ01-R;;;;;;;;
+ML-GAZ02-A;159900;358;;ML-GAZ02-A;;;;;;;;
+ML-GAZ02-R;159900;264;;ML-GAZ02-R;;;;;;;;
+ML-GAZ02-W;159900;75;;ML-GAZ02-W;;;;;;;;
+ML-GYM01;189900;165;;ML-GYM01;;;;;;;;
+ML-GYM02;169900;71;;ML-GYM02;;;;;;;;
+ML-GYM04;169900;115;;ML-GYM04;;;;;;;;
+ML-GYM05;209900;43;;ML-GYM05;;;;;;;;
+ML-HAM01;31900;594;;ML-HAM01;;;;;;;;
+ML-MOCH01B;21300;123;;#N/A;;;;;;;;
+ML-MOCH02A;22250;78;;#N/A;;;;;;;;
+ML-MOCH02B;22250;48;0;#N/A;;;;;;;;
+ML-MOCH04A;32900;139;;#N/A;;;;;;;;
+ML-MOCH04B;32900;171;;#N/A;;;;;;;;
+ML-MOCH04C;32900;57;;#N/A;;;;;;;;
+ML-MOCH05A;17600;676;;#N/A;;;;;;;;
+ML-MOCH06V;24100;98;;#N/A;;;;;;;;
+ML-MOCH09A;15750;205;;#N/A;;;;;;;;
+ML-MOCH09G;15750;324;;#N/A;;;;;;;;
+ML-MOCH09N;15750;410;;#N/A;;;;;;;;
+ML-MOCH11N;22900;194;;#N/A;;;;;;;;
+ML-MOCH11R;22900;160;;#N/A;;;;;;;;
+ML-MOCH11V;22900;202;;#N/A;;;;;;;;
+ML-MOCH12A;21300;97;;#N/A;;;;;;;;
+ML-MOCH12N;21300;73;;#N/A;;;;;;;;
+ML-MOCH12R;21300;195;0;#N/A;;;;;;;;
+ML-MOCH13A;20300;142;;#N/A;;;;;;;;
+ML-MOCH13L;20300;178;;#N/A;;;;;;;;
+ML-MOCH13N;20300;233;;#N/A;;;;;;;;
+ML-MOCH13R;20300;242;;#N/A;;;;;;;;
+ML-MOCH14A;22900;102;;#N/A;;;;;;;;
+ML-MOCH14L;22900;59;;#N/A;;;;;;;;
+ML-MOCH14N;22900;74;;#N/A;;;;;;;;
+ML-MOCH14R;22900;68;;#N/A;;;;;;;;
+ML-MOCH15A;20350;100;;#N/A;;;;;;;;
+ML-MOCH15N;20350;25;;#N/A;;;;;;;;
+ML-MOCH15R;20350;234;;#N/A;;;;;;;;
+ML-MOCH15V;20350;241;;#N/A;;;;;;;;
+ML-MOCH16A;30900;34;;#N/A;;;;;;;;
+ML-MOCH16B;30900;15;;#N/A;;;;;;;;
+ML-MOCH16D;30900;81;;#N/A;;;;;;;;
+ML-MOCH16E;30900;23;;#N/A;;;;;;;;
+ML-MOCH17N;36900;32;;#N/A;;;;;;;;
+ML-MOCH17R;36900;12;;#N/A;;;;;;;;
+ML-MOCH18A;32900;172;;#N/A;;;;;;;;
+ML-MOCH18N;32900;169;;#N/A;;;;;;;;
+ML-MOCH18R;32900;89;;#N/A;;;;;;;;
+ML-MOCH19G;24900;63;;#N/A;;;;;;;;
+ML-MOCH19N;24900;64;;#N/A;;;;;;;;
+ML-MOCH20A;12900;122;;#N/A;;;;;;;;
+ML-MOCH20O;12900;139;;#N/A;;;;;;;;
+ML-MOCH21A;12900;110;;#N/A;;;;;;;;
+ML-MOCH21N;12900;118;;#N/A;;;;;;;;
+ML-MOCH21P;12900;116;;#N/A;;;;;;;;
+ML-MOCH21R;12900;39;;#N/A;;;;;;;;
+ML-MOCH21V;12900;23;;#N/A;;;;;;;;
+ML-MOCH22G;12900;26;;#N/A;;;;;;;;
+ML-MOCH22R;12900;114;;#N/A;;;;;;;;
+ML-MOCH23G;24900;100;;#N/A;;;;;;;;
+ML-MOCH23N;24900;95;;#N/A;;;;;;;;
+ML-MOCH24A;10650;157;;#N/A;;;;;;;;
+ML-MOCH24N;10650;70;;#N/A;;;;;;;;
+ML-MOCH24O;10650;176;;#N/A;;;;;;;;
+ML-MOCH26G;21300;414;;#N/A;;;;;;;;
+ML-MOCH28G;8900;815;;#N/A;;;;;;;;
+ML-MOCH30A;23900;146;;#N/A;;;;;;;;
+ML-MOCH30B;23900;155;;#N/A;;;;;;;;
+ML-MOCH30P;23900;129;;#N/A;;;;;;;;
+ML-MOCH30R;23900;146;;#N/A;;;;;;;;
+ML-MOCH30V;23900;139;;#N/A;;;;;;;;
+ML-MOCH31G;29900;100;;#N/A;;;;;;;;
+ML-MOCH31N;29900;106;;#N/A;;;;;;;;
+ML-MOCH32A;12050;115;;#N/A;;;;;;;;
+ML-MOCH32G;12050;105;;#N/A;;;;;;;;
+ML-MOCH32N;12050;83;;#N/A;;;;;;;;
+ML-MOCH33G;29900;76;;#N/A;;;;;;;;
+ML-MOCH33N;29900;18;;#N/A;;;;;;;;
+ML-MOCH34O;19900;40;;#N/A;;;;;;;;
+ML-MOCH34R;19900;36;;#N/A;;;;;;;;
+ML-MOCH35A;14950;147;;#N/A;;;;;;;;
+ML-MOCH35B;14950;132;;#N/A;;;;;;;;
+ML-MOCH35C;14950;117;;#N/A;;;;;;;;
+ML-MOCH35D;14950;125;;#N/A;;;;;;;;
+ML-MOCH35E;14950;148;;#N/A;;;;;;;;
+ML-MOCH35F;14950;118;;#N/A;;;;;;;;
+ML-MOCH35G;14950;283;;#N/A;;;;;;;;
+ML-MOCH37N;24900;85;;#N/A;;;;;;;;
+ML-MOCH38G;29900;117;;#N/A;;;;;;;;
+ML-MOCH39N;29900;119;;#N/A;;;;;;;;
+ML-MOCH40G;29900;120;;#N/A;;;;;;;;
+ML-MOCH41A;68900;150;;#N/A;;;;;;;;
+ML-MOCH41N;68900;142;;#N/A;;;;;;;;
+ML-MOCH41V;68900;148;;#N/A;;;;;;;;
+ML-MOCH42A;68900;148;;#N/A;;;;;;;;
+ML-MOCH42N;68900;141;;#N/A;;;;;;;;
+ML-MOCH42V;68900;145;;#N/A;;;;;;;;
+ML-MOCH43G;39900;47;;#N/A;;;;;;;;
+ML-MOCH43L;39900;48;;#N/A;;;;;;;;
+ML-MOCH43N;39900;41;;#N/A;;;;;;;;
+ML-MOCH43R;39900;50;;#N/A;;;;;;;;
+ML-ORG01B;37900;90;;#N/A;;;;;;;;
+ML-ORG02B;27900;74;;#N/A;;;;;;;;
+ML-ORG03W;27900;209;;#N/A;;;;;;;;
+ML-ORG04B;21900;281;;#N/A;;;;;;;;
+ML-ORG04W;21900;340;0;#N/A;;;;;;;;
+ML-ORG05B;12900;30;;#N/A;;;;;;;;
+ML-ORG05W;12900;42;;#N/A;;;;;;;;
+ML-ORG06B;15900;59;;#N/A;;;;;;;;
+ML-ORG09S;29900;98;;#N/A;;;;;;;;
+ML-ORG10B;12900;87;;#N/A;;;;;;;;
+ML-ORG10P;12900;97;;#N/A;;;;;;;;
+ML-ORG11B;15900;80;;#N/A;;;;;;;;
+ML-ORG11P;15900;96;;#N/A;;;;;;;;
+ML-ORG12B;14900;87;;#N/A;;;;;;;;
+ML-ORG13B;16900;92;;#N/A;;;;;;;;
+ML-ORG14B;11900;55;;#N/A;;;;;;;;
+ML-ORG15B;12900;60;;#N/A;;;;;;;;
+ML-ORG17B;26900;17;;#N/A;;;;;;;;
+ML-ORG18B;29900;35;;#N/A;;;;;;;;
+ML-PAR-1;14900;338;;#N/A;;;;;;;;
+ML-PAR-10;14900;101;0;#N/A;;;;;;;;
+ML-PAR-4;14900;156;;#N/A;;;;;;;;
+ML-PAR-5;14900;291;;#N/A;;;;;;;;
+ML-PAR-6;14900;241;;#N/A;;;;;;;;
+ML-PAR-7;14900;169;;#N/A;;;;;;;;
+ML-PAR-8;14900;407;;#N/A;;;;;;;;
+ML-PAR2-BK;9900;73;;#N/A;;;;;;;;
+ML-PAR2-GN;9900;15;;#N/A;;;;;;;;
+ML-PAR2-PK;9900;73;;#N/A;;;;;;;;
+ML-PAR3-BU;10900;50;;#N/A;;;;;;;;
+ML-PAR4-BK;14900;355;;#N/A;;;;;;;;
+ML-PAR4-GN;14900;140;;#N/A;;;;;;;;
+ML-PAR4-LB;14900;137;;#N/A;;;;;;;;
+ML-PAR4-PK;14900;136;;#N/A;;;;;;;;
+ML-PAR4-RD;14900;282;;#N/A;;;;;;;;
+ML-PEDAL01;76900;148;;#N/A;;;;;;;;
+ML-PERCH-B;1090;4769;;#N/A;;;;;;;;
+ML-PERCH-W;1090;6479;;#N/A;;;;;;;;
+ML-PERCH2A;990;161;;#N/A;;;;;;;;
+ML-PERCH2B;990;20;;#N/A;;;;;;;;
+ML-PERCH2C;990;838;;#N/A;;;;;;;;
+ML-RACK01B;62900;409;;#N/A;;;;;;;;
+ML-RACK01W;62900;172;0;#N/A;;;;;;;;
+ML-RACK02B;39900;175;0;#N/A;;;;;;;;
+ML-RACK02W;39900;181;;#N/A;;;;;;;;
+ML-REPO01;67900;79;;ML-REPO01;;;;;;;;
+ML-SEC01B;39900;626;;#N/A;;;;;;;;
+ML-SEC02B;41900;223;0;#N/A;;;;;;;;
+ML-SEC03B;20900;95;;#N/A;;;;;;;;
+ML-SEC03W;20900;101;;#N/A;;;;;;;;
+ML-SEC05S;19900;56;;#N/A;;;;;;;;
+ML-TEND01;29900;1382;;#N/A;;;;;;;;
+ML-TENT1-A;89900;29;;ML-TENT1-A;;;;;;;;
+ML-TENT2-R;64900;482;;ML-TENT2-R;;;;;;;;
+ML-TENT2-V;64900;339;;ML-TENT2-V;;;;;;;;
+ML-TENT4-V;89900;49;;ML-TENT4-V;;;;;;;;
+ML-TENT5-N;37900;265;;ML-TENT5-N;;;;;;;;
+ML-TRIP01;1900;318;;#N/A;;;;;;;;
+ML-WAD40-V;44900;98;0;#N/A;;;;;;;;
+ML-WAD41-V;44900;97;0;#N/A;;;;;;;;
+ML-WAD42-V;44900;201;0;#N/A;;;;;;;;
+ML-WAD43-V;44900;219;0;#N/A;;;;;;;;
+ML-WAD44-V;44900;233;;#N/A;;;;;;;;
+ML-WAD45-V;44900;176;;#N/A;;;;;;;;
+ML-WAD46-V;44900;269;;#N/A;;;;;;;;
+ML-WAD47-V;44900;284;;#N/A;;;;;;;;
+ML-YOGA-1;14900;385;;#N/A;;;;;;;;
+ML-YOGA-3;14900;13;;#N/A;;;;;;;;
+ML-YOGA2-A;14900;25;;#N/A;;;;;;;;
+ML-YOGA2-N;14900;37;;#N/A;;;;;;;;
+ML-YOGA2-V;14900;37;;#N/A;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+D-CB100;71900;3445;0;D-CB100;;;;;;;;
+D-CB2000;119900;531;;D-CB2000;;;;;;;;
+D-CB210;89900;1228;;D-CB210;;;;;;;;
+D-CB3000-C;739900;130;;D-CB3000-C;;;;;;;;
+D-CB40;35900;2523;;D-CB40;;;;;;;;
+D-CB4000-C;1499900;29;;D-CB4000-C;;;;;;;;
+D-E1200T;14900;413;;D-E1200T;;;;;;;;
+D-E1205;14900;411;0;D-E1205;;;;;;;;
+D-E1240-B;15900;407;30;D-E1240-B;;;;;;;;
+D-E1240-W;15900;348;0;D-E1240-W;;;;;;;;
+D-E1275-BK;12900;601;;D-E1275-BK;;;;;;;;
+D-E1275-WE;12900;225;;D-E1275-WE;;;;;;;;
+D-E1280-BK;12900;647;;D-E1280-BK;;;;;;;;
+D-E1280-WE;12900;271;;D-E1280-WE;;;;;;;;
+D-E1285-BK;15900;666;;D-E1285-BK;;;;;;;;
+D-E1285-WE;15900;266;;D-E1285-WE;;;;;;;;
+D-I100T-BK;94900;799;;D-I100T-BK;;;;;;;;
+D-I100T-WE;94900;590;0;D-I100T-WE;;;;;;;;
+D-I200TH-B;139900;378;;D-I200TH-B;;;;;;;;
+D-I200TH-W;139900;461;;D-I200TH-W;;;;;;;;
+D-I8T-BK;69900;412;4;D-I8T-BK;;;;;;;;
+D-I8T-WE;69900;140;91;D-I8T-WE;;;;;;;;
+D-P1013B;8900;230;;D-P1013B;;;;;;;;
+D-P1013W;8900;419;;D-P1013W;;;;;;;;
+D-P803;5900;668;628;D-P803;;;;;;;;
+D-P803S;6900;444;588;D-P803S;;;;;;;;
+D-X570LAPLUS;32900;717;73;D-X570LAPLUS;;;;;;;;
+D-X82;15900;256;;D-X82;;;;;;;;
+D-X95;17900;1208;0;D-X95;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;
+AX-120B;27500;111;;AX-120B;AX120B;AX-120B;;;;;;
+DX-12B-BK;27500;6;;DX-12B-BK;DX12B;DX-12B-BK;;;;;;
+FX-570ESPLUS2BU;56500;95;;#N/A;FX570ESP2B;FX-570ESPLUS2BU;;;;;;
+FX-570ESPLUS2PK;56500;72;;#N/A;FX570ESP2P;FX-570ESPLUS2PK;;;;;;
+FX-570ESPLUS2;56500;6;;#N/A;FX570ESPL2;FX-570ESPLUS2;;;;;;
+FX-570LAC-W;79500;4;;#N/A;FX570LAC-W;FX-570LAC-W;;;;;;
+FX-82ESPLUS2-BU;34500;5;;#N/A;FX82ESPL-B;FX-82ESPLUS2-BU;;;;;;
+FX-82ESPLUS2-PK;34500;38;;#N/A;FX82ESPL-P;FX-82ESPLUS2-PK;;;;;;
+FX-82ESPLUS2;34500;4;;#N/A;FX82ESPLU2;FX-82ESPLUS2;;;;;;
+FX-82LACW-W;45500;144;;#N/A;FX82LACW-W;FX-82LACW-W;;;;;;
+FX-82LAPLUS2-BU;34500;31;;#N/A;FX82LAP2BU;FX-82LAPLUS2-BU;;;;;;
+FX-82LAPLUS2-PK;34500;21;;#N/A;FX82LAP2PK;FX-82LAPLUS2-PK;;;;;;
+FX-82MS-2;29500;601;;#N/A;FX82MS-2;FX-82MS-2;;;;;;
+FX-95ESPLUS2;40500;10;;#N/A;FX95ESPLU2;FX-95ESPLUS2;;;;;;
+FX-95MS-2;37500;230;;#N/A;FX95MS-2;FX-95MS-2;;;;;;
+FX-991ESPLUS2BU;63500;25;;#N/A;FX991ESP-B;FX-991ESPLUS2BU;;;;;;
+FX-991ESPLUS2PK;63500;76;;#N/A;FX991ESP-P;FX-991ESPLUS2PK;;;;;;
+FX-991ESPLUS2;63500;12;;#N/A;FX991ESPL2;FX-991ESPLUS2;;;;;;
+GX-12B-BK;34500;18;;GX-12B-BK;GX12B;GX-12B-BK;;;;;;
+GX-12B-WE;34500;9;;GX-12B-WE;GX12B-WE;GX-12B-WE;;;;;;
+HR-100RC;107500;52;;#N/A;HR100RC;HR-100RC;;;;;;
+HR-150RC;145500;37;;#N/A;HR150RC;HR-150RC;;;;;;
+HR-8RC-BK;82500;25;;#N/A;HR8RC-BK;HR-8RC-BK;;;;;;
+HR-8RC-WE;82500;40;;#N/A;HR8RC-WE;HR-8RC-WE;;;;;;
+LC-160LV-BK;6500;296;;LC-160LV-BK;LC160LV-BK;LC-160LV-BK;;;;;;
+LC-160LV-WE;6500;96;;LC-160LV-WE;LC160LV-WE;LC-160LV-WE;;;;;;
+MS-120FM;32500;26;;MS-120FM;MS120FM;MS-120FM;;;;;;
+MS-20UC-LB;24500;11;;MS-20UC-LB;MS20UC-LB;MS-20UC-LB;;;;;;
+MS-20UC-RD;24500;24;;MS-20UC-RD;MS20UC-RD;MS-20UC-RD;;;;;;
+MS-20UC-WE;24500;40;;MS-20UC-WE;MS20UC-WE;MS-20UC-WE;;;;;;
+MW-8V-BK;16500;45;;MW-8V-BK;MW8V-BK;MW-8V-BK;;;;;;
+MX-120B;19500;81;;MX-120B;MX120B;MX-120B;;;;;;
+MX-12B-GNRD;17500;29;;MX-12B-GNRD;MX12B-GNRD;MX-12B-GNRD;;;;;;
+MX-12B-PKLB;17500;24;;MX-12B-PKLB;MX12B-PKLB;MX-12B-PKLB;;;;;;
+MX-12B-WE;17500;23;;MX-12B-WE;MX12B-WE;MX-12B-WE;;;;;;

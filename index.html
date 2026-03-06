@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Catálogo</title>
 
 <style>
@@ -18,20 +16,21 @@ background:#f5f5f5;
 header{
 display:flex;
 align-items:center;
-justify-content:space-between;
+justify-content:flex-end;
+gap:20px;
 padding:10px;
 background:white;
 border-bottom:1px solid #ddd;
+}
+
+#logo{
+height:50px;
 }
 
 #buscador{
 padding:8px;
 font-size:16px;
 width:220px;
-}
-
-#logo{
-height:50px;
 }
 
 #rubros{
@@ -73,6 +72,7 @@ text-align:center;
 .producto img{
 width:100%;
 cursor:pointer;
+transition:0.2s;
 }
 
 .precio{
@@ -100,7 +100,6 @@ z-index:50;
 }
 
 </style>
-
 </head>
 
 <body>
@@ -108,13 +107,11 @@ z-index:50;
 <header>
 
 <input type="text" id="buscador" placeholder="Buscar...">
-
 <img id="logo" src="logo.png">
 
 </header>
 
 <div id="rubros"></div>
-
 <div id="productos"></div>
 
 <script>
@@ -132,7 +129,7 @@ for(let i=1;i<lineas.length;i++){
 
 let c=lineas[i].split(",")
 
-if(c.length<6) continue
+if(c.length<5) continue
 
 productos.push({
 
@@ -140,8 +137,7 @@ codigo:c[0],
 nombre:c[1],
 precio:c[2],
 rubro:c[3],
-foto:c[4],
-carpeta:c[5]
+foto:c[4]
 
 })
 
@@ -201,11 +197,9 @@ div.className="producto"
 
 let img=document.createElement("img")
 
-let ruta=p.carpeta+"/"+p.foto
+img.src=p.foto
 
-img.src=ruta
-
-activarHoverImagen(img,p.codigo,p.carpeta)
+activarHoverImagen(img)
 
 div.appendChild(img)
 
@@ -237,17 +231,18 @@ cont.appendChild(div)
 document.getElementById("buscador").oninput=mostrarProductos
 
 
-function activarHoverImagen(img,codigo,carpeta){
 
-let original=img.src
+function activarHoverImagen(img){
+
+let original = img.src
 
 img.addEventListener("mouseenter",()=>{
 
-if(carpeta=="FOTOS1"){
+if(original.includes("FOTOS1/")){
 
-let alt="FOTOS1A/"+codigo+".jpg"
+let alt = original.replace("FOTOS1/","FOTOS1A/")
 
-let test=new Image()
+let test = new Image()
 
 test.onload=function(){
 
@@ -260,11 +255,11 @@ test.src=alt
 
 }
 
-if(carpeta=="FOTOS2"){
+if(original.includes("FOTOS2/")){
 
-let alt="FOTOS2A/"+codigo+".jpg"
+let alt = original.replace("FOTOS2/","FOTOS2A/")
 
-let test=new Image()
+let test = new Image()
 
 test.onload=function(){
 

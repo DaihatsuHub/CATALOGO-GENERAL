@@ -15,17 +15,22 @@ body {
 /* ===== BANNER SUPERIOR ===== */
 #banner {
     background: #2f2f2f;
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 #logo { height: 50px; }
+
+#buscadorWrap{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+}
 
 #buscador {
     width: 320px;
@@ -226,12 +231,13 @@ body {
 @media (max-width: 700px) {
 
     #logo { height: 40px; }
+
     #buscador { width: 180px; }
 
     #rubros { display: none; }
+
     #rubrosMobile { display: block; }
 
-    /* NUEVO: RUBROS SIEMPRE VISIBLES */
     #rubrosMobileWrapper {
         position: sticky;
         top: 60px;
@@ -244,7 +250,9 @@ body {
     }
 
     .grid { grid-template-columns: repeat(2, 1fr); }
+
     .producto img { height: 200px; }
+
 }
 </style>
 </head>
@@ -252,20 +260,25 @@ body {
 <body>
 
 <div id="banner">
-    <img id="logo" src="LOGO.jpg">
-    <input id="buscador" placeholder="Buscar código o descripción...">
+
+<div id="buscadorWrap">
+<input id="buscador" placeholder="Buscar código o descripción...">
+</div>
+
+<img id="logo" src="LOGO.jpg">
+
 </div>
 
 <div id="rubrosMobileWrapper">
-    <div id="flechaIzq">◀</div>
-    <div id="rubrosMobile"></div>
-    <div id="flechaDer">▶</div>
+<div id="flechaIzq">◀</div>
+<div id="rubrosMobile"></div>
+<div id="flechaDer">▶</div>
 </div>
 
 <div id="rubros"></div>
 
 <div id="contenido">
-    <div id="productos" class="grid"></div>
+<div id="productos" class="grid"></div>
 </div>
 
 <div id="modal">
@@ -281,144 +294,175 @@ let rubros = new Set();
 
 /* FORMATO PRECIO */
 function formatPrecio(p) {
-    if (!p || p=="") return "";
-    if (p.toUpperCase() === "AGOTADO") return "AGOTADO";
-    return "$ " + Number(p).toLocaleString("es-AR");
+if (!p || p=="") return "";
+if (p.toUpperCase() === "AGOTADO") return "AGOTADO";
+return "$ " + Number(p).toLocaleString("es-AR");
 }
 
 /* FOTO DESDE CSV */
 function buscarImagen(p) {
-    if (p.CARPETA && p.CARPETA !== "") {
-        return p.CARPETA + "/" + p.CODIGO + ".jpg";
-    }
-    return "noimg.jpg";
+if (p.CARPETA && p.CARPETA !== "") {
+return p.CARPETA + "/" + p.CODIGO + ".jpg";
+}
+return "noimg.jpg";
 }
 
 /* TARJETA PRODUCTO */
 function cardHTML(p) {
-    let img = buscarImagen(p);
-    let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
-    let eanHTML = "";
-    if (p.EAN && p.EAN.trim() !== "") {
-        eanHTML = `<br><span class="ean">EAN: ${p.EAN}</span>`;
-    }
 
-    return `
-    <div class="producto">
-        ${nuevo}
-        <img src="${img}" onclick="verGrande('${img}')">
-        <div class="info">
-            <h3>${p.CODIGO}</h3>
-            <div class="desc">
-                <b>${p.LINEA1||""}</b><br>
-                ${p.LINEA2||""}<br>
-                ${p.LINEA3||""}<br>
-                ${p.LINEA4||""}
-                ${eanHTML}
-            </div>
-            <div class="precio">${formatPrecio(p.PRECIO)}</div>
-        </div>
-    </div>`;
+let img = buscarImagen(p);
+
+let nuevo = (p.NEW && p.NEW.toUpperCase() == "SI") ? `<div class="nuevo">NUEVO</div>` : "";
+
+let eanHTML = "";
+if (p.EAN && p.EAN.trim() !== "") {
+eanHTML = `<br><span class="ean">EAN: ${p.EAN}</span>`;
 }
 
-/* RESTO DEL JS ORIGINAL SIN CAMBIOS */
+return `
+<div class="producto">
+${nuevo}
+<img src="${img}" onclick="verGrande('${img}')">
+
+<div class="info">
+
+<h3>${p.CODIGO}</h3>
+
+<div class="desc">
+<b>${p.LINEA1||""}</b><br>
+${p.LINEA2||""}<br>
+${p.LINEA3||""}<br>
+${p.LINEA4||""}
+${eanHTML}
+</div>
+
+<div class="precio">${formatPrecio(p.PRECIO)}</div>
+
+</div>
+</div>
+`;
+}
+
+/* LEER CSV */
 fetch(CSV_FILE)
 .then(r => r.text())
 .then(text => {
-    let lines = text.trim().split("\n");
-    let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
 
-    for (let i=1; i<lines.length; i++) {
-        let cols = lines[i].split(";");
-        let obj = {};
-        headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
-        productos.push(obj);
-        if (obj.RUBRO) rubros.add(obj.RUBRO);
-    }
+let lines = text.trim().split("\n");
+let headers = lines[0].split(";").map(h=>h.trim().toUpperCase());
 
-    productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
-    crearRubros();
-    mostrarNovedades();
-    setTimeout(actualizarFlechas, 300);
-});
+for (let i=1; i<lines.length; i++) {
 
-function crearRubros() {
-    let div = document.getElementById("rubros");
-    let mob = document.getElementById("rubrosMobile");
+let cols = lines[i].split(";");
 
-    div.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
-    mob.innerHTML = `<button class="activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+let obj = {};
 
-    let rubrosOrdenados = [...rubros].sort((a,b)=>a.localeCompare(b,"es"));
+headers.forEach((h,j)=> obj[h] = cols[j] ? cols[j].trim() : "");
 
-    rubrosOrdenados.forEach(r => {
-        div.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${r}')">${r}</button>`;
-        mob.innerHTML += `<button onclick="mostrarRubro('${r}')">${r}</button>`;
-    });
+productos.push(obj);
+
+if (obj.RUBRO) rubros.add(obj.RUBRO);
+
 }
 
+productos.sort((a,b)=> a.CODIGO.localeCompare(b.CODIGO));
+
+crearRubros();
+mostrarNovedades();
+
+setTimeout(actualizarFlechas, 300);
+
+});
+
+/* CREAR RUBROS */
+function crearRubros() {
+
+let div = document.getElementById("rubros");
+let mob = document.getElementById("rubrosMobile");
+
+div.innerHTML = `<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+mob.innerHTML = `<button class="activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
+
+let rubrosOrdenados = [...rubros].sort((a,b)=>a.localeCompare(b,"es"));
+
+rubrosOrdenados.forEach(r => {
+
+div.innerHTML += `<button class="rubro-btn" onclick="mostrarRubro('${r}')">${r}</button>`;
+
+mob.innerHTML += `<button onclick="mostrarRubro('${r}')">${r}</button>`;
+
+});
+
+}
+
+/* FLECHAS MOBILE */
 function actualizarFlechas() {
-    const cont = document.getElementById("rubrosMobile");
-    const izq = document.getElementById("flechaIzq");
-    const der = document.getElementById("flechaDer");
 
-    if (window.innerWidth > 700) {
-        izq.style.display = "none";
-        der.style.display = "none";
-        return;
-    }
+const cont = document.getElementById("rubrosMobile");
+const izq = document.getElementById("flechaIzq");
+const der = document.getElementById("flechaDer");
 
-    const scrollLeft = cont.scrollLeft;
-    const maxScroll = cont.scrollWidth - cont.clientWidth;
+if (window.innerWidth > 700) {
+izq.style.display = "none";
+der.style.display = "none";
+return;
+}
 
-    izq.style.display = scrollLeft > 5 ? "block" : "none";
-    der.style.display = scrollLeft < maxScroll - 5 ? "block" : "none";
+const scrollLeft = cont.scrollLeft;
+const maxScroll = cont.scrollWidth - cont.clientWidth;
+
+izq.style.display = scrollLeft > 5 ? "block" : "none";
+der.style.display = scrollLeft < maxScroll - 5 ? "block" : "none";
+
 }
 
 document.getElementById("rubrosMobile").addEventListener("scroll", actualizarFlechas);
 window.addEventListener("resize", actualizarFlechas);
 
 document.getElementById("flechaIzq").onclick = () => {
-    document.getElementById("rubrosMobile").scrollBy({ left: -200 });
+document.getElementById("rubrosMobile").scrollBy({ left: -200 });
 };
 
 document.getElementById("flechaDer").onclick = () => {
-    document.getElementById("rubrosMobile").scrollBy({ left: 200 });
+document.getElementById("rubrosMobile").scrollBy({ left: 200 });
 };
 
+/* RESTO JS ORIGINAL */
+
 function mostrarRubro(r) {
-    activarBoton(r);
-    document.getElementById("productos").innerHTML =
-        productos.filter(p=>p.RUBRO==r).map(cardHTML).join("");
+activarBoton(r);
+document.getElementById("productos").innerHTML =
+productos.filter(p=>p.RUBRO==r).map(cardHTML).join("");
 }
 
 function mostrarNovedades() {
-    activarBoton("NOVEDADES");
-    document.getElementById("productos").innerHTML =
-        productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
+activarBoton("NOVEDADES");
+document.getElementById("productos").innerHTML =
+productos.filter(p=>p.NEW && p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
 }
 
 function activarBoton(nombre) {
-    document.querySelectorAll(".rubro-btn, #rubrosMobile button").forEach(b=>{
-        b.classList.remove("activo");
-        if (b.textContent == nombre) b.classList.add("activo");
-    });
+document.querySelectorAll(".rubro-btn, #rubrosMobile button").forEach(b=>{
+b.classList.remove("activo");
+if (b.textContent == nombre) b.classList.add("activo");
+});
 }
 
 document.getElementById("buscador").addEventListener("input", e=>{
-    let t = e.target.value.toLowerCase();
-    document.getElementById("productos").innerHTML =
-        productos.filter(p =>
-            Object.values(p).join(" ").toLowerCase().includes(t)
-        ).map(cardHTML).join("");
+let t = e.target.value.toLowerCase();
+document.getElementById("productos").innerHTML =
+productos.filter(p =>
+Object.values(p).join(" ").toLowerCase().includes(t)
+).map(cardHTML).join("");
 });
 
 function verGrande(src) {
-    document.getElementById("modalImg").src = src;
-    document.getElementById("modal").style.display = "flex";
+document.getElementById("modalImg").src = src;
+document.getElementById("modal").style.display = "flex";
 }
+
 function cerrarModal() {
-    document.getElementById("modal").style.display = "none";
+document.getElementById("modal").style.display = "none";
 }
 </script>
 

@@ -33,8 +33,8 @@ D-CE24-BU;Tiempo Libre;245900;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mt
 D-CF1000;Cocina;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
 D-CF2000;Cocina;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
 D-CF3000;Cocina;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-B;Cocina;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-W;Cocina;129900;SI;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
+D-CF4000-B;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-W;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
 D-COR150-B;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-COR150-S;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-CS01;Seguridad;38900;;FOTOS1;;Cámara Seguridad Cs01 Wifi Apto Exterior Visión Nocturna Fhd;Resolución Full HD;Cobertura 360º. Zoom 4x;Conexión WiFi 
@@ -60,38 +60,38 @@ D-PI1200-B;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;
 D-PI1200-W;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
 D-PR500-BK;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-PR500-BU;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-RK1;Radios;19900;SI;FOTOS1;'7798019955284;Radio Portátil Análoga AM/FM;Dimensiones: 6x10x2cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 6x10x2cm
-D-RK2;Radios;19900;SI;FOTOS1;;Radio Portátil Análoga AM/FM;Dimensiones:13x8x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones:13x8x3cm
-D-RK3;Radios;19900;SI;FOTOS1;'7798019955307;Radio Portátil Análoga AM/FM;Dimensiones: 12x7x4cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 12x7x4cm
-D-RK7;Radios;19900;SI;FOTOS1;'7798019950616;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3cm
-D-RK9;Radios;19900;SI;FOTOS1;'7798019950692;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3c
-D-RP38-BK;Radios;39900;SI;FOTOS1;'7798019950104;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-RD;Radios;39900;SI;FOTOS1;'7798019955871;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-WE;Radios;39900;SI;FOTOS1;'7798019950081;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP400-BK;Radios;39900;SI;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-RD;Radios;39900;SI;FOTOS1;'7798019955949;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-WE;Radios;39900;SI;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP50USB;Radios;27900;SI;FOTOS1;'7798019951675;Radio Dual Análoga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
-D-RP60PROB;Radios;35900;SI;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP60PROS;Radios;35900;SI;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP61USB;Radios;30900;SI;FOTOS1;;Radio Dual Análoga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
+D-RK1;Radios;19900;;FOTOS1;'7798019955284;Radio Portátil Análoga AM/FM;Dimensiones: 6x10x2cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 6x10x2cm
+D-RK2;Radios;19900;;FOTOS1;;Radio Portátil Análoga AM/FM;Dimensiones:13x8x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones:13x8x3cm
+D-RK3;Radios;19900;;FOTOS1;'7798019955307;Radio Portátil Análoga AM/FM;Dimensiones: 12x7x4cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 12x7x4cm
+D-RK7;Radios;19900;;FOTOS1;'7798019950616;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3cm
+D-RK9;Radios;19900;;FOTOS1;'7798019950692;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3c
+D-RP38-BK;Radios;39900;;FOTOS1;'7798019950104;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP38-RD;Radios;39900;;FOTOS1;'7798019955871;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP38-WE;Radios;39900;;FOTOS1;'7798019950081;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP400-BK;Radios;39900;;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP400-RD;Radios;39900;;FOTOS1;'7798019955949;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP400-WE;Radios;39900;;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP50USB;Radios;27900;;FOTOS1;'7798019951675;Radio Dual Análoga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
+D-RP60PROB;Radios;35900;;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
+D-RP60PROS;Radios;35900;;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
+D-RP61USB;Radios;30900;;FOTOS1;;Radio Dual Análoga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
 D-S8000BT;Parlantes;42900;;FOTOS1;'7799199013931;Parlante Bluetooth;Potencia: 2600W PMPO.;Función karaoke: incluye micrófono cableado;Dimensiones: 20,6 x 24,8 x 37,4cm
 D-S8010BT;Parlantes;99900;;FOTOS1;'7799199013948;Parlante Bluetooth;"Potencia: 3800W PMPO con parlante de 8"" y tweeter de 1.5""";Función karaoke: incluye micrófono cableado;Dimensiones: 28,5 x 27,5 x 35,5 cm
-D-S8020BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8ö y tweeter de 1ö;Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82cm
-D-S8030BT;Parlantes;169900;SI;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuración de 3 parlantes, incluyendo woofer de 8""";Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82 cm
+D-S8020BT;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8ö y tweeter de 1ö;Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82cm
+D-S8030BT;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuración de 3 parlantes, incluyendo woofer de 8""";Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82 cm
 D-S8040BT;Parlantes;AGOTADO;;FOTOS1;;Parlante Bluetooth;"Potencia: 5000W PMPO con dos parlantes de 8"" y un tweeter de 1""";Función karaoke: incluye micrófono cableado;Dimensiones: 25,5 x 26,5 x 54 cm
 D-SAR1500;Cocina;54900;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 x 30 x 6 cm
 D-SOP3275;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tama±os de pantalla:  Desde 32 - 75 Pulgadas;Estándares VESA: 400x400;Inclinable, Articulado y Giratorio
 D-SOPSL;Soportes TV;37900;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
 D-TA50;Cocina;179900;;FOTOS1;'7799199015942;Cesto de basura automático | 50 lts;Dimensiones: 29,3 Î 42 Î 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
-D-V100-BK;Monopatines;629900;;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-V100-WE;Monopatines;629900;;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-V101-BK;Monopatines;679900;;FOTOS1;'7799199015829;"Monopatín Scooter Eléctrico V101 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-V102-BK;Monopatines;899900;;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 10Ah;Autonomía 20-30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión Delantera y Trasera
-D-V200-BK;Monopatines;1049900;;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Negro";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
-D-V200-GY;Monopatines;1049900;;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
-D-V300-BK;Monopatines;1599900;;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
-D-V301-BK;Monopatines;2099900;;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
+D-V100-BK;Monopatines;629900;SI;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
+D-V100-WE;Monopatines;629900;SI;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
+D-V101-BK;Monopatines;679900;SI;FOTOS1;'7799199015829;"Monopatín Scooter Eléctrico V101 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
+D-V102-BK;Monopatines;899900;SI;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 10Ah;Autonomía 20-30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión Delantera y Trasera
+D-V200-BK;Monopatines;1049900;SI;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Negro";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
+D-V200-GY;Monopatines;1049900;SI;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
+D-V300-BK;Monopatines;1599900;SI;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
+D-V301-BK;Monopatines;2099900;SI;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
 D-CB100;Contadoras de Billetes;71900;;FOTOS1;'7798019955727;Contadora Billetes;Tipo de detección: UV /MG;220v;Dimensiones: 19cm de alto, 28cm de largo y 25cm de ancho.
 D-CB2000;Contadoras de Billetes;119900;;FOTOS1;'7798019952061;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 190 x 280 x 250 mm
 D-CB210;Contadoras de Billetes;89900;;FOTOS1;'7798019955741;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 265 x 235 x 230 mm

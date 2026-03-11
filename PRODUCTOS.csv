@@ -1,26 +1,26 @@
-CODIGO;RUBRO;PRECIO;NEW;CARPETA;EAN;LINEA1;LINEA2;LINEA3;LINEA4
-D-AF6500-B;Cocina;87900;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ∫C a 200 ∫C.;Peso: 5,05 kg.
-D-AF6510-B;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ∫C a 200 ∫C.;Peso: 5,05 kg.
-D-AF6510-W;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ∫C a 200 ∫C.;Peso: 5,05 kg.
+ÔªøCODIGO;RUBRO;PRECIO;NEW;CARPETA;EAN;LINEA1;LINEA2;LINEA3;LINEA4
+D-AF6500-B;Cocina;87900;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ¬∫C a 200 ¬∫C.;Peso: 5,05 kg.
+D-AF6510-B;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ¬∫C a 200 ¬∫C.;Peso: 5,05 kg.
+D-AF6510-W;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ¬∫C a 200 ¬∫C.;Peso: 5,05 kg.
 D-AS100;Aspiradoras;21900;;FOTOS1;'7799199013900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
-D-AS101;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inal·mbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
-D-AS102;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inal·mbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
-D-AS200;Aspiradoras;135900;;FOTOS1;'7799199015720;Aspiradora inal·mbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
-D-AS201;Aspiradoras;145900;;FOTOS1;'7799199015737;Aspiradora inal·mbrica Vertical y De Mano;Capacidad: 800ML;Potencia: 120W;Voltaje: 22.2V·
-D-AS300;Aspiradoras;57900;;FOTOS1;'7799199015744;Aspiradora Vertical con cable·;Capacidad: 800ML;Potencia: 600W;Voltaje: 220 - 240 V - 50/60 Hz
+D-AS101;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inal√°mbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
+D-AS102;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inal√°mbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
+D-AS200;Aspiradoras;135900;;FOTOS1;'7799199015720;Aspiradora inal√°mbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
+D-AS201;Aspiradoras;145900;;FOTOS1;'7799199015737;Aspiradora inal√°mbrica Vertical y De Mano;Capacidad: 800ML;Potencia: 120W;Voltaje: 22.2V√°
+D-AS300;Aspiradoras;57900;;FOTOS1;'7799199015744;Aspiradora Vertical con cable√°;Capacidad: 800ML;Potencia: 600W;Voltaje: 220 - 240 V - 50/60 Hz
 D-AS400;Aspiradoras;74900;;FOTOS1;'7799199015751;Aspiradora con bolsa lavable;Capacidad: 1 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AS500;Aspiradoras;89900;;FOTOS1;'7799199015768;Aspiradora CiclÛnica sin bolsa;Capacidad: 1.5 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AU100-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  MicrÛfono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU100-WE;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  MicrÛfono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AS500;Aspiradoras;89900;;FOTOS1;'7799199015768;Aspiradora Cicl√≥nica sin bolsa;Capacidad: 1.5 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
+D-AU100-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micr√≥fono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
+D-AU100-WE;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micr√≥fono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
 D-AU102-WE;Auriculares;9900;;FOTOS1;'7798019955376;Auricular Vincha ;Largo del cable: 1 metro;Largo del cable: 1 metro;Frecuencia: 20Hz- 20KHz
 D-AU103-BR;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
 D-AU104-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
 D-AU106-BR;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
 D-AU107-BK;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU310-BK;Auriculares;21900;;FOTOS1;'7799199014822;Auricular Inal·mbrico Plegable·;Manos libres, VersiÛn BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
-D-AU315-BK;Auriculares;25500;;FOTOS1;'7799199014822;Auricular Inal·mbrico Plegable·;Manos libres, VersiÛn BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
-D-AU401;Auriculares;22900;;FOTOS1;'7798019954652;Auriculares Gamer Hunterspider M180 Pro Led Pc Play;Conector jack 3.5mm de 4 secciones + USB;Altavoz de 50mm que ofrece sonido envolvente.;MicrÛfono omnidireccional con sensibilidad de -42 dB.
-D-AU402;Auriculares;15900;;FOTOS1;'7798019954669;Auricular Vincha Daihatsu C/ Microfono;Cable de 2 m;Modo manos libres que permite llamadas;MicrÛfono flexible
+D-AU310-BK;Auriculares;21900;;FOTOS1;'7799199014822;Auricular Inal√°mbrico Plegable√°;Manos libres, Versi√≥n BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
+D-AU315-BK;Auriculares;25500;;FOTOS1;'7799199014822;Auricular Inal√°mbrico Plegable√°;Manos libres, Versi√≥n BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
+D-AU401;Auriculares;22900;;FOTOS1;'7798019954652;Auriculares Gamer Hunterspider M180 Pro Led Pc Play;Conector jack 3.5mm de 4 secciones + USB;Altavoz de 50mm que ofrece sonido envolvente.;Micr√≥fono omnidireccional con sensibilidad de -42 dB.
+D-AU402;Auriculares;15900;;FOTOS1;'7798019954669;Auricular Vincha Daihatsu C/ Microfono;Cable de 2 m;Modo manos libres que permite llamadas;Micr√≥fono flexible
 D-AU512-BK;Auriculares;14900;;FOTOS1;'7798019955414;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
 D-AU513-BK;Auriculares;15900;;FOTOS1;'7798019955415;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
 D-AU515-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
@@ -28,117 +28,117 @@ D-AU516-BK;Auriculares;16900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;A
 D-AU517-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
 D-AU518-BK;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
 D-AU519-WE;Auriculares;17900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-CE18-BU;Tiempo Libre;199900;;FOTOS2;;Cama El·stica Saltarina Reforzada 1,80 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
-D-CE24-BU;Tiempo Libre;245900;;FOTOS2;;Cama El·stica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
+D-CE18-BU;Tiempo Libre;199900;;FOTOS2;;Cama El√°stica Saltarina Reforzada 1,80 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
+D-CE24-BU;Tiempo Libre;245900;;FOTOS2;;Cama El√°stica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
 D-CF1000;Cocina;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
-D-CF2000;Cocina;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, PresiÛn: 20 bares;Espumador de leche
-D-CF3000;Cocina;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de cafÈ;Potencia: 1600 W, PresiÛn: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-B;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, PresiÛn: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-W;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, PresiÛn: 20 bares;Espumador de leche
-D-COR150-B;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 W·;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-COR150-S;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 W·;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-CS01;Seguridad;38900;;FOTOS1;;C·mara Seguridad Cs01 Wifi Apto Exterior VisiÛn Nocturna Fhd;ResoluciÛn Full HD;Cobertura 360∫. Zoom 4x;ConexiÛn WiFi 
-D-CS02;Seguridad;27900;;FOTOS1;;C·mara de Seguridad WiFi IP Full HD Domo;ResoluciÛn Full HD;Cobertura 360∫. Zoom 4x;ConexiÛn WiFi 
-D-CS03;Seguridad;59900;;FOTOS1;;C·mara De Seguridad Wifi Ip 6mp Exterior VisiÛn Nocturna;ResoluciÛn 6MP 4K;Cobertura 360∫. VisiÛn nocturna a color;ConexiÛn WiFi o cable
-D-ES300-B;Cocina;49900;;FOTOS1;'7799199017854;Espumador de leche;Capacidad: 300 ml;Potencia: 500 W;Espuma frÌa o caliente
-D-GA5-BU;SillÛn Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Azul;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-GN;SillÛn Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Verde;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-GY;SillÛn Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Gris;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-RD;SillÛn Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Rojo;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-WE;SillÛn Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Blanco;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-INV1000;Inversores;59900;;FOTOS1;;Inversor Conversor De Corriente 1000w Para Autos 12v A 220v;Voltaje mÌnimo: de salida: 110V, de entrada: 12V;Voltaje m·ximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV1500;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para Autos 12v A 220v;Voltaje mÌnimo: de salida: 110V, de entrada: 12V;Voltaje m·ximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV2000;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mÌnimo: de salida: 110V, de entrada: 12V;Voltaje m·ximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV500;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mÌnimo: de salida: 110V, de entrada: 12V;Voltaje m·ximo: de entrada: 24v, de salida: 220v;Peso: 750g
-D-MC12;M·quina de Coser;63900;;FOTOS1;'7799199016062;M·quina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atr·s;·Enhebrado autom·tico
-D-MW1-20MB;Cocina;159900;;FOTOS1;;Microondas Mec·nico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW1-20MW;Cocina;159900;;FOTOS1;;Microondas Mec·nico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW2-20M;Cocina;159900;;FOTOS1;;Microondas Mec·nico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW3-20D;Cocina;179900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocciÛn;Temporizador
+D-CF2000;Cocina;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presi√≥n: 20 bares;Espumador de leche
+D-CF3000;Cocina;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de caf√©;Potencia: 1600 W, Presi√≥n: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-B;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presi√≥n: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF4000-W;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presi√≥n: 20 bares;Espumador de leche
+D-COR150-B;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 W√°;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-COR150-S;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 W√°;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-CS01;Seguridad;38900;;FOTOS1;;C√°mara Seguridad Cs01 Wifi Apto Exterior Visi√≥n Nocturna Fhd;Resoluci√≥n Full HD;Cobertura 360¬∫. Zoom 4x;Conexi√≥n WiFi 
+D-CS02;Seguridad;27900;;FOTOS1;;C√°mara de Seguridad WiFi IP Full HD Domo;Resoluci√≥n Full HD;Cobertura 360¬∫. Zoom 4x;Conexi√≥n WiFi 
+D-CS03;Seguridad;59900;;FOTOS1;;C√°mara De Seguridad Wifi Ip 6mp Exterior Visi√≥n Nocturna;Resoluci√≥n 6MP 4K;Cobertura 360¬∫. Visi√≥n nocturna a color;Conexi√≥n WiFi o cable
+D-ES300-B;Cocina;49900;;FOTOS1;'7799199017854;Espumador de leche;Capacidad: 300 ml;Potencia: 500 W;Espuma fr√≠a o caliente
+D-GA5-BU;Sill√≥n Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Azul;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-GN;Sill√≥n Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Verde;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-GY;Sill√≥n Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Gris;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-RD;Sill√≥n Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Rojo;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-GA5-WE;Sill√≥n Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Blanco;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
+D-INV1000;Inversores;59900;;FOTOS1;;Inversor Conversor De Corriente 1000w Para Autos 12v A 220v;Voltaje m√≠nimo: de salida: 110V, de entrada: 12V;Voltaje m√°ximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV1500;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para Autos 12v A 220v;Voltaje m√≠nimo: de salida: 110V, de entrada: 12V;Voltaje m√°ximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV2000;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje m√≠nimo: de salida: 110V, de entrada: 12V;Voltaje m√°ximo: de entrada: 24v, de salida: 220v;Peso: 900g
+D-INV500;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje m√≠nimo: de salida: 110V, de entrada: 12V;Voltaje m√°ximo: de entrada: 24v, de salida: 220v;Peso: 750g
+D-MC12;M√°quina de Coser;63900;;FOTOS1;'7799199016062;M√°quina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atr√°s;√°Enhebrado autom√°tico
+D-MW1-20MB;Cocina;159900;;FOTOS1;;Microondas Mec√°nico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW1-20MW;Cocina;159900;;FOTOS1;;Microondas Mec√°nico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW2-20M;Cocina;159900;;FOTOS1;;Microondas Mec√°nico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
+D-MW3-20D;Cocina;179900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocci√≥n;Temporizador
 D-MW4-25D;Cocina;259900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
-D-PI1200-B;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
-D-PI1200-W;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
+D-PI1200-B;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise¬±o liviano: 2,3 kg.
+D-PI1200-W;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise¬±o liviano: 2,3 kg.
 D-PR500-BK;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-PR500-BU;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-RK1;Radios;19900;;FOTOS1;'7798019955284;Radio Port·til An·loga AM/FM;Dimensiones: 6x10x2cm;"AlimentaciÛn:  2 pilas ""AA""";Dimensiones: 6x10x2cm
-D-RK2;Radios;19900;;FOTOS1;;Radio Port·til An·loga AM/FM;Dimensiones:13x8x3cm;"AlimentaciÛn:  2 pilas ""AA""";Dimensiones:13x8x3cm
-D-RK3;Radios;19900;;FOTOS1;'7798019955307;Radio Port·til An·loga AM/FM;Dimensiones: 12x7x4cm;"AlimentaciÛn:  2 pilas ""AA""";Dimensiones: 12x7x4cm
-D-RK7;Radios;19900;;FOTOS1;'7798019950616;Radio Port·til An·loga AM/FM;Dimensiones: 7x12x3cm;"AlimentaciÛn:  2 pilas ""AA""";Dimensiones: 7x12x3cm
-D-RK9;Radios;19900;;FOTOS1;'7798019950692;Radio Port·til An·loga AM/FM;Dimensiones: 7x12x3cm;"AlimentaciÛn:  2 pilas ""AA""";Dimensiones: 7x12x3c
-D-RP38-BK;Radios;39900;;FOTOS1;'7798019950104;Radio Dual An·loga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"AlimentaciÛn:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-RD;Radios;39900;;FOTOS1;'7798019955871;Radio Dual An·loga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"AlimentaciÛn:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-WE;Radios;39900;;FOTOS1;'7798019950081;Radio Dual An·loga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"AlimentaciÛn:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP400-BK;Radios;39900;;FOTOS1;;Radio Dual An·loga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"AlimentaciÛn:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-RD;Radios;39900;;FOTOS1;'7798019955949;Radio Dual An·loga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"AlimentaciÛn:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-WE;Radios;39900;;FOTOS1;;Radio Dual An·loga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"AlimentaciÛn:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP50USB;Radios;27900;;FOTOS1;'7798019951675;Radio Dual An·loga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"AlimentaciÛn:  2 pilas ""D"" o BaterÌa 18650mha (INCLUIDA) o ConexiÛn USB (cargador no Incluido) "
-D-RP60PROB;Radios;35900;;FOTOS1;'7799199016086;Radio Dual An·loga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;AlimentaciÛn:  BaterÌa 18650mha (INCLUIDA) o ConexiÛn USB-C (cargador no Incluido) o Solar
-D-RP60PROS;Radios;35900;;FOTOS1;'7799199016086;Radio Dual An·loga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;AlimentaciÛn:  BaterÌa 18650mha (INCLUIDA) o ConexiÛn USB-C (cargador no Incluido) o Solar
-D-RP61USB;Radios;30900;;FOTOS1;;Radio Dual An·loga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"AlimentaciÛn:  2 pilas ""D"" o BaterÌa 18650mha (INCLUIDA) o ConexiÛn USB (cargador no Incluido) "
-D-S8000BT;Parlantes;42900;;FOTOS1;'7799199013931;Parlante Bluetooth;Potencia: 2600W PMPO.;FunciÛn karaoke: incluye micrÛfono cableado;Dimensiones: 20,6 x 24,8 x 37,4cm
-D-S8010BT;Parlantes;99900;;FOTOS1;'7799199013948;Parlante Bluetooth;"Potencia: 3800W PMPO con parlante de 8"" y tweeter de 1.5""";FunciÛn karaoke: incluye micrÛfono cableado;Dimensiones: 28,5 x 27,5 x 35,5 cm
-D-S8020BT;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8ˆ y tweeter de 1ˆ;FunciÛn karaoke: incluye micrÛfono cableado;Dimensiones: 28 x 28 x 82cm
-D-S8030BT;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuraciÛn de 3 parlantes, incluyendo woofer de 8""";FunciÛn karaoke: incluye micrÛfono cableado;Dimensiones: 28 x 28 x 82 cm
-D-S8040BT;Parlantes;AGOTADO;;FOTOS1;;Parlante Bluetooth;"Potencia: 5000W PMPO con dos parlantes de 8"" y un tweeter de 1""";FunciÛn karaoke: incluye micrÛfono cableado;Dimensiones: 25,5 x 26,5 x 54 cm
-D-SAR1500;Cocina;54900;;FOTOS1;'7799199016024;Sarten ElÈctrica;Capacidad: 6 Litros;Sistema de cocciÛn elÈctrico con funciÛn mantener caliente;Dimensiones: 30 x 30 x 6 cm
-D-SOP3275;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tama±os de pantalla:  Desde 32 - 75 Pulgadas;Est·ndares VESA: 400x400;Inclinable, Articulado y Giratorio
+D-RK1;Radios;19900;;FOTOS1;'7798019955284;Radio Port√°til An√°loga AM/FM;Dimensiones: 6x10x2cm;"Alimentaci√≥n:  2 pilas ""AA""";Dimensiones: 6x10x2cm
+D-RK2;Radios;19900;;FOTOS1;;Radio Port√°til An√°loga AM/FM;Dimensiones:13x8x3cm;"Alimentaci√≥n:  2 pilas ""AA""";Dimensiones:13x8x3cm
+D-RK3;Radios;19900;;FOTOS1;'7798019955307;Radio Port√°til An√°loga AM/FM;Dimensiones: 12x7x4cm;"Alimentaci√≥n:  2 pilas ""AA""";Dimensiones: 12x7x4cm
+D-RK7;Radios;19900;;FOTOS1;'7798019950616;Radio Port√°til An√°loga AM/FM;Dimensiones: 7x12x3cm;"Alimentaci√≥n:  2 pilas ""AA""";Dimensiones: 7x12x3cm
+D-RK9;Radios;19900;;FOTOS1;'7798019950692;Radio Port√°til An√°loga AM/FM;Dimensiones: 7x12x3cm;"Alimentaci√≥n:  2 pilas ""AA""";Dimensiones: 7x12x3c
+D-RP38-BK;Radios;39900;;FOTOS1;'7798019950104;Radio Dual An√°loga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentaci√≥n:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP38-RD;Radios;39900;;FOTOS1;'7798019955871;Radio Dual An√°loga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentaci√≥n:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP38-WE;Radios;39900;;FOTOS1;'7798019950081;Radio Dual An√°loga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentaci√≥n:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
+D-RP400-BK;Radios;39900;;FOTOS1;;Radio Dual An√°loga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentaci√≥n:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP400-RD;Radios;39900;;FOTOS1;'7798019955949;Radio Dual An√°loga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentaci√≥n:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP400-WE;Radios;39900;;FOTOS1;;Radio Dual An√°loga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentaci√≥n:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
+D-RP50USB;Radios;27900;;FOTOS1;'7798019951675;Radio Dual An√°loga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentaci√≥n:  2 pilas ""D"" o Bater√≠a 18650mha (INCLUIDA) o Conexi√≥n USB (cargador no Incluido) "
+D-RP60PROB;Radios;35900;;FOTOS1;'7799199016086;Radio Dual An√°loga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentaci√≥n:  Bater√≠a 18650mha (INCLUIDA) o Conexi√≥n USB-C (cargador no Incluido) o Solar
+D-RP60PROS;Radios;35900;;FOTOS1;'7799199016086;Radio Dual An√°loga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentaci√≥n:  Bater√≠a 18650mha (INCLUIDA) o Conexi√≥n USB-C (cargador no Incluido) o Solar
+D-RP61USB;Radios;30900;;FOTOS1;;Radio Dual An√°loga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentaci√≥n:  2 pilas ""D"" o Bater√≠a 18650mha (INCLUIDA) o Conexi√≥n USB (cargador no Incluido) "
+D-S8000BT;Parlantes;42900;;FOTOS1;'7799199013931;Parlante Bluetooth;Potencia: 2600W PMPO.;Funci√≥n karaoke: incluye micr√≥fono cableado;Dimensiones: 20,6 x 24,8 x 37,4cm
+D-S8010BT;Parlantes;99900;;FOTOS1;'7799199013948;Parlante Bluetooth;"Potencia: 3800W PMPO con parlante de 8"" y tweeter de 1.5""";Funci√≥n karaoke: incluye micr√≥fono cableado;Dimensiones: 28,5 x 27,5 x 35,5 cm
+D-S8020BT;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8√∂ y tweeter de 1√∂;Funci√≥n karaoke: incluye micr√≥fono cableado;Dimensiones: 28 x 28 x 82cm
+D-S8030BT;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuraci√≥n de 3 parlantes, incluyendo woofer de 8""";Funci√≥n karaoke: incluye micr√≥fono cableado;Dimensiones: 28 x 28 x 82 cm
+D-S8040BT;Parlantes;AGOTADO;;FOTOS1;;Parlante Bluetooth;"Potencia: 5000W PMPO con dos parlantes de 8"" y un tweeter de 1""";Funci√≥n karaoke: incluye micr√≥fono cableado;Dimensiones: 25,5 x 26,5 x 54 cm
+D-SAR1500;Cocina;54900;;FOTOS1;'7799199016024;Sarten El√©ctrica;Capacidad: 6 Litros;Sistema de cocci√≥n el√©ctrico con funci√≥n mantener caliente;Dimensiones: 30 x 30 x 6 cm
+D-SOP3275;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tama¬±os de pantalla:  Desde 32 - 75 Pulgadas;Est√°ndares VESA: 400x400;Inclinable, Articulado y Giratorio
 D-SOPSL;Soportes TV;37900;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
-D-TA50;Cocina;179900;;FOTOS1;'7799199015942;Cesto de basura autom·tico | 50 lts;Dimensiones: 29,3 Œ 42 Œ 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
-D-V100-BK;Monopatines;629900;SI;FOTOS1;'7799199015775;"MonopatÌn Scooter ElÈctrico V100 350W Rodado 8.5"" | Negro";Motor 36v / 350W, BaterÌa 36v / 7,5Ah;AutonomÌa 18-22Km, Vel.M·x. 30Km/h;Frenos ElÈctrico+Disco, SuspensiÛn NO
-D-V100-WE;Monopatines;629900;SI;FOTOS1;'7799199015775;"MonopatÌn Scooter ElÈctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, BaterÌa 36v / 7,5Ah;AutonomÌa 18-22Km, Vel.M·x. 30Km/h;Frenos ElÈctrico+Disco, SuspensiÛn NO
-D-V101-BK;Monopatines;679900;SI;FOTOS1;'7799199015829;"MonopatÌn Scooter ElÈctrico V101 350W Rodado 10"" | Negro";Motor 36v / 350W, BaterÌa 36v / 7,5Ah;AutonomÌa 18-22Km, Vel.M·x. 30Km/h;Frenos ElÈctrico+Disco, SuspensiÛn NO
-D-V102-BK;Monopatines;899900;SI;FOTOS1;'7799199015836;"MonopatÌn Scooter ElÈctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, BaterÌa 36v / 10Ah;AutonomÌa 20-30Km, Vel.M·x. 30Km/h;Frenos ElÈctrico+Disco, SuspensiÛn Delantera y Trasera
-D-V200-BK;Monopatines;1049900;SI;FOTOS1;'7799199015805;"MonopatÌn Scooter ElÈctrico V200 500W Rodado 10"" | Negro";Motor 36v / 500W, BaterÌa 36v / 15Ah;AutonomÌa 30-45Km, Vel.M·x. 35Km/h;Frenos ElÈctrico+de tambor, SuspensiÛn Delantera
-D-V200-GY;Monopatines;1049900;SI;FOTOS1;'7799199015805;"MonopatÌn Scooter ElÈctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, BaterÌa 36v / 15Ah;AutonomÌa 30-45Km, Vel.M·x. 35Km/h;Frenos ElÈctrico+de tambor, SuspensiÛn Delantera
-D-V300-BK;Monopatines;1599900;SI;FOTOS1;;"MonopatÌn Scooter ElÈctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, BaterÌa 48v / 18Ah;AutonomÌa 30-65Km, Vel.M·x. 45Km/h;Frenos Dual Disco, SuspensiÛn Delantera y Trasera
-D-V301-BK;Monopatines;2099900;SI;FOTOS1;;"MonopatÌn Scooter ElÈctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, BaterÌa 48v / 18Ah;AutonomÌa 30-65Km, Vel.M·x. 50Km/h;Frenos Dual Disco, SuspensiÛn Delantera y Trasera
-D-CB100;Contadoras de Billetes;71900;;FOTOS1;'7798019955727;Contadora Billetes;Tipo de detecciÛn: UV /MG;220v;Dimensiones: 19cm de alto, 28cm de largo y 25cm de ancho.
-D-CB2000;Contadoras de Billetes;119900;;FOTOS1;'7798019952061;Contadora Billetes;Tipo de detecciÛn: UV /MG;220v;Medidas: 190 x 280 x 250 mm
-D-CB210;Contadoras de Billetes;89900;;FOTOS1;'7798019955741;Contadora Billetes;Tipo de detecciÛn: UV /MG;220v;Medidas: 265 x 235 x 230 mm
-D-CB40;Contadoras de Billetes;35900;;FOTOS1;'7798019955215;Contadora Billetes Port·til;Tipo de detecciÛn: UV /MG;220v (FUENTE NO INCLUIDA) y Pilas AA;Medidas: 75x190x102mm
-D-CB3000-C;Contadoras de Billetes;739900;;FOTOS1;'7799199012453;Clasificadora de Billetes;Tipo de detecciÛn: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 265x 235x 230 mm
-D-CB4000-C;Contadoras de Billetes;1499900;;FOTOS1;'7799199012477;Clasificadora de Billetes;Tipo de detecciÛn: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 245 x 270 x 288 mm
-ML-ARM01B;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Pl·stico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM01G;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Pl·stico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM03G;Armarios y Percheros;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Pl·stico;Medidas: 158 cm x 58 cm x 30 cm;
-ML-ARM04G;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Doble 16 Estantes;Material: Metal/Pl·stico;Medidas: 141 cm x 113 cm x 30 cm;Peso 3,5 Kg
-ML-ARM05G;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Y Botas 12 Estantes;Material: Metal/Pl·stico;Medidas: 124 cm x 113 cm x 30 cm;
-ML-ARM06B;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Pl·stico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM06W;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Pl·stico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM07B;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl·stico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM07W;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl·stico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM08B;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl·stico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM08W;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl·stico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM09B;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Pl·stico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
-ML-ARM09W;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Pl·stico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
-ML-BA888X1;Handies Baofeng;19900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;AlimentaciÛn:  BaterÌa: 1500mAh Li-ion. AutonomÌa: 8hs aprox
-ML-BA888X2;Handies Baofeng;38900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;AlimentaciÛn:  BaterÌa: 1500mAh Li-ion. AutonomÌa: 8hs aprox
-ML-BAT888S;Handies Baofeng;4500;;FOTOS2;;BaterÌa para el modelo BA888;;;
-ML-BAA58S;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 10km;AlimentaciÛn:  BaterÌa: 2800mAh Li-ion. AutonomÌa: 8hs aprox
-ML-BAK5PLU;Handies Baofeng;129900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;AlimentaciÛn:  BaterÌa: 2500mAh Li-ion. AutonomÌa: 8hs aprox
-ML-BAK6;Handies Baofeng;84900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 15km;AlimentaciÛn:  BaterÌa: 2600mAh Li-ion. AutonomÌa: 8hs aprox
-ML-BA-T3X2;Handies Baofeng;27900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 446 mhz;Alcance: 2km;AlimentaciÛn 4 x AAA.
-ML-BAUV17L;Handies Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;AlimentaciÛn:  BaterÌa: 1800mAh Li-ion. AutonomÌa: 8hs aprox
-ML-BAUV5R5;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 10km;AlimentaciÛn:  BaterÌa: 1800mAh Li-ion. AutonomÌa: 10hs aprox
-ML-BAUV5R8;Handies Baofeng;89900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 13km;AlimentaciÛn:  BaterÌa: 1800mAh Li-ion. AutonomÌa: 10hs aprox
-ML-BAUV82;Handies Baofeng;49900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;AlimentaciÛn: BaterÌa 7.4V 2800mAh
-ML-BAUV822;Handies Baofeng;97900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;AlimentaciÛn: BaterÌa 7.4V 2800mAh
-ML-BASE01B;Cocina;22900;;FOTOS2;;Base MÛvil Con Ruedas ElectrodomÈsticos Heladera Lavarropas;Extensible hasta 56 x 56cm;Soporta hasta 138Kg;
-ML-BASE02G;Cocina;32900;;FOTOS2;;Base MÛvil Reforzada Con Ruedas ElectrodomÈsticos;Extensible hasta 60 x 60cm;Soporta hasta 138Kg;
+D-TA50;Cocina;179900;;FOTOS1;'7799199015942;Cesto de basura autom√°tico | 50 lts;Dimensiones: 29,3 √é 42 √é 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
+D-V100-BK;Monopatines;629900;SI;FOTOS1;'7799199015775;"Monopat√≠n Scooter El√©ctrico V100 350W Rodado 8.5"" | Negro";Motor 36v / 350W, Bater√≠a 36v / 7,5Ah;Autonom√≠a 18-22Km, Vel.M√°x. 30Km/h;Frenos El√©ctrico+Disco, Suspensi√≥n NO
+D-V100-WE;Monopatines;629900;SI;FOTOS1;'7799199015775;"Monopat√≠n Scooter El√©ctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Bater√≠a 36v / 7,5Ah;Autonom√≠a 18-22Km, Vel.M√°x. 30Km/h;Frenos El√©ctrico+Disco, Suspensi√≥n NO
+D-V101-BK;Monopatines;679900;SI;FOTOS1;'7799199015829;"Monopat√≠n Scooter El√©ctrico V101 350W Rodado 10"" | Negro";Motor 36v / 350W, Bater√≠a 36v / 7,5Ah;Autonom√≠a 18-22Km, Vel.M√°x. 30Km/h;Frenos El√©ctrico+Disco, Suspensi√≥n NO
+D-V102-BK;Monopatines;899900;SI;FOTOS1;'7799199015836;"Monopat√≠n Scooter El√©ctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Bater√≠a 36v / 10Ah;Autonom√≠a 20-30Km, Vel.M√°x. 30Km/h;Frenos El√©ctrico+Disco, Suspensi√≥n Delantera y Trasera
+D-V200-BK;Monopatines;1049900;SI;FOTOS1;'7799199015805;"Monopat√≠n Scooter El√©ctrico V200 500W Rodado 10"" | Negro";Motor 36v / 500W, Bater√≠a 36v / 15Ah;Autonom√≠a 30-45Km, Vel.M√°x. 35Km/h;Frenos El√©ctrico+de tambor, Suspensi√≥n Delantera
+D-V200-GY;Monopatines;1049900;SI;FOTOS1;'7799199015805;"Monopat√≠n Scooter El√©ctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Bater√≠a 36v / 15Ah;Autonom√≠a 30-45Km, Vel.M√°x. 35Km/h;Frenos El√©ctrico+de tambor, Suspensi√≥n Delantera
+D-V300-BK;Monopatines;1599900;SI;FOTOS1;;"Monopat√≠n Scooter El√©ctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Bater√≠a 48v / 18Ah;Autonom√≠a 30-65Km, Vel.M√°x. 45Km/h;Frenos Dual Disco, Suspensi√≥n Delantera y Trasera
+D-V301-BK;Monopatines;2099900;SI;FOTOS1;;"Monopat√≠n Scooter El√©ctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Bater√≠a 48v / 18Ah;Autonom√≠a 30-65Km, Vel.M√°x. 50Km/h;Frenos Dual Disco, Suspensi√≥n Delantera y Trasera
+D-CB100;Contadoras de Billetes;71900;;FOTOS1;'7798019955727;Contadora Billetes;Tipo de detecci√≥n: UV /MG;220v;Dimensiones: 19cm de alto, 28cm de largo y 25cm de ancho.
+D-CB2000;Contadoras de Billetes;119900;;FOTOS1;'7798019952061;Contadora Billetes;Tipo de detecci√≥n: UV /MG;220v;Medidas: 190 x 280 x 250 mm
+D-CB210;Contadoras de Billetes;89900;;FOTOS1;'7798019955741;Contadora Billetes;Tipo de detecci√≥n: UV /MG;220v;Medidas: 265 x 235 x 230 mm
+D-CB40;Contadoras de Billetes;35900;;FOTOS1;'7798019955215;Contadora Billetes Port√°til;Tipo de detecci√≥n: UV /MG;220v (FUENTE NO INCLUIDA) y Pilas AA;Medidas: 75x190x102mm
+D-CB3000-C;Contadoras de Billetes;739900;;FOTOS1;'7799199012453;Clasificadora de Billetes;Tipo de detecci√≥n: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 265x 235x 230 mm
+D-CB4000-C;Contadoras de Billetes;1499900;;FOTOS1;'7799199012477;Clasificadora de Billetes;Tipo de detecci√≥n: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 245 x 270 x 288 mm
+ML-ARM01B;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Pl√°stico;Medidas: 170 cm x 130 cm x 45 cm;
+ML-ARM01G;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Pl√°stico;Medidas: 170 cm x 130 cm x 45 cm;
+ML-ARM03G;Armarios y Percheros;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Pl√°stico;Medidas: 158 cm x 58 cm x 30 cm;
+ML-ARM04G;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Doble 16 Estantes;Material: Metal/Pl√°stico;Medidas: 141 cm x 113 cm x 30 cm;Peso 3,5 Kg
+ML-ARM05G;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Y Botas 12 Estantes;Material: Metal/Pl√°stico;Medidas: 124 cm x 113 cm x 30 cm;
+ML-ARM06B;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Pl√°stico;Medidas: 170 cm x 160 cm x 36 cm;
+ML-ARM06W;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Pl√°stico;Medidas: 170 cm x 160 cm x 36 cm;
+ML-ARM07B;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl√°stico;Medidas: 170 cm x 95 cm x 36 cm;
+ML-ARM07W;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl√°stico;Medidas: 170 cm x 95 cm x 36 cm;
+ML-ARM08B;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl√°stico;Medidas: 170 cm x 130 cm x 36 cm;
+ML-ARM08W;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Pl√°stico;Medidas: 170 cm x 130 cm x 36 cm;
+ML-ARM09B;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Pl√°stico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
+ML-ARM09W;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Pl√°stico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
+ML-BA888X1;Handies Baofeng;19900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentaci√≥n:  Bater√≠a: 1500mAh Li-ion. Autonom√≠a: 8hs aprox
+ML-BA888X2;Handies Baofeng;38900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentaci√≥n:  Bater√≠a: 1500mAh Li-ion. Autonom√≠a: 8hs aprox
+ML-BAT888S;Handies Baofeng;4500;;FOTOS2;;Bater√≠a para el modelo BA888;;;
+ML-BAA58S;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 10km;Alimentaci√≥n:  Bater√≠a: 2800mAh Li-ion. Autonom√≠a: 8hs aprox
+ML-BAK5PLU;Handies Baofeng;129900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentaci√≥n:  Bater√≠a: 2500mAh Li-ion. Autonom√≠a: 8hs aprox
+ML-BAK6;Handies Baofeng;84900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 15km;Alimentaci√≥n:  Bater√≠a: 2600mAh Li-ion. Autonom√≠a: 8hs aprox
+ML-BA-T3X2;Handies Baofeng;27900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 446 mhz;Alcance: 2km;Alimentaci√≥n 4 x AAA.
+ML-BAUV17L;Handies Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentaci√≥n:  Bater√≠a: 1800mAh Li-ion. Autonom√≠a: 8hs aprox
+ML-BAUV5R5;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 10km;Alimentaci√≥n:  Bater√≠a: 1800mAh Li-ion. Autonom√≠a: 10hs aprox
+ML-BAUV5R8;Handies Baofeng;89900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 13km;Alimentaci√≥n:  Bater√≠a: 1800mAh Li-ion. Autonom√≠a: 10hs aprox
+ML-BAUV82;Handies Baofeng;49900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentaci√≥n: Bater√≠a 7.4V 2800mAh
+ML-BAUV822;Handies Baofeng;97900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentaci√≥n: Bater√≠a 7.4V 2800mAh
+ML-BASE01B;Cocina;22900;;FOTOS2;;Base M√≥vil Con Ruedas Electrodom√©sticos Heladera Lavarropas;Extensible hasta 56 x 56cm;Soporta hasta 138Kg;
+ML-BASE02G;Cocina;32900;;FOTOS2;;Base M√≥vil Reforzada Con Ruedas Electrodom√©sticos;Extensible hasta 60 x 60cm;Soporta hasta 138Kg;
 ML-BEACH;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
 ML-BEACH2;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
-ML-DIREC-A;Tiempo Libre;22900;;FOTOS2;;SillÛn Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-M;Tiempo Libre;22900;;FOTOS2;;SillÛn Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-N;Tiempo Libre;22900;;FOTOS2;;SillÛn Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-R;Tiempo Libre;22900;;FOTOS2;;SillÛn Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-V;Tiempo Libre;22900;;FOTOS2;;SillÛn Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-REPO01;Tiempo Libre;67900;;FOTOS2;;Silla De JardÌn;Altura 94cm, Ancho 58cm, Profundidad 64cm, con Apoyabrazos;Soporta hasta 130Kg;Estructura de Acero, Tela Rattan sintÈtico
-ML-HAM01;Tiempo Libre;31900;;FOTOS2;;Hamaca Paraguaya;Dimensiones: 2,40 x 1,50m;Soporta hasta 180Kg;Material: AlgodÛn
+ML-DIREC-A;Tiempo Libre;22900;;FOTOS2;;Sill√≥n Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-M;Tiempo Libre;22900;;FOTOS2;;Sill√≥n Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-N;Tiempo Libre;22900;;FOTOS2;;Sill√≥n Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-R;Tiempo Libre;22900;;FOTOS2;;Sill√≥n Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-DIREC-V;Tiempo Libre;22900;;FOTOS2;;Sill√≥n Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
+ML-REPO01;Tiempo Libre;67900;;FOTOS2;;Silla De Jard√≠n;Altura 94cm, Ancho 58cm, Profundidad 64cm, con Apoyabrazos;Soporta hasta 130Kg;Estructura de Acero, Tela Rattan sint√©tico
+ML-HAM01;Tiempo Libre;31900;;FOTOS2;;Hamaca Paraguaya;Dimensiones: 2,40 x 1,50m;Soporta hasta 180Kg;Material: Algod√≥n
 ML-CARRO01;Cocina;52900;;FOTOS2;;Carrito de Compras;Dimensiones: 93 x 30 x 30cm;Reforzado, plegable con 8 ruedas;Capacidad: 35L, Soporta hasta 30Kg
 ML-CARRO02;Tiempo Libre;99900;;FOTOS2;;Carro Plegable Camping Playa;Dimensiones: 90*53*98cm/ Plegado: 53*19*75cm.;Capacidad de Carga: 80kgs;Rueda de PVC + Estructura de acero
-ML-CONS02A;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Port·til;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-CONS02B;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Port·til;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-CONS02C;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Port·til;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
+ML-CONS02A;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Port√°til;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
+ML-CONS02B;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Port√°til;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
+ML-CONS02C;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Port√°til;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
 ML-GAZ01-A;Tiempo Libre;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-GAZ01-R;Tiempo Libre;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-GAZ02-A;Tiempo Libre;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
@@ -172,64 +172,64 @@ ML-ORG14B;Organizadores;11900;;FOTOS2;;Organizador de Zapatos Moderno de Cuatro 
 ML-ORG15B;Organizadores;12900;;FOTOS2;;Organizador de Zapatos Moderno de Cuatro Niveles;Alto: 95cm, Ancho: 55cm, Profundidad: 26cm;Colores: Metalizado y Negro;
 ML-ORG17B;Organizadores;26900;;FOTOS2;;Cesto Clasificador de Ropa Sucia con Ruedas;Alto: 76cm, Ancho: 60cm, Profundidad: 33cm;Materiales: Hierro y Tela Oxford;
 ML-ORG18B;Organizadores;29900;;FOTOS2;;Organizador Multifuncion Movil con Cesto y Estante;Alto: 77cm, Ancho: 57cm, Profundidad: 28cm;Materiales: Hierro y Tela Oxford;
-D-E1200T;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 140x100x34mm;Solar y a Pila
-D-E1205;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 130x107x34mm;Solar y a Pila
-D-E1240-B;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1240-W;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1275-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1275-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1280-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 160x100x18,5mm;Solar y a Pila
-D-E1280-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 160x100x18,5mm;Solar y a Pila
-D-E1285-BK;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 170x110x18,5mm;Solar y a Pila
-D-E1285-WE;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dÌgitos;Medidas: 170x110x18,5mm;Solar y a Pila
-D-I100T-BK;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora elÈctrica con Impresor DAIHATSU;12 dÌgitos - 2 colores;Velocidad de impresiÛn: 2,03 lÌneas/seg;4xAA o Fuente (No Incluida)
-D-I100T-WE;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora elÈctrica con Impresor DAIHATSU;12 dÌgitos - 2 colores;Velocidad de impresiÛn: 2,03 lÌneas/seg;4xAA o Fuente (No Incluida)
-D-I200TH-B;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora TÈrmica DAIHATSU;12 dÌgitos;Velocidad de impresiÛn: 8 lÌneas/seg;AlimentaciÛn USB-C ( Incluye cable y cargador )
-D-I200TH-W;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora TÈrmica DAIHATSU;12 dÌgitos;Velocidad de impresiÛn: 8 lÌneas/seg;AlimentaciÛn USB-C ( Incluye cable y cargador )
-D-I8T-BK;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora elÈctrica con Impresor DAIHATSU;12 dÌgitos;Velocidad de impresiÛn: 2,03 lÌneas/seg;4xAA o Fuente (No Incluida)
-D-I8T-WE;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora elÈctrica con Impresor DAIHATSU;12 dÌgitos;Velocidad de impresiÛn: 2,03 lÌneas/seg;4xAA o Fuente (No Incluida)
-D-P1013B;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;10 dÌgitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
-D-P1013W;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;10 dÌgitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
-D-P803;Calculadoras Daihatsu;5900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 dÌgitos;Medidas: 88x58x6,5mm;Pila
-D-P803S;Calculadoras Daihatsu;6900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 dÌgitos;Medidas: 88x58x6,5mm;Pila
-D-X570LAPLUS;Calculadoras Daihatsu;32900;;FOTOS1;;Calculadora CientÏfica DAIHATSU;10+2 dÌgitos, 244 funciones;Medidas: 158x84x17mm;Pila
-D-X82;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora CientÏfica DAIHATSU;10+2 dÌgitos, 240 funciones;Medidas: 181x85x20mm;Pila
-D-X95;Calculadoras Daihatsu;17900;;FOTOS1;;Calculadora CientÏfica DAIHATSU;10+2 dÌgitos, 244 funciones;Medidas: 158x84x17mm;Pila
-AX-120B;Calculadoras Casio;27500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 175x110,5x25mm;Solar y a Pila
-DX-12B-BK;Calculadoras Casio;27500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 175x129,5x33mm;Solar y a Pila
-GX-12B-BK;Calculadoras Casio;34500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 207,5x159,5x34mm;Solar y a Pila
-GX-12B-WE;Calculadoras Casio;34500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 207,5x159,5x34mm;Solar y a Pila
-MS-120FM;Calculadoras Casio;32500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 148,5x101x27,6mm;Solar y a Pila
-MS-20UC-LB;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MS-20UC-RD;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MS-20UC-WE;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MW-8V-BK;Calculadoras Casio;16500;;FOTOS1;;Calculadora de Escritorio CASIO;8 dÌgitos;Medidas: 118x84x25mm;Pila
-MX-120B;Calculadoras Casio;19500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MX-12B-GNRD;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MX-12B-PKLB;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MX-12B-WE;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dÌgitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-LC-160LV-BK;Calculadoras Casio;6500;;FOTOS1;;Calculadora de Bolsillo CASIO;8 dÌgitos, con Tapa;Medidas: 87x117,5x8mm;Pila
-LC-160LV-WE;Calculadoras Casio;6500;;FOTOS1;;Calculadora de Bolsillo CASIO;8 dÌgitos, con Tapa;Medidas: 87x117,5x8mm;Pila
-HR-100RC;Calculadoras Casio;107500;;FOTOS1;;Calculadora con Impresor CASIO;12 dÌgitos - 2 colores - 2.0 lÌneas por seg.;Medidas: 295x165x64,6mm;Pila o Fuente (No Incluida)
-HR-150RC;Calculadoras Casio;145500;;FOTOS1;;Calculadora con Impresor CASIO;12 dÌgitos - 2 colores - 2.0 lÌneas por seg.;Medidas: 313x195x64,6mm;Pila o Fuente (No Incluida)
-HR-8RC-BK;Calculadoras Casio;82500;;FOTOS1;;Calculadora con Impresor CASIO;12 dÌgitos - 1.6 lÌneas por seg.;Medidas: 208x102x42mm;Pila o Fuente (No Incluida)
-HR-8RC-WE;Calculadoras Casio;82500;;FOTOS1;;Calculadora con Impresor CASIO;12 dÌgitos - 1.6 lÌneas por seg.;Medidas: 208x102x42mm;Pila o Fuente (No Incluida)
-FX-82ESPLUS2-PK;Calculadoras Casio;34500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82ESPLUS2;Calculadoras Casio;34500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82LACW-W;Calculadoras Casio;45500;;FOTOS1;;Calculadora cientÌfica CASIO;;;
-FX-82LAPLUS2-BU;Calculadoras Casio;34500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82LAPLUS2-PK;Calculadoras Casio;34500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82MS-2;Calculadoras Casio;29500;;FOTOS1;;Calculadora cientÌfica CASIO;;;
-FX-95ESPLUS2;Calculadoras Casio;40500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 274 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-95MS-2;Calculadoras Casio;37500;;FOTOS1;;Calculadora cientÌfica CASIO;;;
-FX-570ESPLUS2BU;Calculadoras Casio;56500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-570ESPLUS2PK;Calculadoras Casio;56500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-570ESPLUS2;Calculadoras Casio;56500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-570LAC-W;Calculadoras Casio;AGOTADO;;FOTOS1;;Calculadora cientÌfica programable CASIO;10+2 dÌgitos - 2900 funciones;Medidas: 188,5x89x18,6mm;Pila 
-FX-82ESPLUS2-BU;Calculadoras Casio;34500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-991ESPLUS2BU;Calculadoras Casio;63500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
-FX-991ESPLUS2PK;Calculadoras Casio;63500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
-FX-991ESPLUS2;Calculadoras Casio;63500;;FOTOS1;;Calculadora cientÌfica CASIO;10+2 dÌgitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
+D-E1200T;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 140x100x34mm;Solar y a Pila
+D-E1205;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 130x107x34mm;Solar y a Pila
+D-E1240-B;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1240-W;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1275-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1275-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 160x106x18,5mm;Solar y a Pila
+D-E1280-BK;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 160x100x18,5mm;Solar y a Pila
+D-E1280-WE;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 160x100x18,5mm;Solar y a Pila
+D-E1285-BK;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 170x110x18,5mm;Solar y a Pila
+D-E1285-WE;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 d√≠gitos;Medidas: 170x110x18,5mm;Solar y a Pila
+D-I100T-BK;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora el√©ctrica con Impresor DAIHATSU;12 d√≠gitos - 2 colores;Velocidad de impresi√≥n: 2,03 l√≠neas/seg;4xAA o Fuente (No Incluida)
+D-I100T-WE;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora el√©ctrica con Impresor DAIHATSU;12 d√≠gitos - 2 colores;Velocidad de impresi√≥n: 2,03 l√≠neas/seg;4xAA o Fuente (No Incluida)
+D-I200TH-B;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora T√©rmica DAIHATSU;12 d√≠gitos;Velocidad de impresi√≥n: 8 l√≠neas/seg;Alimentaci√≥n USB-C ( Incluye cable y cargador )
+D-I200TH-W;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora T√©rmica DAIHATSU;12 d√≠gitos;Velocidad de impresi√≥n: 8 l√≠neas/seg;Alimentaci√≥n USB-C ( Incluye cable y cargador )
+D-I8T-BK;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora el√©ctrica con Impresor DAIHATSU;12 d√≠gitos;Velocidad de impresi√≥n: 2,03 l√≠neas/seg;4xAA o Fuente (No Incluida)
+D-I8T-WE;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora el√©ctrica con Impresor DAIHATSU;12 d√≠gitos;Velocidad de impresi√≥n: 2,03 l√≠neas/seg;4xAA o Fuente (No Incluida)
+D-P1013B;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;10 d√≠gitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
+D-P1013W;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;10 d√≠gitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
+D-P803;Calculadoras Daihatsu;5900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 d√≠gitos;Medidas: 88x58x6,5mm;Pila
+D-P803S;Calculadoras Daihatsu;6900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 d√≠gitos;Medidas: 88x58x6,5mm;Pila
+D-X570LAPLUS;Calculadoras Daihatsu;32900;;FOTOS1;;Calculadora Cient√¨fica DAIHATSU;10+2 d√≠gitos, 244 funciones;Medidas: 158x84x17mm;Pila
+D-X82;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora Cient√¨fica DAIHATSU;10+2 d√≠gitos, 240 funciones;Medidas: 181x85x20mm;Pila
+D-X95;Calculadoras Daihatsu;17900;;FOTOS1;;Calculadora Cient√¨fica DAIHATSU;10+2 d√≠gitos, 244 funciones;Medidas: 158x84x17mm;Pila
+AX-120B;Calculadoras Casio;27500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 175x110,5x25mm;Solar y a Pila
+DX-12B-BK;Calculadoras Casio;27500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 175x129,5x33mm;Solar y a Pila
+GX-12B-BK;Calculadoras Casio;34500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 207,5x159,5x34mm;Solar y a Pila
+GX-12B-WE;Calculadoras Casio;34500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 207,5x159,5x34mm;Solar y a Pila
+MS-120FM;Calculadoras Casio;32500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 148,5x101x27,6mm;Solar y a Pila
+MS-20UC-LB;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
+MS-20UC-RD;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
+MS-20UC-WE;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
+MW-8V-BK;Calculadoras Casio;16500;;FOTOS1;;Calculadora de Escritorio CASIO;8 d√≠gitos;Medidas: 118x84x25mm;Pila
+MX-120B;Calculadoras Casio;19500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
+MX-12B-GNRD;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
+MX-12B-PKLB;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
+MX-12B-WE;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 d√≠gitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
+LC-160LV-BK;Calculadoras Casio;6500;;FOTOS1;;Calculadora de Bolsillo CASIO;8 d√≠gitos, con Tapa;Medidas: 87x117,5x8mm;Pila
+LC-160LV-WE;Calculadoras Casio;6500;;FOTOS1;;Calculadora de Bolsillo CASIO;8 d√≠gitos, con Tapa;Medidas: 87x117,5x8mm;Pila
+HR-100RC;Calculadoras Casio;107500;;FOTOS1;;Calculadora con Impresor CASIO;12 d√≠gitos - 2 colores - 2.0 l√≠neas por seg.;Medidas: 295x165x64,6mm;Pila o Fuente (No Incluida)
+HR-150RC;Calculadoras Casio;145500;;FOTOS1;;Calculadora con Impresor CASIO;12 d√≠gitos - 2 colores - 2.0 l√≠neas por seg.;Medidas: 313x195x64,6mm;Pila o Fuente (No Incluida)
+HR-8RC-BK;Calculadoras Casio;82500;;FOTOS1;;Calculadora con Impresor CASIO;12 d√≠gitos - 1.6 l√≠neas por seg.;Medidas: 208x102x42mm;Pila o Fuente (No Incluida)
+HR-8RC-WE;Calculadoras Casio;82500;;FOTOS1;;Calculadora con Impresor CASIO;12 d√≠gitos - 1.6 l√≠neas por seg.;Medidas: 208x102x42mm;Pila o Fuente (No Incluida)
+FX-82ESPLUS2-PK;Calculadoras Casio;34500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-82ESPLUS2;Calculadoras Casio;34500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-82LACW-W;Calculadoras Casio;45500;;FOTOS1;;Calculadora cient√≠fica CASIO;;;
+FX-82LAPLUS2-BU;Calculadoras Casio;34500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-82LAPLUS2-PK;Calculadoras Casio;34500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-82MS-2;Calculadoras Casio;29500;;FOTOS1;;Calculadora cient√≠fica CASIO;;;
+FX-95ESPLUS2;Calculadoras Casio;40500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 274 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-95MS-2;Calculadoras Casio;37500;;FOTOS1;;Calculadora cient√≠fica CASIO;;;
+FX-570ESPLUS2BU;Calculadoras Casio;56500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-570ESPLUS2PK;Calculadoras Casio;56500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-570ESPLUS2;Calculadoras Casio;56500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-570LAC-W;Calculadoras Casio;AGOTADO;;FOTOS1;;Calculadora cient√≠fica programable CASIO;10+2 d√≠gitos - 2900 funciones;Medidas: 188,5x89x18,6mm;Pila 
+FX-82ESPLUS2-BU;Calculadoras Casio;34500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-991ESPLUS2BU;Calculadoras Casio;63500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
+FX-991ESPLUS2PK;Calculadoras Casio;63500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
+FX-991ESPLUS2;Calculadoras Casio;63500;;FOTOS1;;Calculadora cient√≠fica CASIO;10+2 d√≠gitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
 ML-PAR-1;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;;;
 ML-PAR-10;Paraguas;14900;;FOTOS2;;;;;
 ML-PAR-4;Paraguas;14900;;FOTOS2;;;;;

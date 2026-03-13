@@ -372,7 +372,19 @@ if(obj.RUBRO)rubros.add(obj.RUBRO);
 
 }
 
-productos.sort((a,b)=>a.CODIGO.localeCompare(b.CODIGO));
+/* ORDEN NUEVO */
+
+productos.sort((a,b)=>{
+
+let r=(a.RUBRO||"").localeCompare(b.RUBRO||"","es");
+if(r!==0) return r;
+
+let o=(Number(a.ORD)||0)-(Number(b.ORD)||0);
+if(o!==0) return o;
+
+return (a.CODIGO||"").localeCompare(b.CODIGO||"","es");
+
+});
 
 crearRubros();
 mostrarNovedades();
@@ -413,20 +425,17 @@ mob.innerHTML+=`<button onclick="mostrarRubro('${r}')">${r}</button>`;
 
 }
 
-/* MOSTRAR PROMOS */
+/* PROMOS */
 
 function mostrarPromos(){
 
 activarBoton("PROMOCIONES");
 
 document.getElementById("productos").innerHTML=
-
 promos.map(img=>`
-
 <div class="producto">
 <img src="${img}" onclick="verGrande('${img}')">
 </div>
-
 `).join("");
 
 }
@@ -445,10 +454,8 @@ if(!alt) return;
 let test=new Image();
 
 test.onload=function(){
-
 img.dataset.original=img.src;
 img.src=alt;
-
 };
 
 test.src=alt;
@@ -486,11 +493,8 @@ productos.filter(p=>p.NEW&&p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
 function activarBoton(nombre){
 
 document.querySelectorAll(".rubro-btn,#rubrosMobile button").forEach(b=>{
-
 b.classList.remove("activo");
-
 if(b.textContent==nombre)b.classList.add("activo");
-
 });
 
 }

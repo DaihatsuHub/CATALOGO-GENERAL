@@ -1,274 +1,230 @@
-﻿CODIGO;ORD;RUBRO;PRECIO;NEW;CARPETA;EAN;LINEA1;LINEA2;LINEA3;LINEA4
-ML-ARM01B;;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM01G;;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM03G;;Armarios y Percheros;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Plástico;Medidas: 158 cm x 58 cm x 30 cm;
-ML-ARM04G;;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Doble 16 Estantes;Material: Metal/Plástico;Medidas: 141 cm x 113 cm x 30 cm;Peso 3,5 Kg
-ML-ARM05G;;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Y Botas 12 Estantes;Material: Metal/Plástico;Medidas: 124 cm x 113 cm x 30 cm;
-ML-ARM06B;;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM06W;;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM07B;;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM07W;;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM08B;;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM08W;;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM09B;;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, x 1,07m, x 0,36m;Peso 3,5 Kg
-ML-ARM09W;;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
-ML-RACK01B;;Armarios y Percheros;62900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Doble | Negro;Material: Metal;Medidas: 1,60m x 1,10m x 0,55m;Soporta 48kg
-ML-RACK01W;;Armarios y Percheros;62900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Doble | Blanco;Material: Metal;Medidas: 1,60m x 1,10m x 0,55m;Soporta 48kg
-ML-RACK02B;;Armarios y Percheros;39900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Simple | Negro;Material: Metal;Medidas: 1,50m x 1,10m x 0,40m;Soporta 48kg
-ML-RACK02W;;Armarios y Percheros;39900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Simple | Blanco;Material: Metal;Medidas: 1,50m x 1,10m x 0,40m;Soporta 48kg
-D-AS100;;Aspiradoras;21900;;FOTOS1;'7799199013900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
-D-AS101;;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
-D-AS102;;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
-D-AS200;;Aspiradoras;135900;;FOTOS1;'7799199015720;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 500 ml;Potencia: 120W;Recargable mediante puerto USB
-D-AS201;;Aspiradoras;145900;;FOTOS1;'7799199015737;Aspiradora inalámbrica Vertical y De Mano;Capacidad: 800ML;Potencia: 120W;Voltaje: 22.2Vá
-D-AS300;;Aspiradoras;57900;;FOTOS1;'7799199015744;Aspiradora Vertical con cableá;Capacidad: 800ML;Potencia: 600W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AS400;;Aspiradoras;74900;;FOTOS1;'7799199015751;Aspiradora con bolsa lavable;Capacidad: 1 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AS500;;Aspiradoras;89900;;FOTOS1;'7799199015768;Aspiradora Ciclónica sin bolsa;Capacidad: 1.5 L;Potencia: 1400W;Voltaje: 220 - 240 V - 50/60 Hz
-D-AU100-BK;;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micrófono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU100-WE;;Auriculares;3700;;FOTOS1;;Auricular Con Cable,  Micrófono Manos Libres;Sensibilidad de 96 dB;Largo Cable 1200mm. Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU102-WE;;Auriculares;9900;;FOTOS1;'7798019955376;Auricular Vincha ;Largo del cable: 1 metro;Largo del cable: 1 metro;Frecuencia: 20Hz- 20KHz
-D-AU103-BR;;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU104-BK;;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU106-BR;;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 92dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU107-BK;;Auriculares;3700;;FOTOS1;;Auricular Con Cable;Sensibilidad. 116dB.;Largo Cable 1130mm.  Jack: 3.5mm;Frecuencia: 20Hz- 20KHz
-D-AU310-BK;;Auriculares;21900;;FOTOS1;'7799199014822;Auricular Inalámbrico Plegableá;Manos libres, Versión BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
-D-AU315-BK;;Auriculares;25500;;FOTOS1;'7799199014822;Auricular Inalámbrico Plegableá;Manos libres, Versión BT: 5.4;Impedancia 16 ohms, 20Hz-20kHz;22 horas de uso aprox.
-D-AU401;;Auriculares;22900;;FOTOS1;'7798019954652;Auriculares Gamer Hunterspider M180 Pro Led Pc Play;Conector jack 3.5mm de 4 secciones + USB;Altavoz de 50mm que ofrece sonido envolvente.;Micrófono omnidireccional con sensibilidad de -42 dB.
-D-AU402;;Auriculares;15900;;FOTOS1;'7798019954669;Auricular Vincha Daihatsu C/ Microfono;Cable de 2 m;Modo manos libres que permite llamadas;Micrófono flexible
-D-AU512-BK;;Auriculares;14900;;FOTOS1;'7798019955414;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-AU513-BK;;Auriculares;15900;;FOTOS1;'7798019955415;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-AU515-BK;;Auriculares;19900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-D-AU516-BK;;Auriculares;16900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
-D-AU517-BK;;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
-D-AU518-BK;;Auriculares;19900;;FOTOS1;'7798019955417;Auricular Bluetooth In-ear;Alcance: 10 metros;Tiempo de uso: 4 horas aprox.;Entrada: DC5V
-D-AU519-WE;;Auriculares;17900;;FOTOS1;'7798019955417;Auricular In-Ear;Alcance: 10 metros;Tiempo de uso: 2-3 horas aprox.;Entrada: DC5V
-AX-120B;;Calculadoras Casio;27500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 175x110,5x25mm;Solar y a Pila
-DX-12B-BK;;Calculadoras Casio;27500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 175x129,5x33mm;Solar y a Pila
-FX-570ESPLUS2;;Calculadoras Casio;56500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-570ESPLUS2BU;;Calculadoras Casio;56500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-570ESPLUS2PK;;Calculadoras Casio;56500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-570LAC-W;;Calculadoras Casio;AGOTADO;;FOTOS1;;Calculadora científica programable CASIO;10+2 dígitos - 2900 funciones;Medidas: 188,5x89x18,6mm;Pila 
-FX-82ESPLUS2;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82ESPLUS2-BU;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82ESPLUS2-PK;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82LACW-W;;Calculadoras Casio;45500;;FOTOS1;;Calculadora científica CASIO;;;
-FX-82LAPLUS2-BU;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82LAPLUS2-PK;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82MS-2;;Calculadoras Casio;29500;;FOTOS1;;Calculadora científica CASIO;;;
-FX-95ESPLUS2;;Calculadoras Casio;40500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-95MS-2;;Calculadoras Casio;37500;;FOTOS1;;Calculadora científica CASIO;;;
-FX-991ESPLUS2;;Calculadoras Casio;63500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
-FX-991ESPLUS2BU;;Calculadoras Casio;63500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
-FX-991ESPLUS2PK;;Calculadoras Casio;63500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
-GX-12B-BK;;Calculadoras Casio;34500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 207,5x159,5x34mm;Solar y a Pila
-GX-12B-WE;;Calculadoras Casio;34500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 207,5x159,5x34mm;Solar y a Pila
-HR-100RC;;Calculadoras Casio;107500;;FOTOS1;;Calculadora con Impresor CASIO;12 dígitos - 2 colores - 2.0 líneas por seg.;Medidas: 295x165x64,6mm;Pila o Fuente (No Incluida)
-HR-150RC;;Calculadoras Casio;145500;;FOTOS1;;Calculadora con Impresor CASIO;12 dígitos - 2 colores - 2.0 líneas por seg.;Medidas: 313x195x64,6mm;Pila o Fuente (No Incluida)
-HR-8RC-BK;;Calculadoras Casio;82500;;FOTOS1;;Calculadora con Impresor CASIO;12 dígitos - 1.6 líneas por seg.;Medidas: 208x102x42mm;Pila o Fuente (No Incluida)
-HR-8RC-WE;;Calculadoras Casio;82500;;FOTOS1;;Calculadora con Impresor CASIO;12 dígitos - 1.6 líneas por seg.;Medidas: 208x102x42mm;Pila o Fuente (No Incluida)
-LC-160LV-BK;;Calculadoras Casio;6500;;FOTOS1;;Calculadora de Bolsillo CASIO;8 dígitos, con Tapa;Medidas: 87x117,5x8mm;Pila
-LC-160LV-WE;;Calculadoras Casio;6500;;FOTOS1;;Calculadora de Bolsillo CASIO;8 dígitos, con Tapa;Medidas: 87x117,5x8mm;Pila
-MS-120FM;;Calculadoras Casio;32500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 148,5x101x27,6mm;Solar y a Pila
-MS-20UC-LB;;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MS-20UC-RD;;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MS-20UC-WE;;Calculadoras Casio;24500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MW-8V-BK;;Calculadoras Casio;16500;;FOTOS1;;Calculadora de Escritorio CASIO;8 dígitos;Medidas: 118x84x25mm;Pila
-MX-120B;;Calculadoras Casio;19500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MX-12B-GNRD;;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MX-12B-PKLB;;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-MX-12B-WE;;Calculadoras Casio;17500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 149,5x105x22,8mm;Solar y a Pila
-D-E1200T;;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 140x100x34mm;Solar y a Pila
-D-E1205;;Calculadoras Daihatsu;14900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 130x107x34mm;Solar y a Pila
-D-E1240-B;;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1240-W;;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1275-BK;;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1275-WE;;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 160x106x18,5mm;Solar y a Pila
-D-E1280-BK;;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 160x100x18,5mm;Solar y a Pila
-D-E1280-WE;;Calculadoras Daihatsu;12900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 160x100x18,5mm;Solar y a Pila
-D-E1285-BK;;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 170x110x18,5mm;Solar y a Pila
-D-E1285-WE;;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora de Escritorio DAIHATSU;12 dígitos;Medidas: 170x110x18,5mm;Solar y a Pila
-D-I100T-BK;;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora eléctrica con Impresor DAIHATSU;12 dígitos - 2 colores;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-I100T-WE;;Calculadoras Daihatsu;94900;;FOTOS1;;Calculadora eléctrica con Impresor DAIHATSU;12 dígitos - 2 colores;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-I200TH-B;;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora Térmica DAIHATSU;12 dígitos;Velocidad de impresión: 8 líneas/seg;Alimentación USB-C ( Incluye cable y cargador )
-D-I200TH-W;;Calculadoras Daihatsu;139900;;FOTOS1;;Calculadora Impresora Térmica DAIHATSU;12 dígitos;Velocidad de impresión: 8 líneas/seg;Alimentación USB-C ( Incluye cable y cargador )
-D-I8T-BK;;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora eléctrica con Impresor DAIHATSU;12 dígitos;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-I8T-WE;;Calculadoras Daihatsu;69900;;FOTOS1;;Calculadora eléctrica con Impresor DAIHATSU;12 dígitos;Velocidad de impresión: 2,03 líneas/seg;4xAA o Fuente (No Incluida)
-D-P1013B;;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;10 dígitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
-D-P1013W;;Calculadoras Daihatsu;8900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;10 dígitos - Con Tapa;Medidas: 119x71x19,5mm;Solar y a Pila
-D-P803;;Calculadoras Daihatsu;5900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 dígitos;Medidas: 88x58x6,5mm;Pila
-D-P803S;;Calculadoras Daihatsu;6900;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 dígitos;Medidas: 88x58x6,5mm;Pila
-D-X570LAPLUS;;Calculadoras Daihatsu;32900;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
-D-X82;;Calculadoras Daihatsu;15900;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 240 funciones;Medidas: 181x85x20mm;Pila
-D-X95;;Calculadoras Daihatsu;17900;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
-D-AF6500-B;;Cocina;87900;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-AF6510-B;;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-AF6510-W;;Cocina;79900;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
-D-CF1000;;Cocina;29900;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
-D-CF2000;;Cocina;159900;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
-D-CF3000;;Cocina;369900;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-B;;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-CF4000-W;;Cocina;129900;;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche
-D-COR150-B;;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-COR150-S;;Cocina;94900;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-ES300-B;;Cocina;49900;;FOTOS1;'7799199017854;Espumador de leche;Capacidad: 300 ml;Potencia: 500 W;Espuma fría o caliente
-D-MW1-20MB;;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW1-20MW;;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW2-20M;;Cocina;159900;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
-D-MW3-20D;;Cocina;179900;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
-D-MW4-25D;;Cocina;259900;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
-D-PI1200-B;;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
-D-PI1200-W;;Cocina;84900;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
-D-PR500-BK;;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-PR500-BU;;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
-D-SAR1500;;Cocina;54900;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 x 30 x 6 cm
-D-TA50;;Cocina;179900;;FOTOS1;'7799199015942;Cesto de basura automático | 50 lts;Dimensiones: 29,3 Î 42 Î 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
-ML-BASE01B;;Cocina;22900;;FOTOS2;;Base Móvil Con Ruedas Electrodomésticos Heladera Lavarropas;Extensible hasta 56 x 56cm;Soporta hasta 138Kg;
-ML-BASE02G;;Cocina;32900;;FOTOS2;;Base Móvil Reforzada Con Ruedas Electrodomésticos;Extensible hasta 60 x 60cm;Soporta hasta 138Kg;
-ML-CARRO01;;Cocina;52900;;FOTOS2;;Carrito de Compras;Dimensiones: 93 x 30 x 30cm;Reforzado, plegable con 8 ruedas;Capacidad: 35L, Soporta hasta 30Kg
-ML-SEC01B;;Cocina;AGOTADO;;FOTOS1;;Secaplatos Escurridor con Secavasos y Cubiertero  | Negro;Alto: 48cm, Ancho: 32cm, Largo: 65cm;Material: Acero Inoxidable;
-ML-SEC02B;;Cocina;AGOTADO;;FOTOS1;;Secaplatos Escurridor con Secavasos y Cubiertero  | Negro;Alto: 51cm, Ancho: 33cm, Largo: 85cm;Material: Acero Inoxidable;
-ML-SEC03B;;Cocina;AGOTADO;;FOTOS1;;Secaplatos Escurridor  con Bandeja, Secavasps y Cubiertero | Negro;Alto: 15cm, Ancho: 32cm, Largo: 43cm;Materiales: Acero Cromado y Plastico;
-ML-SEC03W;;Cocina;AGOTADO;;FOTOS1;;Secaplatos Escurridor  con Bandeja, Secavasps y Cubiertero | Blanco;Alto: 15cm, Ancho: 32cm, Largo: 43cm;Materiales: Acero Cromado y Plastico;
-ML-SEC05S;;Cocina;AGOTADO;;FOTOS1;;Secaplatos Escurridor con Cubiertero ;Alto: 37cm, Ancho: 23cm, Largo: 48cm;Material: Acero Inoxidable;
-D-CB100;;Contadoras de Billetes;71900;;FOTOS1;'7798019955727;Contadora Billetes;Tipo de detección: UV /MG;220v;Dimensiones: 19cm de alto, 28cm de largo y 25cm de ancho.
-D-CB2000;;Contadoras de Billetes;119900;;FOTOS1;'7798019952061;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 190 x 280 x 250 mm
-D-CB210;;Contadoras de Billetes;89900;;FOTOS1;'7798019955741;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 265 x 235 x 230 mm
-D-CB3000-C;;Contadoras de Billetes;739900;;FOTOS1;'7799199012453;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 265x 235x 230 mm
-D-CB40;;Contadoras de Billetes;35900;;FOTOS1;'7798019955215;Contadora Billetes Portátil;Tipo de detección: UV /MG;220v (FUENTE NO INCLUIDA) y Pilas AA;Medidas: 75x190x102mm
-D-CB4000-C;;Contadoras de Billetes;1499900;;FOTOS1;'7799199012477;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 245 x 270 x 288 mm
-ML-GYM01;;Gimnasio;189900;;FOTOS2;'7799199015997;Banco Pecho Plano Gimnasio Plegable;Altura: 105cm, Largo 120cm, Ancho: 71cm;Soporta hasta 150kg;Materiales: Hierro, espuma, cuero sintetico
-ML-GYM02;;Gimnasio;169900;;FOTOS2;'7799199016000;Soporte Para Barra Sentadillas Regulable;Altura regulable: 112-177cm, Ancho: 53cm;Soporta hasta 250kg;Material: Hierro
-ML-GYM04;;Gimnasio;169900;;FOTOS2;;Banco Gimnasio Plano Multiangular;Altura: 93,5cm, Largo 111cm, Ancho: 31cm;Respaldo regulable con 8 posiciones;Materiales: Hierro, espuma, cuero sintetico
-ML-GYM05;;Gimnasio;209900;;FOTOS2;;Agarres Dorsales para Polea de Gimnasio SET x5;Ancho de los agarres: 30.5cm, 30.5cm, 55.5cm, 60.5cm, 81.5cm;Incluye 5 ganchos de acero reforzado;Materiales: Acero recubierto en goma rugosa antideslizante
-ML-PEDAL01;;Gimnasio;76900;;FOTOS2;;Pedalera Bicicleta Ergometrica con Monitor Digital;Alto: 32cm, Ancho 20cm, Profundidad: 40cm;Peso: 3.3kg;Requiere Baterias (NO incluidas)
-ML-YOGA-1;;Gimnasio;14900;;FOTOS2;;Mat de Yoga;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Violeta
-ML-YOGA2-A;;Gimnasio;14900;;FOTOS2;;Mat de Yoga con Bolso;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Celeste
-ML-YOGA2-N;;Gimnasio;14900;;FOTOS2;;Mat de Yoga con Bolso;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Negro
-ML-YOGA2-V;;Gimnasio;14900;;FOTOS2;;Mat de Yoga con Bolso;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Violeta
-ML-YOGA-3;;Gimnasio;14900;;FOTOS2;;Mat de Yoga;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Rosa
-ML-BA888X1;;Handies Baofeng;19900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
-ML-BA888X2;;Handies Baofeng;38900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
-ML-BAA58S;;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 10km;Alimentación:  Batería: 2800mAh Li-ion. Autonomía: 8hs aprox
-ML-BAK5PLU;;Handies Baofeng;129900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 2500mAh Li-ion. Autonomía: 8hs aprox
-ML-BAK6;;Handies Baofeng;84900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 15km;Alimentación:  Batería: 2600mAh Li-ion. Autonomía: 8hs aprox
-ML-BA-T3X2;;Handies Baofeng;27900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 446 mhz;Alcance: 2km;Alimentación 4 x AAA.
-ML-BAT888S;;Handies Baofeng;4500;;FOTOS2;;Batería para el modelo BA888;;;
-ML-BAUV17L;;Handies Baofeng;114900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 8hs aprox
-ML-BAUV5R5;;Handies Baofeng;79900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 10km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
-ML-BAUV5R8;;Handies Baofeng;89900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: 136 ~ 174MHz VHF/UHF 400 ~ 520MHz. 128 canales;Alcance: 13km;Alimentación:  Batería: 1800mAh Li-ion. Autonomía: 10hs aprox
-ML-BAUV82;;Handies Baofeng;49900;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
-ML-BAUV822;;Handies Baofeng;97900;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: BIBANDA VHF/UHF. 136 ~ 174MHz / 400 ~ 520MHz - 128 Canales;;Alimentación: Batería 7.4V 2800mAh
-D-INV1000;;Inversores;59900;;FOTOS1;;Inversor Conversor De Corriente 1000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV1500;;Inversores;74900;;FOTOS1;;Inversor Conversor De Corriente 1500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV2000;;Inversores;96900;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
-D-INV500;;Inversores;40900;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
-D-MC12;;Máquina de Coser;63900;;FOTOS1;'7799199016062;Máquina de coser 12 puntadas;Velocidad ajustable;Costura hacia adelante y hacia atrás;áEnhebrado automático
-D-V100-BK;10;Monopatines;629900;SI;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-V100-WE;10;Monopatines;629900;SI;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-V101-BK;10;Monopatines;679900;SI;FOTOS1;'7799199015829;"Monopatín Scooter Eléctrico V101 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-V102-BK;10;Monopatines;899900;SI;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 10Ah;Autonomía 20-30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión Delantera y Trasera
-D-V200-BK;10;Monopatines;1049900;SI;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Negro";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
-D-V200-GY;10;Monopatines;1049900;SI;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
-D-V300-BK;10;Monopatines;1599900;SI;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
-D-V301-BK;10;Monopatines;2099900;SI;FOTOS1;;"Monopatín Scooter Eléctrico V301 DUAL MOTOR 1600W Rodado 10"" | Negro";Motor 48v / 800+800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
-D-BAT-V100;20;Monopatines;208000;;FOTOS1;;Repuesto de Bateria de Monopatin V100;;;
-D-BAT-V101;20;Monopatines;208000;;FOTOS1;;Repuesto de Bateria de Monopatin V101;;;
-D-BAT-V102;20;Monopatines;292000;;FOTOS1;;Repuesto de Bateria de Monopatin V102;;;
-D-BAT-V200;20;Monopatines;585000;;FOTOS1;;Repuesto de Bateria de Monopatin V200;;;
-D-BAT-V300;20;Monopatines;338000;;FOTOS1;;Repuesto de Bateria de Monopatin V300;;;
-D-BAT-V301;20;Monopatines;533000;;FOTOS1;;Repuesto de Bateria de Monopatin V301;;;
-D-RUE-V100;30;Monopatines;32500;;FOTOS1;;Repuesto de Rueda de Monopatin V100;;;
-D-RUE-V101;30;Monopatines;32500;;FOTOS1;;Repuesto de Rueda de Monopatin V101;;;
-D-RUE-V102;30;Monopatines;39000;;FOTOS1;;Repuesto de Rueda de Monopatin V102;;;
-D-RUE-V200;30;Monopatines;39000;;FOTOS1;;Repuesto de Rueda de Monopatin V200;;;
-D-RUE-V300;30;Monopatines;52000;;FOTOS1;;Repuesto de Rueda de Monopatin V300;;;
-ML-ORG01B;;Organizadores;37900;;FOTOS2;;Carrito Organizador Multiuso de Tres estantes con Ruedas;Alto: 86cm, Ancho 41cm, Profundidad: 38cm;Soporta hasta 45kg;
-ML-ORG02B;;Organizadores;27900;;FOTOS2;;Carrito Organizador de Tres niveles con Ruedas;Alto: 63cm, Ancho: 40cm, Profndidad: 12cm;Soporta hasta 19kg;
-ML-ORG03W;;Organizadores;27900;;FOTOS2;;Organizador Sobre Inodoro de Tres Niveles;Alto: 166cm, Ancho: 47cm, Profundidad: 25cm;;
-ML-ORG04B;;Organizadores;21900;;FOTOS2;;Mueble de Entrada Zapatero y Perchero;Alto: 170cm, Ancho: 60cm, Profundidad: 26cm;Color Negro;
-ML-ORG04W;;Organizadores;21900;;FOTOS2;;Mueble de Entrada Zapatero y Perchero;Alto: 170cm, Ancho: 60cm, Profundidad: 26cm;Color Blanco;
-ML-ORG05B;;Organizadores;12900;;FOTOS2;;Organizador de Zapatos de Cuatro Niveles;Alto: 50cm, Ancho: 57cm, Profundidad: 20cm;Color Negro;
-ML-ORG05W;;Organizadores;12900;;FOTOS2;;Organizador de Zapatos de Cuatro Niveles;Alto: 50cm, Ancho: 57cm, Profundidad: 20cm;Color Blanco;
-ML-ORG06B;;Organizadores;15900;;FOTOS2;;Organizador de Zapatos de Cinco Niveles;Alto: 65.5cm, Ancho: 57cm, Profundidad: 20cm;Color Negro;
-ML-ORG09S;;Organizadores;29900;;FOTOS2;;Organizador de Zapatos Metalizado de Cuatro Niveles;Alto: 68cm, Ancho: 61cm, Profundidad: 23cm;Color Metalizado;
-ML-ORG10B;;Organizadores;12900;;FOTOS2;;Organizador de Zapatos de Tres Niveles;Alto: 43cm, Ancho: 46cm, Profundidad: 23cm;Colores: Blanco y Negro;
-ML-ORG10P;;Organizadores;12900;;FOTOS2;;Organizador de Zapatos de Tres Niveles;Alto: 43cm, Ancho: 46cm, Profundidad: 23cm;Colores: Blanco y Rosa;
-ML-ORG11B;;Organizadores;15900;;FOTOS2;;Organizador de Zapatos de Cuatro Niveles;Alto: 58cm, Ancho: 46cm, Profundidad: 23cm;Colores: Blanco y Negro;
-ML-ORG11P;;Organizadores;15900;;FOTOS2;;Organizador de Zapatos de Cuatro Niveles;Alto: 58cm, Ancho: 46cm, Profundidad: 23cm;Colores: Blanco y Rosa;
-ML-ORG12B;;Organizadores;14900;;FOTOS2;;Organizador de Zapatos Moderno de Cuatro Niveles;Alto: 80cm, Ancho: 60cm, Profundidad: 30cm;Colores: Metalizado y Negro;
-ML-ORG13B;;Organizadores;16900;;FOTOS2;;Organizador de Zapatos Moderno de Cinco Niveles;Alto: 95cm, Ancho: 60cm, Profundidad: 30cm;Colores: Metalizado y Negro;
-ML-ORG14B;;Organizadores;11900;;FOTOS2;;Organizador de Zapatos Moderno de Cuatro Niveles;Alto: 78cm, Ancho: 55cm, Profundidad: 26cm;Colores: Metalizado y Negro;
-ML-ORG15B;;Organizadores;12900;;FOTOS2;;Organizador de Zapatos Moderno de Cuatro Niveles;Alto: 95cm, Ancho: 55cm, Profundidad: 26cm;Colores: Metalizado y Negro;
-ML-ORG17B;;Organizadores;26900;;FOTOS2;;Cesto Clasificador de Ropa Sucia con Ruedas;Alto: 76cm, Ancho: 60cm, Profundidad: 33cm;Materiales: Hierro y Tela Oxford;
-ML-ORG18B;;Organizadores;29900;;FOTOS2;;Organizador Multifuncion Movil con Cesto y Estante;Alto: 77cm, Ancho: 57cm, Profundidad: 28cm;Materiales: Hierro y Tela Oxford;
-ML-PAR-1;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Con Estampado Negro;
-ML-PAR-10;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Con Estampado Blanco;
-ML-PAR2-BK;;Paraguas;9900;;FOTOS2;;Paraguas Mini Automatico;Largo (plegado): 29cm, Diametro: 1 metro;Color: Negro;
-ML-PAR2-GN;;Paraguas;9900;;FOTOS2;;Paraguas Mini Automatico;Largo (plegado): 29cm, Diametro: 1 metro;Color: Verde;
-ML-PAR2-PK;;Paraguas;9900;;FOTOS2;;Paraguas Mini Automatico;Largo (plegado): 29cm, Diametro: 1 metro;Color: Rosa;
-ML-PAR3-BU;;Paraguas;10900;;FOTOS2;;Paraguas Tipo Golf con Mango de Goma;Largo: 1 metro, Diametro: 1.20 metros;Color: Azul;
-ML-PAR-4;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Color: Fucsia;
-ML-PAR4-BK;;Paraguas;14900;;FOTOS2;;Paraguas Automatico con Luz Led;Largo (plegado): 34cm, Diametro: 1.04 metros;Color: Negro;
-ML-PAR4-GN;;Paraguas;14900;;FOTOS2;;Paraguas Automatico con Luz Led;Largo (plegado): 34cm, Diametro: 1.04 metros;Color: Verde;
-ML-PAR4-LB;;Paraguas;14900;;FOTOS2;;Paraguas Automatico con Luz Led;Largo (plegado): 34cm, Diametro: 1.04 metros;Color: Celeste;
-ML-PAR4-PK;;Paraguas;14900;;FOTOS2;;Paraguas Automatico con Luz Led;Largo (plegado): 34cm, Diametro: 1.04 metros;Color: Rosa;
-ML-PAR4-RD;;Paraguas;14900;;FOTOS2;;Paraguas Automatico con Luz Led;Largo (plegado): 34cm, Diametro: 1.04 metros;Color: Bordo;
-ML-PAR-5;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Color: Rojo;
-ML-PAR-6;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Color: Azul;
-ML-PAR-7;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Color: Celeste;
-ML-PAR-8;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Con Estampado a Cuadros;
-D-S8000BT;;Parlantes;42900;;FOTOS1;'7799199013931;Parlante Bluetooth;Potencia: 2600W PMPO.;Función karaoke: incluye micrófono cableado;Dimensiones: 20,6 x 24,8 x 37,4cm
-D-S8010BT;;Parlantes;99900;;FOTOS1;'7799199013948;Parlante Bluetooth;"Potencia: 3800W PMPO con parlante de 8"" y tweeter de 1.5""";Función karaoke: incluye micrófono cableado;Dimensiones: 28,5 x 27,5 x 35,5 cm
-D-S8020BT;;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;Potencia: 4000W PMPO, con dos woofers de 8ö y tweeter de 1ö;Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82cm
-D-S8030BT;;Parlantes;169900;;FOTOS1;;Parlante Bluetooth;"Potencia: 4000W PMPO con configuración de 3 parlantes, incluyendo woofer de 8""";Función karaoke: incluye micrófono cableado;Dimensiones: 28 x 28 x 82 cm
-D-S8040BT;;Parlantes;AGOTADO;;FOTOS1;;Parlante Bluetooth;"Potencia: 5000W PMPO con dos parlantes de 8"" y un tweeter de 1""";Función karaoke: incluye micrófono cableado;Dimensiones: 25,5 x 26,5 x 54 cm
-D-RK1;;Radios;19900;;FOTOS1;'7798019955284;Radio Portátil Análoga AM/FM;Dimensiones: 6x10x2cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 6x10x2cm
-D-RK2;;Radios;19900;;FOTOS1;;Radio Portátil Análoga AM/FM;Dimensiones:13x8x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones:13x8x3cm
-D-RK3;;Radios;19900;;FOTOS1;'7798019955307;Radio Portátil Análoga AM/FM;Dimensiones: 12x7x4cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 12x7x4cm
-D-RK7;;Radios;19900;;FOTOS1;'7798019950616;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3cm
-D-RK9;;Radios;19900;;FOTOS1;'7798019950692;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3c
-D-RP38-BK;;Radios;39900;;FOTOS1;'7798019950104;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-RD;;Radios;39900;;FOTOS1;'7798019955871;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP38-WE;;Radios;39900;;FOTOS1;'7798019950081;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
-D-RP400-BK;;Radios;39900;;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-RD;;Radios;39900;;FOTOS1;'7798019955949;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP400-WE;;Radios;39900;;FOTOS1;;Radio Dual Análoga AM/FM;Dimensiones: 21,50 x 0,69 x 16,2cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,50 x 0,69 x 16,2cm
-D-RP50USB;;Radios;27900;;FOTOS1;'7798019951675;Radio Dual Análoga AM/FM;Dimensiones: 18 x14 x 8cm;Linterna LED. NO REPRODUCE POR USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
-D-RP60PROB;;Radios;35900;;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Negro;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP60PROS;;Radios;35900;;FOTOS1;'7799199016086;Radio Dual Análoga AM/FM - Plateado;Dimensiones: 15.2x5.3x11cm;Reproduce Bluetooth. Reproduce MP3 por USB;Alimentación:  Batería 18650mha (INCLUIDA) o Conexión USB-C (cargador no Incluido) o Solar
-D-RP61USB;;Radios;30900;;FOTOS1;;Radio Dual Análoga AM/FM - Negro;Dimensiones: 18 x14 x 8cm;Reproduce Bluetooth. Reproduce MP3 por USB;"Alimentación:  2 pilas ""D"" o Batería 18650mha (INCLUIDA) o Conexión USB (cargador no Incluido) "
-D-CS01;;Seguridad;38900;;FOTOS1;;Cámara Seguridad Cs01 Wifi Apto Exterior Visión Nocturna Fhd;Resolución Full HD;Cobertura 360º. Zoom 4x;Conexión WiFi 
-D-CS02;;Seguridad;27900;;FOTOS1;;Cámara de Seguridad WiFi IP Full HD Domo;Resolución Full HD;Cobertura 360º. Zoom 4x;Conexión WiFi 
-D-CS03;;Seguridad;59900;;FOTOS1;;Cámara De Seguridad Wifi Ip 6mp Exterior Visión Nocturna;Resolución 6MP 4K;Cobertura 360º. Visión nocturna a color;Conexión WiFi o cable
-D-GA5-BU;;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Azul;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-GN;;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Verde;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-GY;;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Gris;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-RD;;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Rojo;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-GA5-WE;;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Blanco;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
-D-SOP3275;;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tama±os de pantalla:  Desde 32 - 75 Pulgadas;Estándares VESA: 400x400;Inclinable, Articulado y Giratorio
-D-SOPSL;;Soportes TV;37900;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
-D-CE18-BU;;Tiempo Libre;199900;;FOTOS2;;Cama Elástica Saltarina Reforzada 1,80 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
-D-CE24-BU;;Tiempo Libre;245900;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
-ML-BEACH;;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
-ML-BEACH2;;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
-ML-CARRO02;;Tiempo Libre;99900;;FOTOS2;;Carro Plegable Camping Playa;Dimensiones: 90*53*98cm/ Plegado: 53*19*75cm.;Capacidad de Carga: 80kgs;Rueda de PVC + Estructura de acero
-ML-CONS02A;;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-CONS02B;;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-CONS02C;;Tiempo Libre;16900;;FOTOS2;;Conservadora Plegable Portátil;Dimensiones: 39 x 23 x 39cm;Capacidad: 21L;NO ES impermeable. Usar Pack de gel
-ML-DIREC-A;;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-M;;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-N;;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-R;;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-DIREC-V;;Tiempo Libre;22900;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
-ML-GAZ01-A;;Tiempo Libre;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ01-R;;Tiempo Libre;215900;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ02-A;;Tiempo Libre;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ02-R;;Tiempo Libre;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ02-W;;Tiempo Libre;159900;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-HAM01;;Tiempo Libre;31900;;FOTOS2;;Hamaca Paraguaya;Dimensiones: 2,40 x 1,50m;Soporta hasta 180Kg;Material: Algodón
-ML-REPO01;;Tiempo Libre;67900;;FOTOS2;;Silla De Jardín;Altura 94cm, Ancho 58cm, Profundidad 64cm, con Apoyabrazos;Soporta hasta 130Kg;Estructura de Acero, Tela Rattan sintético
-ML-TENT1-A;;Tiempo Libre;89900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT2-R;;Tiempo Libre;64900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT2-V;;Tiempo Libre;64900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT4-V;;Tiempo Libre;89900;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
-ML-TENT5-N;;Tiempo Libre;37900;;FOTOS2;;Carpa Playera;Dimensiones: 2,2m x 1,2m x 1,20m;;
+﻿ART_COD;ART_PRE;ART_STK;ART_STKT;PRODUCTOS;;;NO VENDER;;;;ART_COD;CODCASIO
+;;;;;;;D-AU303-GD;;;;AX120B;AX-120B
+;;;;;;;D-AU303-RG;;;;DX12B;DX-12B-BK
+;;;;;;;D-AU307-BK;;;;DX12B-WE;DX-12B-WE
+;;;;;;;D-AU307-GN;;;;FX570ESP2B;FX-570ESPLUS2BU
+;;;;;;;D-AU307-PK;;;;FX570ESP2P;FX-570ESPLUS2PK
+;;;;;;;D-AU307-PU;;;;FX570ESPL2;FX-570ESPLUS2
+;;;;;;;D-AU308-GN;;;;FX570LAC-W;FX-570LAC-W
+;;;;;;;D-AU308-PK;;;;FX82ESPL-B;FX-82ESPLUS2-BU
+ML-ARM01B;41900,00;431;;ML-ARM01B;;;;;;;FX82ESPL-P;FX-82ESPLUS2-PK
+ML-ARM01G;41900,00;508;;ML-ARM01G;;;;;;;FX82ESPLU2;FX-82ESPLUS2
+ML-ARM02G;24900,00;158;0;#N/D;;"REEMPLAZAR TODOS LOS ""/"" POR ""-"" EN ART_COD";;;;;FX82LACW-W;FX-82LACW-W
+ML-ARM03G;28900,00;13;;ML-ARM03G;;;;;;;FX82LAP2BU;FX-82LAPLUS2-BU
+ML-ARM04G;36900,00;30;;ML-ARM04G;;"REEMPLAZAR TODOS LOS ""+"" POR ""-"" EN ART_COD";;;;;FX82LAP2PK;FX-82LAPLUS2-PK
+ML-ARM05G;36900,00;45;;ML-ARM05G;;;;;;;FX82MS-2;FX-82MS-2
+ML-ARM06B;39900,00;7;;ML-ARM06B;;;;;;;FX95ESPLU2;FX-95ESPLUS2
+ML-ARM06W;39900,00;8;;ML-ARM06W;;;;;;;FX95MS-2;FX-95MS-2
+ML-ARM07B;36900,00;47;;ML-ARM07B;;;;;;;FX991ESP-B;FX-991ESPLUS2BU
+ML-ARM07W;36900,00;72;;ML-ARM07W;;;;;;;FX991ESP-P;FX-991ESPLUS2PK
+ML-ARM08B;46900,00;69;;ML-ARM08B;;;;;;;FX991ESPL2;FX-991ESPLUS2
+ML-ARM08W;46900,00;23;;ML-ARM08W;;;;;;;GX12B;GX-12B-BK
+ML-ARM09B;32900,00;40;;ML-ARM09B;;;;;;;GX12B-WE;GX-12B-WE
+ML-ARM09W;32900,00;46;;ML-ARM09W;;;;;;;HR100RC;HR-100RC
+ML-BA5R8X4;139800,00;6;0;#N/D;;;;;;;HR150RC;HR-150RC
+ML-BA888X1;19900,00;0;955;ML-BA888X1;;;;;;;HR8RC-BK;HR-8RC-BK
+ML-BA888X2;38900,00;0;4645;ML-BA888X2;;;;;;;HR8RC-WE;HR-8RC-WE
+ML-BAA58S;79900,00;64;;ML-BAA58S;;;;;;;IR-40(B);IR-40(B)
+ML-BAK5PLU;129900,00;175;;ML-BAK5PLU;;;;;;;IR-40(T);IR-40T(R/B)
+ML-BAK6;84900,00;57;;ML-BAK6;;;;;;;LC160LV-BK;LC-160LV-BK
+ML-BASE01B;22900,00;66;;ML-BASE01B;;;;;;;LC160LV-WE;LC-160LV-WE
+ML-BASE02G;32900,00;4;0;ML-BASE02G;;;;;;;MS120FM;MS-120FM
+ML-BA-T3X2;27900,00;118;;ML-BA-T3X2;;;;;;;MS20UC-LB;MS-20UC-LB
+ML-BAT888S;4500,00;;163;ML-BAT888S;;;;;;;MS20UC-PK;MS-20UC-PK
+ML-BAUV17L;114900,00;178;;ML-BAUV17L;;;;;;;MS20UC-RD;MS-20UC-RD
+ML-BAUV5R5;79900,00;440;0;ML-BAUV5R5;;;;;;;MS20UC-WE;MS-20UC-WE
+ML-BAUV5R8;89900,00;9;0;ML-BAUV5R8;;;;;;;MW8V-BK;MW-8V-BK
+ML-BAUV82;49900,00;77;;ML-BAUV82;;;;;;;MW8V-WE;MW-8V-WE
+ML-BAUV822;97900,00;28;;ML-BAUV822;;;;;;;MX120B;MX-120B
+ML-BEACH;25900,00;135;;ML-BEACH;;;;;;;MX12B-GNRD;MX-12B-GNRD
+ML-BEACH2;25900,00;180;;ML-BEACH2;;;;;;;MX12B-PKLB;MX-12B-PKLB
+ML-BOLSA2N;59900,00;329;;#N/D;;;;;;;MX12B-WE;MX-12B-WE
+ML-BOLSA2V;59900,00;11;;#N/D;;;;;;;XR-18WE1;XR-18WE1
+ML-BOLSO-N;26900,00;44;;#N/D;;;;;;;XR-9WE1;XR-9WE1
+ML-BOLSO-R;26900,00;5;;#N/D;;;;;;;XR-9X1;XR-9X1
+ML-CARRO01;52900,00;25;;ML-CARRO01;;;;;;;XR-9YW1;XR-9YW1
+ML-CARRO02;99900,00;93;;ML-CARRO02;;;;;;;;
+ML-CARRO03;59900,00;5;;#N/D;;;;;;;;
+ML-CONS02A;16900,00;83;;ML-CONS02A;;;;;;;;
+ML-CONS02B;16900,00;191;;ML-CONS02B;;;;;;;;
+ML-CONS02C;16900,00;188;0;ML-CONS02C;;;;;;;;
+ML-DIREC-A;22900,00;571;;ML-DIREC-A;;;;;;;;
+ML-DIREC-M;22900,00;598;;ML-DIREC-M;;;;;;;;
+ML-DIREC-N;22900,00;229;;ML-DIREC-N;;;;;;;;
+ML-DIREC-R;22900,00;384;;ML-DIREC-R;;;;;;;;
+ML-DIREC-V;22900,00;485;;ML-DIREC-V;;;;;;;;
+ML-GAZ01-A;215900,00;169;;ML-GAZ01-A;;;;;;;;
+ML-GAZ01-R;215900,00;164;0;ML-GAZ01-R;;;;;;;;
+ML-GAZ02-A;159900,00;358;;ML-GAZ02-A;;;;;;;;
+ML-GAZ02-R;159900,00;264;;ML-GAZ02-R;;;;;;;;
+ML-GAZ02-W;159900,00;75;;ML-GAZ02-W;;;;;;;;
+ML-GYM01;189900,00;131;;ML-GYM01;;;;;;;;
+ML-GYM02;169900,00;7;;ML-GYM02;;;;;;;;
+ML-GYM04;169900,00;114;;ML-GYM04;;;;;;;;
+ML-GYM05;209900,00;30;;ML-GYM05;;;;;;;;
+ML-HAM01;31900,00;601;;ML-HAM01;;;;;;;;
+ML-MOCH01B;21300,00;123;;#N/D;;;;;;;;
+ML-MOCH02A;22250,00;78;;#N/D;;;;;;;;
+ML-MOCH02B;22250,00;48;0;#N/D;;;;;;;;
+ML-MOCH04A;32900,00;139;;#N/D;;;;;;;;
+ML-MOCH04B;32900,00;171;;#N/D;;;;;;;;
+ML-MOCH04C;32900,00;57;;#N/D;;;;;;;;
+ML-MOCH05A;17600,00;676;;#N/D;;;;;;;;
+ML-MOCH06V;24100,00;92;;#N/D;;;;;;;;
+ML-MOCH09A;15750,00;205;;#N/D;;;;;;;;
+ML-MOCH09G;15750,00;324;;#N/D;;;;;;;;
+ML-MOCH09N;15750,00;410;;#N/D;;;;;;;;
+ML-MOCH11N;22900,00;194;;#N/D;;;;;;;;
+ML-MOCH11R;22900,00;160;;#N/D;;;;;;;;
+ML-MOCH11V;22900,00;199;;#N/D;;;;;;;;
+ML-MOCH12A;21300,00;97;;#N/D;;;;;;;;
+ML-MOCH12N;21300,00;72;;#N/D;;;;;;;;
+ML-MOCH12R;21300,00;195;0;#N/D;;;;;;;;
+ML-MOCH13A;20300,00;142;;#N/D;;;;;;;;
+ML-MOCH13L;20300,00;178;;#N/D;;;;;;;;
+ML-MOCH13N;20300,00;233;;#N/D;;;;;;;;
+ML-MOCH13R;20300,00;242;;#N/D;;;;;;;;
+ML-MOCH14A;22900,00;100;;#N/D;;;;;;;;
+ML-MOCH14L;22900,00;59;;#N/D;;;;;;;;
+ML-MOCH14N;22900,00;74;;#N/D;;;;;;;;
+ML-MOCH14R;22900,00;67;;#N/D;;;;;;;;
+ML-MOCH15A;20350,00;100;;#N/D;;;;;;;;
+ML-MOCH15N;20350,00;25;;#N/D;;;;;;;;
+ML-MOCH15R;20350,00;234;;#N/D;;;;;;;;
+ML-MOCH15V;20350,00;241;;#N/D;;;;;;;;
+ML-MOCH16A;30900,00;29;;#N/D;;;;;;;;
+ML-MOCH16B;30900,00;15;;#N/D;;;;;;;;
+ML-MOCH16D;30900,00;79;;#N/D;;;;;;;;
+ML-MOCH16E;30900,00;7;;#N/D;;;;;;;;
+ML-MOCH17N;36900,00;32;;#N/D;;;;;;;;
+ML-MOCH17R;36900,00;12;;#N/D;;;;;;;;
+ML-MOCH18A;32900,00;171;;#N/D;;;;;;;;
+ML-MOCH18N;32900,00;169;;#N/D;;;;;;;;
+ML-MOCH18R;32900,00;89;;#N/D;;;;;;;;
+ML-MOCH19G;24900,00;47;;#N/D;;;;;;;;
+ML-MOCH19N;24900,00;56;;#N/D;;;;;;;;
+ML-MOCH20A;12900,00;121;;#N/D;;;;;;;;
+ML-MOCH20O;12900,00;139;;#N/D;;;;;;;;
+ML-MOCH21A;12900,00;110;;#N/D;;;;;;;;
+ML-MOCH21N;12900,00;118;;#N/D;;;;;;;;
+ML-MOCH21P;12900,00;116;;#N/D;;;;;;;;
+ML-MOCH21R;12900,00;39;;#N/D;;;;;;;;
+ML-MOCH21V;12900,00;23;;#N/D;;;;;;;;
+ML-MOCH22G;12900,00;26;;#N/D;;;;;;;;
+ML-MOCH22R;12900,00;113;;#N/D;;;;;;;;
+ML-MOCH23G;24900,00;99;;#N/D;;;;;;;;
+ML-MOCH23N;24900,00;92;;#N/D;;;;;;;;
+ML-MOCH24A;10650,00;157;;#N/D;;;;;;;;
+ML-MOCH24N;10650,00;67;;#N/D;;;;;;;;
+ML-MOCH24O;10650,00;176;;#N/D;;;;;;;;
+ML-MOCH26G;21300,00;413;;#N/D;;;;;;;;
+ML-MOCH28G;8900,00;813;;#N/D;;;;;;;;
+ML-MOCH30A;23900,00;145;;#N/D;;;;;;;;
+ML-MOCH30B;23900,00;147;;#N/D;;;;;;;;
+ML-MOCH30P;23900,00;127;;#N/D;;;;;;;;
+ML-MOCH30R;23900,00;145;;#N/D;;;;;;;;
+ML-MOCH30V;23900,00;138;;#N/D;;;;;;;;
+ML-MOCH31G;29900,00;100;;#N/D;;;;;;;;
+ML-MOCH31N;29900,00;106;;#N/D;;;;;;;;
+ML-MOCH32A;12050,00;114;;#N/D;;;;;;;;
+ML-MOCH32G;12050,00;90;;#N/D;;;;;;;;
+ML-MOCH32N;12050,00;81;;#N/D;;;;;;;;
+ML-MOCH33G;29900,00;76;;#N/D;;;;;;;;
+ML-MOCH33N;29900,00;17;;#N/D;;;;;;;;
+ML-MOCH34O;19900,00;40;;#N/D;;;;;;;;
+ML-MOCH34R;19900,00;36;;#N/D;;;;;;;;
+ML-MOCH35A;14950,00;147;;#N/D;;;;;;;;
+ML-MOCH35B;14950,00;132;;#N/D;;;;;;;;
+ML-MOCH35C;14950,00;117;;#N/D;;;;;;;;
+ML-MOCH35D;14950,00;125;;#N/D;;;;;;;;
+ML-MOCH35E;14950,00;148;;#N/D;;;;;;;;
+ML-MOCH35F;14950,00;118;;#N/D;;;;;;;;
+ML-MOCH35G;14950,00;283;;#N/D;;;;;;;;
+ML-MOCH37N;24900,00;85;;#N/D;;;;;;;;
+ML-MOCH38G;29900,00;117;;#N/D;;;;;;;;
+ML-MOCH39N;29900,00;119;;#N/D;;;;;;;;
+ML-MOCH40G;29900,00;120;;#N/D;;;;;;;;
+ML-MOCH41A;68900,00;150;;#N/D;;;;;;;;
+ML-MOCH41N;68900,00;142;;#N/D;;;;;;;;
+ML-MOCH41V;68900,00;148;;#N/D;;;;;;;;
+ML-MOCH42A;68900,00;148;;#N/D;;;;;;;;
+ML-MOCH42N;68900,00;141;;#N/D;;;;;;;;
+ML-MOCH42V;68900,00;145;;#N/D;;;;;;;;
+ML-MOCH43G;39900,00;47;;#N/D;;;;;;;;
+ML-MOCH43L;39900,00;48;;#N/D;;;;;;;;
+ML-MOCH43N;39900,00;39;;#N/D;;;;;;;;
+ML-MOCH43R;39900,00;50;;#N/D;;;;;;;;
+ML-ORG01B;37900,00;81;;ML-ORG01B;;;;;;;;
+ML-ORG02B;27900,00;69;;ML-ORG02B;;;;;;;;
+ML-ORG03W;27900,00;148;;ML-ORG03W;;;;;;;;
+ML-ORG04B;21900,00;280;;ML-ORG04B;;;;;;;;
+ML-ORG04W;21900,00;336;0;ML-ORG04W;;;;;;;;
+ML-ORG05B;12900,00;22;;ML-ORG05B;;;;;;;;
+ML-ORG05W;12900,00;35;;ML-ORG05W;;;;;;;;
+ML-ORG06B;15900,00;46;;ML-ORG06B;;;;;;;;
+ML-ORG09S;29900,00;98;;ML-ORG09S;;;;;;;;
+ML-ORG10B;12900,00;85;;ML-ORG10B;;;;;;;;
+ML-ORG10P;12900,00;96;;ML-ORG10P;;;;;;;;
+ML-ORG11B;15900,00;78;;ML-ORG11B;;;;;;;;
+ML-ORG11P;15900,00;96;;ML-ORG11P;;;;;;;;
+ML-ORG12B;14900,00;85;;ML-ORG12B;;;;;;;;
+ML-ORG13B;16900,00;87;;ML-ORG13B;;;;;;;;
+ML-ORG14B;11900,00;43;;ML-ORG14B;;;;;;;;
+ML-ORG15B;12900,00;42;;ML-ORG15B;;;;;;;;
+ML-ORG17B;26900,00;11;;ML-ORG17B;;;;;;;;
+ML-ORG18B;29900,00;31;;ML-ORG18B;;;;;;;;
+ML-PAR-1;14900,00;338;;ML-PAR-1;;;;;;;;
+ML-PAR-10;14900,00;100;0;ML-PAR-10;;;;;;;;
+ML-PAR-4;14900,00;156;;ML-PAR-4;;;;;;;;
+ML-PAR-5;14900,00;291;;ML-PAR-5;;;;;;;;
+ML-PAR-6;14900,00;241;;ML-PAR-6;;;;;;;;
+ML-PAR-7;14900,00;169;;ML-PAR-7;;;;;;;;
+ML-PAR-8;14900,00;406;;ML-PAR-8;;;;;;;;
+ML-PAR2-BK;9900,00;73;;ML-PAR2-BK;;;;;;;;
+ML-PAR2-GN;9900,00;15;;ML-PAR2-GN;;;;;;;;
+ML-PAR2-PK;9900,00;72;;ML-PAR2-PK;;;;;;;;
+ML-PAR3-BU;10900,00;43;;ML-PAR3-BU;;;;;;;;
+ML-PAR4-BK;14900,00;351;;ML-PAR4-BK;;;;;;;;
+ML-PAR4-GN;14900,00;140;;ML-PAR4-GN;;;;;;;;
+ML-PAR4-LB;14900,00;136;;ML-PAR4-LB;;;;;;;;
+ML-PAR4-PK;14900,00;135;;ML-PAR4-PK;;;;;;;;
+ML-PAR4-RD;14900,00;277;;ML-PAR4-RD;;;;;;;;
+ML-PEDAL01;76900,00;81;;ML-PEDAL01;;;;;;;;
+ML-PERCH-B;1090,00;4745;;#N/D;;;;;;;;
+ML-PERCH-W;1090,00;6119;;#N/D;;;;;;;;
+ML-PERCH2A;990,00;141;;#N/D;;;;;;;;
+ML-PERCH2B;990,00;20;;#N/D;;;;;;;;
+ML-PERCH2C;990,00;819;;#N/D;;;;;;;;
+ML-RACK01B;62900,00;378;;ML-RACK01B;;;;;;;;
+ML-RACK01W;62900,00;77;0;ML-RACK01W;;;;;;;;
+ML-RACK02B;39900,00;174;0;ML-RACK02B;;;;;;;;
+ML-RACK02W;39900,00;178;;ML-RACK02W;;;;;;;;
+ML-REPO01;67900,00;93;;ML-REPO01;;;;;;;;
+ML-SEC01B;39900,00;624;;ML-SEC01B;;;;;;;;
+ML-SEC02B;41900,00;222;0;ML-SEC02B;;;;;;;;
+ML-SEC03B;20900,00;92;;ML-SEC03B;;;;;;;;
+ML-SEC03W;20900,00;99;;ML-SEC03W;;;;;;;;
+ML-SEC05S;19900,00;49;;ML-SEC05S;;;;;;;;
+ML-TAB1-S;54900,00;13;;#N/D;;;;;;;;
+ML-TEND01;29900,00;1306;;ML-TEND01;;;;;;;;
+ML-TENT1-A;89900,00;26;;ML-TENT1-A;;;;;;;;
+ML-TENT2-R;64900,00;482;;ML-TENT2-R;;;;;;;;
+ML-TENT2-V;64900,00;339;;ML-TENT2-V;;;;;;;;
+ML-TENT4-V;89900,00;49;;ML-TENT4-V;;;;;;;;
+ML-TENT5-N;37900,00;265;;ML-TENT5-N;;;;;;;;
+ML-TRIP01;1900,00;317;;#N/D;;;;;;;;
+ML-WAD40-V;44900,00;85;0;ML-WAD40-V;;;;;;;;
+ML-WAD41-V;44900,00;87;0;ML-WAD41-V;;;;;;;;
+ML-WAD42-V;44900,00;189;0;ML-WAD42-V;;;;;;;;
+ML-WAD43-V;44900,00;208;0;ML-WAD43-V;;;;;;;;
+ML-WAD44-V;44900,00;207;;ML-WAD44-V;;;;;;;;
+ML-WAD45-V;44900,00;175;;ML-WAD45-V;;;;;;;;
+ML-WAD46-V;44900,00;249;;ML-WAD46-V;;;;;;;;
+ML-WAD47-V;44900,00;284;;ML-WAD47-V;;;;;;;;
+ML-YOGA-1;14900,00;383;;ML-YOGA-1;;;;;;;;
+ML-YOGA-3;14900,00;13;;ML-YOGA-3;;;;;;;;
+ML-YOGA2-A;14900,00;25;;ML-YOGA2-A;;;;;;;;
+ML-YOGA2-N;14900,00;37;;ML-YOGA2-N;;;;;;;;
+ML-YOGA2-V;14900,00;37;;ML-YOGA2-V;;;;;;;;
+;;;;;;;;;;;;
+;;;;;;;;;;;;

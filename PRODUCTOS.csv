@@ -1,21 +1,4 @@
 ﻿CODIGO;ORD;RUBRO;PRECIO;NEW;CARPETA;EAN;LINEA1;LINEA2;LINEA3;LINEA4
-ML-ARM01B;;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM01G;;Armarios y Percheros;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
-ML-ARM03G;;Armarios y Percheros;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Plástico;Medidas: 158 cm x 58 cm x 30 cm;
-ML-ARM04G;;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Doble 16 Estantes;Material: Metal/Plástico;Medidas: 141 cm x 113 cm x 30 cm;Peso 3,5 Kg
-ML-ARM05G;;Armarios y Percheros;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Y Botas 12 Estantes;Material: Metal/Plástico;Medidas: 124 cm x 113 cm x 30 cm;
-ML-ARM06B;;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM06W;;Armarios y Percheros;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
-ML-ARM07B;;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM07W;;Armarios y Percheros;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
-ML-ARM08B;;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM08W;;Armarios y Percheros;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
-ML-ARM09B;;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, x 1,07m, x 0,36m;Peso 3,5 Kg
-ML-ARM09W;;Armarios y Percheros;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
-ML-RACK01B;;Armarios y Percheros;62900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Doble | Negro;Material: Metal;Medidas: 1,60m x 1,10m x 0,55m;Soporta 48kg
-ML-RACK01W;;Armarios y Percheros;62900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Doble | Blanco;Material: Metal;Medidas: 1,60m x 1,10m x 0,55m;Soporta 48kg
-ML-RACK02B;;Armarios y Percheros;39900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Simple | Negro;Material: Metal;Medidas: 1,50m x 1,10m x 0,40m;Soporta 48kg
-ML-RACK02W;;Armarios y Percheros;39900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Simple | Blanco;Material: Metal;Medidas: 1,50m x 1,10m x 0,40m;Soporta 48kg
 D-AS100;;Aspiradoras;21900;;FOTOS1;'7799199013900;Aspiradora de auto con cable;Capacidad: 320 ml;Potencia: 90W;Voltaje: 12V (puerto encendedor del auto)
 D-AS101;;Aspiradoras;30900;;FOTOS1;'7799199013900;Aspiradora de mano inalámbrica;Capacidad: 320ml;Potencia: 60w;Recargable mediante puerto USB
 D-AS102;;Aspiradoras;33900;;FOTOS1;'7799199013924;Aspiradora de mano inalámbrica;Capacidad: 395 ml;Potencia: 80W;Recargable mediante puerto USB
@@ -49,15 +32,15 @@ FX-570ESPLUS2BU;;Calculadoras Casio;56500;;FOTOS1;;Calculadora científica CASIO
 FX-570ESPLUS2PK;;Calculadoras Casio;56500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 417 funciones;Medidas: 161,5x77x13,8mm;Pila 
 FX-570LAC-W;;Calculadoras Casio;AGOTADO;;FOTOS1;;Calculadora científica programable CASIO;10+2 dígitos - 2900 funciones;Medidas: 188,5x89x18,6mm;Pila 
 FX-82ESPLUS2;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
-FX-82ESPLUS2-BU;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-82ESPLUS2-BU;;Calculadoras Casio;AGOTADO;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
 FX-82ESPLUS2-PK;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
 FX-82LACW-W;;Calculadoras Casio;45500;;FOTOS1;;Calculadora científica CASIO;;;
 FX-82LAPLUS2-BU;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
 FX-82LAPLUS2-PK;;Calculadoras Casio;34500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 252 funciones;Medidas: 161,5x77x13,8mm;Pila 
 FX-82MS-2;;Calculadoras Casio;29500;;FOTOS1;;Calculadora científica CASIO;;;
-FX-95ESPLUS2;;Calculadoras Casio;40500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x13,8mm;Pila 
+FX-95ESPLUS2;;Calculadoras Casio;AGOTADO;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x13,8mm;Pila 
 FX-95MS-2;;Calculadoras Casio;37500;;FOTOS1;;Calculadora científica CASIO;;;
-FX-991ESPLUS2;;Calculadoras Casio;63500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
+FX-991ESPLUS2;;Calculadoras Casio;AGOTADO;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
 FX-991ESPLUS2BU;;Calculadoras Casio;63500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
 FX-991ESPLUS2PK;;Calculadoras Casio;63500;;FOTOS1;;Calculadora científica CASIO;10+2 dígitos - 274 funciones;Medidas: 161,5x77x11,1mm;Pila y solar
 GX-12B-BK;;Calculadoras Casio;34500;;FOTOS1;;Calculadora de Escritorio CASIO;12 dígitos;Medidas: 207,5x159,5x34mm;Solar y a Pila
@@ -123,7 +106,7 @@ D-PR500-BU;;Cocina;33900;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potenc
 D-SAR1500;;Cocina;54900;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 x 30 x 6 cm
 D-TA50;;Cocina;179900;;FOTOS1;'7799199015942;Cesto de basura automático | 50 lts;Dimensiones: 29,3 Î 42 Î 67,3 cm;funciona con 3 pilas tipo C (no incluidas);
 ML-BASE01B;;Cocina;22900;;FOTOS2;;Base Móvil Con Ruedas Electrodomésticos Heladera Lavarropas;Extensible hasta 56 x 56cm;Soporta hasta 138Kg;
-ML-BASE02G;;Cocina;32900;;FOTOS2;;Base Móvil Reforzada Con Ruedas Electrodomésticos;Extensible hasta 60 x 60cm;Soporta hasta 138Kg;
+ML-BASE02G;;Cocina;AGOTADO;;FOTOS2;;Base Móvil Reforzada Con Ruedas Electrodomésticos;Extensible hasta 60 x 60cm;Soporta hasta 138Kg;
 ML-CARRO01;;Cocina;52900;;FOTOS2;;Carrito de Compras;Dimensiones: 93 x 30 x 30cm;Reforzado, plegable con 8 ruedas;Capacidad: 35L, Soporta hasta 30Kg
 ML-SEC01B;;Cocina;39900;;FOTOS2;;Secaplatos Escurridor con Secavasos y Cubiertero  | Negro;Alto: 48cm, Ancho: 32cm, Largo: 65cm;Material: Acero Inoxidable;
 ML-SEC02B;;Cocina;41900;;FOTOS2;;Secaplatos Escurridor con Secavasos y Cubiertero  | Negro;Alto: 51cm, Ancho: 33cm, Largo: 85cm;Material: Acero Inoxidable;
@@ -183,6 +166,19 @@ D-RUE-V101;30;Monopatines;32500;;FOTOS1;;Repuesto de Rueda de Monopatin V101;;;
 D-RUE-V102;30;Monopatines;39000;;FOTOS1;;Repuesto de Rueda de Monopatin V102;;;
 D-RUE-V200;30;Monopatines;39000;;FOTOS1;;Repuesto de Rueda de Monopatin V200;;;
 D-RUE-V300;30;Monopatines;52000;;FOTOS1;;Repuesto de Rueda de Monopatin V300;;;
+ML-ARM01B;;Organizadores;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
+ML-ARM01G;;Organizadores;41900;;FOTOS2;;Organizador De Ropa Perchero Ropero Portable;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 45 cm;
+ML-ARM03G;;Organizadores;28900;;FOTOS2;;Zapatero Gris Organizador De Zapatos 10 Niveles;Material: Metal/Plástico;Medidas: 158 cm x 58 cm x 30 cm;
+ML-ARM04G;;Organizadores;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Doble 16 Estantes;Material: Metal/Plástico;Medidas: 141 cm x 113 cm x 30 cm;Peso 3,5 Kg
+ML-ARM05G;;Organizadores;36900;;FOTOS2;;Zapatero Gris Organizador De Zapatos Y Botas 12 Estantes;Material: Metal/Plástico;Medidas: 124 cm x 113 cm x 30 cm;
+ML-ARM06B;;Organizadores;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
+ML-ARM06W;;Organizadores;39900;;FOTOS2;;Organizador De Ropa Rack Armario Perchero Triple;Material: Metal/Plástico;Medidas: 170 cm x 160 cm x 36 cm;
+ML-ARM07B;;Organizadores;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
+ML-ARM07W;;Organizadores;36900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 95 cm x 36 cm;
+ML-ARM08B;;Organizadores;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
+ML-ARM08W;;Organizadores;46900;;FOTOS2;;Organizado De Ropa Perchero Con Estantes Y Zapatero;Material: Metal/Plástico;Medidas: 170 cm x 130 cm x 36 cm;
+ML-ARM09B;;Organizadores;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, x 1,07m, x 0,36m;Peso 3,5 Kg
+ML-ARM09W;;Organizadores;32900;;FOTOS2;;Organizador De Ropa Rack;Material: Metal/Plástico;Medidas: 1,7m, 1,07m, 0,36m;Peso 3,5 Kg
 ML-ORG01B;;Organizadores;37900;;FOTOS2;;Carrito Organizador Multiuso de Tres estantes con Ruedas;Alto: 86cm, Ancho 41cm, Profundidad: 38cm;Soporta hasta 45kg;
 ML-ORG02B;;Organizadores;27900;;FOTOS2;;Carrito Organizador de Tres niveles con Ruedas;Alto: 63cm, Ancho: 40cm, Profndidad: 12cm;Soporta hasta 19kg;
 ML-ORG03W;;Organizadores;27900;;FOTOS2;;Organizador Sobre Inodoro de Tres Niveles;Alto: 166cm, Ancho: 47cm, Profundidad: 25cm;;
@@ -202,12 +198,16 @@ ML-ORG14B;;Organizadores;11900;;FOTOS2;;Organizador de Zapatos Moderno de Cuatro
 ML-ORG15B;;Organizadores;12900;;FOTOS2;;Organizador de Zapatos Moderno de Cuatro Niveles;Alto: 95cm, Ancho: 55cm, Profundidad: 26cm;Colores: Metalizado y Negro;
 ML-ORG17B;;Organizadores;26900;;FOTOS2;;Cesto Clasificador de Ropa Sucia con Ruedas;Alto: 76cm, Ancho: 60cm, Profundidad: 33cm;Materiales: Hierro y Tela Oxford;
 ML-ORG18B;;Organizadores;29900;;FOTOS2;;Organizador Multifuncion Movil con Cesto y Estante;Alto: 77cm, Ancho: 57cm, Profundidad: 28cm;Materiales: Hierro y Tela Oxford;
+ML-RACK01B;;Organizadores;62900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Doble | Negro;Material: Metal;Medidas: 1,60m x 1,10m x 0,55m;Soporta 48kg
+ML-RACK01W;;Organizadores;62900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Doble | Blanco;Material: Metal;Medidas: 1,60m x 1,10m x 0,55m;Soporta 48kg
+ML-RACK02B;;Organizadores;39900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Simple | Negro;Material: Metal;Medidas: 1,50m x 1,10m x 0,40m;Soporta 48kg
+ML-RACK02W;;Organizadores;39900;;FOTOS2;;Organizado de Ropa y Calzado con Perchero Simple | Blanco;Material: Metal;Medidas: 1,50m x 1,10m x 0,40m;Soporta 48kg
 ML-PAR-1;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Con Estampado Negro;
 ML-PAR-10;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Con Estampado Blanco;
 ML-PAR2-BK;;Paraguas;9900;;FOTOS2;;Paraguas Mini Automatico;Largo (plegado): 29cm, Diametro: 1 metro;Color: Negro;
 ML-PAR2-GN;;Paraguas;9900;;FOTOS2;;Paraguas Mini Automatico;Largo (plegado): 29cm, Diametro: 1 metro;Color: Verde;
 ML-PAR2-PK;;Paraguas;9900;;FOTOS2;;Paraguas Mini Automatico;Largo (plegado): 29cm, Diametro: 1 metro;Color: Rosa;
-ML-PAR3-BU;;Paraguas;10900;;FOTOS2;;Paraguas Tipo Golf con Mango de Goma;Largo: 1 metro, Diametro: 1.20 metros;Color: Azul;
+ML-PAR3-BU;;Paraguas;AGOTADO;;FOTOS2;;Paraguas Tipo Golf con Mango de Goma;Largo: 1 metro, Diametro: 1.20 metros;Color: Azul;
 ML-PAR-4;;Paraguas;14900;;FOTOS2;;Paraguas Reversible con Cierre Invertido;Largo: 1,08 metros;Color: Fucsia;
 ML-PAR4-BK;;Paraguas;14900;;FOTOS2;;Paraguas Automatico con Luz Led;Largo (plegado): 34cm, Diametro: 1.04 metros;Color: Negro;
 ML-PAR4-GN;;Paraguas;14900;;FOTOS2;;Paraguas Automatico con Luz Led;Largo (plegado): 34cm, Diametro: 1.04 metros;Color: Verde;
@@ -249,7 +249,7 @@ D-GA5-WE;;Sillón Gamer;149900;;FOTOS1;;Silla Gamer D-GA5 | Blanco;Material: Cue
 D-SOP3275;;Soportes TV;50900;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tama±os de pantalla:  Desde 32 - 75 Pulgadas;Estándares VESA: 400x400;Inclinable, Articulado y Giratorio
 D-SOPSL;;Soportes TV;37900;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
 D-CE18-BU;;Tiempo Libre;199900;;FOTOS2;;Cama Elástica Saltarina Reforzada 1,80 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
-D-CE24-BU;;Tiempo Libre;245900;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
+D-CE24-BU;;Tiempo Libre;AGOTADO;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
 ML-BEACH;;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
 ML-BEACH2;;Tiempo Libre;25900;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
 ML-CARRO02;;Tiempo Libre;99900;;FOTOS2;;Carro Plegable Camping Playa;Dimensiones: 90*53*98cm/ Plegado: 53*19*75cm.;Capacidad de Carga: 80kgs;Rueda de PVC + Estructura de acero

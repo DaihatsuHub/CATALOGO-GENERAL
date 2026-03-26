@@ -267,6 +267,18 @@ margin-top:120px;
 </div>
 
 <script>
+// === REFRESCO CADA 12 HORAS ===
+(function(){
+    const ahora = Date.now();
+    const ultima = localStorage.getItem("ultimaCargaCatalogoMs");
+    if (!ultima || ahora - ultima > 12*60*60*1000) {
+        localStorage.setItem("ultimaCargaCatalogoMs", ahora);
+        location.reload(true);
+    }
+})();
+</script>
+
+<script>
 
 const CSV_FILE="PRODUCTOS.csv";
 
@@ -277,21 +289,12 @@ let promos=[];
 /* CARGAR PROMOS */
 
 function cargarPromos(){
-
 for(let i=1;i<=50;i++){
-
 let img="PROMOS/PROMO"+i+".jpg";
-
 let test=new Image();
-
-test.onload=function(){
-promos.push(img);
-};
-
+test.onload=function(){ promos.push(img); };
 test.src=img;
-
 }
-
 }
 
 /* PRECIO */
@@ -334,12 +337,10 @@ onmouseleave="fotoOriginal(this)">
 <h3>${p.CODIGO}</h3>
 
 <div class="desc">
-
 <b>${p.LINEA1||""}</b><br>
 ${p.LINEA2||""}<br>
 ${p.LINEA3||""}<br>
 ${p.LINEA4||""}
-
 </div>
 
 <div class="precio">${formatPrecio(p.PRECIO)}</div>
@@ -372,7 +373,7 @@ if(obj.RUBRO)rubros.add(obj.RUBRO);
 
 }
 
-/* ORDEN NUEVO */
+/* ORDEN: RUBRO + ORD + CODIGO */
 
 productos.sort((a,b)=>{
 
@@ -405,10 +406,8 @@ div.innerHTML="";
 mob.innerHTML="";
 
 if(promos.length>0){
-
 div.innerHTML+=`<button class="rubro-btn" onclick="mostrarPromos()">PROMOCIONES</button>`;
 mob.innerHTML+=`<button onclick="mostrarPromos()">PROMOCIONES</button>`;
-
 }
 
 div.innerHTML+=`<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
@@ -417,10 +416,8 @@ mob.innerHTML+=`<button class="activo" onclick="mostrarNovedades()">NOVEDADES</b
 let rubrosOrdenados=[...rubros].sort((a,b)=>a.localeCompare(b,"es"));
 
 rubrosOrdenados.forEach(r=>{
-
 div.innerHTML+=`<button class="rubro-btn" onclick="mostrarRubro('${r}')">${r}</button>`;
 mob.innerHTML+=`<button onclick="mostrarRubro('${r}')">${r}</button>`;
-
 });
 
 }
@@ -473,21 +470,15 @@ img.src=img.dataset.original;
 /* PRODUCTOS */
 
 function mostrarRubro(r){
-
 activarBoton(r);
-
 document.getElementById("productos").innerHTML=
 productos.filter(p=>p.RUBRO==r).map(cardHTML).join("");
-
 }
 
 function mostrarNovedades(){
-
 activarBoton("NOVEDADES");
-
 document.getElementById("productos").innerHTML=
 productos.filter(p=>p.NEW&&p.NEW.toUpperCase()=="SI").map(cardHTML).join("");
-
 }
 
 function activarBoton(nombre){
@@ -502,13 +493,10 @@ if(b.textContent==nombre)b.classList.add("activo");
 /* BUSCADOR */
 
 document.getElementById("buscador").addEventListener("input",e=>{
-
 let t=e.target.value.toLowerCase();
-
 document.getElementById("productos").innerHTML=
 productos.filter(p=>Object.values(p).join(" ").toLowerCase().includes(t))
 .map(cardHTML).join("");
-
 });
 
 /* MODAL */

@@ -512,5 +512,89 @@ document.getElementById("modal").style.display="none";
 
 </script>
 
+
+
+<!-- ========== CIERRE ZOOM CON ESC + AUTO-REFRESH ========== -->
+<script>
+// Cerrar modal con tecla ESC
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        if (document.getElementById("modal") && document.getElementById("modal").style.display === "flex") {
+            if (typeof cerrarModal === "function") cerrarModal();
+        }
+    }
+});
+
+// ===============================
+// AUTO-REFRESH SI CAMBIAN ARCHIVOS
+// ===============================
+
+async function hashArchivo(url) {
+    try {
+        const r = await fetch(url + "?v=" + Date.now(), { cache: "no-store" });
+        const txt = await r.text();
+        return btoa(txt).substring(0, 50);
+    } catch {
+        return null;
+    }
+}
+
+async function hashImagen(url) {
+    try {
+        const r = await fetch(url + "?v=" + Date.now(), { cache: "no-store" });
+        const blob = await r.blob();
+        const buffer = await blob.arrayBuffer();
+        let sum = 0;
+        const arr = new Uint8Array(buffer);
+        for (let i = 0; i < arr.length; i++) sum += arr[i];
+        return sum;
+    } catch {
+        return null;
+    }
+}
+
+async function verificarCambios() {
+    let cambios = false;
+    let hashesGuardados = JSON.parse(localStorage.getItem("hashesCatalogo") || "{}");
+    let nuevosHashes = {};
+
+    // Verificar PRODUCTOS.csv
+    nuevosHashes["PRODUCTOS.csv"] = await hashArchivo("PRODUCTOS.csv");
+    if (hashesGuardados["PRODUCTOS.csv"] && hashesGuardados["PRODUCTOS.csv"] !== nuevosHashes["PRODUCTOS.csv"]) {
+        cambios = true;
+    }
+
+    // Verificar index.html
+    nuevosHashes["index.html"] = await hashArchivo("index.html");
+    if (hashesGuardados["index.html"] && hashesGuardados["index.html"] !== nuevosHashes["index.html"]) {
+        cambios = true;
+    }
+
+    // Verificar todas las imágenes reales del catálogo
+    const imgs = document.querySelectorAll("img");
+    for (let img of imgs) {
+        let src = img.getAttribute("src");
+        if (!src) continue;
+
+        nuevosHashes[src] = await hashImagen(src);
+
+        if (hashesGuardados[src] && hashesGuardados[src] !== nuevosHashes[src]) {
+            cambios = true;
+        }
+    }
+
+    if (cambios) {
+        console.log("Cambio detectado → refrescando catálogo");
+        localStorage.setItem("hashesCatalogo", JSON.stringify(nuevosHashes));
+        location.reload(true);
+        return;
+    }
+
+    localStorage.setItem("hashesCatalogo", JSON.stringify(nuevosHashes));
+}
+
+setInterval(verificarCambios, 30000);
+setTimeout(verificarCambios, 5000);
+</script>
 </body>
 </html>

@@ -221,7 +221,7 @@ color:black;
 }
 
 .meli-logo img{
-height:17px;
+height:22px;
 width:auto;
 display:block;
 margin:auto;
@@ -290,33 +290,36 @@ margin-top:120px;
 .producto img{height:200px;}
 
 .precio-con-meli{
-gap:6px;
+gap:3px;
 margin-top:2px;
 padding-top:4px;
+justify-content:space-between;
 }
 
 .precio-chico{
-font-size:18px !important;
+font-size:15px !important;
+letter-spacing:-0.3px;
 }
 
 .meli-panel{
-width:90px;
+width:78px;
 margin-top:-7px;
-padding:6px 6px 5px;
+padding:6px 4px 5px;
 border-radius:7px;
+transform:translateX(-4px);
 }
 
 .meli-titulo{
-font-size:10px;
+font-size:9px;
 margin-bottom:3px;
 }
 
 .meli-logo img{
-height:14px;
+height:18px;
 }
 
 .meli-precio{
-font-size:11px;
+font-size:10.5px;
 margin-top:3px;
 }
 
@@ -351,15 +354,47 @@ margin-top:3px;
 </div>
 
 <script>
-// === REFRESCO CADA 12 HORAS ===
-(function(){
-    const ahora = Date.now();
-    const ultima = localStorage.getItem("ultimaCargaCatalogoMs");
-    if (!ultima || ahora - ultima > 12*60*60*1000) {
-        localStorage.setItem("ultimaCargaCatalogoMs", ahora);
-        location.reload(true);
+// === CONTROL DE VERSION CADA 5 HORAS ===
+// Crear/subir un archivo version.txt junto al index.html.
+// Cada vez que cambies HTML, PRODUCTOS.csv o fotos, modificá el contenido de version.txt.
+const VERSION_FILE = "version.txt";
+const CHECK_VERSION_EVERY = 5 * 60 * 60 * 1000; // 5 horas
+
+function versionActualCatalogo(){
+    return localStorage.getItem("versionCatalogo") || "";
+}
+
+function conVersion(url){
+    const v = versionActualCatalogo() || Date.now();
+    return url + (url.includes("?") ? "&" : "?") + "v=" + encodeURIComponent(v);
+}
+
+async function verificarVersionCatalogo(){
+    try{
+        const r = await fetch(VERSION_FILE + "?v=" + Date.now(), { cache:"no-store" });
+        if(!r.ok) return;
+
+        const versionNueva = (await r.text()).trim();
+        if(!versionNueva) return;
+
+        const versionActual = localStorage.getItem("versionCatalogo");
+
+        if(!versionActual){
+            localStorage.setItem("versionCatalogo", versionNueva);
+            return;
+        }
+
+        if(versionActual !== versionNueva){
+            localStorage.setItem("versionCatalogo", versionNueva);
+            location.reload();
+        }
+    }catch(e){
+        console.log("No se pudo verificar version.txt", e);
     }
-})();
+}
+
+setTimeout(verificarVersionCatalogo, 3000);
+setInterval(verificarVersionCatalogo, CHECK_VERSION_EVERY);
 </script>
 
 <script>
@@ -374,7 +409,7 @@ let promos=[];
 
 function cargarPromos(){
 for(let i=1;i<=50;i++){
-let img="PROMOS/PROMO"+i+".jpg";
+let img=conVersion("PROMOS/PROMO"+i+".jpg");
 let test=new Image();
 test.onload=function(){ promos.push(img); };
 test.src=img;
@@ -393,9 +428,9 @@ return"$ "+Number(p).toLocaleString("es-AR");
 
 function buscarImagen(p){
 if(p.CARPETA&&p.CARPETA!==""){
-return p.CARPETA+"/"+p.CODIGO+".jpg";
+return conVersion(p.CARPETA+"/"+p.CODIGO+".jpg");
 }
-return"noimg.jpg";
+return conVersion("noimg.jpg");
 }
 
 /* TARJETA */
@@ -467,7 +502,7 @@ ${p.MELI && p.MELI.trim()!="" && p.MELI!="0"
 
 /* CSV */
 
-fetch(CSV_FILE)
+fetch(conVersion(CSV_FILE), { cache:"no-store" })
 .then(r=>r.text())
 .then(text=>{
 
@@ -557,8 +592,8 @@ function fotoAlt(img,codigo,carpeta){
 
 let alt="";
 
-if(carpeta=="FOTOS1") alt="FOTOS1A/"+codigo+".jpg";
-if(carpeta=="FOTOS2") alt="FOTOS2A/"+codigo+".jpg";
+if(carpeta=="FOTOS1") alt=conVersion("FOTOS1A/"+codigo+".jpg");
+if(carpeta=="FOTOS2") alt=conVersion("FOTOS2A/"+codigo+".jpg");
 
 if(!alt) return;
 

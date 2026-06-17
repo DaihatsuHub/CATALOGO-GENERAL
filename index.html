@@ -177,77 +177,57 @@ min-height:105px;
 .ean{font-size:12px;color:#666;}
 
 .precio{
-font-size:18px;
+font-size:22px;
 font-weight:bold;
 color:darkred;
 margin-top:10px;
+text-align:center;
 }
 
 .precio-con-meli{
 display:flex;
 justify-content:space-between;
-align-items:flex-end;
-gap:6px;
-margin-top:10px;
+align-items:center;
+gap:8px;
+margin-top:4px;
+padding-top:8px;
+border-top:1px solid #c8c8c8;
 }
 
 .precio-chico{
-font-size:16px !important;
-text-align:left;
+font-size:20px !important;
+text-align:left !important;
 margin:0;
+flex:1;
+white-space:nowrap;
 }
 
 .meli-panel{
-width:55px;
+width:86px;
 text-align:center;
 line-height:1;
 }
 
 .meli-titulo{
-font-size:8px;
+font-size:10px;
 font-weight:bold;
-margin-bottom:1px;
+margin-bottom:2px;
+white-space:nowrap;
+color:#000;
 }
 
 .meli-logo img{
-height:6px;
+height:13px;
 width:auto;
 display:block;
 margin:auto;
 }
 
 .meli-precio{
-font-size:10px;
-font-weight:bold;
-color:darkred;
-margin-top:1px;
-}
-
-
-.logo-meli{
-height:12px;
-}
-
-.meli-badge{
-display:flex;
-align-items:center;
-gap:6px;
-background:#FFE600;
-padding:4px 8px;
-border-radius:8px;
 font-size:11px;
 font-weight:bold;
-line-height:1;
-}
-
-.meli-titulo{
-font-size:10px;
-white-space:nowrap;
-}
-
-.meli-precio{
-font-size:10px;
-font-weight:bold;
+color:darkred;
+margin-top:2px;
 line-height:1;
 }
 
@@ -441,18 +421,6 @@ ${p.MELI && p.MELI.trim()!="" && p.MELI!="0"
 
 </div>
 
-</div>
-
-${p.MELI && p.MELI.trim()!=""
-? `
-<div class="meli-box">
-<div class="meli-titulo">Precio mínimo</div>
-<div class="meli-precio">${formatPrecio(p.MELI)}</div>
-</div>
-`
-: ""}
-
-</div>
 </div>
 `;
 

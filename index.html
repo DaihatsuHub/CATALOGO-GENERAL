@@ -183,15 +183,46 @@ color:darkred;
 margin-top:10px;
 }
 
-
-.precio-wrap{
+.precio-con-meli{
 display:flex;
-justify-content:center;
-align-items:center;
-gap:8px;
+justify-content:space-between;
+align-items:flex-end;
+gap:6px;
 margin-top:10px;
-flex-wrap:wrap;
 }
+
+.precio-chico{
+font-size:16px !important;
+text-align:left;
+margin:0;
+}
+
+.meli-panel{
+width:80px;
+text-align:center;
+line-height:1;
+}
+
+.meli-titulo{
+font-size:10px;
+font-weight:bold;
+margin-bottom:2px;
+}
+
+.meli-logo img{
+height:14px;
+width:auto;
+display:block;
+margin:auto;
+}
+
+.meli-precio{
+font-size:13px;
+font-weight:bold;
+color:darkred;
+margin-top:2px;
+}
+
 
 .logo-meli{
 height:12px;
@@ -380,21 +411,33 @@ ${p.LINEA3||""}<br>
 ${p.LINEA4||""}
 </div>
 
-<div class="precio-wrap">
-
-<div class="precio">
-${formatPrecio(p.PRECIO)}
-</div>
-
-${p.MELI && p.MELI.trim()!=""
+${p.MELI && p.MELI.trim()!="" && p.MELI!="0"
 ? `
-<div class="meli-badge">
-<img class="logo-meli" src="mercadolibre.png" alt="">
-<span class="meli-titulo">Precio mínimo</span>
-<span class="meli-precio">${formatPrecio(p.MELI)}</span>
+<div class="precio-con-meli">
+
+    <div class="precio precio-chico">
+        ${formatPrecio(p.PRECIO)}
+    </div>
+
+    <div class="meli-panel">
+        <div class="meli-titulo">Precio mínimo</div>
+
+        <div class="meli-logo">
+            <img src="mercadolibre.png" alt="">
+        </div>
+
+        <div class="meli-precio">
+            ${formatPrecio(p.MELI)}
+        </div>
+    </div>
+
 </div>
 `
-: ""}
+: `
+<div class="precio">
+    ${formatPrecio(p.PRECIO)}
+</div>
+`}
 
 </div>
 

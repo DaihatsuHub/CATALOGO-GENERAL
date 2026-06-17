@@ -20,6 +20,7 @@ z-index:1000;
 }
 
 #logo{height:50px;}
+
 #buscadorWrap{flex:1;display:flex;justify-content:flex-end;}
 
 #buscador{
@@ -31,6 +32,7 @@ border:none;
 }
 
 /* RUBROS DESKTOP */
+
 #rubros{
 width:220px;
 height:calc(100vh - 70px);
@@ -63,6 +65,7 @@ font-weight:bold;
 }
 
 /* RUBROS MOBILE */
+
 #rubrosMobileWrapper{position:relative;}
 
 #rubrosMobile{
@@ -93,6 +96,7 @@ font-weight:bold;
 }
 
 /* FLECHAS */
+
 #flechaIzq,#flechaDer{
 position:absolute;
 top:50%;
@@ -115,6 +119,7 @@ z-index:10;
 }
 
 /* CONTENIDO */
+
 #contenido{
 margin-left:230px;
 padding:10px;
@@ -128,6 +133,7 @@ gap:14px;
 }
 
 /* TARJETA */
+
 .producto{
 background:white;
 border-radius:12px;
@@ -158,6 +164,7 @@ cursor:zoom-in;
 }
 
 .info{background:#e8e8e8;padding:10px;}
+
 .info h3,.desc,.precio{text-align:center;}
 
 .desc{
@@ -176,7 +183,43 @@ color:darkred;
 margin-top:10px;
 }
 
+
+.precio-wrap{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:8px;
+margin-top:10px;
+}
+
+.logo-meli{
+height:24px;
+width:auto;
+}
+
+.meli-box{
+background:#FFE600;
+color:#000;
+text-align:center;
+padding:8px;
+border-radius:8px;
+margin-top:8px;
+font-weight:bold;
+box-shadow:0 2px 6px rgba(0,0,0,0.15);
+}
+
+.meli-titulo{
+font-size:12px;
+margin-bottom:4px;
+}
+
+.meli-precio{
+font-size:18px;
+}
+
+
 /* MODAL */
+
 #modal{
 position:fixed;
 top:0;
@@ -202,12 +245,15 @@ cursor:pointer;
 }
 
 /* MOBILE */
+
 @media (max-width:700px){
 
 #logo{height:40px;}
+
 #buscador{width:180px;}
 
 #rubros{display:none;}
+
 #rubrosMobile{display:block;}
 
 #rubrosMobileWrapper{
@@ -222,6 +268,7 @@ margin-top:120px;
 }
 
 .grid{grid-template-columns:repeat(2,1fr);}
+
 .producto img{height:200px;}
 
 }
@@ -275,6 +322,7 @@ let rubros=new Set();
 let promos=[];
 
 /* CARGAR PROMOS */
+
 function cargarPromos(){
 for(let i=1;i<=50;i++){
 let img="PROMOS/PROMO"+i+".jpg";
@@ -285,6 +333,7 @@ test.src=img;
 }
 
 /* PRECIO */
+
 function formatPrecio(p){
 if(!p||p=="")return"";
 if(p.toUpperCase()=="AGOTADO")return"AGOTADO";
@@ -292,6 +341,7 @@ return"$ "+Number(p).toLocaleString("es-AR");
 }
 
 /* FOTO */
+
 function buscarImagen(p){
 if(p.CARPETA&&p.CARPETA!==""){
 return p.CARPETA+"/"+p.CODIGO+".jpg";
@@ -300,6 +350,7 @@ return"noimg.jpg";
 }
 
 /* TARJETA */
+
 function cardHTML(p){
 
 let img=buscarImagen(p);
@@ -327,14 +378,35 @@ ${p.LINEA3||""}<br>
 ${p.LINEA4||""}
 </div>
 
-<div class="precio">${formatPrecio(p.PRECIO)}</div>
+<div class="precio-wrap">
+
+<div class="precio">
+${formatPrecio(p.PRECIO)}
+</div>
+
+${p.MELI && p.MELI.trim()!=""
+? `<img class="logo-meli" src="mercadolibre.png" alt="Mercado Libre">`
+: ""}
+
+</div>
+
+${p.MELI && p.MELI.trim()!=""
+? `
+<div class="meli-box">
+<div class="meli-titulo">Precio mínimo</div>
+<div class="meli-precio">${formatPrecio(p.MELI)}</div>
+</div>
+`
+: ""}
 
 </div>
 </div>
 `;
+
 }
 
 /* CSV */
+
 fetch(CSV_FILE)
 .then(r=>r.text())
 .then(text=>{
@@ -356,6 +428,7 @@ if(obj.RUBRO)rubros.add(obj.RUBRO);
 }
 
 /* ORDEN: RUBRO + ORD + CODIGO */
+
 productos.sort((a,b)=>{
 
 let r=(a.RUBRO||"").localeCompare(b.RUBRO||"","es");
@@ -377,6 +450,7 @@ setTimeout(actualizarFlechas,300);
 cargarPromos();
 
 /* RUBROS */
+
 function crearRubros(){
 
 let div=document.getElementById("rubros");
@@ -385,11 +459,10 @@ let mob=document.getElementById("rubrosMobile");
 div.innerHTML="";
 mob.innerHTML="";
 
-// **********************
-// PROMOCIONES SIEMPRE VISIBLE (FIX)
-// **********************
+if(promos.length>0){
 div.innerHTML+=`<button class="rubro-btn" onclick="mostrarPromos()">PROMOCIONES</button>`;
 mob.innerHTML+=`<button onclick="mostrarPromos()">PROMOCIONES</button>`;
+}
 
 div.innerHTML+=`<button class="rubro-btn activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
 mob.innerHTML+=`<button class="activo" onclick="mostrarNovedades()">NOVEDADES</button>`;
@@ -404,6 +477,7 @@ mob.innerHTML+=`<button onclick="mostrarRubro('${r}')">${r}</button>`;
 }
 
 /* PROMOS */
+
 function mostrarPromos(){
 
 activarBoton("PROMOCIONES");
@@ -418,6 +492,7 @@ promos.map(img=>`
 }
 
 /* HOVER FOTO */
+
 function fotoAlt(img,codigo,carpeta){
 
 let alt="";
@@ -439,12 +514,15 @@ test.src=alt;
 }
 
 function fotoOriginal(img){
+
 if(img.dataset.original){
 img.src=img.dataset.original;
 }
+
 }
 
 /* PRODUCTOS */
+
 function mostrarRubro(r){
 activarBoton(r);
 document.getElementById("productos").innerHTML=
@@ -467,6 +545,7 @@ if(b.textContent==nombre)b.classList.add("activo");
 }
 
 /* BUSCADOR */
+
 document.getElementById("buscador").addEventListener("input",e=>{
 let t=e.target.value.toLowerCase();
 document.getElementById("productos").innerHTML=
@@ -475,6 +554,7 @@ productos.filter(p=>Object.values(p).join(" ").toLowerCase().includes(t))
 });
 
 /* MODAL */
+
 function verGrande(src){
 document.getElementById("modalImg").src=src;
 document.getElementById("modal").style.display="flex";
@@ -485,10 +565,90 @@ document.getElementById("modal").style.display="none";
 }
 
 </script>
+
+
+
 <!-- ========== CIERRE ZOOM CON ESC + AUTO-REFRESH ========== -->
 <script>
 // Cerrar modal con tecla ESC
 document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
+        if (document.getElementById("modal") && document.getElementById("modal").style.display === "flex") {
+            if (typeof cerrarModal === "function") cerrarModal();
+        }
+    }
+});
 
+// ===============================
+// AUTO-REFRESH SI CAMBIAN ARCHIVOS
+// ===============================
 
+async function hashArchivo(url) {
+    try {
+        const r = await fetch(url + "?v=" + Date.now(), { cache: "no-store" });
+        const txt = await r.text();
+        return btoa(txt).substring(0, 50);
+    } catch {
+        return null;
+    }
+}
+
+async function hashImagen(url) {
+    try {
+        const r = await fetch(url + "?v=" + Date.now(), { cache: "no-store" });
+        const blob = await r.blob();
+        const buffer = await blob.arrayBuffer();
+        let sum = 0;
+        const arr = new Uint8Array(buffer);
+        for (let i = 0; i < arr.length; i++) sum += arr[i];
+        return sum;
+    } catch {
+        return null;
+    }
+}
+
+async function verificarCambios() {
+    let cambios = false;
+    let hashesGuardados = JSON.parse(localStorage.getItem("hashesCatalogo") || "{}");
+    let nuevosHashes = {};
+
+    // Verificar PRODUCTOS.csv
+    nuevosHashes["PRODUCTOS.csv"] = await hashArchivo("PRODUCTOS.csv");
+    if (hashesGuardados["PRODUCTOS.csv"] && hashesGuardados["PRODUCTOS.csv"] !== nuevosHashes["PRODUCTOS.csv"]) {
+        cambios = true;
+    }
+
+    // Verificar index.html
+    nuevosHashes["index.html"] = await hashArchivo("index.html");
+    if (hashesGuardados["index.html"] && hashesGuardados["index.html"] !== nuevosHashes["index.html"]) {
+        cambios = true;
+    }
+
+    // Verificar todas las imágenes reales del catálogo
+    const imgs = document.querySelectorAll("img");
+    for (let img of imgs) {
+        let src = img.getAttribute("src");
+        if (!src) continue;
+
+        nuevosHashes[src] = await hashImagen(src);
+
+        if (hashesGuardados[src] && hashesGuardados[src] !== nuevosHashes[src]) {
+            cambios = true;
+        }
+    }
+
+    if (cambios) {
+        console.log("Cambio detectado → refrescando catálogo");
+        localStorage.setItem("hashesCatalogo", JSON.stringify(nuevosHashes));
+        location.reload(true);
+        return;
+    }
+
+    localStorage.setItem("hashesCatalogo", JSON.stringify(nuevosHashes));
+}
+
+setInterval(verificarCambios, 30000);
+setTimeout(verificarCambios, 5000);
+</script>
+</body>
+</html>

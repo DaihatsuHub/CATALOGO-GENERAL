@@ -96,8 +96,8 @@ D-P1013W;;Calculadoras Daihatsu;8900;;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;
 D-P803;;Calculadoras Daihatsu;5900;;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 dígitos;Medidas: 88x58x6,5mm;Pila
 D-P803S;;Calculadoras Daihatsu;6900;;;FOTOS1;;Calculadora de Bolsillo DAIHATSU;8 dígitos;Medidas: 88x58x6,5mm;Pila
 D-X570LAPLUS;;Calculadoras Daihatsu;36900;;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
-D-X82;;Calculadoras Daihatsu;AGOTADO;;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 240 funciones;Medidas: 181x85x20mm;Pila
-D-X95;;Calculadoras Daihatsu;AGOTADO;;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
+D-X82;;Calculadoras Daihatsu;16900;SI;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 240 funciones;Medidas: 181x85x20mm;Pila
+D-X95;;Calculadoras Daihatsu;19900;SI;;FOTOS1;;Calculadora Cientìfica DAIHATSU;10+2 dígitos, 244 funciones;Medidas: 158x84x17mm;Pila
 D-AF6500-B;;Cocina;90900;;;FOTOS1;'7799199015959;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
 D-AF6510-B;;Cocina;83900;;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Negro;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
 D-AF6510-W;;Cocina;83900;;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
@@ -146,7 +146,7 @@ ML-GYM05;;Gimnasio;AGOTADO;;;FOTOS2;;Agarres Dorsales para Polea de Gimnasio SET
 ML-GYM06;;Gimnasio;AGOTADO;;;FOTOS2;;Banco Multifuncion de Gimnasio;Altura regulable: 95-118cm, Ancho: 115cm, largo: 170cm;Incluye: Modulo para piernas, Modulo para scott de bicep;Materiales: Hierro, espuma, cuero sintetico
 ML-GYM07;;Gimnasio;96900;SI;;FOTOS2;;Tabla de Pilates Reformer Plegable con Cronometro;Largo: 55cm, Ancho: 43cm;Incluye: Bandas con manijas, Almohadilla y Temporizador;Materiales: Prolipopireno de alta densidad y espuma
 ML-GYM08;;Gimnasio;154900;SI;;FOTOS2;;Banco Reclinable con Modulo Para Scott de Bicep;Altura: 40-102cm, Ancho: 30cm, Largo: 130cm;Incluye Bandas Elasticas con Manijas;Materiales: Hierro, espuma, cuero sintetico
-ML-GYM09;;Gimnasio;AGOTADO;SI;;FOTOS2;;Banco con Modulo Para Piernas y Para Scott de Bicep;Altura: 40-102cm, Ancho: 30cm, Largo: 122cm;Incluye Bandas Elasticas con Manijas;Materiales: Hierro, espuma, cuero sintetico
+ML-GYM09;;Gimnasio;AGOTADO;;;FOTOS2;;Banco con Modulo Para Piernas y Para Scott de Bicep;Altura: 40-102cm, Ancho: 30cm, Largo: 122cm;Incluye Bandas Elasticas con Manijas;Materiales: Hierro, espuma, cuero sintetico
 ML-PEDAL01;;Gimnasio;79900;SI;;FOTOS2;;Pedalera Bicicleta Ergometrica con Monitor Digital;Alto: 32cm, Ancho 20cm, Profundidad: 40cm;Peso: 3.3kg;Requiere Baterias (NO incluidas)
 ML-YOGA-1;;Gimnasio;14900;;;FOTOS2;;Mat de Yoga;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Violeta
 ML-BA888X1;;Handies Baofeng;19900;;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
@@ -171,7 +171,7 @@ D-V100-GY;10;Monopatines;599900;SI;659900;FOTOS1;'7799199015775;"Monopatín Scoo
 D-V100-WE;10;Monopatines;599900;SI;659900;FOTOS1;'7799199015775;"Monopatín Scooter Eléctrico V100 350W Rodado 8.5"" | Blanco";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
 D-V101-BK;10;Monopatines;679900;SI;749900;FOTOS1;'7799199015829;"Monopatín Scooter Eléctrico V101 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 18-22Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
 D-V102-BK;10;Monopatines;AGOTADO;;;FOTOS1;'7799199015836;"Monopatín Scooter Eléctrico V102 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 10Ah;Autonomía 20-30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión Delantera y Trasera
-D-V200-BK;10;Monopatines;AGOTADO;SI;1149900;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Negro";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
+D-V200-BK;10;Monopatines;AGOTADO;;1149900;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Negro";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
 D-V200-GY;10;Monopatines;1049900;SI;1149900;FOTOS1;'7799199015805;"Monopatín Scooter Eléctrico V200 500W Rodado 10"" | Gris";Motor 36v / 500W, Batería 36v / 15Ah;Autonomía 30-45Km, Vel.Máx. 35Km/h;Frenos Eléctrico+de tambor, Suspensión Delantera
 D-V201-BK;10;Monopatines;1299900;SI;1429900;FOTOS1;'7799199023145;"Monopatín Scooter Eléctrico V201 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 10Ah;Autonomía 40Km, Vel.Máx. 40Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
 D-V300-BK;10;Monopatines;1699900;SI;1899900;FOTOS1;;"Monopatín Scooter Eléctrico V300 800W Rodado 10"" | Negro";Motor 48v / 800W, Batería 48v / 18Ah;Autonomía 30-65Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera

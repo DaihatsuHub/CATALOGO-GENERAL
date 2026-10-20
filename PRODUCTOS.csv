@@ -106,16 +106,16 @@ D-CF2000;;Cocina;189900;;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 160
 D-CF3000;;Cocina;439900;;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
 D-CF4000-B;;Cocina;136900;;;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
 D-CF4000-W;;Cocina;136900;;;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
-D-COR150-B;;Cocina;111900;SI;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
-D-COR150-S;;Cocina;111900;SI;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-COR150-B;;Cocina;111900;;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
+D-COR150-S;;Cocina;111900;;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-ES300-B;;Cocina;59900;;;FOTOS1;'7799199017854;Espumador de leche;Capacidad: 300 ml;Potencia: 500 W;Espuma fría o caliente
 D-MW1-20MB;;Cocina;AGOTADO;;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
 D-MW1-20MW;;Cocina;AGOTADO;;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
 D-MW2-20M;;Cocina;AGOTADO;;;FOTOS1;;Microondas Mecánico;Capacidad 20 Litros;Potencia 700W - 5 niveles;Temporizador
 D-MW3-20D;;Cocina;AGOTADO;;;FOTOS1;;Microondas Digital;Capacidad 20 Litros;Potencia 700W - 6 modos de cocción;Temporizador
 D-MW4-25D;;Cocina;AGOTADO;;;FOTOS1;;Microondas Digital con Grill;Capacidad 25 Litros;Potencia 900W;Temporizador
-D-PI1200-B;;Cocina;99900;SI;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
-D-PI1200-W;;Cocina;99900;SI;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
+D-PI1200-B;;Cocina;99900;;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Negro;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
+D-PI1200-W;;Cocina;99900;;;FOTOS1;'7799199016055;Picadora de Carne 1200 W | Blanco;Motor de 1,18 kW (1200 W).;Cuchillas y discos de acero inoxidable.;Dise±o liviano: 2,3 kg.
 D-PR500-BK;;Cocina;36900;;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-PR500-BU;;Cocina;AGOTADO;;;FOTOS1;;Procesadora de alimentos;Capacidad: 2 L;Potencia: 500 W;Contenedor de vidrio, 4 cuchillas de acero inoxidable
 D-SAR1500;;Cocina;AGOTADO;;;FOTOS1;'7799199016024;Sarten Eléctrica;Capacidad: 6 Litros;Sistema de cocción eléctrico con función mantener caliente;Dimensiones: 30 x 30 x 6 cm
@@ -144,15 +144,18 @@ D-CB40;;Contadoras de Billetes;35900;;;FOTOS1;'7798019955215;Contadora Billetes 
 D-CB4000-C;;Contadoras de Billetes;AGOTADO;;;FOTOS1;'7799199012477;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 245 x 270 x 288 mm
 D-CE10-BK;;Gimnasio;124900;SI;;FOTOS1;;Trampolin Fitness | Cobertor Negro;Diametro: 1 mts.;Plegable;
 D-CE10-RD;;Gimnasio;124900;SI;;FOTOS1;;Trampolin Fitness | Cobertor Rojo;Diametro: 1 mts.;Plegable;
-ML-GYM01;;Gimnasio;AGOTADO;;;FOTOS2;'7799199015997;Banco Pecho Plano Gimnasio Plegable;Altura: 105cm, Largo 120cm, Ancho: 71cm;Soporta hasta 150kg;Materiales: Hierro, espuma, cuero sintetico
-ML-GYM02;;Gimnasio;AGOTADO;;;FOTOS2;'7799199016000;Soporte Para Barra Sentadillas Regulable;Altura regulable: 112-177cm, Ancho: 53cm;Soporta hasta 250kg;Material: Hierro
+ML-GYM01;;Gimnasio;199900;SI;;FOTOS2;'7799199015997;Banco Pecho Plano Gimnasio Plegable;Altura: 105cm, Largo 120cm, Ancho: 71cm;Soporta hasta 150kg;Materiales: Hierro, espuma, cuero sintetico
+ML-GYM02;;Gimnasio;184900;SI;;FOTOS2;'7799199016000;Soporte Para Barra Sentadillas Regulable;Altura regulable: 112-177cm, Ancho: 53cm;Soporta hasta 250kg;Material: Hierro
 ML-GYM03;;Gimnasio;AGOTADO;;;FOTOS2;;Barra de Dominadas Para Colgar en la Pared;Ancho: 96cm, Alto: 28,5cm, Profundidad: 67cm;Soporta hasta 200kg;Material: Hierro y Espuma
-ML-GYM04;;Gimnasio;AGOTADO;;;FOTOS2;;Banco Gimnasio Plano Multiangular;Altura: 93,5cm, Largo 111cm, Ancho: 31cm;Respaldo regulable con 8 posiciones;Materiales: Hierro, espuma, cuero sintetico
-ML-GYM05;;Gimnasio;AGOTADO;;;FOTOS2;;Agarres Dorsales para Polea de Gimnasio SET x5;Ancho de los agarres: 30.5cm, 30.5cm, 55.5cm, 60.5cm, 81.5cm;Incluye 5 ganchos de acero reforzado;Materiales: Acero recubierto en goma rugosa antideslizante
+ML-GYM04;;Gimnasio;179900;SI;;FOTOS2;;Banco Gimnasio Plano Multiangular;Altura: 93,5cm, Largo 111cm, Ancho: 31cm;Respaldo regulable con 8 posiciones;Materiales: Hierro, espuma, cuero sintetico
+ML-GYM05;;Gimnasio;269900;SI;;FOTOS2;;Agarres Dorsales para Polea de Gimnasio SET x5;Ancho de los agarres: 30.5cm, 30.5cm, 55.5cm, 60.5cm, 81.5cm;Incluye 5 ganchos de acero reforzado;Materiales: Acero recubierto en goma rugosa antideslizante
 ML-GYM06;;Gimnasio;AGOTADO;;;FOTOS2;;Banco Multifuncion de Gimnasio;Altura regulable: 95-118cm, Ancho: 115cm, largo: 170cm;Incluye: Modulo para piernas, Modulo para scott de bicep;Materiales: Hierro, espuma, cuero sintetico
 ML-GYM07;;Gimnasio;96900;;;FOTOS2;;Tabla de Pilates Reformer Plegable con Cronometro;Largo: 55cm, Ancho: 43cm;Incluye: Bandas con manijas, Almohadilla y Temporizador;Materiales: Prolipopireno de alta densidad y espuma
 ML-GYM08;;Gimnasio;AGOTADO;;;FOTOS2;;Banco Reclinable con Modulo Para Scott de Bicep;Altura: 40-102cm, Ancho: 30cm, Largo: 130cm;Incluye Bandas Elasticas con Manijas;Materiales: Hierro, espuma, cuero sintetico
 ML-GYM09;;Gimnasio;AGOTADO;;;FOTOS2;;Banco con Modulo Para Piernas y Para Scott de Bicep;Altura: 40-102cm, Ancho: 30cm, Largo: 122cm;Incluye Bandas Elasticas con Manijas;Materiales: Hierro, espuma, cuero sintetico
+ML-GYM10;;Gimnasio;649900;SI;;FOTOS2;;Aparato Para Piernas;Altura: 105cm, Ancho: 94cm, Largo: 95cm;Soporta un usuario de hasta 150kg;Materiales: Hierro, espuma, cuero sintetico
+ML-GYM11;;Gimnasio;469900;SI;;FOTOS2;;Camilla de Inversion Gravitacional;Altura: 152cm, Ancho: 74cm, Largo: 115cm;Soporta un usuario de hasta 150kg;Materiales: Hierro, espuma, cuero sintetico
+ML-GYM12;;Gimnasio;409900;SI;;FOTOS2;;Banco Multiangular Reforzado;Altura: 132cm, Ancho: 65cm, Largo: 153cm;Soporta hasta 400kg ;Materiales: Hierro, espuma, cuero sintetico
 ML-PEDAL01;;Gimnasio;79900;;;FOTOS2;;Pedalera Bicicleta Ergometrica con Monitor Digital;Alto: 32cm, Ancho 20cm, Profundidad: 40cm;Peso: 3.3kg;Requiere Baterias (NO incluidas)
 ML-YOGA-1;;Gimnasio;14900;;;FOTOS2;;Mat de Yoga;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Violeta
 ML-BA888X1;;Handies Baofeng;19900;;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
@@ -303,7 +306,7 @@ ML-GAZ02-A;;Tiempo Libre;169900;;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3
 ML-GAZ02-R;;Tiempo Libre;169900;;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-GAZ02-W;;Tiempo Libre;169900;;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-HAM01;;Tiempo Libre;31900;;;FOTOS2;;Hamaca Paraguaya;Dimensiones: 2,40 x 1,50m;Soporta hasta 180Kg;Material: Algodón
-ML-REPO01;;Tiempo Libre;69900;;;FOTOS2;;Silla De Jardín;Altura 94cm, Ancho 58cm, Profundidad 64cm, con Apoyabrazos;Soporta hasta 130Kg;Estructura de Acero, Tela Rattan sintético
+ML-REPO01;;Tiempo Libre;AGOTADO;;;FOTOS2;;Silla De Jardín;Altura 94cm, Ancho 58cm, Profundidad 64cm, con Apoyabrazos;Soporta hasta 130Kg;Estructura de Acero, Tela Rattan sintético
 ML-TENT1-A;;Tiempo Libre;AGOTADO;;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
 ML-TENT2-R;;Tiempo Libre;64900;;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester
 ML-TENT2-V;;Tiempo Libre;64900;;;FOTOS2;;Carpa 4 Personas Autoarmable Automatica;Dimensiones: 2m x 2m x 1,30m;Peso 3Kg;Materiales: Poliester

@@ -94,9 +94,12 @@ D-AF6510-B;;Cocina;AGOTADO;;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF65
 D-AF6510-W;;Cocina;AGOTADO;;;FOTOS1;'7799199017830;Freidora de Aire 6.5 L D-AF6510 | Blanco;Potencia de 1750 W;Control de temperatura ajustable de 80 ºC a 200 ºC.;Peso: 5,05 kg.
 D-CF1000;;Cocina;AGOTADO;;;FOTOS1;'7799199017861;Cafetera de filtro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 750 W;Filtro permanente reutilizable
 D-CF2000;;Cocina;189900;;;FOTOS1;;Cafetera Espresso;Capacidad: 2 L;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
-D-CF3000;;Cocina;439900;;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
+D-CF3000;;Cocina;419900;;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1600 W, Presión: 20 bares;Espumador de leche
+D-CF3100;;Cocina;419900;;;FOTOS1;;Cafetera Espresso con molinillo;Contenedor de granos de café;Potencia: 1350 W, Presión: 20 bares;Espumador de leche
 D-CF4000-B;;Cocina;136900;;;FOTOS1;;Cafetera Espresso D-CF4000 | Negro;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
 D-CF4000-W;;Cocina;136900;;;FOTOS1;;Cafetera Espresso D-CF4000 | Blanco;Capacidad: 1,25 L (hasta 10 tazas);Potencia: 1500 W, Presión: 20 bares;Espumador de leche,  Incluye adaptador para capsulas tipo Nespresso
+D-CF5000;;Cocina;249900;;;FOTOS1;;Cafetera Espresso con deposito de leche;Capacidad: 1,5 L;Potencia: 1350 W, Presión: 20 bares;Espumador de leche
+D-CF6000;;Cocina;649900;;;FOTOS1;;Cafetera Automatica;Capacidad: 2,0 L;Potencia: 1350 W, Presión: 20 bares;Con Molinillo y Espumador
 D-COR150-B;;Cocina;119900;;;FOTOS1;'7799199016031;Cortadora de Alimentos | Negro;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-COR150-S;;Cocina;119900;;;FOTOS1;'7799199016031;Cortadora de Alimentos | Plateado;Motor de 150 Wá;Disco de 170 mm de acero inoxidable;Grosor regulable de corte, entre 0 y 15 mm
 D-ES300-B;;Cocina;59900;;;FOTOS1;'7799199017854;Espumador de leche;Capacidad: 300 ml;Potencia: 500 W;Espuma fría o caliente
@@ -166,7 +169,7 @@ D-INV1500;;Inversores;77900;;;FOTOS1;;Inversor Conversor De Corriente 1500w Para
 D-INV2000;;Inversores;99900;;;FOTOS1;;Inversor Conversor De Corriente 2000w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 900g
 D-INV500;;Inversores;43900;;;FOTOS1;;Inversor Conversor De Corriente 500w Para Autos 12v A 220v;Voltaje mínimo: de salida: 110V, de entrada: 12V;Voltaje máximo: de entrada: 24v, de salida: 220v;Peso: 750g
 D-T100-BK;10;Monopatines;AGOTADO;;719900;FOTOS1;;"Monopatín Eléctrico PROTRACK T100 350W Rodado 8.5"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
-D-T101-BK;10;Monopatines;AGOTADO;;829900;FOTOS1;;"Monopatín Eléctrico PROTRACK T101 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
+D-T101-BK;10;Monopatines;AGOTADO;SI;829900;FOTOS1;;"Monopatín Eléctrico PROTRACK T101 350W Rodado 10"" | Negro";Motor 36v / 350W, Batería 36v / 7,5Ah;Autonomía 30Km, Vel.Máx. 30Km/h;Frenos Eléctrico+Disco, Suspensión NO
 D-T202-BK;10;Monopatines;1249900;SI;1379900;FOTOS1;;"Monopatín Eléctrico PROTRACK T202 500W Rodado 10"" | Negro";Motor 36v / 500W, Batería 36v / 10Ah;Autonomía 40Km, Vel.Máx. 35Km/h;Frenos Dual Disco, Suspensión Delantera
 D-T300-BK;10;Monopatines;1699900;SI;1869900;FOTOS1;;"Monopatín Eléctrico PROTRACK T300 1000W Rodado 10"" | Negro";Motor 48v / 1000W, Batería 48v / 12,5Ah;Autonomía 40Km, Vel.Máx. 45Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera
 D-T301-BK;10;Monopatines;2299900;SI;2529900;FOTOS1;;"Monopatín Eléctrico PROTRACK T301 DUAL MOTOR 2000W Rodado 10"" | Negro";Motor 48v / 1000+1000W, Batería 48v / 18Ah;Autonomía 50Km, Vel.Máx. 50Km/h;Frenos Dual Disco, Suspensión Delantera y Trasera

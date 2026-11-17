@@ -133,9 +133,12 @@ ML-TAB1-B;;Cocina;59900;;;FOTOS2;;Tabla de Planchar | Negra;Altura maxima: 80cm,
 D-CB100;;Contadoras de Billetes;71900;;;FOTOS1;'7798019955727;Contadora Billetes;Tipo de detección: UV /MG;220v;Dimensiones: 19cm de alto, 28cm de largo y 25cm de ancho.
 D-CB2000;;Contadoras de Billetes;119900;;;FOTOS1;'7798019952061;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 190 x 280 x 250 mm
 D-CB210;;Contadoras de Billetes;89900;;;FOTOS1;'7798019955741;Contadora Billetes;Tipo de detección: UV /MG;220v;Medidas: 265 x 235 x 230 mm
-D-CB3000-C;;Contadoras de Billetes;AGOTADO;;;FOTOS1;'7799199012453;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 265x 235x 230 mm
+D-CB2500-C;;Contadoras de Billetes;499900;SI;;FOTOS1;;Clasificadora de Billetes;Tipo de detección: IMAGEN / IR /UV /MG;220v;Medidas: 300 x 260 x 180 mm
+D-CB3000-C;;Contadoras de Billetes;999900;SI;;FOTOS1;'7799199012453;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 265x 235x 230 mm
+D-CB3100-C;;Contadoras de Billetes;699900;SI;;FOTOS1;;Clasificadora de Billetes;Tipo de detección: IMAGEN / IR /UV /MG;220v;Medidas: 270x 250x 265 mm
 D-CB40;;Contadoras de Billetes;35900;;;FOTOS1;'7798019955215;Contadora Billetes Portátil;Tipo de detección: UV /MG;220v (FUENTE NO INCLUIDA) y Pilas AA;Medidas: 75x190x102mm
-D-CB4000-C;;Contadoras de Billetes;AGOTADO;;;FOTOS1;'7799199012477;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 245 x 270 x 288 mm
+D-CB4000-C;;Contadoras de Billetes;1999900;SI;;FOTOS1;'7799199012477;Clasificadora de Billetes;Tipo de detección: uv, mg, ir, sdc, mdc, sdcv.;220v;Medidas: 245 x 270 x 288 mm
+D-CB4100-C;;Contadoras de Billetes;2299900;SI;;FOTOS1;;Clasificadora de Billetes;Tipo de detección: IMAGEN / IR /UV /MG;220v;Medidas: 299 x 292 x 270 mm
 D-CE10-BK;;Gimnasio;124900;SI;;FOTOS1;;Trampolin Fitness | Cobertor Negro;Diametro: 1 mts.;Plegable;
 D-CE10-RD;;Gimnasio;AGOTADO;;;FOTOS1;;Trampolin Fitness | Cobertor Rojo;Diametro: 1 mts.;Plegable;
 ML-GYM01;;Gimnasio;199900;SI;;FOTOS2;'7799199015997;Banco Pecho Plano Gimnasio Plegable;Altura: 105cm, Largo 120cm, Ancho: 71cm;Soporta hasta 150kg;Materiales: Hierro, espuma, cuero sintetico
@@ -282,7 +285,8 @@ D-GA5-RD;;Sillón Gamer;AGOTADO;;;FOTOS1;;Silla Gamer D-GA5 | Rojo;Material: Cue
 D-GA5-WE;;Sillón Gamer;AGOTADO;;;FOTOS1;;Silla Gamer D-GA5 | Blanco;Material: Cuero/PVC;Apoyabrazos fijom Elevador de gas;Base y Ruedas de nylon
 D-SOP3275;;Soportes TV;AGOTADO;;;FOTOS1;;Soporte TV Doble Brazo Reforzado;Para tama±os de pantalla:  Desde 32 - 75 Pulgadas;Estándares VESA: 400x400;Inclinable, Articulado y Giratorio
 D-SOPSL;;Soportes TV;AGOTADO;;;FOTOS1;;Soporte Antena Star Link Mini Auto Viaje Sopapa Para Vidrios;Dimensiones: 33 x 40cm;;
-D-CE24-BU;;Tiempo Libre;AGOTADO;;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
+D-CE24-BU;;Tiempo Libre;299900;SI;;FOTOS2;;Cama Elástica Saltarina Reforzada 2.44 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
+D-CE30-BU;;Tiempo Libre;399900;SI;;FOTOS2;;Cama Elástica Saltarina Reforzada 3,05 mts;Altura total: 2,15 m;Altura de la cama al piso: 55 cm;Altura de la red: 1,60 m
 ML-BEACH;;Tiempo Libre;AGOTADO;;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
 ML-BEACH2;;Tiempo Libre;AGOTADO;;;FOTOS2;;Silla Playera;Altura 80cm, Ancho 50cm;Soporta hasta 90Kg;Estructura de Acero con PVC pintado
 ML-CARRO02;;Tiempo Libre;122900;;;FOTOS2;;Carro Plegable Camping Playa | Color negro;Dimensiones: 90*53*98cm/ Plegado: 53*19*75cm.;Capacidad de Carga: 80kgs;Rueda de PVC + Estructura de acero

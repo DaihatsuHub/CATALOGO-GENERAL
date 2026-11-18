@@ -155,7 +155,7 @@ ML-GYM11;;Gimnasio;469900;SI;;FOTOS2;;Camilla de Inversion Gravitacional;Altura:
 ML-GYM12;;Gimnasio;409900;SI;;FOTOS2;;Banco Multiangular Reforzado;Altura: 132cm, Ancho: 65cm, Largo: 153cm;Soporta hasta 400kg ;Materiales: Hierro, espuma, cuero sintetico
 ML-PEDAL01;;Gimnasio;79900;;;FOTOS2;;Pedalera Bicicleta Ergometrica con Monitor Digital;Alto: 32cm, Ancho 20cm, Profundidad: 40cm;Peso: 3.3kg;Requiere Baterias (NO incluidas)
 ML-YOGA-1;;Gimnasio;14900;;;FOTOS2;;Mat de Yoga;Largo: 173cm, Ancho: 61cm, Espesor: 6mm;Material: PVC;Color: Violeta
-ML-BA888X1;;Handies Baofeng;19900;;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
+ML-BA888X1;;Handies Baofeng;AGOTADO;;;FOTOS2;;Handy Baofeng Radio Walkie x 1;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
 ML-BA888X2;;Handies Baofeng;38900;;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-470MHz. 16 canales.;Alcance: 3 a 5km en ciudad / 5 a 10km en campo abierto;Alimentación:  Batería: 1500mAh Li-ion. Autonomía: 8hs aprox
 ML-BAA58S;;Handies Baofeng;79900;;;FOTOS2;;Handy Baofeng Radio Walkie x 2;"Frecuencia:  tribanda (VHF: 136-174 MHz, 220-260 MHz; UHF: 400-480 MHz)";Alcance: 10km;Alimentación:  Batería: 2800mAh Li-ion. Autonomía: 8hs aprox
 ML-BAK5PLU;;Handies Baofeng;129900;;;FOTOS2;;Handy Baofeng Radio Walkie x 2;Frecuencia: UHF 400-520MHz. 999 canales.;Alcance: 15km;Alimentación:  Batería: 2500mAh Li-ion. Autonomía: 8hs aprox
@@ -264,7 +264,7 @@ D-C120USBR;;Radios;AGOTADO;;;FOTOS1;;Radio Reproductos AM/FM;Dimensiones: 22,3x1
 D-RK1;;Radios;AGOTADO;;;FOTOS1;'7798019955284;Radio Portátil Análoga AM/FM;Dimensiones: 6x10x2cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 6x10x2cm
 D-RK2;;Radios;21900;;;FOTOS1;;Radio Portátil Análoga AM/FM;Dimensiones:13x8x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones:13x8x3cm
 D-RK3;;Radios;21900;;;FOTOS1;'7798019955307;Radio Portátil Análoga AM/FM;Dimensiones: 12x7x4cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 12x7x4cm
-D-RK7;;Radios;21900;;;FOTOS1;'7798019950616;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3cm
+D-RK7;;Radios;AGOTADO;;;FOTOS1;'7798019950616;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3cm
 D-RK9;;Radios;21900;;;FOTOS1;'7798019950692;Radio Portátil Análoga AM/FM;Dimensiones: 7x12x3cm;"Alimentación:  2 pilas ""AA""";Dimensiones: 7x12x3c
 D-RP38-BK;;Radios;44900;;;FOTOS1;'7798019950104;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
 D-RP38-RD;;Radios;44900;;;FOTOS1;'7798019955871;Radio Dual Análoga AM/FM;Dimensiones: 21,90 x 0,73 x 12cm;"Alimentación:  4 pilas ""C"" o 220V";Dimensiones: 21,90 x 0,73 x 12cm
@@ -305,7 +305,7 @@ ML-DIREC-R;;Tiempo Libre;AGOTADO;;;FOTOS2;;Sillón Director Camping Plegable;Alt
 ML-DIREC-V;;Tiempo Libre;AGOTADO;;;FOTOS2;;Sillón Director Camping Plegable;Altura 80cm, Ancho 50cm, con Portavaso;Soporta hasta 100Kg;Estructura de Acero, Tela Oxford
 ML-GAZ01-A;;Tiempo Libre;AGOTADO;;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-GAZ01-R;;Tiempo Libre;224900;;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
-ML-GAZ01-W;;Tiempo Libre;224900;;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
+ML-GAZ01-W;;Tiempo Libre;AGOTADO;;;FOTOS2;;Gazebo Con Paredes Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-GAZ02-A;;Tiempo Libre;169900;;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-GAZ02-R;;Tiempo Libre;169900;;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
 ML-GAZ02-W;;Tiempo Libre;169900;;;FOTOS2;;Gazebo Plegable;Dimensiones: 3 x 3 x 3.2m;Peso 15Kg;Materiales: Acero, Poliester
